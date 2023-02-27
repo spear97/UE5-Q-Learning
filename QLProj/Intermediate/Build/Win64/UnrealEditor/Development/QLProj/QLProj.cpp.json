@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\seanp\\documents\\unreal projects\\qlproj\\source\\qlproj\\qlproj.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\seanp\\documents\\unreal projects\\qlproj\\intermediate\\build\\win64\\qlprojeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\seanp\\documents\\unreal projects\\qlproj\\intermediate\\build\\win64\\unrealeditor\\development\\qlproj\\definitions.qlproj.h",
+            "c:\\users\\seanp\\documents\\unreal projects\\qlproj\\source\\qlproj\\qlproj.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

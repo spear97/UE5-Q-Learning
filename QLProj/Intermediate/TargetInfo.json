@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "QLProj",
+			"Path": "C:\\Users\\seanp\\Documents\\Unreal Projects\\QLProj\\Source\\QLProj.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "QLProjEditor",
+			"Path": "C:\\Users\\seanp\\Documents\\Unreal Projects\\QLProj\\Source\\QLProjEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
