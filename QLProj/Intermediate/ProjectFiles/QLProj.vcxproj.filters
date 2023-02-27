@@ -11,7 +11,7 @@
     <None Include="..\..\Source\QLProjEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
-    <None Include="..\..\Brushify_Shaders.png" />
+    <None Include="..\..\MCO_Mocap_Basics.png" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -23,6 +23,15 @@
     </None>
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\HoloLens">
+      <UniqueIdentifier>{4C8DD267-CDE7-336F-8602-F5F485D22BAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\HoloLens\HoloLensEngine.ini">
+      <Filter>Config\HoloLens</Filter>
     </None>
     <Filter Include="Source\QLProj">
       <UniqueIdentifier>{F6C35AB2-24B4-3337-9825-8697FEFF2586}</UniqueIdentifier>
@@ -45,13 +54,13 @@
     <Filter Include="Source\QLProj\Private">
       <UniqueIdentifier>{53199DDD-426E-32D3-8ACE-E99705451DC3}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\QLProj\Private\Agent.cpp">
+    <ClCompile Include="..\..\Source\QLProj\Private\AgentController.cpp">
       <Filter>Source\QLProj\Private</Filter>
     </ClCompile>
     <Filter Include="Source\QLProj\Public">
       <UniqueIdentifier>{8AA5BD64-B0CA-3452-8D4A-3DE72B0DA830}</UniqueIdentifier>
     </Filter>
-    <ClInclude Include="..\..\Source\QLProj\Public\Agent.h">
+    <ClInclude Include="..\..\Source\QLProj\Public\AgentController.h">
       <Filter>Source\QLProj\Public</Filter>
     </ClInclude>
   </ItemGroup>

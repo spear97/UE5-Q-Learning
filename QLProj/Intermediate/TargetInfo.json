@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "QLProj",
-			"Path": "C:\\Users\\seanp\\Documents\\Unreal Projects\\QLProj\\Source\\QLProj.Target.cs",
+			"Path": "C:\\Users\\seanp\\Documents\\Github\\UE5-Q-Learning\\QLProj\\Source\\QLProj.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "QLProjEditor",
-			"Path": "C:\\Users\\seanp\\Documents\\Unreal Projects\\QLProj\\Source\\QLProjEditor.Target.cs",
+			"Path": "C:\\Users\\seanp\\Documents\\Github\\UE5-Q-Learning\\QLProj\\Source\\QLProjEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

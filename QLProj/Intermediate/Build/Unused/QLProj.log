@@ -1,0 +1,25 @@
+﻿  Using bundled DotNet SDK
+  Log file: C:\Users\seanp\AppData\Local\UnrealBuildTool\Log.txt
+  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\seanp\Documents\Github\UE5-Q-Learning).
+  Waiting for 'git status' command to complete
+  Invalidating makefile for QLProjEditor (working set of source files changed)
+  Parsing headers for QLProjEditor
+    Running UnrealHeaderTool "C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\QLProj.uproject" "C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\QLProjEditor\Development\QLProjEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\seanp\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for QLProjEditor in 1.3803989 seconds
+  Building QLProjEditor...
+  Using Visual Studio 2022 14.33.31630 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  [Adaptive Build] Excluded from QLProj unity file: AgentController.cpp
+  Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+    Executing up to 8 processes, one per physical core
+    Requested 1.5 GB free memory per action, 6.61 GB available: limiting max parallel actions to 4
+  Building 6 actions with 4 processes...
+  [1/6] Compile QLProj.init.gen.cpp
+  [2/6] Compile AgentController.cpp
+  [3/6] Compile AgentController.gen.cpp
+  [4/6] Link UnrealEditor-QLProj.lib
+     Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj.exp
+  [5/6] Link UnrealEditor-QLProj.dll
+     Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj.suppressed.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj.suppressed.exp
+  [6/6] WriteMetadata QLProjEditor.target
+  Total time in Parallel executor: 2.94 seconds
+  Total execution time: 7.25 seconds

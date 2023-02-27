@@ -1,18 +1,17 @@
-"C:\Users\seanp\Documents\Unreal Projects\QLProj\Intermediate\Build\Win64\UnrealEditor\Inc\QLProj\QLProj.init.gen.cpp"
+C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Inc\QLProj\QLProj.init.gen.cpp
 /I .
-/I "C:\Users\seanp\Documents\Unreal Projects\QLProj\Intermediate\Build\Win64\UnrealEditor\Inc\QLProj"
-/I "C:\Users\seanp\Documents\Unreal Projects\QLProj\Source"
-/I Runtime
-/I Runtime\TraceLog\Public
-/I Runtime\Core\Public
-/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject
-/I Runtime\CoreUObject\Public
+/I C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Source\QLProj\Private
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine
+/I Runtime
 /I ..\Shaders\Shared
 /I Runtime\Engine\Classes
 /I Runtime\Engine\Public
+/I Runtime\TraceLog\Public
+/I Runtime\Core\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreOnline
 /I Runtime\CoreOnline\Public
+/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject
+/I Runtime\CoreUObject\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\NetCore
 /I Runtime\Net
 /I Runtime\Net\Core\Classes
@@ -253,6 +252,9 @@
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController
 /I Developer\AnimationDataController\Public
+/I C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Inc\QLProj
+/I C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Source
+/I C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Source\QLProj\Public
 /I ThirdParty\mimalloc\include
 /I ThirdParty\LibTiff\Source\Win64
 /I ThirdParty\LibTiff\Source
@@ -273,12 +275,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"C:\Users\seanp\Documents\Unreal Projects\QLProj\Intermediate\Build\Win64\QLProjEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/FI"C:\Users\seanp\Documents\Unreal Projects\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\Definitions.QLProj.h"
-/Yu"C:\Users\seanp\Documents\Unreal Projects\QLProj\Intermediate\Build\Win64\QLProjEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\seanp\Documents\Unreal Projects\QLProj\Intermediate\Build\Win64\QLProjEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-/Fo"C:\Users\seanp\Documents\Unreal Projects\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\QLProj.init.gen.cpp.obj"
-/sourceDependencies "C:\Users\seanp\Documents\Unreal Projects\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\QLProj.init.gen.cpp.json"
+/FI"C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\QLProjEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/FI"C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\Definitions.QLProj.h"
+/Yu"C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\QLProjEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\QLProjEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+/Fo"C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\QLProj.init.gen.cpp.obj"
+/sourceDependencies C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\QLProj.init.gen.cpp.json
 /Zc:inline
 /nologo
 /Oi
