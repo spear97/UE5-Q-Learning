@@ -19,6 +19,6 @@ public:
 
 protected:
 	//Set how the Goal will Look via Blueprint
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	UStaticMeshComponent* MeshComponent;
-
 };

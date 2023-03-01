@@ -57,7 +57,13 @@
     <ClCompile Include="..\..\Source\QLProj\Private\Agent.cpp">
       <Filter>Source\QLProj\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\QLProj\Private\AgentController.cpp">
+      <Filter>Source\QLProj\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\QLProj\Private\Goal.cpp">
+      <Filter>Source\QLProj\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\QLProj\Private\WayPoint.cpp">
       <Filter>Source\QLProj\Private</Filter>
     </ClCompile>
     <Filter Include="Source\QLProj\Public">
@@ -66,7 +72,13 @@
     <ClInclude Include="..\..\Source\QLProj\Public\Agent.h">
       <Filter>Source\QLProj\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\QLProj\Public\AgentController.h">
+      <Filter>Source\QLProj\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\QLProj\Public\Goal.h">
+      <Filter>Source\QLProj\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\QLProj\Public\WayPoint.h">
       <Filter>Source\QLProj\Public</Filter>
     </ClInclude>
   </ItemGroup>

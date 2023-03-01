@@ -13,6 +13,7 @@ void EmptyLinkFunctionForGeneratedCodeGoal() {}
 	QLPROJ_API UClass* Z_Construct_UClass_AGoal();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_QLProj();
+	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
 	void AGoal::StaticRegisterNativesAGoal()
 	{
@@ -28,6 +29,11 @@ void EmptyLinkFunctionForGeneratedCodeGoal() {}
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MeshComponent_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MeshComponent;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
 	};
@@ -41,6 +47,19 @@ void EmptyLinkFunctionForGeneratedCodeGoal() {}
 		{ "ModuleRelativePath", "Public/Goal.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGoal_Statics::NewProp_MeshComponent_MetaData[] = {
+		{ "Category", "Goal" },
+		{ "Comment", "//Set how the Goal will Look via Blueprint\n" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/Goal.h" },
+		{ "ToolTip", "Set how the Goal will Look via Blueprint" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGoal_Statics::NewProp_MeshComponent = { "MeshComponent", nullptr, (EPropertyFlags)0x002008000008000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGoal, MeshComponent), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGoal_Statics::NewProp_MeshComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGoal_Statics::NewProp_MeshComponent_MetaData)) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGoal_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGoal_Statics::NewProp_MeshComponent,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AGoal_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AGoal>::IsAbstract,
 	};
@@ -50,11 +69,11 @@ void EmptyLinkFunctionForGeneratedCodeGoal() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_AGoal_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_AGoal_Statics::PropPointers),
 		0,
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_AGoal_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AGoal_Statics::Class_MetaDataParams))
@@ -77,9 +96,9 @@ void EmptyLinkFunctionForGeneratedCodeGoal() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_QLProj_Source_QLProj_Public_Goal_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AGoal, AGoal::StaticClass, TEXT("AGoal"), &Z_Registration_Info_UClass_AGoal, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AGoal), 237015715U) },
+		{ Z_Construct_UClass_AGoal, AGoal::StaticClass, TEXT("AGoal"), &Z_Registration_Info_UClass_AGoal, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AGoal), 2539956939U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_QLProj_Source_QLProj_Public_Goal_h_3537409500(TEXT("/Script/QLProj"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_QLProj_Source_QLProj_Public_Goal_h_2467014424(TEXT("/Script/QLProj"),
 		Z_CompiledInDeferFile_FID_QLProj_Source_QLProj_Public_Goal_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_QLProj_Source_QLProj_Public_Goal_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

@@ -8,7 +8,7 @@ AAgent::AAgent()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
+	
 }
 
 // Called when the game starts or when spawned
@@ -18,7 +18,7 @@ void AAgent::BeginPlay()
 }
 
 // Called every frame
-void AAgent::Tick(float DeltaTime)
+void AAgent::Tick(float delta)
 {
-	Super::Tick(DeltaTime);
+	Super::Tick(delta);
 }

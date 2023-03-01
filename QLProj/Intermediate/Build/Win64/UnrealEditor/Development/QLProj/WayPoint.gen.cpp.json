@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\seanp\\documents\\github\\ue5-q-learning\\qlproj\\intermediate\\build\\win64\\unrealeditor\\inc\\qlproj\\waypoint.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\seanp\\documents\\github\\ue5-q-learning\\qlproj\\intermediate\\build\\win64\\qlprojeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\seanp\\documents\\github\\ue5-q-learning\\qlproj\\intermediate\\build\\win64\\unrealeditor\\development\\qlproj\\definitions.qlproj.h",
+            "c:\\users\\seanp\\documents\\github\\ue5-q-learning\\qlproj\\source\\qlproj\\public\\waypoint.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\targetpoint.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\targetpoint.generated.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\components\\spherecomponent.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\shapecomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\spherecomponent.generated.h",
+            "c:\\users\\seanp\\documents\\github\\ue5-q-learning\\qlproj\\intermediate\\build\\win64\\unrealeditor\\inc\\qlproj\\waypoint.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
