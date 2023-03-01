@@ -54,13 +54,19 @@
     <Filter Include="Source\QLProj\Private">
       <UniqueIdentifier>{53199DDD-426E-32D3-8ACE-E99705451DC3}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\QLProj\Private\AgentController.cpp">
+    <ClCompile Include="..\..\Source\QLProj\Private\Agent.cpp">
+      <Filter>Source\QLProj\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\QLProj\Private\Goal.cpp">
       <Filter>Source\QLProj\Private</Filter>
     </ClCompile>
     <Filter Include="Source\QLProj\Public">
       <UniqueIdentifier>{8AA5BD64-B0CA-3452-8D4A-3DE72B0DA830}</UniqueIdentifier>
     </Filter>
-    <ClInclude Include="..\..\Source\QLProj\Public\AgentController.h">
+    <ClInclude Include="..\..\Source\QLProj\Public\Agent.h">
+      <Filter>Source\QLProj\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\QLProj\Public\Goal.h">
       <Filter>Source\QLProj\Public</Filter>
     </ClInclude>
   </ItemGroup>
