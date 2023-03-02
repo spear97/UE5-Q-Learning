@@ -16,15 +16,48 @@ void AAgentController::BeginPlay()
 
 	GetWayPoints();
 	GenerateMatrix();
+
+	//The Timer that will act as the Driver for the Q_Learning Algorithm
+	GetWorldTimerManager().SetTimer(Timer, this, &AAgentController::Q_Learning, delay, true);
 }
 
 // Called every frame
-//Will be the Driver for Q_Learning
 void AAgentController::Tick(float delta)
 {
 	Super::Tick(delta);
 	s = GetState();
 	a = GetAction();
+}
+
+void AAgentController::Q_Learning()
+{
+	switch (a)
+	{
+	case 0:
+		Fwd();
+		break;
+	case 1:
+		FwdRt();
+		break;
+	case 2:
+		Rt();
+		break;
+	case 3:
+		BwdRt();
+		break;
+	case 4:
+		Bwd();
+		break;
+	case 5:
+		BwdLt();
+		break;
+	case 6:
+		Lt();
+		break;
+	case 7:
+		FwdLt();
+		break;
+	}
 }
 
 //Get All WayPoints that Exist in the Environment and Set StateSize

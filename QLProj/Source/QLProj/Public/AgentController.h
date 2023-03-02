@@ -7,6 +7,7 @@
 #include "WayPoint.h"
 #include "Math/Vector.h"
 #include "Kismet/GameplayStatics.h"
+#include "TimerManager.h"
 #include "AgentController.generated.h"
 
 /**
@@ -45,6 +46,7 @@ protected:
 	void BwdRt(); //6
 	void BwdLt(); //7
 
+
 	//Get All WayPoints that Exist in the Environment and Set StateSize
 	void GetWayPoints();
 
@@ -57,10 +59,16 @@ protected:
 	//Get the Best Action for Current State
 	int GetAction();
 
+	//
+	void Q_Learning();
+
 protected:
 	//All WayPoints that exist in the Environment
 	UPROPERTY(BlueprintReadonly)
 	TArray<AActor*> WayPoints;
+
+	//Timer Handler that will Aid in Running the Q_Learning Algorithm
+	FTimerHandle Timer;
 
 	//The Actions that the Agent can take
 	int ActionSize = 8;
@@ -76,4 +84,7 @@ protected:
 
 	//The Q-Matrix that will contain Scores for the Actions that the Agent has taken for it's Current State
 	TArray<TArray<float>> Q;
+
+private:
+	float delay = 0.5f;
 };
