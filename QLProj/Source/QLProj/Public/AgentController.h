@@ -17,10 +17,12 @@ class QLPROJ_API AAgentController : public AAIController
 {
 	GENERATED_BODY()
 
-	/*******Macros*******/
+	/*******Debugging Macros*******/
 	#define DisplayNum(x) if(GEngine){GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, FString::Printf(TEXT("%i"), x));}
+	#define DisplayAction(x) if(GEngine){GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, FString::Printf(TEXT("Action:%i\n"), x));}
+	#define DisplayState(x) if(GEngine){GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, FString::Printf(TEXT("State:%i"), x));}
 	#define DisplayFloat(x) if(GEngine){GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, FString::Printf(TEXT("%f"), x));}
-
+	
 public:
 	AAgentController();
 
@@ -49,8 +51,11 @@ protected:
 	//Generate the QMatrix that will be used for Q-Learning
 	void GenerateMatrix();
 
-	//Get the CurrState that the Agent
+	//Get the Current State that the Agent is in
 	int GetState();
+
+	//Get the Best Action for Current State
+	int GetAction();
 
 protected:
 	//All WayPoints that exist in the Environment
@@ -64,10 +69,10 @@ protected:
 	int StateSize;
 
 	//The Current State that the Agent is in
-	int CurrState;
+	int s;
 
 	//The Current Action that the Agent is in
-	int ActionState;
+	int a;
 
 	//The Q-Matrix that will contain Scores for the Actions that the Agent has taken for it's Current State
 	TArray<TArray<float>> Q;

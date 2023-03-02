@@ -16,15 +16,15 @@ void AAgentController::BeginPlay()
 
 	GetWayPoints();
 	GenerateMatrix();
-	CurrState = GetState();
 }
 
 // Called every frame
+//Will be the Driver for Q_Learning
 void AAgentController::Tick(float delta)
 {
 	Super::Tick(delta);
-
-	if (GEngine) { GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, FString::Printf(TEXT("%i"), CurrState)); }
+	s = GetState();
+	a = GetAction();
 }
 
 //Get All WayPoints that Exist in the Environment and Set StateSize
@@ -74,6 +74,24 @@ int AAgentController::GetState()
 	}
 
 	return nearestIndex;
+}
+
+// Get the Best Action for Current State that the AI is currently at
+int AAgentController::GetAction()
+{
+	float bestScore = -INFINITY;
+	float bestIndex = NULL;
+
+	for (int i = 0; i < Q[s].Num(); i++)
+	{
+		if (Q[s][i] > bestScore)
+		{
+			bestScore = Q[s][i];
+			bestIndex = i;
+		}
+	}
+
+	return bestIndex;
 }
 
 /**************Actions**************/
