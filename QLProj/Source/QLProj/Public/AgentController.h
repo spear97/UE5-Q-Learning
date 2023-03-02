@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "AIController.h"
 #include "WayPoint.h"
+#include "Math/Vector.h"
 #include "Kismet/GameplayStatics.h"
 #include "AgentController.generated.h"
 
@@ -18,6 +19,7 @@ class QLPROJ_API AAgentController : public AAIController
 
 	/*******Macros*******/
 	#define DisplayNum(x) if(GEngine){GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, FString::Printf(TEXT("%i"), x));}
+	#define DisplayFloat(x) if(GEngine){GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, FString::Printf(TEXT("%f"), x));}
 
 public:
 	AAgentController();
@@ -41,8 +43,18 @@ protected:
 	void BwdRt(); //6
 	void BwdLt(); //7
 
+	//Get All WayPoints that Exist in the Environment and Set StateSize
+	void GetWayPoints();
+
+	//Generate the QMatrix that will be used for Q-Learning
+	void GenerateMatrix();
+
+	//Get the CurrState that the Agent
+	int GetState();
+
 protected:
 	//All WayPoints that exist in the Environment
+	UPROPERTY(BlueprintReadonly)
 	TArray<AActor*> WayPoints;
 
 	//The Actions that the Agent can take
@@ -50,6 +62,12 @@ protected:
 
 	//The StateSize for the States that the Player Can be in
 	int StateSize;
+
+	//The Current State that the Agent is in
+	int CurrState;
+
+	//The Current Action that the Agent is in
+	int ActionState;
 
 	//The Q-Matrix that will contain Scores for the Actions that the Agent has taken for it's Current State
 	TArray<TArray<float>> Q;

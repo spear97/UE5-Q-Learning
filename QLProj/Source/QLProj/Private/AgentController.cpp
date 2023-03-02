@@ -14,17 +14,35 @@ void AAgentController::BeginPlay()
 {
 	Super::BeginPlay();
 
+	GetWayPoints();
+	GenerateMatrix();
+	CurrState = GetState();
+}
+
+// Called every frame
+void AAgentController::Tick(float delta)
+{
+	Super::Tick(delta);
+
+	if (GEngine) { GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, FString::Printf(TEXT("%i"), CurrState)); }
+}
+
+//Get All WayPoints that Exist in the Environment and Set StateSize
+void AAgentController::GetWayPoints()
+{
 	//Get All WayPoints in the Environment
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AWayPoint::StaticClass(), WayPoints);
 
 	//Set State Size as FoundActors
 	StateSize = WayPoints.Num();
+}
 
-	//Generate Q-Matrix
-
+//Generate the QMatrix that will be used for Q-Learning
+void AAgentController::GenerateMatrix()
+{
 	//The R-Matrix
 	//Acts as a Template for Scores that will be inputted into the Q-Matrix
-	TArray<TArray<float>> R = { 
+	TArray<TArray<float>> R = {
 		{-1.0f, -1.0f, -1.0f, -1.0f, 0.0f, -1.0f, -1.0f, -1.0f},
 		{-1.0f, -1.0f, -1.0f, 0.0f, -1.0f, -1.0f, -1.0f, 100.0f},
 		{-1.0f, -1.0f, -1.0f, 0.0f, -1.0f, -1.0f, -1.0f, -1.0f},
@@ -42,10 +60,20 @@ void AAgentController::BeginPlay()
 	}
 }
 
-// Called every frame
-void AAgentController::Tick(float delta)
+//Get the State of the that the AI is currently at
+int AAgentController::GetState()
 {
-	Super::Tick(delta);
+	FVector AgentLocation = this->GetPawn()->GetActorLocation();
+	float nearest = INFINITY;
+	int nearestIndex = NULL;
+
+	for (int i = 0; i < WayPoints.Num(); i++)
+	{
+		float dist = FVector::Dist(WayPoints[i]->GetActorLocation(), AgentLocation);
+		if (dist < nearest) { nearest = dist; nearestIndex = i; }
+	}
+
+	return nearestIndex;
 }
 
 /**************Actions**************/

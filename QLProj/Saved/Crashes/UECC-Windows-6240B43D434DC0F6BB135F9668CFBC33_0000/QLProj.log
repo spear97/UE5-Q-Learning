@@ -1,0 +1,1811 @@
+﻿Log file open, 03/01/23 15:25:37
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Started CrashReportClient (pid=79412)
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: QLProj
+LogCore: UnrealTraceServer: Trace store launch successful
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.0-CL-20979098"
+LogCsvProfiler: Display: Metadata set : engineversion="5.0.3-20979098+++UE5+Release-5.0"
+LogCsvProfiler: Display: Metadata set : commandline="" C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\QLProj.uproject""
+LogCsvProfiler: Display: Metadata set : os="Windows 10 (21H2) [10.0.19044.2604] "
+LogCsvProfiler: Display: Metadata set : cpu="AuthenticAMD|AMD Ryzen 7 4800H with Radeon Graphics"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : loginid="ecd9199d462500b0e266799423cb059b"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogPlatformFile: Not using cached read wrapper
+LogStats: Stats thread started at 0.338003
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-6240B43D434DC0F6BB135F9668CFBC33
+         Session CrashGUID >====================================================
+LogConfig: Display: Loading Android ini files took 0.04 seconds
+LogConfig: Display: Loading IOS ini files took 0.04 seconds
+LogConfig: Display: Loading VulkanPC ini files took 0.04 seconds
+LogConfig: Display: Loading Mac ini files took 0.04 seconds
+LogConfig: Display: Loading HoloLens ini files took 0.04 seconds
+LogConfig: Display: Loading Unix ini files took 0.05 seconds
+LogConfig: Display: Loading TVOS ini files took 0.05 seconds
+LogConfig: Display: Loading Windows ini files took 0.05 seconds
+LogPluginManager: Mounting Engine plugin Bridge
+LogConfig: Display: Loading LinuxArm64 ini files took 0.06 seconds
+LogConfig: Display: Loading Linux ini files took 0.06 seconds
+LogPluginManager: Mounting Engine plugin FastBuildController
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin XGEController
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosClothEditor
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin StylusInput
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin MeshLODToolset
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin OpenImageDenoise
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin TraceDataFilters
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin MatineeToLevelSequence
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin HairStrands
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin RuntimePhysXCooking
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Bridge/Content/' mounted to '/Bridge/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/2D/Paper2D/Content/' mounted to '/Paper2D/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Enterprise/DatasmithContent/Content/' mounted to '/DatasmithContent/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/GeometryMode/Content/' mounted to '/GeometryMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/IKRig/Content/' mounted to '/IKRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ModelingToolsEditorMode/Content/' mounted to '/ModelingToolsEditorMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRig/Content/' mounted to '/ControlRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRigSpline/Content/' mounted to '/ControlRigSpline/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/SpeedTreeImporter/Content/' mounted to '/SpeedTreeImporter/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosClothEditor/Content/' mounted to '/ChaosClothEditor/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosNiagara/Content/' mounted to '/ChaosNiagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosSolverPlugin/Content/' mounted to '/ChaosSolverPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/FullBodyIK/Content/' mounted to '/FullBodyIK/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryCollectionPlugin/Content/' mounted to '/GeometryCollectionPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshLODToolset/Content/' mounted to '/MeshLODToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryFlow/Content/' mounted to '/GeometryFlow/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshModelingToolsetExp/Content/' mounted to '/MeshModelingToolsetExp/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/PythonScriptPlugin/Content/' mounted to '/PythonScriptPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Media/MediaCompositing/Content/' mounted to '/MediaCompositing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Developer/AnimationSharing/Content/' mounted to '/AnimationSharing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/FX/Niagara/Content/' mounted to '/Niagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/MovieScene/SequencerScripting/Content/' mounted to '/SequencerScripting/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AudioSynesthesia/Content/' mounted to '/AudioSynesthesia/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/GeometryProcessing/Content/' mounted to '/GeometryProcessing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/HairStrands/Content/' mounted to '/HairStrands/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/MeshModelingToolset/Content/' mounted to '/MeshModelingToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/ResonanceAudio/Content/' mounted to '/ResonanceAudio/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/Synthesis/Content/' mounted to '/Synthesis/'
+SourceControl: Source control is disabled
+SourceControl: Source control is disabled
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE5+Release-5.0-CL-20979098
+LogInit: Engine Version: 5.0.3-20979098+++UE5+Release-5.0
+LogInit: Compatible Engine Version: 5.0.0-19505902+++UE5+Release-5.0
+LogInit: Net CL: 19505902
+LogInit: OS: Windows 10 (21H2) [10.0.19044.2604] (), CPU: AMD Ryzen 7 4800H with Radeon Graphics         , GPU: AMD Radeon(TM) Graphics
+LogInit: Compiled (64-bit): Jul  7 2022 02:16:06
+LogInit: Compiled with Visual C++: 19.29.30138.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.0
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/Win64/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 34
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 59
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 3
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 59
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 36
+LogDevObjectVersion:   UE5-PrivateFrosty (59DA5D52-1232-4948-B878-597870B8E98B): 8
+LogDevObjectVersion:   UE5-Dev-Cooker (26075A32-730F-4708-88E9-8C32F1599D05): 0
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   UE5-Dev-LWCRendering (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[r.DetectAndWarnOfBadDrivers:0]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2023.03.01-21.25.38:446][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2023.03.01-21.25.38:446][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Engine]
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[DefaultPVRTCQuality:1]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[DefaultASTCQualityBySpeed:1]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[DefaultASTCQualityBySize:3]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:WidgetBlueprint]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GroupActor]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MetaData]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ObjectRedirector]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NavMeshRenderingComponent]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ReflectionCaptureComponent]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:TextRenderComponent]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:Font]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:InterpCurveEdSetup]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MaterialExpression]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MatineeActorCameraAnim]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraEmitter]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraScript]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleEmitter]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleLODLevel]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleModule]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SubUVAnimation]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SoundNode]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GameplayEffectUIData]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:WidgetBlueprint]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:GroupActor]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MetaData]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:ObjectRedirector]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:InterpCurveEdSetup]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MatineeActorCameraAnim]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[VersionedIntRValues:r.AllowStaticLighting]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[VersionedIntRValues:r.GBuffer]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[VersionedIntRValues:r.VelocityOutputPass]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[VersionedIntRValues:r.SelectiveBasePassOutputs]] deferred - dummy variable created
+[2023.03.01-21.25.38:446][  0]LogConfig: CVar [[VersionedIntRValues:r.DBuffer]] deferred - dummy variable created
+[2023.03.01-21.25.38:447][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Symbols]] deferred - dummy variable created
+[2023.03.01-21.25.38:447][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.GenerateSymbols]] deferred - dummy variable created
+[2023.03.01-21.25.38:447][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.WriteSymbols]] deferred - dummy variable created
+[2023.03.01-21.25.38:447][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.AllowUniqueSymbols]] deferred - dummy variable created
+[2023.03.01-21.25.38:447][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.ExtraData]] deferred - dummy variable created
+[2023.03.01-21.25.38:447][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Optimize]] deferred - dummy variable created
+[2023.03.01-21.25.38:447][  0]LogConfig: CVar [[VersionedIntRValues:r.CompileShadersForDevelopment]] deferred - dummy variable created
+[2023.03.01-21.25.38:447][  0]LogConfig: CVar [[VersionedIntRValues:r.MobileHDR]] deferred - dummy variable created
+[2023.03.01-21.25.38:447][  0]LogConfig: CVar [[VersionedIntRValues:r.UsePreExposure]] deferred - dummy variable created
+[2023.03.01-21.25.38:448][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2023.03.01-21.25.38:449][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2023.03.01-21.25.38:449][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2023.03.01-21.25.38:449][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2023.03.01-21.25.38:449][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2023.03.01-21.25.38:449][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2023.03.01-21.25.38:449][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2023.03.01-21.25.38:449][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2023.03.01-21.25.38:449][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2023.03.01-21.25.38:449][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2023.03.01-21.25.38:449][  0]LogConfig: CVar [[r.HairStrands.Interpolation.UseSingleGuide:0]] deferred - dummy variable created
+[2023.03.01-21.25.38:469][  0]LogD3D12RHI: Aftermath initialized
+[2023.03.01-21.25.38:469][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+[2023.03.01-21.25.38:678][  0]LogD3D12RHI: Found D3D12 adapter 0: NVIDIA GeForce GTX 1660 Ti (Max supported Feature Level 12_1, shader model 6.6)
+[2023.03.01-21.25.38:678][  0]LogD3D12RHI: Adapter has 5979MB of dedicated video memory, 0MB of dedicated system memory, and 7865MB of shared system memory, 1 output[s]
+[2023.03.01-21.25.39:092][  0]LogD3D12RHI: Found D3D12 adapter 1: AMD Radeon(TM) Graphics (Max supported Feature Level 12_1, shader model 6.5)
+[2023.03.01-21.25.39:092][  0]LogD3D12RHI: Adapter has 496MB of dedicated video memory, 0MB of dedicated system memory, and 7865MB of shared system memory, 0 output[s]
+[2023.03.01-21.25.39:111][  0]LogD3D12RHI: Found D3D12 adapter 2: Microsoft Basic Render Driver (Max supported Feature Level 12_1, shader model 6.2)
+[2023.03.01-21.25.39:111][  0]LogD3D12RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 7865MB of shared system memory, 0 output[s]
+[2023.03.01-21.25.39:111][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2023.03.01-21.25.39:111][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2023.03.01-21.25.39:111][  0]LogDeviceProfileManager: Applying CVar settings loaded from the selected device profile: [WindowsEditor]
+[2023.03.01-21.25.39:112][  0]LogHAL: Display: Platform has ~ 16 GB [16495517696 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2023.03.01-21.25.39:112][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [Windows]
+[2023.03.01-21.25.39:112][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2023.03.01-21.25.39:112][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2023.03.01-21.25.39:112][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2023.03.01-21.25.39:112][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/Saved/Config/WindowsEditor/Editor.ini]
+[2023.03.01-21.25.39:112][  0]LogInit: Computer: LAPTOP-304JBCSU
+[2023.03.01-21.25.39:112][  0]LogInit: User: seanp
+[2023.03.01-21.25.39:112][  0]LogInit: CPU Page size=4096, Cores=8
+[2023.03.01-21.25.39:112][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.03.01-21.25.39:113][  0]LogMemory: Memory total: Physical=15.4GB (16GB approx)
+[2023.03.01-21.25.39:113][  0]LogMemory: Platform Memory Stats for WindowsEditor
+[2023.03.01-21.25.39:113][  0]LogMemory: Process Physical Memory: 292.26 MB used, 328.51 MB peak
+[2023.03.01-21.25.39:113][  0]LogMemory: Process Virtual Memory: 268.61 MB used, 268.61 MB peak
+[2023.03.01-21.25.39:113][  0]LogMemory: Physical Memory: 10264.96 MB used,  5466.39 MB free, 15731.35 MB total
+[2023.03.01-21.25.39:113][  0]LogMemory: Virtual Memory: 22479.93 MB used,  14753.50 MB free, 37233.43 MB total
+[2023.03.01-21.25.39:113][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2023.03.01-21.25.39:119][  0]LogWindows: WindowsPlatformFeatures enabled
+[2023.03.01-21.25.39:145][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2023.03.01-21.25.39:147][  0]LogInit: Using OS detected language (en-US).
+[2023.03.01-21.25.39:148][  0]LogInit: Using OS detected locale (en-US).
+[2023.03.01-21.25.39:162][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so 'en' will be used for the language.
+[2023.03.01-21.25.39:353][  0]LogInit: Setting process to per monitor DPI aware
+[2023.03.01-21.25.39:367][  0]LogWindowsTextInputMethodSystem: Available input methods:
+[2023.03.01-21.25.39:367][  0]LogWindowsTextInputMethodSystem:   - English (United States) - (Keyboard).
+[2023.03.01-21.25.39:367][  0]LogWindowsTextInputMethodSystem:   - Greek (Greece) - (Keyboard).
+[2023.03.01-21.25.39:367][  0]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2023.03.01-21.25.39:380][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2023.03.01-21.25.39:380][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2023.03.01-21.25.39:658][  0]LogD3D12RHI: InitD3DDevice: -D3DDebug = off -D3D12GPUValidation = off
+[2023.03.01-21.25.39:663][  0]LogD3D12RHI: [Aftermath] Aftermath crash dumping enabled
+[2023.03.01-21.25.39:663][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
+[2023.03.01-21.25.39:750][  0]LogD3D12RHI: [Aftermath] Aftermath enabled and primed
+[2023.03.01-21.25.39:750][  0]LogD3D12RHI: [Aftermath] Aftermath resource tracking enabled
+[2023.03.01-21.25.39:750][  0]LogD3D12RHI: ID3D12Device1 is supported.
+[2023.03.01-21.25.39:750][  0]LogD3D12RHI: ID3D12Device2 is supported.
+[2023.03.01-21.25.39:750][  0]LogD3D12RHI: ID3D12Device3 is supported.
+[2023.03.01-21.25.39:750][  0]LogD3D12RHI: ID3D12Device4 is supported.
+[2023.03.01-21.25.39:750][  0]LogD3D12RHI: ID3D12Device5 is supported.
+[2023.03.01-21.25.39:750][  0]LogD3D12RHI: ID3D12Device6 is supported.
+[2023.03.01-21.25.39:750][  0]LogD3D12RHI: ID3D12Device7 is supported.
+[2023.03.01-21.25.39:750][  0]LogD3D12RHI: D3D12 ray tracing tier 1.0 is supported.
+[2023.03.01-21.25.39:750][  0]LogD3D12RHI: Mesh shader tier 1.0 is supported
+[2023.03.01-21.25.39:750][  0]LogD3D12RHI: AtomicInt64OnTypedResource is supported
+[2023.03.01-21.25.39:750][  0]LogD3D12RHI: AtomicInt64OnGroupShared is supported
+[2023.03.01-21.25.39:750][  0]LogD3D12RHI: AtomicInt64OnDescriptorHeapResource is supported
+[2023.03.01-21.25.39:750][  0]LogD3D12RHI: Shader Model 6.6 atomic64 is supported
+[2023.03.01-21.25.39:800][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for 3D Queue 0
+[2023.03.01-21.25.39:806][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for Copy Queue 0
+[2023.03.01-21.25.39:821][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for Compute Queue 0
+[2023.03.01-21.25.39:839][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
+[2023.03.01-21.25.39:839][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
+[2023.03.01-21.25.39:875][  0]LogD3D12RHI:     GPU DeviceId: 0x2191 (for the marketing name, search the web for "GPU Device Id")
+[2023.03.01-21.25.39:875][  0]LogWindows: Attached monitors:
+[2023.03.01-21.25.39:875][  0]LogWindows:     resolution: 1920x1080, work area: (0, 0) -> (1920, 1026), device: '\\.\DISPLAY1' [PRIMARY]
+[2023.03.01-21.25.39:875][  0]LogWindows: Found 1 attached monitors.
+[2023.03.01-21.25.39:875][  0]LogWindows: EnumDisplayDevices:
+[2023.03.01-21.25.39:875][  0]LogWindows:    0. 'AMD Radeon(TM) Graphics' (P:1 D:1), name: '\\.\DISPLAY1'
+[2023.03.01-21.25.39:875][  0]LogWindows:    1. 'AMD Radeon(TM) Graphics' (P:0 D:0), name: '\\.\DISPLAY2'
+[2023.03.01-21.25.39:876][  0]LogWindows:    2. 'AMD Radeon(TM) Graphics' (P:0 D:0), name: '\\.\DISPLAY3'
+[2023.03.01-21.25.39:876][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0), name: '\\.\DISPLAY4'
+[2023.03.01-21.25.39:876][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0), name: '\\.\DISPLAY5'
+[2023.03.01-21.25.39:876][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0), name: '\\.\DISPLAY6'
+[2023.03.01-21.25.39:877][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0), name: '\\.\DISPLAY7'
+[2023.03.01-21.25.39:877][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2023.03.01-21.25.39:877][  0]LogD3D12RHI:     Adapter Name: NVIDIA GeForce GTX 1660 Ti
+[2023.03.01-21.25.39:877][  0]LogD3D12RHI:   Driver Version: 526.47 (internal:31.0.15.2647, unified:526.47)
+[2023.03.01-21.25.39:877][  0]LogD3D12RHI:      Driver Date: 10-25-2022
+[2023.03.01-21.25.39:877][  0]LogRHI: Texture pool is 3282 MB (70% of 4689 MB)
+[2023.03.01-21.25.39:877][  0]LogD3D12RHI: Async texture creation enabled
+[2023.03.01-21.25.39:877][  0]LogD3D12RHI: RHI has support for 64 bit atomics
+[2023.03.01-21.25.39:891][  0]LogRHI: GeForceNow SDK initialized: 0
+[2023.03.01-21.25.39:902][  0]LogTurnkeySupport: Running Turnkey SDK detection: ' -ScriptsForProject="C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/Intermediate/TurnkeyReport_0.log" -log="C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/Intermediate/TurnkeyLog_0.log" -project="C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject"  -platform=all'
+[2023.03.01-21.25.39:902][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.0/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/Intermediate/TurnkeyReport_0.log" -log="C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/Intermediate/TurnkeyLog_0.log" -project="C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject"  -platform=all" ]
+[2023.03.01-21.25.39:936][  0]LogTextureFormatETC2: Display: ETC2 Texture loading DLL: TextureConverter.dll
+[2023.03.01-21.25.40:015][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.5
+[2023.03.01-21.25.40:015][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2023.03.01-21.25.40:025][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2023.03.01-21.25.40:025][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2023.03.01-21.25.40:025][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2023.03.01-21.25.40:025][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2023.03.01-21.25.40:025][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2023.03.01-21.25.40:026][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2023.03.01-21.25.40:026][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2023.03.01-21.25.40:026][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2023.03.01-21.25.40:026][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2023.03.01-21.25.40:026][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2023.03.01-21.25.40:058][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLens'
+[2023.03.01-21.25.40:058][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLensClient'
+[2023.03.01-21.25.40:062][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2023.03.01-21.25.40:063][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2023.03.01-21.25.40:067][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2023.03.01-21.25.40:067][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2023.03.01-21.25.40:067][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2023.03.01-21.25.40:067][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2023.03.01-21.25.40:071][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64'
+[2023.03.01-21.25.40:071][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Server'
+[2023.03.01-21.25.40:071][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Client'
+[2023.03.01-21.25.40:074][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2023.03.01-21.25.40:074][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2023.03.01-21.25.40:081][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2023.03.01-21.25.40:081][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2023.03.01-21.25.40:081][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2023.03.01-21.25.40:081][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2023.03.01-21.25.40:082][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2023.03.01-21.25.40:456][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2023.03.01-21.25.40:461][  0]LogTargetPlatformManager: Unable to find audio format BINKA from hinted modules, loading all potential format modules to find it
+[2023.03.01-21.25.40:461][  0]LogTargetPlatformManager: Loaded format module AudioFormatADPCM
+[2023.03.01-21.25.40:461][  0]LogTargetPlatformManager:   ADPCM
+[2023.03.01-21.25.40:461][  0]LogTargetPlatformManager:   PCM
+[2023.03.01-21.25.40:466][  0]LogTargetPlatformManager: Loaded format module AudioFormatBink
+[2023.03.01-21.25.40:466][  0]LogTargetPlatformManager:   BINKA
+[2023.03.01-21.25.40:466][  0]LogTargetPlatformManager: Loaded format module AudioFormatOgg
+[2023.03.01-21.25.40:466][  0]LogTargetPlatformManager:   OGG
+[2023.03.01-21.25.40:466][  0]LogTargetPlatformManager: Loaded format module AudioFormatOpus
+[2023.03.01-21.25.40:466][  0]LogTargetPlatformManager:   OPUS
+[2023.03.01-21.25.40:868][  0]LogTargetPlatformManager: Unable to find shader format SF_METAL from hinted modules, loading all potential format modules to find it
+[2023.03.01-21.25.40:877][  0]LogTargetPlatformManager: Loaded format module MetalShaderFormat
+[2023.03.01-21.25.40:877][  0]LogTargetPlatformManager:   SF_METAL
+[2023.03.01-21.25.40:877][  0]LogTargetPlatformManager:   SF_METAL_MRT
+[2023.03.01-21.25.40:877][  0]LogTargetPlatformManager:   SF_METAL_TVOS
+[2023.03.01-21.25.40:877][  0]LogTargetPlatformManager:   SF_METAL_MRT_TVOS
+[2023.03.01-21.25.40:877][  0]LogTargetPlatformManager:   SF_METAL_SM5
+[2023.03.01-21.25.40:877][  0]LogTargetPlatformManager:   SF_METAL_MACES3_1
+[2023.03.01-21.25.40:877][  0]LogTargetPlatformManager:   SF_METAL_MRT_MAC
+[2023.03.01-21.25.40:877][  0]LogTargetPlatformManager: Loaded format module ShaderFormatD3D
+[2023.03.01-21.25.40:877][  0]LogTargetPlatformManager:   PCD3D_SM6
+[2023.03.01-21.25.40:877][  0]LogTargetPlatformManager:   PCD3D_SM5
+[2023.03.01-21.25.40:877][  0]LogTargetPlatformManager:   PCD3D_ES31
+[2023.03.01-21.25.40:877][  0]LogTargetPlatformManager:   D3D_ES3_1_HOLOLENS
+[2023.03.01-21.25.40:877][  0]LogTargetPlatformManager: Loaded format module ShaderFormatOpenGL
+[2023.03.01-21.25.40:877][  0]LogTargetPlatformManager:   GLSL_150_ES31
+[2023.03.01-21.25.40:877][  0]LogTargetPlatformManager:   GLSL_ES3_1_ANDROID
+[2023.03.01-21.25.40:882][  0]LogTargetPlatformManager: Loaded format module ShaderFormatVectorVM
+[2023.03.01-21.25.40:882][  0]LogTargetPlatformManager:   VVM_1_0
+[2023.03.01-21.25.40:882][  0]LogTargetPlatformManager: Loaded format module VulkanShaderFormat
+[2023.03.01-21.25.40:882][  0]LogTargetPlatformManager:   SF_VULKAN_SM5
+[2023.03.01-21.25.40:882][  0]LogTargetPlatformManager:   SF_VULKAN_ES31_ANDROID
+[2023.03.01-21.25.40:882][  0]LogTargetPlatformManager:   SF_VULKAN_ES31
+[2023.03.01-21.25.40:882][  0]LogTargetPlatformManager:   SF_VULKAN_SM5_ANDROID
+[2023.03.01-21.25.40:882][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2023.03.01-21.25.40:882][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2023.03.01-21.25.40:883][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2023.03.01-21.25.40:883][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/Intermediate/ShaderAutogen/PCD3D_ES31/AutogenShaderHeaders.ush
+[2023.03.01-21.25.40:884][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2023.03.01-21.25.40:889][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.03.01-21.25.40:889][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchy Hierarchy.
+[2023.03.01-21.25.40:890][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.03.01-21.25.40:890][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchy Hierarchy.
+[2023.03.01-21.25.40:912][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1230 MiB)
+[2023.03.01-21.25.40:913][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.03.01-21.25.40:913][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchy Hierarchy.
+[2023.03.01-21.25.40:926][  0]LogDerivedDataCache: Speed tests for C:/Users/seanp/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.01 seconds
+[2023.03.01-21.25.40:926][  0]LogDerivedDataCache: Display: Performance to C:/Users/seanp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.20ms. RandomReadSpeed=182.87MBs, RandomWriteSpeed=163.64MBs. Assigned SpeedClass 'Local'
+[2023.03.01-21.25.40:927][  0]LogDerivedDataCache: Using Local data cache path C:/Users/seanp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.03.01-21.25.40:927][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2023.03.01-21.25.40:927][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchy Hierarchy.
+[2023.03.01-21.25.40:933][  0]LogVirtualization: VirtualizationSystem name found in ini file: None
+[2023.03.01-21.25.40:933][  0]LogVirtualization: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2023.03.01-21.25.40:933][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/Intermediate/Shaders/WorkingDirectory/82904/).
+[2023.03.01-21.25.40:933][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/seanp/AppData/Local/Temp/UnrealShaderWorkingDir/883D0CB647F96321664A4CBE06F9B2BD/'.
+[2023.03.01-21.25.40:934][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2023.03.01-21.25.40:934][  0]LogShaderCompilers: Display: Using Local Shader Compiler with 8 workers.
+[2023.03.01-21.25.42:460][  0]LogTurnkeySupport: Completed SDK detection: ExitCode = 0
+[2023.03.01-21.25.42:460][  0]LogSlate: Using FreeType 2.10.0
+[2023.03.01-21.25.42:460][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.03.01-21.25.42:505][  0]LogAssetRegistry: FAssetRegistry took 0.0137 seconds to start up
+[2023.03.01-21.25.42:511][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2023.03.01-21.25.42:682][  0]LogSerialization: UsePackageTrailer: 'false'
+[2023.03.01-21.25.42:683][  0]LogTexture: Display: Texture Encode Speed: FinalIfAvailable (editor).
+[2023.03.01-21.25.43:008][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2023.03.01-21.25.43:008][  0]LogDeviceProfileManager: Active device profile: [00000570DE4355C0][00000570D37A0000 50] WindowsEditor
+[2023.03.01-21.25.43:008][  0]LogDeviceProfileManager: Profiles: [00000570DE435080][00000570D37A5000 50] Windows, [00000570DE4355C0][00000570D37A0000 50] WindowsEditor, [00000570DE433640][00000570D3747800 50] WindowsServer, [00000570DE435780][00000570D36DC800 50] WindowsClient, [00000570DE431C00][00000570D37A2800 50] IOS, [00000570DE434B40][00000570C397A000 50] iPadAir2, [00000570DE434440][00000570DE5E2800 50] IPadPro, [00000570DE431180][00000570DE5E0000 50] iPadAir3, [00000570DE432D80][00000570DE5E7800 50] iPadAir4, [00000570DE433480][00000570DE5EA000 50] iPadMini4, [00000570DE435400][00000570DE5EC800 50] iPadMini5, [00000570DE4340C0][00000570D788C800 50] iPadMini6, [00000570DE438340][00000570DE645000 50] iPhone6S, [00000570DE4386C0][00000570DE642800 50] iPhone7, [00000570DE438A40][00000570DE640000 50] iPodTouch7, [00000570DE433100][00000570DE64A000 50] iPhone6SPlus, [00000570DE438180][00000570DE64C800 50] iPhone7Plus, [00000570DE430540][00000570DE5E5000 50] iPhoneSE, [00000570DE437FC0][00000570DE620000 50] iPhone8, [00000570DE430700][00000570DE625000 50] iPhone8Plus, [00000570DE438880][00000570DE627800 50] iPhoneX, [00000570DE434D00][00000570DE62A000 50] iPhoneXS, [00000570DE436E40][00000570DE62C800 50] iPhoneXSMax, [00000570DE432300][00000570DE647800 50] iPhoneXR, [00000570DE432680][00000570DE660000 50] iPhone11, [00000570DE432BC0][00000570DE665000 50] iPhone11Pro, [00000570DE430FC0][00000570DE667800 50] iPhone11ProMax, [00000570DE433F00][00000570DE66A000 50] iPhoneSE2, [00000570DE437E00][00000570DE66C800 50] iPhone12Mini, [00000570DE435940][00000570DE622800 50] iPhone12, [00000570DE436200][00000570DE670000 50] iPhone12Pro, [00000570DE433800][00000570DE675000 50] iPhone12ProMax, [00000570DE434600][00000570DE677800 50] iPhone13Mini, [00000570DE4308C0][00000570DE67A000 50] iPhone13, [00000570DE432840][00000570DE67C800 50] iPhone13Pro, [00000570DE436580][00000570DE662800 50] iPhone13ProMax, [00000570DE438C00][00000570DE690000 50] iPadPro105, [00000570DE436C80][00000570DE695000 50] iPadPro129, [00000570DE434280][00000570DE697800 50] iPadPro97, [00000570DE437380][00000570DE69A000 50] iPadPro2_129, [00000570DE431340][00000570DE69C800 50] iPad5, [00000570DE435B00][00000570DE672800 50] iPad6, [00000570DE438500][00000570DE6A0000 50] iPad7, [00000570DE435E80][00000570DE6A5000 50] iPad8, [00000570DE4347C0][00000570DE6A7800 50] iPad9, [00000570DE4332C0][00000570DE6AA000 50] iPadPro11, [00000570DE4363C0][00000570DE6AC800 50] iPadPro2_11, [00000570DE4316C0][00000570DE692800 50] iPadPro3_11, [00000570DE434980][00000570DE6B0000 50] iPadPro3_129, [00000570DE431A40][00000570DE6B5000 50] iPadPro4_129, [00000570DE437540][00000570DE6B7800 50] iPadPro5_129, [00000570DE431500][00000570DE6BA000 50] AppleTV, [00000570DE431F80][00000570DE6BC800 50] AppleTV4K, [00000570DE432A00][00000570DE6A2800 50] TVOS, [00000570DE43AB80][00000570DE6C2800 50] Mac, [00000570DE43AF00][00000570DE6C0000 50] MacEditor, [00000570DE43A480][00000570DE6C7800 50] MacClient, [00000570DE434EC0][00000570DE6CA000 50] MacServer, [00000570DE43B0C0][00000570DE6B2800 50] Linux, [00000570DE436040][00000570DE6CC800 50] LinuxEditor, [00000570DE439A00][00000570DE6D0000 50] LinuxArm64Editor, [00000570DE431880][00000570DE6D5000 50] LinuxArm64, [00000570DE439680][00000570DE6D7800 50] LinuxClient, [00000570DE4378C0][00000570DE6DA000 50] LinuxArm64Client, [00000570DE4371C0][00000570DE6DC800 50] LinuxServer, [00000570DE435CC0][00000570DE6C5000 50] LinuxArm64Server, [00000570DE437C40][00000570DE6E0000 50] Android, [00000570DE43B7C0][00000570DE6E5000 50] Android_Preview_OpenGL, [00000570DE439F40][00000570DE6E7800 50] Android_Preview_Vulkan, [00000570DE431DC0][00000570DE6EA000 50] Android_Low, [00000570DE4324C0][00000570DE6EC800 50] Android_Mid, [00000570DE4394C0][00000570DE6D2800 50] Android_High, [00000570DE439300][00000570DE6F0000 50] Android_Default, [00000570DE433D40][00000570DE6F5000 50] Android_Adreno4xx, [00000570DE432140][00000570DE6F7800 50] Android_Adreno5xx_Low, [00000570DE437000][00000570DE6FA000 50] Android_Adreno5xx, [00000570DE43A640][00000570DE6FC800 50] Android_Adreno6xx, [00000570DE43B440][00000570DE6E2800 50] Android_Adreno6xx_Vulkan, [00000570DE43A800][00000570DE700000 50] Android_Adreno7xx, [00000570DE430000][00000570DE705000 50] Android_Adreno7xx_Vulkan, [00000570DE439140][00000570DE707800 50] Android_Mali_T6xx, [00000570DE439D80][00000570DE70A000 50] Android_Mali_T7xx, [00000570DE43B280][00000570DE70C800 50] Android_Mali_T8xx, [00000570DE437700][00000570DE6F2800 50] Android_Mali_G71, [00000570DE433B80][00000570DE710000 50] Android_Mali_G72, [00000570DE43BD00][00000570DE715000 50] Android_Mali_G72_Vulkan, [00000570DE43A2C0][00000570DE717800 50] Android_Mali_G76, [00000570DE43BEC0][00000570DE71A000 50] Android_Mali_G76_Vulkan, [00000570DE43A9C0][00000570DE71C800 50] Android_Mali_G77, [00000570DE43C080][00000570DE702800 50] Android_Mali_G77_Vulkan, [00000570DE43B600][00000570DE720000 50] Android_Mali_G78, [00000570DE436AC0][00000570DE725000 50] Android_Mali_G78_Vulkan, [00000570DE438DC0][00000570DE727800 50] Android_Mali_G710, [00000570DE439BC0][00000570DE72A000 50] Android_Mali_G710_Vulkan, [00000570DE43CCC0][00000570DE72C800 50] Android_Xclipse_920, [00000570DE43BB40][00000570DE712800 50] Android_Xclipse_920_Vulkan, [00000570DE43CE80][00000570DE730000 50] Android_Vulkan_SM5, [00000570DE43C240][00000570DE735000 50] Android_PowerVR_G6xxx, [00000570DE43D040][00000570DE737800 50] Android_PowerVR_GT7xxx, [00000570DE43C940][00000570DE73A000 50] Android_PowerVR_GE8xxx, [00000570DE43B980][00000570DE73C800 50] Android_PowerVR_GM9xxx, [00000570DE436900][00000570DE722800 50] Android_PowerVR_GM9xxx_Vulkan, [00000570DE43DC80][00000570DE740000 50] Android_TegraK1, [00000570DE439840][00000570DE745000 50] Android_Unknown_Vulkan, [00000570DE43DE40][00000570DE747800 50] Oculus_Quest, [00000570DE43A100][00000570DE74A000 50] Oculus_Quest2, [00000570DE43E000][00000570DE74C800 50] HoloLens, 
+[2023.03.01-21.25.43:008][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2023.03.01-21.25.43:010][  0]LogTurnkeySupport: Turnkey Platform: Android: (Status=Invalid, Installed=, AutoSDK=, MinAllowed=r21a, MaxAllowed=r23a, Flags="Platform_ValidHostPrerequisites")
+[2023.03.01-21.25.43:011][  0]LogTurnkeySupport: Turnkey Platform: IOS: (Status=Invalid, Installed=, AutoSDK=, MinAllowed=1100.0.0.0, MaxAllowed=1399.0, Flags="Platform_ValidHostPrerequisites")
+[2023.03.01-21.25.43:011][  0]LogTurnkeySupport: Turnkey Platform: Linux: (Status=Invalid, Installed=, AutoSDK=, MinAllowed=v20_clang-13.0.1-centos7, MaxAllowed=v20_clang-13.0.1-centos7, Flags="Platform_ValidHostPrerequisites")
+[2023.03.01-21.25.43:011][  0]LogTurnkeySupport: Turnkey Platform: LinuxArm64: (Status=Invalid, Installed=, AutoSDK=, MinAllowed=v20_clang-13.0.1-centos7, MaxAllowed=v20_clang-13.0.1-centos7, Flags="Platform_ValidHostPrerequisites")
+[2023.03.01-21.25.43:011][  0]LogTurnkeySupport: Turnkey Platform: Win64: (Status=Valid, Installed=10.0.19041.0, AutoSDK=, MinAllowed=10.0.00000.0, MaxAllowed=10.9.99999.0, Flags="InstalledSdk_ValidVersionExists")
+[2023.03.01-21.25.43:037][  0]LogTexture: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2023.03.01-21.25.43:239][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.03.01-21.25.43:239][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2023.03.01-21.25.43:239][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2023.03.01-21.25.43:239][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2023.03.01-21.25.43:239][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2023.03.01-21.25.43:260][  0]LogNetVersion: QLProj 1.0.0, NetCL: 19505902, EngineNetVer: 23, GameNetVer: 0 (Checksum: 4026413102)
+[2023.03.01-21.25.43:433][  0]LogSlate: Border
+[2023.03.01-21.25.43:433][  0]LogSlate: BreadcrumbButton
+[2023.03.01-21.25.43:433][  0]LogSlate: Default
+[2023.03.01-21.25.43:433][  0]LogSlate: Icons.Save
+[2023.03.01-21.25.43:433][  0]LogSlate: Icons.Toolbar.Settings
+[2023.03.01-21.25.43:433][  0]LogSlate: ListView
+[2023.03.01-21.25.43:433][  0]LogSlate: SoftwareCursor_CardinalCross
+[2023.03.01-21.25.43:433][  0]LogSlate: SoftwareCursor_Grab
+[2023.03.01-21.25.43:433][  0]LogSlate: TableView.DarkRow
+[2023.03.01-21.25.43:433][  0]LogSlate: TableView.Row
+[2023.03.01-21.25.43:433][  0]LogSlate: TreeView
+[2023.03.01-21.25.43:645][  0]SourceControl: Source control is disabled
+[2023.03.01-21.25.43:677][  0]SourceControl: Source control is disabled
+[2023.03.01-21.25.43:677][  0]SourceControl: Source control is disabled
+[2023.03.01-21.25.43:797][  0]LogUObjectArray: 20557 objects as part of root set at end of initial load.
+[2023.03.01-21.25.43:797][  0]LogUObjectAllocator: 5584256 out of 0 bytes used by permanent object pool.
+[2023.03.01-21.25.43:797][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.03.01-21.25.44:283][  0]LogPython: Using Python 3.9.7
+[2023.03.01-21.25.45:117][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.03.01-21.25.45:128][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.03.01-21.25.45:172][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 780BAF964332FFC3517942B65022DE5A | Instance: C141A14F4F1C0A7A467A949C8DFA76FD (LAPTOP-304JBCSU-82904).
+[2023.03.01-21.25.45:874][  0]LogOpenImageDenoise: OIDN starting up
+[2023.03.01-21.25.45:920][  0]SourceControl: Source control is disabled
+[2023.03.01-21.25.45:925][  0]SourceControl: Source control is disabled
+[2023.03.01-21.25.45:939][  0]SourceControl: Source control is disabled
+[2023.03.01-21.25.45:944][  0]LogUProjectInfo: Found projects:
+[2023.03.01-21.25.46:031][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.03.01-21.25.46:066][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.03.01-21.25.46:066][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.03.01-21.25.46:229][  0]LogCollectionManager: Loaded 0 collections in 0.002965 seconds
+[2023.03.01-21.25.46:407][  0]LogFileCache: Scanning file cache for directory 'C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/Saved/Collections/' took 0.00s
+[2023.03.01-21.25.46:407][  0]LogFileCache: Scanning file cache for directory 'C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/Content/Developers/seanp/Collections/' took 0.00s
+[2023.03.01-21.25.46:407][  0]LogFileCache: Scanning file cache for directory 'C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/Content/Collections/' took 0.00s
+[2023.03.01-21.25.46:704][  0]LogEngine: Initializing Engine...
+[2023.03.01-21.25.46:723][  0]LogStylusInput: Initializing StylusInput subsystem.
+[2023.03.01-21.25.46:726][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2023.03.01-21.25.47:028][  0]LogInit: Initializing FReadOnlyCVARCache
+[2023.03.01-21.25.47:028][  0]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.01-21.25.47:045][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.01-21.25.47:084][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.03.01-21.25.47:085][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2023.03.01-21.25.47:112][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2023.03.01-21.25.47:113][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2023.03.01-21.25.47:113][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2023.03.01-21.25.47:113][  0]LogAudio: Display: Audio Device Manager Initialized
+[2023.03.01-21.25.47:113][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2023.03.01-21.25.47:113][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.01-21.25.47:113][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.01-21.25.47:113][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.01-21.25.47:113][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.01-21.25.47:113][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.01-21.25.47:113][  0]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.01-21.25.47:113][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.01-21.25.47:113][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.01-21.25.47:113][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.01-21.25.47:113][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.01-21.25.47:113][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.01-21.25.47:125][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.01-21.25.48:231][  0]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2023.03.01-21.25.48:232][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.01-21.25.48:235][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.01-21.25.48:235][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.01-21.25.48:237][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2023.03.01-21.25.48:237][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.03.01-21.25.48:239][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.03.01-21.25.48:239][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2023.03.01-21.25.48:239][  0]LogInit: FAudioDevice initialized.
+[2023.03.01-21.25.48:239][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2023.03.01-21.25.48:239][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2023.03.01-21.25.48:239][  0]LogInit: Texture streaming: Enabled
+[2023.03.01-21.25.48:282][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 5.0.3-20979098+++UE5+Release-5.0
+[2023.03.01-21.25.48:295][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2023.03.01-21.25.48:296][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={5939846D-44FA-C6C7-A16B-C98FE79CF10D}
+[2023.03.01-21.25.48:325][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2023.03.01-21.25.48:372][  0]LogInit: Transaction tracking system initialized
+[2023.03.01-21.25.48:478][  0]BlueprintLog: New page: Editor Load
+[2023.03.01-21.25.48:779][  0]LocalizationService: Localization service is disabled
+[2023.03.01-21.25.48:851][  0]TimingProfiler: Initialize
+[2023.03.01-21.25.48:851][  0]TimingProfiler: OnSessionChanged
+[2023.03.01-21.25.48:851][  0]LoadingProfiler: Initialize
+[2023.03.01-21.25.48:851][  0]LoadingProfiler: OnSessionChanged
+[2023.03.01-21.25.48:851][  0]NetworkingProfiler: Initialize
+[2023.03.01-21.25.48:851][  0]NetworkingProfiler: OnSessionChanged
+[2023.03.01-21.25.48:851][  0]MemoryProfiler: Initialize
+[2023.03.01-21.25.48:851][  0]MemoryProfiler: OnSessionChanged
+[2023.03.01-21.25.49:785][  0]LogFileCache: Scanning file cache for directory 'C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/Content/' took 0.01s
+[2023.03.01-21.25.49:785][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2023.03.01-21.25.49:875][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2023.03.01-21.25.49:876][  0]SourceControl: Source control is disabled
+[2023.03.01-21.25.49:876][  0]LogUnrealEdMisc: Loading editor; pre map load, took 12.921
+[2023.03.01-21.25.49:877][  0]Cmd: MAP LOAD FILE="../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/Content/Levels/ZaWorudo_Complex.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.03.01-21.25.49:879][  0]LightingResults: New page: Lighting Build
+[2023.03.01-21.25.49:889][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.03.01-21.25.49:889][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.01-21.25.49:889][  0]MapCheck: New page: Map Check
+[2023.03.01-21.25.49:889][  0]LightingResults: New page: Lighting Build
+[2023.03.01-21.25.49:895][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.01-21.25.49:898][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2023.03.01-21.25.50:983][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'ZaWorudo_Complex'.
+[2023.03.01-21.25.50:983][  0]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.01-21.25.50:983][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.01-21.25.50:984][  0]LogAIModule: Creating AISystem for world ZaWorudo_Complex
+[2023.03.01-21.25.51:020][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.03.01-21.25.51:047][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2023.03.01-21.25.51:047][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.03.01-21.25.51:048][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.287ms to complete.
+[2023.03.01-21.25.51:048][  0]LogFileHelpers: Loading map 'ZaWorudo_Complex' took 1.171
+[2023.03.01-21.25.51:065][  0]LogUnrealEdMisc: Total Editor Startup Time, took 14.110
+[2023.03.01-21.25.51:065][  0]LogShaderCompilers: Display: ================================================
+[2023.03.01-21.25.51:065][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.01-21.25.51:065][  0]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2023.03.01-21.25.51:065][  0]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2023.03.01-21.25.51:065][  0]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2023.03.01-21.25.51:065][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.03.01-21.25.51:065][  0]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.03.01-21.25.51:065][  0]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.03.01-21.25.51:065][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.03.01-21.25.51:065][  0]LogShaderCompilers: Display: ================================================
+[2023.03.01-21.25.51:166][  0]LogSlate: The tab "TopLeftModeTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2023.03.01-21.25.51:166][  0]LogSlate: The tab "TopLeftModeTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2023.03.01-21.25.51:178][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.01-21.25.51:184][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.01-21.25.51:189][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.01-21.25.51:195][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.01-21.25.51:248][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2023.03.01-21.25.51:248][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.03.01-21.25.51:250][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2023.03.01-21.25.51:250][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.03.01-21.25.51:252][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2023.03.01-21.25.51:252][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.03.01-21.25.51:254][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2023.03.01-21.25.51:254][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.03.01-21.25.51:256][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2023.03.01-21.25.51:257][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.03.01-21.25.51:258][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2023.03.01-21.25.51:258][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.03.01-21.25.51:260][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2023.03.01-21.25.51:260][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.03.01-21.25.51:261][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2023.03.01-21.25.51:261][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.03.01-21.25.51:263][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2023.03.01-21.25.51:263][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.03.01-21.25.51:265][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2023.03.01-21.25.51:265][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.03.01-21.25.51:265][  0]LogFeaturePack: Error: Error in Feature pack C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_VirtualRealityBP.upack. Failed to parse manifest: Invalid Json Token. Line: 43 Ch: 4
+[2023.03.01-21.25.51:699][  0]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.03.01-21.25.51:703][  0]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.03.01-21.25.51:705][  0]LogSlate: Took 0.000681 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.03.01-21.25.51:706][  0]LogSlate: Took 0.000598 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.03.01-21.25.51:727][  0]LogViewport: Scene viewport resized to 1192x854, mode Windowed.
+[2023.03.01-21.25.51:776][  0]LogSlate: Took 0.000813 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.03.01-21.25.52:640][  0]LogStall: Startup...
+[2023.03.01-21.25.52:641][  0]LogStall: Startup complete.
+[2023.03.01-21.25.52:658][  0]LogLoad: (Engine Initialization) Total time: 15.70 seconds
+[2023.03.01-21.25.52:658][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.03.01-21.25.52:746][  0]LogAssetRegistry: Asset discovery search completed in 10.2437 seconds
+[2023.03.01-21.25.52:761][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000163 seconds (updated 0 objects)
+[2023.03.01-21.25.52:790][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.03.01-21.25.56:658][198]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.01-21.25.56:664][198]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.01-21.25.56:670][198]PIE: New page: PIE session: ZaWorudo_Complex (Mar 1, 2023, 9:25:56 AM)
+[2023.03.01-21.25.56:673][198]LogOnline: OSS: Created online subsystem instance for: NULL
+[2023.03.01-21.25.56:674][198]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.03.01-21.25.56:674][198]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.01-21.25.56:872][198]LogPlayLevel: PIE: StaticDuplicateObject took: (0.197950s)
+[2023.03.01-21.25.56:872][198]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex to /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex (0.198072s)
+[2023.03.01-21.25.56:872][198]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.01-21.25.56:872][198]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.01-21.25.56:872][198]LogAIModule: Creating AISystem for world ZaWorudo_Complex
+[2023.03.01-21.25.56:873][198]LogPlayLevel: PIE: World Init took: (0.000885s)
+[2023.03.01-21.25.56:882][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.03.01-21.25.56:883][198]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.03.01-21.25.56:883][198]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.01-21.25.56:883][198]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.01-21.25.56:883][198]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.01-21.25.56:883][198]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.01-21.25.56:883][198]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.01-21.25.56:883][198]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.01-21.25.56:883][198]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.01-21.25.56:883][198]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.01-21.25.56:883][198]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.01-21.25.56:883][198]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.01-21.25.56:883][198]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.01-21.25.56:885][198]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.01-21.25.57:057][198]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2023.03.01-21.25.57:058][198]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.01-21.25.57:058][198]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.01-21.25.57:058][198]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.01-21.25.57:059][198]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2023.03.01-21.25.57:059][198]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2023.03.01-21.25.57:061][198]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2023.03.01-21.25.57:061][198]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2023.03.01-21.25.57:061][198]LogInit: FAudioDevice initialized.
+[2023.03.01-21.25.57:061][198]LogAudio: Display: Audio Device (ID: 2) registered with world 'ZaWorudo_Complex'.
+[2023.03.01-21.25.57:074][198]LogLoad: Game class is 'GameModeBase'
+[2023.03.01-21.25.57:083][198]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex up for play (max tick rate 60) at 2023.03.01-15.25.57
+[2023.03.01-21.25.57:084][198]LogWorld: Bringing up level for play took: 0.010378
+[2023.03.01-21.25.57:087][198]LogOnline: OSS: Created online subsystem instance for: :Context_1
+[2023.03.01-21.25.57:104][198]PIE: Server logged in
+[2023.03.01-21.25.57:105][198]PIE: Play in editor total start time 0.44 seconds.
+[2023.03.01-21.25.57:752][226]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.01-21.25.57:752][226]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.01-21.25.57:753][226]LogWorld: UWorld::CleanupWorld for ZaWorudo_Complex, bSessionEnded=true, bCleanupResources=true
+[2023.03.01-21.25.57:754][226]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.01-21.25.57:765][226]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.01-21.25.57:768][226]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.01-21.25.57:774][226]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.01-21.25.57:777][226]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.03.01-21.25.57:778][226]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.03.01-21.25.57:791][226]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.03.01-21.25.57:823][228]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2023.03.01-21.25.59:396][315]Candidate modules for hot reload:
+[2023.03.01-21.25.59:396][315]  QLProj
+[2023.03.01-21.25.59:401][315]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=QLProj,9259 QLProjEditor Win64 Development -Project="C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject" "C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject"  -IgnoreJunk]
+[2023.03.01-21.25.59:405][315]Warning: Starting HotReload took  0.1s.
+[2023.03.01-21.26.01:830][448]CompilerResultsLog: New page: Compilation - Mar 1, 2023, 9:26:01 AM
+[2023.03.01-21.26.01:830][448]CompilerResultsLog: Log file: C:\Users\seanp\AppData\Local\UnrealBuildTool\Log.txt
+[2023.03.01-21.26.01:830][448]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\seanp\Documents\Github\UE5-Q-Learning).
+[2023.03.01-21.26.01:830][448]CompilerResultsLog: Building QLProjEditor...
+[2023.03.01-21.26.01:830][448]CompilerResultsLog: Using Visual Studio 2022 14.33.31630 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.03.01-21.26.01:830][448]CompilerResultsLog: [Adaptive Build] Excluded from QLProj unity file: Agent.cpp, AgentController.cpp, Goal.cpp, WayPoint.cpp
+[2023.03.01-21.26.01:830][448]CompilerResultsLog: Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+[2023.03.01-21.26.01:830][448]CompilerResultsLog:   Executing up to 8 processes, one per physical core
+[2023.03.01-21.26.01:830][448]CompilerResultsLog:   Requested 1.5 GB free memory per action, 4.61 GB available: limiting max parallel actions to 3
+[2023.03.01-21.26.01:830][448]CompilerResultsLog: Building 3 actions with 3 processes...
+[2023.03.01-21.26.01:830][448]CompilerResultsLog: [1/3] Link UnrealEditor-QLProj-9259.lib
+[2023.03.01-21.26.01:830][448]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-9259.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-9259.exp
+[2023.03.01-21.26.01:830][448]CompilerResultsLog: [2/3] Link UnrealEditor-QLProj-9259.dll
+[2023.03.01-21.26.01:830][448]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-9259.suppressed.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-9259.suppressed.exp
+[2023.03.01-21.26.01:830][448]CompilerResultsLog: [3/3] WriteMetadata QLProjEditor.target
+[2023.03.01-21.26.01:830][448]CompilerResultsLog: Total time in Parallel executor: 1.16 seconds
+[2023.03.01-21.26.01:830][448]CompilerResultsLog: Total execution time: 2.26 seconds
+[2023.03.01-21.26.01:830][448]LogMainFrame: MainFrame: Module compiling took 2.486 seconds
+[2023.03.01-21.26.01:981][448]Display: HotReload took  2.7s.
+[2023.03.01-21.26.01:981][448]Display: Reload/Re-instancing Complete: 1 package changed, 5 classes unchanged
+[2023.03.01-21.26.03:699][551]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.01-21.26.03:705][551]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.01-21.26.03:705][551]PIE: New page: PIE session: ZaWorudo_Complex (Mar 1, 2023, 9:26:03 AM)
+[2023.03.01-21.26.03:705][551]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.01-21.26.03:907][551]LogPlayLevel: PIE: StaticDuplicateObject took: (0.202260s)
+[2023.03.01-21.26.03:907][551]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex to /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex (0.202351s)
+[2023.03.01-21.26.03:907][551]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.01-21.26.03:907][551]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.01-21.26.03:908][551]LogAIModule: Creating AISystem for world ZaWorudo_Complex
+[2023.03.01-21.26.03:908][551]LogPlayLevel: PIE: World Init took: (0.000928s)
+[2023.03.01-21.26.03:915][551]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.03.01-21.26.03:916][551]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.03.01-21.26.03:916][551]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.01-21.26.03:916][551]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.01-21.26.03:916][551]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.01-21.26.03:916][551]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.01-21.26.03:916][551]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.01-21.26.03:916][551]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.01-21.26.03:916][551]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.01-21.26.03:916][551]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.01-21.26.03:916][551]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.01-21.26.03:916][551]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.01-21.26.03:916][551]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.01-21.26.03:918][551]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.01-21.26.04:080][551]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2023.03.01-21.26.04:081][551]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.01-21.26.04:081][551]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.01-21.26.04:081][551]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.01-21.26.04:081][551]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.03.01-21.26.04:081][551]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2023.03.01-21.26.04:083][551]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.03.01-21.26.04:084][551]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.03.01-21.26.04:084][551]LogInit: FAudioDevice initialized.
+[2023.03.01-21.26.04:084][551]LogAudio: Display: Audio Device (ID: 3) registered with world 'ZaWorudo_Complex'.
+[2023.03.01-21.26.04:094][551]LogLoad: Game class is 'GameModeBase'
+[2023.03.01-21.26.04:104][551]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex up for play (max tick rate 60) at 2023.03.01-15.26.04
+[2023.03.01-21.26.04:105][551]LogWorld: Bringing up level for play took: 0.010667
+[2023.03.01-21.26.04:107][551]LogOnline: OSS: Created online subsystem instance for: :Context_2
+[2023.03.01-21.26.04:109][551]PIE: Server logged in
+[2023.03.01-21.26.04:109][551]PIE: Play in editor total start time 0.405 seconds.
+[2023.03.01-21.26.05:240][610]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.01-21.26.05:241][610]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.01-21.26.05:241][610]LogWorld: UWorld::CleanupWorld for ZaWorudo_Complex, bSessionEnded=true, bCleanupResources=true
+[2023.03.01-21.26.05:242][610]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.01-21.26.05:256][610]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.01-21.26.05:259][610]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.01-21.26.05:265][610]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.01-21.26.05:269][610]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.03.01-21.26.05:270][610]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.03.01-21.26.05:283][610]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.03.01-21.26.05:314][612]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2023.03.01-21.27.52:184][ 31]LogDerivedDataCache: C:/Users/seanp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:11.024 and deleted 0 file(s) with total size 0 MiB.
+[2023.03.01-21.29.19:303][349]Candidate modules for hot reload:
+[2023.03.01-21.29.19:303][349]  QLProj
+[2023.03.01-21.29.19:309][349]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=QLProj,8246 QLProjEditor Win64 Development -Project="C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject" "C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject"  -IgnoreJunk]
+[2023.03.01-21.29.19:312][349]Warning: Starting HotReload took  0.1s.
+[2023.03.01-21.29.24:256][631]CompilerResultsLog: New page: Compilation - Mar 1, 2023, 9:29:24 AM
+[2023.03.01-21.29.24:256][631]CompilerResultsLog: Log file: C:\Users\seanp\AppData\Local\UnrealBuildTool\Log.txt
+[2023.03.01-21.29.24:256][631]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\seanp\Documents\Github\UE5-Q-Learning).
+[2023.03.01-21.29.24:256][631]CompilerResultsLog: Building QLProjEditor...
+[2023.03.01-21.29.24:256][631]CompilerResultsLog: Using Visual Studio 2022 14.33.31630 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.03.01-21.29.24:256][631]CompilerResultsLog: [Adaptive Build] Excluded from QLProj unity file: Agent.cpp, AgentController.cpp, Goal.cpp, WayPoint.cpp
+[2023.03.01-21.29.24:256][631]CompilerResultsLog: Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+[2023.03.01-21.29.24:256][631]CompilerResultsLog:   Executing up to 8 processes, one per physical core
+[2023.03.01-21.29.24:256][631]CompilerResultsLog:   Requested 1.5 GB free memory per action, 4.92 GB available: limiting max parallel actions to 3
+[2023.03.01-21.29.24:256][631]CompilerResultsLog: Building 4 actions with 3 processes...
+[2023.03.01-21.29.24:256][631]CompilerResultsLog: [1/4] Compile AgentController.cpp
+[2023.03.01-21.29.24:256][631]CompilerResultsLog: [2/4] Link UnrealEditor-QLProj-8246.lib
+[2023.03.01-21.29.24:256][631]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-8246.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-8246.exp
+[2023.03.01-21.29.24:256][631]CompilerResultsLog: [3/4] Link UnrealEditor-QLProj-8246.dll
+[2023.03.01-21.29.24:256][631]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-8246.suppressed.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-8246.suppressed.exp
+[2023.03.01-21.29.24:256][631]CompilerResultsLog: [4/4] WriteMetadata QLProjEditor.target
+[2023.03.01-21.29.24:256][631]CompilerResultsLog: Total time in Parallel executor: 3.63 seconds
+[2023.03.01-21.29.24:256][631]CompilerResultsLog: Total execution time: 4.78 seconds
+[2023.03.01-21.29.24:256][631]LogMainFrame: MainFrame: Module compiling took 4.994 seconds
+[2023.03.01-21.29.24:371][631]Display: HotReload took  5.1s.
+[2023.03.01-21.29.24:371][631]Display: Reload/Re-instancing Complete: 1 package changed, 5 classes unchanged
+[2023.03.01-21.29.27:374][804]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.01-21.29.27:380][804]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.01-21.29.27:380][804]PIE: New page: PIE session: ZaWorudo_Complex (Mar 1, 2023, 9:29:27 AM)
+[2023.03.01-21.29.27:380][804]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.01-21.29.27:577][804]LogPlayLevel: PIE: StaticDuplicateObject took: (0.196304s)
+[2023.03.01-21.29.27:577][804]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex to /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex (0.196402s)
+[2023.03.01-21.29.27:577][804]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.01-21.29.27:577][804]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.01-21.29.27:577][804]LogAIModule: Creating AISystem for world ZaWorudo_Complex
+[2023.03.01-21.29.27:578][804]LogPlayLevel: PIE: World Init took: (0.000975s)
+[2023.03.01-21.29.27:586][804]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.03.01-21.29.27:587][804]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.03.01-21.29.27:587][804]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.01-21.29.27:587][804]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.01-21.29.27:587][804]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.01-21.29.27:587][804]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.01-21.29.27:587][804]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.01-21.29.27:587][804]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.01-21.29.27:587][804]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.01-21.29.27:587][804]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.01-21.29.27:588][804]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.01-21.29.27:588][804]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.01-21.29.27:588][804]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.01-21.29.27:591][804]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.01-21.29.27:759][804]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2023.03.01-21.29.27:759][804]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.01-21.29.27:759][804]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.01-21.29.27:759][804]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.01-21.29.27:760][804]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.03.01-21.29.27:760][804]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.03.01-21.29.27:762][804]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.03.01-21.29.27:762][804]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.03.01-21.29.27:762][804]LogInit: FAudioDevice initialized.
+[2023.03.01-21.29.27:762][804]LogAudio: Display: Audio Device (ID: 4) registered with world 'ZaWorudo_Complex'.
+[2023.03.01-21.29.27:779][804]LogLoad: Game class is 'GameModeBase'
+[2023.03.01-21.29.27:789][804]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex up for play (max tick rate 60) at 2023.03.01-15.29.27
+[2023.03.01-21.29.27:790][804]LogWorld: Bringing up level for play took: 0.010783
+[2023.03.01-21.29.27:792][804]LogOnline: OSS: Created online subsystem instance for: :Context_3
+[2023.03.01-21.29.27:796][804]PIE: Server logged in
+[2023.03.01-21.29.27:797][804]PIE: Play in editor total start time 0.417 seconds.
+[2023.03.01-21.30.12:824][251]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.01-21.30.12:824][251]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.01-21.30.12:824][251]LogWorld: UWorld::CleanupWorld for ZaWorudo_Complex, bSessionEnded=true, bCleanupResources=true
+[2023.03.01-21.30.12:826][251]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.01-21.30.12:843][251]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.01-21.30.12:846][251]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.01-21.30.12:854][251]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.01-21.30.12:854][251]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.03.01-21.30.12:856][251]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.03.01-21.30.12:864][251]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.01-21.30.12:869][251]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2023.03.01-21.30.12:900][253]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2023.03.01-21.30.14:068][319]Candidate modules for hot reload:
+[2023.03.01-21.30.14:068][319]  QLProj
+[2023.03.01-21.30.14:073][319]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=QLProj,7685 QLProjEditor Win64 Development -Project="C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject" "C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject"  -IgnoreJunk]
+[2023.03.01-21.30.14:076][319]Warning: Starting HotReload took  0.1s.
+[2023.03.01-21.30.18:692][582]CompilerResultsLog: New page: Compilation - Mar 1, 2023, 9:30:18 AM
+[2023.03.01-21.30.18:692][582]CompilerResultsLog: Log file: C:\Users\seanp\AppData\Local\UnrealBuildTool\Log.txt
+[2023.03.01-21.30.18:692][582]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\seanp\Documents\Github\UE5-Q-Learning).
+[2023.03.01-21.30.18:692][582]CompilerResultsLog: Building QLProjEditor...
+[2023.03.01-21.30.18:692][582]CompilerResultsLog: Using Visual Studio 2022 14.33.31630 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.03.01-21.30.18:692][582]CompilerResultsLog: [Adaptive Build] Excluded from QLProj unity file: Agent.cpp, AgentController.cpp, Goal.cpp, WayPoint.cpp
+[2023.03.01-21.30.18:692][582]CompilerResultsLog: Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+[2023.03.01-21.30.18:692][582]CompilerResultsLog:   Executing up to 8 processes, one per physical core
+[2023.03.01-21.30.18:692][582]CompilerResultsLog:   Requested 1.5 GB free memory per action, 5.07 GB available: limiting max parallel actions to 3
+[2023.03.01-21.30.18:692][582]CompilerResultsLog: Building 4 actions with 3 processes...
+[2023.03.01-21.30.18:692][582]CompilerResultsLog: [1/4] Compile AgentController.cpp
+[2023.03.01-21.30.18:692][582]CompilerResultsLog: [2/4] Link UnrealEditor-QLProj-7685.lib
+[2023.03.01-21.30.18:692][582]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-7685.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-7685.exp
+[2023.03.01-21.30.18:692][582]CompilerResultsLog: [3/4] Link UnrealEditor-QLProj-7685.dll
+[2023.03.01-21.30.18:692][582]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-7685.suppressed.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-7685.suppressed.exp
+[2023.03.01-21.30.18:692][582]CompilerResultsLog: [4/4] WriteMetadata QLProjEditor.target
+[2023.03.01-21.30.18:692][582]CompilerResultsLog: Total time in Parallel executor: 3.42 seconds
+[2023.03.01-21.30.18:692][582]CompilerResultsLog: Total execution time: 4.47 seconds
+[2023.03.01-21.30.18:692][582]LogMainFrame: MainFrame: Module compiling took 4.663 seconds
+[2023.03.01-21.30.18:802][582]Display: HotReload took  4.8s.
+[2023.03.01-21.30.18:802][582]Display: Reload/Re-instancing Complete: 1 package changed, 5 classes unchanged
+[2023.03.01-21.30.20:951][708]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.01-21.30.20:958][708]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.01-21.30.20:958][708]PIE: New page: PIE session: ZaWorudo_Complex (Mar 1, 2023, 9:30:20 AM)
+[2023.03.01-21.30.20:958][708]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.01-21.30.21:150][708]LogPlayLevel: PIE: StaticDuplicateObject took: (0.191875s)
+[2023.03.01-21.30.21:150][708]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex to /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex (0.191971s)
+[2023.03.01-21.30.21:150][708]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.01-21.30.21:150][708]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.01-21.30.21:151][708]LogAIModule: Creating AISystem for world ZaWorudo_Complex
+[2023.03.01-21.30.21:151][708]LogPlayLevel: PIE: World Init took: (0.000852s)
+[2023.03.01-21.30.21:159][708]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.03.01-21.30.21:160][708]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.03.01-21.30.21:160][708]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.01-21.30.21:160][708]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.01-21.30.21:160][708]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.01-21.30.21:160][708]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.01-21.30.21:160][708]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.01-21.30.21:160][708]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.01-21.30.21:160][708]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.01-21.30.21:160][708]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.01-21.30.21:161][708]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.01-21.30.21:161][708]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.01-21.30.21:161][708]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.01-21.30.21:163][708]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.01-21.30.21:326][708]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2023.03.01-21.30.21:326][708]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.01-21.30.21:326][708]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.01-21.30.21:326][708]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.01-21.30.21:326][708]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2023.03.01-21.30.21:326][708]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2023.03.01-21.30.21:329][708]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2023.03.01-21.30.21:329][708]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2023.03.01-21.30.21:329][708]LogInit: FAudioDevice initialized.
+[2023.03.01-21.30.21:329][708]LogAudio: Display: Audio Device (ID: 5) registered with world 'ZaWorudo_Complex'.
+[2023.03.01-21.30.21:344][708]LogLoad: Game class is 'GameModeBase'
+[2023.03.01-21.30.21:354][708]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex up for play (max tick rate 60) at 2023.03.01-15.30.21
+[2023.03.01-21.30.21:354][708]LogWorld: Bringing up level for play took: 0.010346
+[2023.03.01-21.30.21:357][708]LogOnline: OSS: Created online subsystem instance for: :Context_4
+[2023.03.01-21.30.21:361][708]PIE: Server logged in
+[2023.03.01-21.30.21:362][708]PIE: Play in editor total start time 0.404 seconds.
+[2023.03.01-21.30.29:165][165]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.01-21.30.29:165][165]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.01-21.30.29:165][165]LogWorld: UWorld::CleanupWorld for ZaWorudo_Complex, bSessionEnded=true, bCleanupResources=true
+[2023.03.01-21.30.29:165][165]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.01-21.30.29:182][165]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.01-21.30.29:185][165]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.01-21.30.29:192][165]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.01-21.30.29:195][165]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.03.01-21.30.29:197][165]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.03.01-21.30.29:211][165]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.03.01-21.30.29:244][167]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2023.03.01-21.32.05:634][573]Candidate modules for hot reload:
+[2023.03.01-21.32.05:634][573]  QLProj
+[2023.03.01-21.32.05:641][573]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=QLProj,5888 QLProjEditor Win64 Development -Project="C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject" "C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject"  -IgnoreJunk]
+[2023.03.01-21.32.05:644][573]Warning: Starting HotReload took  0.1s.
+[2023.03.01-21.32.10:310][839]CompilerResultsLog: New page: Compilation - Mar 1, 2023, 9:32:10 AM
+[2023.03.01-21.32.10:310][839]CompilerResultsLog: Log file: C:\Users\seanp\AppData\Local\UnrealBuildTool\Log.txt
+[2023.03.01-21.32.10:310][839]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\seanp\Documents\Github\UE5-Q-Learning).
+[2023.03.01-21.32.10:310][839]CompilerResultsLog: Building QLProjEditor...
+[2023.03.01-21.32.10:310][839]CompilerResultsLog: Using Visual Studio 2022 14.33.31630 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.03.01-21.32.10:310][839]CompilerResultsLog: [Adaptive Build] Excluded from QLProj unity file: Agent.cpp, AgentController.cpp, Goal.cpp, WayPoint.cpp
+[2023.03.01-21.32.10:310][839]CompilerResultsLog: Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+[2023.03.01-21.32.10:310][839]CompilerResultsLog:   Executing up to 8 processes, one per physical core
+[2023.03.01-21.32.10:310][839]CompilerResultsLog:   Requested 1.5 GB free memory per action, 4.76 GB available: limiting max parallel actions to 3
+[2023.03.01-21.32.10:310][839]CompilerResultsLog: Building 4 actions with 3 processes...
+[2023.03.01-21.32.10:310][839]CompilerResultsLog: [1/4] Compile AgentController.cpp
+[2023.03.01-21.32.10:310][839]CompilerResultsLog: [2/4] Link UnrealEditor-QLProj-5888.lib
+[2023.03.01-21.32.10:310][839]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-5888.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-5888.exp
+[2023.03.01-21.32.10:310][839]CompilerResultsLog: [3/4] Link UnrealEditor-QLProj-5888.dll
+[2023.03.01-21.32.10:310][839]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-5888.suppressed.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-5888.suppressed.exp
+[2023.03.01-21.32.10:310][839]CompilerResultsLog: [4/4] WriteMetadata QLProjEditor.target
+[2023.03.01-21.32.10:310][839]CompilerResultsLog: Total time in Parallel executor: 3.51 seconds
+[2023.03.01-21.32.10:310][839]CompilerResultsLog: Total execution time: 4.51 seconds
+[2023.03.01-21.32.10:310][839]LogMainFrame: MainFrame: Module compiling took 4.716 seconds
+[2023.03.01-21.32.10:427][839]Display: HotReload took  4.8s.
+[2023.03.01-21.32.10:427][839]Display: Reload/Re-instancing Complete: 1 package changed, 5 classes unchanged
+[2023.03.01-21.32.39:626][514]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.01-21.32.39:634][514]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.01-21.32.39:634][514]PIE: New page: PIE session: ZaWorudo_Complex (Mar 1, 2023, 9:32:39 AM)
+[2023.03.01-21.32.39:635][514]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.01-21.32.39:836][514]LogPlayLevel: PIE: StaticDuplicateObject took: (0.201024s)
+[2023.03.01-21.32.39:836][514]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex to /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex (0.201152s)
+[2023.03.01-21.32.39:836][514]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.01-21.32.39:836][514]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.01-21.32.39:836][514]LogAIModule: Creating AISystem for world ZaWorudo_Complex
+[2023.03.01-21.32.39:837][514]LogPlayLevel: PIE: World Init took: (0.000984s)
+[2023.03.01-21.32.39:845][514]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.03.01-21.32.39:846][514]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.03.01-21.32.39:846][514]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.01-21.32.39:846][514]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.01-21.32.39:846][514]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.01-21.32.39:846][514]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.01-21.32.39:846][514]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.01-21.32.39:846][514]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.01-21.32.39:846][514]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.01-21.32.39:846][514]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.01-21.32.39:847][514]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.01-21.32.39:847][514]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.01-21.32.39:847][514]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.01-21.32.39:849][514]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.01-21.32.40:018][514]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2023.03.01-21.32.40:018][514]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.01-21.32.40:019][514]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.01-21.32.40:019][514]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.01-21.32.40:019][514]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2023.03.01-21.32.40:019][514]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2023.03.01-21.32.40:022][514]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2023.03.01-21.32.40:022][514]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2023.03.01-21.32.40:022][514]LogInit: FAudioDevice initialized.
+[2023.03.01-21.32.40:022][514]LogAudio: Display: Audio Device (ID: 6) registered with world 'ZaWorudo_Complex'.
+[2023.03.01-21.32.40:036][514]LogLoad: Game class is 'GameModeBase'
+[2023.03.01-21.32.40:046][514]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex up for play (max tick rate 60) at 2023.03.01-15.32.40
+[2023.03.01-21.32.40:047][514]LogWorld: Bringing up level for play took: 0.010516
+[2023.03.01-21.32.40:049][514]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2023.03.01-21.32.40:051][514]PIE: Server logged in
+[2023.03.01-21.32.40:052][514]PIE: Play in editor total start time 0.418 seconds.
+[2023.03.01-21.32.44:866][792]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.01-21.32.44:866][792]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.01-21.32.44:867][792]LogWorld: UWorld::CleanupWorld for ZaWorudo_Complex, bSessionEnded=true, bCleanupResources=true
+[2023.03.01-21.32.44:868][792]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.01-21.32.44:884][792]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.01-21.32.44:887][792]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.01-21.32.44:893][792]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.01-21.32.44:896][792]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.03.01-21.32.44:898][792]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.03.01-21.32.44:911][792]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.03.01-21.32.44:944][793]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2023.03.01-21.48.56:181][ 80]LogSlate: Took 0.001042 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.03.01-21.48.58:623][223]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.49.04:500][545]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.49.04:995][570]Cmd: SELECT NONE
+[2023.03.01-21.49.08:711][777]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.49.09:246][804]Cmd: SELECT NONE
+[2023.03.01-21.49.16:130][202]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.49.17:355][270]Cmd: SELECT NONE
+[2023.03.01-21.49.18:748][343]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.49.19:114][361]Cmd: SELECT NONE
+[2023.03.01-21.49.23:888][631]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.49.24:223][647]Cmd: SELECT NONE
+[2023.03.01-21.49.27:056][803]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.49.27:535][827]Cmd: SELECT NONE
+[2023.03.01-21.49.29:682][946]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.49.30:110][967]Cmd: SELECT NONE
+[2023.03.01-21.49.32:587][102]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.49.33:083][127]Cmd: SELECT NONE
+[2023.03.01-21.49.36:324][307]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.49.36:755][328]Cmd: SELECT NONE
+[2023.03.01-21.49.41:671][608]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.49.42:087][629]Cmd: SELECT NONE
+[2023.03.01-21.49.43:713][716]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.49.43:934][725]Cmd: SELECT NONE
+[2023.03.01-21.49.47:804][941]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.49.48:284][965]Cmd: SELECT NONE
+[2023.03.01-21.49.51:197][122]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.49.55:052][329]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.49.55:467][349]Cmd: SELECT NONE
+[2023.03.01-21.49.58:295][503]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.49.58:877][533]Cmd: SELECT NONE
+[2023.03.01-21.50.02:005][705]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.50.02:277][717]Cmd: SELECT NONE
+[2023.03.01-21.50.03:793][797]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.50.04:062][808]Cmd: SELECT NONE
+[2023.03.01-21.50.09:562][118]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.50.09:783][127]Cmd: SELECT NONE
+[2023.03.01-21.50.12:427][268]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.50.12:789][284]Cmd: SELECT NONE
+[2023.03.01-21.50.17:646][560]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.50.18:585][610]Cmd: SELECT NONE
+[2023.03.01-21.50.22:592][837]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.50.22:993][856]Cmd: SELECT NONE
+[2023.03.01-21.50.32:592][415]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.50.32:996][434]Cmd: SELECT NONE
+[2023.03.01-21.50.35:240][557]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.50.35:633][575]Cmd: SELECT NONE
+[2023.03.01-21.50.42:569][976]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.50.43:176][  7]Cmd: SELECT NONE
+[2023.03.01-21.50.44:796][ 94]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.50.45:058][105]Cmd: SELECT NONE
+[2023.03.01-21.50.48:086][269]Cmd: SELECT NONE
+[2023.03.01-21.50.49:948][371]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.50.50:347][390]Cmd: SELECT NONE
+[2023.03.01-21.50.52:756][521]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.50.53:114][537]Cmd: SELECT NONE
+[2023.03.01-21.50.55:050][642]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.50.55:443][660]Cmd: SELECT NONE
+[2023.03.01-21.50.59:978][916]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.51.00:339][932]Cmd: SELECT NONE
+[2023.03.01-21.51.02:050][ 24]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.51.02:294][ 34]Cmd: SELECT NONE
+[2023.03.01-21.51.07:473][328]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.51.07:877][347]Cmd: SELECT NONE
+[2023.03.01-21.51.10:656][497]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.51.11:007][513]Cmd: SELECT NONE
+[2023.03.01-21.51.12:671][602]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.51.13:033][618]Cmd: SELECT NONE
+[2023.03.01-21.51.16:209][787]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.51.16:658][809]Cmd: SELECT NONE
+[2023.03.01-21.51.22:230][128]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.51.22:579][144]Cmd: SELECT NONE
+[2023.03.01-21.51.24:906][268]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.51.25:300][286]Cmd: SELECT NONE
+[2023.03.01-21.51.28:869][482]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.51.29:172][495]Cmd: SELECT NONE
+[2023.03.01-21.51.31:368][611]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.51.31:682][624]Cmd: SELECT NONE
+[2023.03.01-21.51.34:017][745]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.51.34:425][763]Cmd: SELECT NONE
+[2023.03.01-21.51.37:655][942]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.51.38:169][967]Cmd: SELECT NONE
+[2023.03.01-21.51.42:844][233]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.51.43:177][248]Cmd: SELECT NONE
+[2023.03.01-21.51.46:716][446]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.51.47:008][458]Cmd: SELECT NONE
+[2023.03.01-21.51.49:036][565]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.51.49:468][585]Cmd: SELECT NONE
+[2023.03.01-21.51.56:329][973]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.51.57:103][ 14]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.52.00:332][180]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.52.01:418][240]Cmd: SELECT NONE
+[2023.03.01-21.52.03:508][352]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.52.04:210][389]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.52.04:695][413]Cmd: SELECT NONE
+[2023.03.01-21.52.07:070][544]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.52.07:378][557]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.52.07:923][584]Cmd: SELECT NONE
+[2023.03.01-21.52.10:054][700]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.52.10:509][722]Cmd: SELECT NONE
+[2023.03.01-21.52.14:459][944]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.52.14:791][959]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.52.15:461][994]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.52.16:048][ 23]Cmd: SELECT NONE
+[2023.03.01-21.52.17:522][ 98]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.52.17:865][113]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.52.18:512][146]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.52.18:952][167]Cmd: SELECT NONE
+[2023.03.01-21.52.28:987][754]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.52.29:726][793]Cmd: SELECT NONE
+[2023.03.01-21.52.34:028][ 37]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.52.34:683][ 70]Cmd: SELECT NONE
+[2023.03.01-21.52.42:718][531]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.52.43:157][552]Cmd: SELECT NONE
+[2023.03.01-21.52.49:525][908]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.52.49:895][924]Cmd: SELECT NONE
+[2023.03.01-21.52.52:140][ 41]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.52.52:527][ 58]Cmd: SELECT NONE
+[2023.03.01-21.52.58:349][387]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.52.58:821][409]Cmd: SELECT NONE
+[2023.03.01-21.53.05:269][776]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.53.05:653][793]Cmd: SELECT NONE
+[2023.03.01-21.53.09:834][ 27]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.53.10:384][ 54]Cmd: SELECT NONE
+[2023.03.01-21.53.17:426][459]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.53.17:847][479]Cmd: SELECT NONE
+[2023.03.01-21.53.19:455][565]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.53.19:866][584]Cmd: SELECT NONE
+[2023.03.01-21.53.23:262][769]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.53.23:886][801]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.53.24:609][838]Cmd: SELECT NONE
+[2023.03.01-21.53.31:312][224]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.53.32:724][303]Cmd: SELECT NONE
+[2023.03.01-21.53.38:284][620]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.53.38:676][638]Cmd: SELECT NONE
+[2023.03.01-21.53.41:021][763]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.53.41:529][787]Cmd: SELECT NONE
+[2023.03.01-21.53.50:925][329]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.53.51:530][358]Cmd: SELECT NONE
+[2023.03.01-21.53.52:895][427]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.53.53:216][441]Cmd: SELECT NONE
+[2023.03.01-21.53.56:319][610]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.53.56:815][634]Cmd: SELECT NONE
+[2023.03.01-21.54.00:361][829]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.54.00:818][851]Cmd: SELECT NONE
+[2023.03.01-21.54.08:206][280]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.54.08:545][295]Cmd: SELECT NONE
+[2023.03.01-21.54.11:413][445]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.54.11:852][465]Cmd: SELECT NONE
+[2023.03.01-21.54.17:746][803]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.54.18:131][820]Cmd: SELECT NONE
+[2023.03.01-21.54.20:896][968]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.54.21:356][990]Cmd: SELECT NONE
+[2023.03.01-21.54.30:870][545]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.54.31:256][562]Cmd: SELECT NONE
+[2023.03.01-21.54.35:582][800]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.54.36:208][831]Cmd: SELECT NONE
+[2023.03.01-21.54.39:470][  8]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.54.39:866][ 26]Cmd: SELECT NONE
+[2023.03.01-21.54.41:347][103]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.54.41:579][111]Cmd: SELECT NONE
+[2023.03.01-21.54.47:568][451]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.54.47:875][463]Cmd: SELECT NONE
+[2023.03.01-21.54.57:156][  1]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.54.57:461][ 14]Cmd: SELECT NONE
+[2023.03.01-21.55.00:744][192]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.55.01:116][208]Cmd: SELECT NONE
+[2023.03.01-21.55.03:458][330]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.55.03:862][348]Cmd: SELECT NONE
+[2023.03.01-21.55.08:192][591]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.55.08:579][608]Cmd: SELECT NONE
+[2023.03.01-21.55.12:412][819]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.55.13:338][868]Cmd: SELECT NONE
+[2023.03.01-21.55.20:452][274]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.55.20:808][290]Cmd: SELECT NONE
+[2023.03.01-21.55.24:684][505]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.55.25:137][526]Cmd: SELECT NONE
+[2023.03.01-21.55.27:601][662]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.55.28:019][681]Cmd: SELECT NONE
+[2023.03.01-21.55.35:028][ 86]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.55.35:272][ 95]Cmd: SELECT NONE
+[2023.03.01-21.55.37:818][232]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.55.38:179][247]Cmd: SELECT NONE
+[2023.03.01-21.55.43:268][536]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.55.43:592][550]Cmd: SELECT NONE
+[2023.03.01-21.55.46:644][717]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.55.47:016][734]Cmd: SELECT NONE
+[2023.03.01-21.55.49:668][871]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.55.50:024][886]Cmd: SELECT NONE
+[2023.03.01-21.55.52:100][992]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.55.52:604][ 16]Cmd: SELECT NONE
+[2023.03.01-21.55.56:337][226]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.55.56:793][248]Cmd: SELECT NONE
+[2023.03.01-21.55.59:975][422]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.56.00:353][438]Cmd: SELECT NONE
+[2023.03.01-21.56.05:388][723]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.56.05:695][736]Cmd: SELECT NONE
+[2023.03.01-21.56.07:010][804]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.56.07:450][825]Cmd: SELECT NONE
+[2023.03.01-21.56.11:786][ 71]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.56.12:289][ 96]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.56.12:846][124]Cmd: SELECT NONE
+[2023.03.01-21.56.18:854][471]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.56.20:527][566]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.56.21:018][590]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.56.21:738][628]Cmd: SELECT NONE
+[2023.03.01-21.56.27:622][963]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.56.30:867][148]Cmd: SELECT NONE
+[2023.03.01-21.56.33:404][285]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.56.33:690][297]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.56.34:275][327]Cmd: SELECT NONE
+[2023.03.01-21.56.38:057][537]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.56.40:455][670]Cmd: SELECT NONE
+[2023.03.01-21.56.46:335][  5]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.56.46:655][ 19]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.56.47:075][ 39]Cmd: SELECT NONE
+[2023.03.01-21.56.50:824][251]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.56.51:258][272]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.56.51:691][293]Cmd: SELECT NONE
+[2023.03.01-21.56.55:885][530]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.56.56:335][552]Cmd: SELECT NONE
+[2023.03.01-21.57.00:412][778]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.57.00:834][798]Cmd: SELECT NONE
+[2023.03.01-21.57.05:174][ 42]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.57.05:562][ 60]Cmd: SELECT NONE
+[2023.03.01-21.57.08:985][248]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.57.09:469][271]Cmd: SELECT NONE
+[2023.03.01-21.57.13:236][475]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.57.13:641][493]Cmd: SELECT NONE
+[2023.03.01-21.57.15:011][562]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.57.15:364][577]Cmd: SELECT NONE
+[2023.03.01-21.57.18:433][743]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.57.18:771][757]Cmd: SELECT NONE
+[2023.03.01-21.57.20:565][852]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.57.26:006][140]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.57.26:576][168]Cmd: SELECT NONE
+[2023.03.01-21.57.29:764][349]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.57.30:229][371]Cmd: SELECT NONE
+[2023.03.01-21.57.40:588][975]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.57.41:008][995]Cmd: SELECT NONE
+[2023.03.01-21.57.44:752][201]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.57.45:218][223]Cmd: SELECT NONE
+[2023.03.01-21.57.47:348][334]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.57.47:732][352]Cmd: SELECT NONE
+[2023.03.01-21.57.50:175][487]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.57.50:477][500]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.57.50:993][526]Cmd: SELECT NONE
+[2023.03.01-21.57.57:858][922]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.57.58:259][940]Cmd: SELECT NONE
+[2023.03.01-21.58.04:612][298]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.58.05:097][322]Cmd: SELECT NONE
+[2023.03.01-21.58.13:160][789]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.58.13:525][806]Cmd: SELECT NONE
+[2023.03.01-21.58.17:105][  4]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.58.17:836][ 42]Cmd: SELECT NONE
+[2023.03.01-21.58.30:678][506]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.58.32:011][571]Cmd: SELECT NONE
+[2023.03.01-21.58.36:949][777]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.58.37:380][798]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.58.37:933][826]Cmd: SELECT NONE
+[2023.03.01-21.58.45:487][266]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.58.46:238][306]Cmd: SELECT NONE
+[2023.03.01-21.58.47:866][393]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.58.48:282][413]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.58.48:664][431]Cmd: SELECT NONE
+[2023.03.01-21.58.50:511][532]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.58.51:343][577]Cmd: SELECT NONE
+[2023.03.01-21.58.54:128][730]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.58.54:393][741]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.58.54:942][769]Cmd: SELECT NONE
+[2023.03.01-21.59.01:801][160]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.59.03:772][273]Cmd: SELECT NONE
+[2023.03.01-21.59.08:475][536]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.59.09:008][563]Cmd: SELECT NONE
+[2023.03.01-21.59.12:484][756]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.59.12:820][771]Cmd: SELECT NONE
+[2023.03.01-21.59.14:739][870]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.59.15:701][921]Cmd: SELECT NONE
+[2023.03.01-21.59.24:237][418]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.59.25:037][461]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.59.25:418][479]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.59.25:901][503]Cmd: SELECT NONE
+[2023.03.01-21.59.27:439][585]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.59.27:856][605]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.59.28:388][632]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.59.31:497][796]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.59.32:780][868]Cmd: SELECT NONE
+[2023.03.01-21.59.34:945][986]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.59.36:032][ 44]Cmd: SELECT NONE
+[2023.03.01-21.59.41:063][327]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.59.41:518][349]Cmd: SELECT NONE
+[2023.03.01-21.59.45:459][570]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.59.45:912][592]Cmd: SELECT NONE
+[2023.03.01-21.59.50:849][870]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.59.51:268][890]Cmd: SELECT NONE
+[2023.03.01-21.59.54:139][ 51]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.59.54:590][ 73]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-21.59.54:988][ 92]Cmd: SELECT NONE
+[2023.03.01-21.59.58:971][313]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.00.04:938][651]Cmd: SELECT NONE
+[2023.03.01-22.00.06:893][758]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.00.07:565][793]Cmd: SELECT NONE
+[2023.03.01-22.00.11:887][ 39]Cmd: SELECT NONE
+[2023.03.01-22.00.14:943][210]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.00.20:121][512]Cmd: SELECT NONE
+[2023.03.01-22.00.21:651][591]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.00.22:103][613]Cmd: SELECT NONE
+[2023.03.01-22.00.27:049][894]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.00.27:401][910]Cmd: SELECT NONE
+[2023.03.01-22.00.31:535][143]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.00.32:039][168]Cmd: SELECT NONE
+[2023.03.01-22.00.34:676][305]Cmd: SELECT NONE
+[2023.03.01-22.00.36:198][385]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.00.36:646][406]Cmd: SELECT NONE
+[2023.03.01-22.00.40:324][610]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.00.40:608][622]Cmd: SELECT NONE
+[2023.03.01-22.00.42:746][734]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.00.43:032][745]Cmd: SELECT NONE
+[2023.03.01-22.00.46:381][929]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.00.46:796][948]Cmd: SELECT NONE
+[2023.03.01-22.00.50:348][140]Cmd: SELECT NONE
+[2023.03.01-22.01.01:875][780]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.01.04:441][926]Cmd: SELECT NONE
+[2023.03.01-22.01.09:183][192]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.01.10:051][239]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.01.10:388][254]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.01.10:958][283]Cmd: SELECT NONE
+[2023.03.01-22.01.16:509][596]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.01.21:395][878]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.01.21:714][892]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.01.22:186][915]Cmd: SELECT NONE
+[2023.03.01-22.01.29:193][315]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.01.29:912][353]Cmd: SELECT NONE
+[2023.03.01-22.01.34:196][592]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.01.34:817][624]Cmd: SELECT NONE
+[2023.03.01-22.01.38:365][819]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.01.38:752][837]Cmd: SELECT NONE
+[2023.03.01-22.01.43:511][107]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.01.43:831][121]Cmd: SELECT NONE
+[2023.03.01-22.01.47:466][324]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.01.47:885][344]Cmd: SELECT NONE
+[2023.03.01-22.01.52:084][576]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.01.52:494][595]Cmd: SELECT NONE
+[2023.03.01-22.02.03:000][167]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.02.05:515][290]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.02.05:906][308]Cmd: SELECT NONE
+[2023.03.01-22.02.09:072][476]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.02.14:940][800]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.02.15:492][828]Cmd: SELECT NONE
+[2023.03.01-22.02.20:711][125]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.02.21:664][177]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.02.21:998][192]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.02.22:667][227]Cmd: SELECT NONE
+[2023.03.01-22.02.27:762][518]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.02.29:081][592]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.02.29:432][608]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.02.30:083][642]Cmd: SELECT NONE
+[2023.03.01-22.02.33:630][839]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.02.35:211][926]Cmd: SELECT NONE
+[2023.03.01-22.02.36:809][  8]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.02.37:295][ 32]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.02.37:694][ 50]Cmd: SELECT NONE
+[2023.03.01-22.02.40:438][197]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.02.43:523][374]Cmd: SELECT NONE
+[2023.03.01-22.02.47:039][565]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.02.50:124][734]Cmd: SELECT NONE
+[2023.03.01-22.02.53:341][906]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.02.55:161][  7]Cmd: SELECT NONE
+[2023.03.01-22.02.57:479][125]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.02.58:006][151]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.02.58:477][173]Cmd: SELECT NONE
+[2023.03.01-22.03.04:606][525]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.03.05:341][564]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.03.05:626][576]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.03.06:111][600]Cmd: SELECT NONE
+[2023.03.01-22.03.14:558][ 85]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.03.15:294][124]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.03.15:786][148]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.03.16:909][210]Cmd: SELECT NONE
+[2023.03.01-22.03.23:350][580]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.03.24:070][618]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.03.24:589][644]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.03.25:609][700]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.03.25:861][710]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.03.26:913][768]Cmd: SELECT NONE
+[2023.03.01-22.03.33:212][130]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.03.34:081][177]Cmd: SELECT NONE
+[2023.03.01-22.03.37:394][361]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.03.37:995][391]Cmd: SELECT NONE
+[2023.03.01-22.03.39:300][458]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.03.39:574][469]Cmd: SELECT NONE
+[2023.03.01-22.03.43:634][693]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.03.44:004][710]Cmd: SELECT NONE
+[2023.03.01-22.03.46:484][840]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.03.46:887][858]Cmd: SELECT NONE
+[2023.03.01-22.03.50:593][ 63]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.03.50:994][ 81]Cmd: SELECT NONE
+[2023.03.01-22.03.54:207][254]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.03.54:547][268]Cmd: SELECT NONE
+[2023.03.01-22.03.55:918][337]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.03.56:188][348]Cmd: SELECT NONE
+[2023.03.01-22.03.58:878][491]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.03.59:283][510]Cmd: SELECT NONE
+[2023.03.01-22.04.08:123][ 22]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.04.08:610][ 46]Cmd: SELECT NONE
+[2023.03.01-22.04.11:033][178]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.04.11:370][193]Cmd: SELECT NONE
+[2023.03.01-22.04.16:776][503]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.04.17:063][515]Cmd: SELECT NONE
+[2023.03.01-22.04.19:114][624]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.04.19:436][638]Cmd: SELECT NONE
+[2023.03.01-22.04.21:672][756]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.04.22:206][783]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.04.22:593][801]Cmd: SELECT NONE
+[2023.03.01-22.04.26:458][ 16]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.04.27:777][ 90]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.04.27:951][ 95]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.04.28:673][133]Cmd: SELECT NONE
+[2023.03.01-22.04.34:894][490]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.04.35:580][526]Cmd: SELECT NONE
+[2023.03.01-22.04.40:786][822]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.04.41:404][853]Cmd: SELECT NONE
+[2023.03.01-22.04.44:096][998]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.04.44:549][ 20]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.04.45:034][ 44]Cmd: SELECT NONE
+[2023.03.01-22.04.50:659][362]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.04.52:229][451]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.04.52:597][468]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.04.53:284][504]Cmd: SELECT NONE
+[2023.03.01-22.04.56:395][673]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.04.59:124][824]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.04.59:499][841]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.05.02:463][  7]Cmd: SELECT NONE
+[2023.03.01-22.05.04:310][102]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.05.05:932][194]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.05.06:298][210]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.05.07:000][247]Cmd: SELECT NONE
+[2023.03.01-22.05.11:327][488]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.05.12:148][532]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.05.12:634][556]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.05.13:219][586]Cmd: SELECT NONE
+[2023.03.01-22.05.17:406][823]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.05.18:861][905]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.05.19:214][921]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.05.21:930][ 79]Cmd: SELECT NONE
+[2023.03.01-22.05.27:571][402]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.05.28:273][439]Cmd: SELECT NONE
+[2023.03.01-22.05.44:537][390]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.05.46:165][480]Cmd: SELECT NONE
+[2023.03.01-22.05.50:799][741]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.05.57:187][ 96]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.05.57:655][118]Cmd: SELECT NONE
+[2023.03.01-22.06.01:241][316]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.06.01:641][334]Cmd: SELECT NONE
+[2023.03.01-22.06.07:011][643]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.06.07:430][662]Cmd: SELECT NONE
+[2023.03.01-22.06.11:880][913]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.06.12:087][920]Cmd: SELECT NONE
+[2023.03.01-22.06.15:724][122]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.06.16:278][149]Cmd: SELECT NONE
+[2023.03.01-22.06.18:171][251]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.06.18:990][294]Cmd: SELECT NONE
+[2023.03.01-22.06.25:039][642]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.06.25:295][652]Cmd: SELECT NONE
+[2023.03.01-22.06.27:534][774]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.06.28:093][801]Cmd: SELECT NONE
+[2023.03.01-22.06.32:213][ 32]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.06.32:481][ 43]Cmd: SELECT NONE
+[2023.03.01-22.06.34:719][161]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.06.34:956][170]Cmd: SELECT NONE
+[2023.03.01-22.06.39:243][412]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.06.39:609][428]Cmd: SELECT NONE
+[2023.03.01-22.06.40:783][487]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.06.41:037][497]Cmd: SELECT NONE
+[2023.03.01-22.06.44:336][681]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.06.44:703][697]Cmd: SELECT NONE
+[2023.03.01-22.06.51:482][ 91]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.06.51:772][103]Cmd: SELECT NONE
+[2023.03.01-22.06.54:190][232]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.06.54:547][247]Cmd: SELECT NONE
+[2023.03.01-22.06.58:724][481]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.06.58:928][488]Cmd: SELECT NONE
+[2023.03.01-22.07.02:169][670]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.07.02:457][682]Cmd: SELECT NONE
+[2023.03.01-22.07.05:284][836]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.07.05:684][854]Cmd: SELECT NONE
+[2023.03.01-22.07.07:598][957]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.07.08:037][978]Cmd: SELECT NONE
+[2023.03.01-22.07.12:398][224]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.07.12:653][234]Cmd: SELECT NONE
+[2023.03.01-22.07.14:721][342]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.07.14:942][350]Cmd: SELECT NONE
+[2023.03.01-22.07.18:093][519]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.07.19:778][603]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.07.20:100][617]Cmd: SELECT NONE
+[2023.03.01-22.07.23:065][775]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.07.24:043][825]Cmd: SELECT NONE
+[2023.03.01-22.07.31:197][238]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.07.31:617][258]Cmd: SELECT NONE
+[2023.03.01-22.07.39:190][691]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.07.39:616][711]Cmd: SELECT NONE
+[2023.03.01-22.07.43:958][947]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.07.44:765][990]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.07.45:202][ 11]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.07.45:639][ 32]Cmd: SELECT NONE
+[2023.03.01-22.08.00:677][916]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.08.00:998][930]Cmd: SELECT NONE
+[2023.03.01-22.08.03:960][ 93]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.08.04:304][108]Cmd: SELECT NONE
+[2023.03.01-22.08.08:693][353]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.08.09:054][368]Cmd: SELECT NONE
+[2023.03.01-22.08.10:515][443]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.08.10:738][451]Cmd: SELECT NONE
+[2023.03.01-22.08.16:476][777]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.08.16:747][788]Cmd: SELECT NONE
+[2023.03.01-22.08.21:203][ 40]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.08.21:474][ 51]Cmd: SELECT NONE
+[2023.03.01-22.08.23:349][148]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.08.23:653][161]Cmd: SELECT NONE
+[2023.03.01-22.08.28:128][415]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.08.28:349][423]Cmd: SELECT NONE
+[2023.03.01-22.09.26:625][514]Cmd: TRANSACTION UNDO
+[2023.03.01-22.09.26:625][514]LogEditorTransaction: Undo Select Brush Surface
+[2023.03.01-22.10.03:545][175]LogNavigationDataBuild: Navigation data generation finished in /Game/Levels/ZaWorudo_Complex.
+[2023.03.01-22.10.55:296][678]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.11.01:151][989]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.11.01:774][ 21]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.11.02:345][ 50]Cmd: SELECT NONE
+[2023.03.01-22.11.31:268][397]LogNavigationDataBuild: Navigation data generation finished in /Game/Levels/ZaWorudo_Complex.
+[2023.03.01-22.11.31:914][428]Cmd: TRANSACTION UNDO
+[2023.03.01-22.11.31:914][428]LogEditorTransaction: Undo Select Brush Surface
+[2023.03.01-22.11.33:601][473]Cmd: TRANSACTION UNDO
+[2023.03.01-22.11.33:601][473]LogEditorTransaction: Undo Move Elements
+[2023.03.01-22.11.33:784][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_0' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.33:794][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_1' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.33:804][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_2' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.33:814][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_3' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.33:825][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_4' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.33:836][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_5' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.33:846][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_6' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.33:856][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_7' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.33:867][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_8' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.33:877][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_9' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.33:888][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_10' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.33:898][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_11' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.33:909][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_12' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.33:920][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_13' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.33:930][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_14' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.33:940][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_15' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.33:951][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_16' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.33:960][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_17' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.33:970][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_18' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.33:980][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_19' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.33:990][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_20' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:001][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_21' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:011][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_22' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:021][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_23' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:032][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_24' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:042][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_25' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:053][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_26' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:063][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_27' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:073][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_28' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:084][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_29' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:095][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_30' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:105][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_31' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:116][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_32' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:126][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_33' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:137][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_34' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:148][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_35' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:158][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_36' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:168][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_37' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:179][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_38' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:189][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_39' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:200][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_40' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:211][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_41' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:221][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_42' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:232][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_43' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:243][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_44' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:254][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_45' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:264][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_46' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:275][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_47' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:285][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_48' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:295][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_49' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:305][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_50' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:316][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_51' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:326][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_52' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:337][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_53' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:347][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_54' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:358][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_55' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:369][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_56' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:380][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_57' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:391][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_58' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:402][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_59' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:413][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_60' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:423][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_61' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:433][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_62' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:443][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_63' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.34:454][473]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_64' invalid (16100 verts, 0 indices).
+[2023.03.01-22.11.39:102][621]LogNavigationDataBuild: Navigation data generation finished in /Game/Levels/ZaWorudo_Complex.
+[2023.03.01-22.11.40:006][662]Cmd: TRANSACTION UNDO
+[2023.03.01-22.11.40:006][662]LogEditorTransaction: Undo Move Elements
+[2023.03.01-22.12.20:823][613]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.13.24:519][697]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2023.03.01-22.13.24:535][697]LogPackageLocalizationCache: Processed 30 localized package path(s) for 1 prioritized culture(s) in 0.005863 seconds
+[2023.03.01-22.13.24:773][697]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/ZaWorudo_Complex_Auto1
+[2023.03.01-22.13.24:774][697]LogSavePackage: Moving '../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/Saved/ZaWorudo_Complex_Auto10C810B1B4D3ADB0F59A2D3BE9712932A.tmp' to '../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/Saved/Autosaves/Game/Levels/ZaWorudo_Complex_Auto1.umap'
+[2023.03.01-22.13.24:785][697]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/ZaWorudo_Complex' took 0.276
+[2023.03.01-22.13.24:785][697]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.276
+[2023.03.01-22.13.36:623][300]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.13.37:479][345]Cmd: SELECT NONE
+[2023.03.01-22.13.44:432][721]Cmd: SELECT NONE
+[2023.03.01-22.13.54:442][261]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.13.55:078][294]Cmd: SELECT NONE
+[2023.03.01-22.13.57:980][449]Cmd: SELECT NONE
+[2023.03.01-22.14.11:560][109]LogNavigationDataBuild: Navigation data generation finished in /Game/Levels/ZaWorudo_Complex.
+[2023.03.01-22.14.13:718][229]Cmd: TRANSACTION UNDO
+[2023.03.01-22.14.13:718][229]LogEditorTransaction: Undo Move Elements
+[2023.03.01-22.14.13:887][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_0' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.13:897][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_1' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.13:907][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_2' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.13:916][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_3' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.13:926][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_4' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.13:936][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_5' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.13:947][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_6' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.13:957][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_7' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.13:968][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_8' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.13:978][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_9' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.13:988][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_10' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.13:998][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_11' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:008][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_12' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:019][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_13' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:029][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_14' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:038][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_15' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:048][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_16' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:058][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_17' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:069][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_18' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:078][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_19' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:088][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_20' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:099][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_21' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:109][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_22' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:119][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_23' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:129][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_24' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:139][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_25' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:149][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_26' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:161][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_27' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:171][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_28' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:181][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_29' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:191][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_30' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:201][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_31' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:211][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_32' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:221][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_33' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:232][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_34' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:242][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_35' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:252][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_36' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:262][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_37' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:272][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_38' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:282][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_39' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:293][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_40' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:304][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_41' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:313][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_42' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:323][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_43' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:334][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_44' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:344][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_45' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:354][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_46' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:364][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_47' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:375][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_48' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:385][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_49' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:395][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_50' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:405][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_51' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:416][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_52' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:426][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_53' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:437][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_54' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:447][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_55' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:457][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_56' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:467][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_57' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:478][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_58' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:491][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_59' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:501][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_60' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:512][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_61' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:524][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_62' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:535][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_63' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.14:546][229]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.ModelComponent_64' invalid (16100 verts, 0 indices).
+[2023.03.01-22.14.23:600][585]LogNavigationDataBuild: Navigation data generation finished in /Game/Levels/ZaWorudo_Complex.
+[2023.03.01-22.14.24:746][647]Cmd: TRANSACTION UNDO
+[2023.03.01-22.14.24:746][647]LogEditorTransaction: Undo Move Elements
+[2023.03.01-22.14.44:101][524]LogNavigationDataBuild: Navigation data generation finished in /Game/Levels/ZaWorudo_Complex.
+[2023.03.01-22.15.10:805][772]LogNavigationDataBuild: Navigation data generation finished in /Game/Levels/ZaWorudo_Complex.
+[2023.03.01-22.15.12:459][869]Cmd: TRANSACTION UNDO
+[2023.03.01-22.15.12:459][869]LogEditorTransaction: Undo Move Elements
+[2023.03.01-22.16.34:001][ 46]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.16.37:614][253]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.16.38:184][281]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.16.39:756][369]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.16.40:162][388]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.16.40:821][422]Cmd: SELECT NONE
+[2023.03.01-22.17.19:252][398]LogNavigationDataBuild: Navigation data generation finished in /Game/Levels/ZaWorudo_Complex.
+[2023.03.01-22.17.48:764][939]Cmd: TRANSACTION UNDO
+[2023.03.01-22.17.48:764][939]LogEditorTransaction: Undo Clicking on Elements
+[2023.03.01-22.17.56:000][247]LogNavigationDataBuild: Navigation data generation finished in /Game/Levels/ZaWorudo_Complex.
+[2023.03.01-22.17.59:761][448]Cmd: TRANSACTION UNDO
+[2023.03.01-22.17.59:761][448]LogEditorTransaction: Undo Select Brush Surface
+[2023.03.01-22.18.01:227][478]Cmd: TRANSACTION UNDO
+[2023.03.01-22.18.01:227][478]LogEditorTransaction: Undo Move Elements
+[2023.03.01-22.18.04:124][586]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2023.03.01-22.18.04:685][612]Cmd: SELECT NONE
+[2023.03.01-22.18.24:022][521]LogNavigationDataBuild: Navigation data generation finished in /Game/Levels/ZaWorudo_Complex.
+[2023.03.01-22.18.30:382][786]LogNavigationDataBuild: Navigation data generation finished in /Game/Levels/ZaWorudo_Complex.
+[2023.03.01-22.18.32:551][907]Cmd: TRANSACTION UNDO
+[2023.03.01-22.18.32:551][907]LogEditorTransaction: Undo Select Brush Surface
+[2023.03.01-22.18.37:298][131]Cmd: TRANSACTION UNDO
+[2023.03.01-22.18.37:298][131]LogEditorTransaction: Undo Move Elements
+[2023.03.01-22.18.44:350][479]Cmd: SELECT NONE
+[2023.03.01-22.18.49:692][785]Cmd: SELECT NONE
+[2023.03.01-22.23.25:325][107]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.03.01-22.23.25:528][107]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/ZaWorudo_Complex_Auto2
+[2023.03.01-22.23.25:529][107]LogSavePackage: Moving '../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/Saved/ZaWorudo_Complex_Auto25FDB129941183A96D563B5923ED7A3D8.tmp' to '../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/Saved/Autosaves/Game/Levels/ZaWorudo_Complex_Auto2.umap'
+[2023.03.01-22.23.25:535][107]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/ZaWorudo_Complex' took 0.222
+[2023.03.01-22.23.25:535][107]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.222
+[2023.03.01-22.24.57:873][437]Candidate modules for hot reload:
+[2023.03.01-22.24.57:873][437]  QLProj
+[2023.03.01-22.24.57:883][437]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=QLProj,4836 QLProjEditor Win64 Development -Project="C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject" "C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject"  -IgnoreJunk]
+[2023.03.01-22.24.57:888][437]Warning: Starting HotReload took  0.1s.
+[2023.03.01-22.25.21:553][802]CompilerResultsLog: New page: Compilation - Mar 1, 2023, 10:25:21 AM
+[2023.03.01-22.25.21:553][802]CompilerResultsLog: Log file: C:\Users\seanp\AppData\Local\UnrealBuildTool\Log.txt
+[2023.03.01-22.25.21:553][802]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\seanp\Documents\Github\UE5-Q-Learning).
+[2023.03.01-22.25.21:554][802]CompilerResultsLog: Invalidating makefile for QLProjEditor (working set of source files changed)
+[2023.03.01-22.25.21:554][802]CompilerResultsLog: Parsing headers for QLProjEditor
+[2023.03.01-22.25.21:554][802]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\QLProj.uproject" "C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\QLProjEditor\Development\QLProjEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\seanp\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2023.03.01-22.25.21:554][802]CompilerResultsLog: Reflection code generated for QLProjEditor in 2.9398668 seconds
+[2023.03.01-22.25.21:554][802]CompilerResultsLog: Building QLProjEditor...
+[2023.03.01-22.25.21:554][802]CompilerResultsLog: Using Visual Studio 2022 14.33.31630 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.03.01-22.25.21:554][802]CompilerResultsLog: [Adaptive Build] Excluded from QLProj unity file: AgentController.cpp
+[2023.03.01-22.25.21:554][802]CompilerResultsLog: Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+[2023.03.01-22.25.21:554][802]CompilerResultsLog:   Executing up to 8 processes, one per physical core
+[2023.03.01-22.25.21:554][802]CompilerResultsLog:   Requested 1.5 GB free memory per action, 5.07 GB available: limiting max parallel actions to 3
+[2023.03.01-22.25.21:554][802]CompilerResultsLog: Building 5 actions with 3 processes...
+[2023.03.01-22.25.21:554][802]CompilerResultsLog: [1/5] Compile AgentController.gen.cpp
+[2023.03.01-22.25.21:554][802]CompilerResultsLog: [2/5] Compile AgentController.cpp
+[2023.03.01-22.25.21:554][802]CompilerResultsLog: [3/5] Link UnrealEditor-QLProj-4836.lib
+[2023.03.01-22.25.21:554][802]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-4836.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-4836.exp
+[2023.03.01-22.25.21:554][802]CompilerResultsLog: [4/5] Link UnrealEditor-QLProj-4836.dll
+[2023.03.01-22.25.21:554][802]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-4836.suppressed.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-4836.suppressed.exp
+[2023.03.01-22.25.21:554][802]CompilerResultsLog: [5/5] WriteMetadata QLProjEditor.target
+[2023.03.01-22.25.21:554][802]CompilerResultsLog: Total time in Parallel executor: 17.08 seconds
+[2023.03.01-22.25.21:554][802]CompilerResultsLog: Total execution time: 23.47 seconds
+[2023.03.01-22.25.21:554][802]LogMainFrame: MainFrame: Module compiling took 23.721 seconds
