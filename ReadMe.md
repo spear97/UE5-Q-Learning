@@ -1,0 +1,1 @@
+This is a Remake of the Senior Design Capstone that was created for the Spring Semester of 2022 at Texas Wesleyan University. I scaled down the Scope of the application, and the overall simulation focused on getting an AI Agent to Navigate a Maze to reach the location of a Goal in a Maze using the Q-Learning Algorithm. 
