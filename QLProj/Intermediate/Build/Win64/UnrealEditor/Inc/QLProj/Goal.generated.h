@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define QLPROJ_Goal_generated_h
 
-#define FID_QLProj_Source_QLProj_Public_Goal_h_14_SPARSE_DATA
-#define FID_QLProj_Source_QLProj_Public_Goal_h_14_RPC_WRAPPERS
-#define FID_QLProj_Source_QLProj_Public_Goal_h_14_RPC_WRAPPERS_NO_PURE_DECLS
-#define FID_QLProj_Source_QLProj_Public_Goal_h_14_INCLASS_NO_PURE_DECLS \
+#define FID_QLProj_Source_QLProj_Public_Goal_h_17_SPARSE_DATA
+#define FID_QLProj_Source_QLProj_Public_Goal_h_17_RPC_WRAPPERS
+#define FID_QLProj_Source_QLProj_Public_Goal_h_17_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_QLProj_Source_QLProj_Public_Goal_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAGoal(); \
 	friend struct Z_Construct_UClass_AGoal_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AGoal)
 
 
-#define FID_QLProj_Source_QLProj_Public_Goal_h_14_INCLASS \
+#define FID_QLProj_Source_QLProj_Public_Goal_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesAGoal(); \
 	friend struct Z_Construct_UClass_AGoal_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AGoal)
 
 
-#define FID_QLProj_Source_QLProj_Public_Goal_h_14_STANDARD_CONSTRUCTORS \
+#define FID_QLProj_Source_QLProj_Public_Goal_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AGoal(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AGoal) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define FID_QLProj_Source_QLProj_Public_Goal_h_14_ENHANCED_CONSTRUCTORS \
+#define FID_QLProj_Source_QLProj_Public_Goal_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AGoal(AGoal&&); \
@@ -58,25 +58,25 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AGoal)
 
 
-#define FID_QLProj_Source_QLProj_Public_Goal_h_11_PROLOG
-#define FID_QLProj_Source_QLProj_Public_Goal_h_14_GENERATED_BODY_LEGACY \
+#define FID_QLProj_Source_QLProj_Public_Goal_h_14_PROLOG
+#define FID_QLProj_Source_QLProj_Public_Goal_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_QLProj_Source_QLProj_Public_Goal_h_14_SPARSE_DATA \
-	FID_QLProj_Source_QLProj_Public_Goal_h_14_RPC_WRAPPERS \
-	FID_QLProj_Source_QLProj_Public_Goal_h_14_INCLASS \
-	FID_QLProj_Source_QLProj_Public_Goal_h_14_STANDARD_CONSTRUCTORS \
+	FID_QLProj_Source_QLProj_Public_Goal_h_17_SPARSE_DATA \
+	FID_QLProj_Source_QLProj_Public_Goal_h_17_RPC_WRAPPERS \
+	FID_QLProj_Source_QLProj_Public_Goal_h_17_INCLASS \
+	FID_QLProj_Source_QLProj_Public_Goal_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_QLProj_Source_QLProj_Public_Goal_h_14_GENERATED_BODY \
+#define FID_QLProj_Source_QLProj_Public_Goal_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_QLProj_Source_QLProj_Public_Goal_h_14_SPARSE_DATA \
-	FID_QLProj_Source_QLProj_Public_Goal_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_QLProj_Source_QLProj_Public_Goal_h_14_INCLASS_NO_PURE_DECLS \
-	FID_QLProj_Source_QLProj_Public_Goal_h_14_ENHANCED_CONSTRUCTORS \
+	FID_QLProj_Source_QLProj_Public_Goal_h_17_SPARSE_DATA \
+	FID_QLProj_Source_QLProj_Public_Goal_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_QLProj_Source_QLProj_Public_Goal_h_17_INCLASS_NO_PURE_DECLS \
+	FID_QLProj_Source_QLProj_Public_Goal_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

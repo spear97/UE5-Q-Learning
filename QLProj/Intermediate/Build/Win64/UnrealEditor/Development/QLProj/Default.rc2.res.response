@@ -62,6 +62,7 @@
 /DBUILD_VERSION=++UE5+Release-5.0-CL-20979098
 /DBUILD_ICON_FILE_NAME="\"..\\Build\\Windows\\Resources\\Default.ico\""
 /DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
+/DPROJECT_PRODUCT_NAME="Q-Learning UE5"
 /DPROJECT_PRODUCT_IDENTIFIER=QLProj
 /fo "C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\Default.rc2.res"
 "..\Build\Windows\Resources\Default.rc2"
