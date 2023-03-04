@@ -149,13 +149,17 @@ void AAgentController::Q_Learning()
 		if (currDist < prevDist)
 		{
 			r = 1;
+			prevDist = currDist;
 		}
 		else
 		{
-			r = -1;
+			r = -5;
+			prevDist = currDist;
 		}
 
 		Q[s][a] = CalculatePolicy();
+
+		DisplayRow();
 	}
 }
 

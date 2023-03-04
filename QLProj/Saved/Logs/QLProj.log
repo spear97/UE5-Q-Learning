@@ -814,3 +814,1357 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.03.04-01.45.23:459][468]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
 [2023.03.04-01.45.23:497][469]LogPlayLevel: Display: Destroying online subsystem :Context_2
 [2023.03.04-01.45.29:236][641]LogDerivedDataCache: C:/Users/seanp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:13.472 and deleted 0 file(s) with total size 0 MiB.
+[2023.03.04-01.46.28:744][969]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.04-01.46.28:749][969]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.04-01.46.28:749][969]PIE: New page: PIE session: ZaWorudo_Complex (Mar 3, 2023, 1:46:28 PM)
+[2023.03.04-01.46.28:749][969]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.04-01.46.28:889][969]LogPlayLevel: PIE: StaticDuplicateObject took: (0.139364s)
+[2023.03.04-01.46.28:889][969]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex to /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex (0.139473s)
+[2023.03.04-01.46.28:889][969]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.04-01.46.28:890][969]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.04-01.46.28:890][969]LogAIModule: Creating AISystem for world ZaWorudo_Complex
+[2023.03.04-01.46.28:891][969]LogPlayLevel: PIE: World Init took: (0.001187s)
+[2023.03.04-01.46.28:897][969]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.03.04-01.46.28:898][969]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.03.04-01.46.28:898][969]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.04-01.46.28:898][969]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.04-01.46.28:898][969]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.04-01.46.28:898][969]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.04-01.46.28:898][969]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.04-01.46.28:898][969]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.04-01.46.28:898][969]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.04-01.46.28:898][969]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.04-01.46.28:899][969]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.04-01.46.28:899][969]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.04-01.46.28:899][969]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.04-01.46.28:900][969]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.04-01.46.29:062][969]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2023.03.04-01.46.29:062][969]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.04-01.46.29:062][969]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.04-01.46.29:062][969]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.04-01.46.29:063][969]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.03.04-01.46.29:063][969]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.03.04-01.46.29:065][969]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.03.04-01.46.29:065][969]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.03.04-01.46.29:065][969]LogInit: FAudioDevice initialized.
+[2023.03.04-01.46.29:065][969]LogAudio: Display: Audio Device (ID: 4) registered with world 'ZaWorudo_Complex'.
+[2023.03.04-01.46.29:081][969]LogLoad: Game class is 'GameModeBase'
+[2023.03.04-01.46.29:090][969]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex up for play (max tick rate 60) at 2023.03.03-19.46.29
+[2023.03.04-01.46.29:091][969]LogWorld: Bringing up level for play took: 0.009449
+[2023.03.04-01.46.29:093][969]LogOnline: OSS: Created online subsystem instance for: :Context_3
+[2023.03.04-01.46.29:095][969]PIE: Server logged in
+[2023.03.04-01.46.29:096][969]PIE: Play in editor total start time 0.347 seconds.
+[2023.03.04-01.47.21:612][110]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.04-01.47.21:612][110]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.04-01.47.21:612][110]LogWorld: UWorld::CleanupWorld for ZaWorudo_Complex, bSessionEnded=true, bCleanupResources=true
+[2023.03.04-01.47.21:613][110]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-01.47.21:629][110]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.04-01.47.21:632][110]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-01.47.21:639][110]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.04-01.47.21:639][110]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.03.04-01.47.21:641][110]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.03.04-01.47.21:648][110]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.04-01.47.21:655][110]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.03.04-01.47.21:688][111]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2023.03.04-01.47.36:004][323]Candidate modules for hot reload:
+[2023.03.04-01.47.36:004][323]  QLProj
+[2023.03.04-01.47.36:010][323]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=QLProj,1559 QLProjEditor Win64 Development -Project="C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject" "C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject"  -IgnoreJunk]
+[2023.03.04-01.47.36:013][323]Warning: Starting HotReload took  0.1s.
+[2023.03.04-01.47.40:902][600]CompilerResultsLog: New page: Compilation - Mar 3, 2023, 1:47:40 PM
+[2023.03.04-01.47.40:902][600]CompilerResultsLog: Log file: C:\Users\seanp\AppData\Local\UnrealBuildTool\Log.txt
+[2023.03.04-01.47.40:902][600]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\seanp\Documents\Github\UE5-Q-Learning).
+[2023.03.04-01.47.40:902][600]CompilerResultsLog: Building QLProjEditor...
+[2023.03.04-01.47.40:902][600]CompilerResultsLog: Using Visual Studio 2022 14.33.31630 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.03.04-01.47.40:902][600]CompilerResultsLog: [Adaptive Build] Excluded from QLProj unity file: Agent.cpp, AgentController.cpp
+[2023.03.04-01.47.40:902][600]CompilerResultsLog: Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+[2023.03.04-01.47.40:902][600]CompilerResultsLog:   Executing up to 8 processes, one per physical core
+[2023.03.04-01.47.40:902][600]CompilerResultsLog:   Requested 1.5 GB free memory per action, 4.46 GB available: limiting max parallel actions to 2
+[2023.03.04-01.47.40:902][600]CompilerResultsLog: Building 4 actions with 2 processes...
+[2023.03.04-01.47.40:902][600]CompilerResultsLog: [1/4] Compile AgentController.cpp
+[2023.03.04-01.47.40:902][600]CompilerResultsLog: [2/4] Link UnrealEditor-QLProj-1559.lib
+[2023.03.04-01.47.40:902][600]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-1559.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-1559.exp
+[2023.03.04-01.47.40:902][600]CompilerResultsLog: [3/4] Link UnrealEditor-QLProj-1559.dll
+[2023.03.04-01.47.40:902][600]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-1559.suppressed.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-1559.suppressed.exp
+[2023.03.04-01.47.40:902][600]CompilerResultsLog: [4/4] WriteMetadata QLProjEditor.target
+[2023.03.04-01.47.40:902][600]CompilerResultsLog: Total time in Parallel executor: 3.71 seconds
+[2023.03.04-01.47.40:902][600]CompilerResultsLog: Total execution time: 4.73 seconds
+[2023.03.04-01.47.40:902][600]LogMainFrame: MainFrame: Module compiling took 4.947 seconds
+[2023.03.04-01.47.41:056][600]Display: HotReload took  5.1s.
+[2023.03.04-01.47.41:056][600]Display: Reload/Re-instancing Complete: 1 package changed, 5 classes unchanged
+[2023.03.04-01.47.42:589][692]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.04-01.47.42:595][692]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.04-01.47.42:596][692]PIE: New page: PIE session: ZaWorudo_Complex (Mar 3, 2023, 1:47:42 PM)
+[2023.03.04-01.47.42:596][692]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.04-01.47.42:753][692]LogPlayLevel: PIE: StaticDuplicateObject took: (0.156786s)
+[2023.03.04-01.47.42:753][692]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex to /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex (0.156873s)
+[2023.03.04-01.47.42:753][692]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.04-01.47.42:753][692]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.04-01.47.42:754][692]LogAIModule: Creating AISystem for world ZaWorudo_Complex
+[2023.03.04-01.47.42:754][692]LogPlayLevel: PIE: World Init took: (0.001003s)
+[2023.03.04-01.47.42:762][692]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.03.04-01.47.42:763][692]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.03.04-01.47.42:763][692]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.04-01.47.42:763][692]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.04-01.47.42:763][692]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.04-01.47.42:763][692]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.04-01.47.42:763][692]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.04-01.47.42:763][692]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.04-01.47.42:763][692]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.04-01.47.42:763][692]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.04-01.47.42:763][692]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.04-01.47.42:763][692]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.04-01.47.42:763][692]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.04-01.47.42:766][692]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.04-01.47.42:955][692]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2023.03.04-01.47.42:955][692]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.04-01.47.42:955][692]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.04-01.47.42:955][692]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.04-01.47.42:955][692]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2023.03.04-01.47.42:955][692]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2023.03.04-01.47.42:957][692]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2023.03.04-01.47.42:957][692]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2023.03.04-01.47.42:957][692]LogInit: FAudioDevice initialized.
+[2023.03.04-01.47.42:957][692]LogAudio: Display: Audio Device (ID: 5) registered with world 'ZaWorudo_Complex'.
+[2023.03.04-01.47.42:976][692]LogLoad: Game class is 'GameModeBase'
+[2023.03.04-01.47.42:985][692]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex up for play (max tick rate 60) at 2023.03.03-19.47.42
+[2023.03.04-01.47.42:985][692]LogWorld: Bringing up level for play took: 0.009752
+[2023.03.04-01.47.42:988][692]LogOnline: OSS: Created online subsystem instance for: :Context_4
+[2023.03.04-01.47.42:991][692]PIE: Server logged in
+[2023.03.04-01.47.42:992][692]PIE: Play in editor total start time 0.396 seconds.
+[2023.03.04-01.52.49:249][ 50]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.04-01.52.49:249][ 50]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.04-01.52.49:249][ 50]LogWorld: UWorld::CleanupWorld for ZaWorudo_Complex, bSessionEnded=true, bCleanupResources=true
+[2023.03.04-01.52.49:251][ 50]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-01.52.49:265][ 50]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.04-01.52.49:269][ 50]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-01.52.49:276][ 50]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.04-01.52.49:277][ 50]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.03.04-01.52.49:278][ 50]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.03.04-01.52.49:287][ 50]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.04-01.52.49:293][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.03.04-01.52.49:330][ 51]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2023.03.04-01.57.23:088][  2]Candidate modules for hot reload:
+[2023.03.04-01.57.23:088][  2]  QLProj
+[2023.03.04-01.57.23:095][  2]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=QLProj,4370 QLProjEditor Win64 Development -Project="C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject" "C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject"  -IgnoreJunk]
+[2023.03.04-01.57.23:099][  2]Warning: Starting HotReload took  0.1s.
+[2023.03.04-01.57.39:798][958]CompilerResultsLog: New page: Compilation - Mar 3, 2023, 1:57:39 PM
+[2023.03.04-01.57.39:799][958]CompilerResultsLog: Log file: C:\Users\seanp\AppData\Local\UnrealBuildTool\Log.txt
+[2023.03.04-01.57.39:799][958]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\seanp\Documents\Github\UE5-Q-Learning).
+[2023.03.04-01.57.39:799][958]CompilerResultsLog: Invalidating makefile for QLProjEditor (working set of source files changed)
+[2023.03.04-01.57.39:799][958]CompilerResultsLog: Parsing headers for QLProjEditor
+[2023.03.04-01.57.39:799][958]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\QLProj.uproject" "C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\QLProjEditor\Development\QLProjEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\seanp\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2023.03.04-01.57.39:799][958]CompilerResultsLog: Reflection code generated for QLProjEditor in 2.46294 seconds
+[2023.03.04-01.57.39:799][958]CompilerResultsLog: Building QLProjEditor...
+[2023.03.04-01.57.39:799][958]CompilerResultsLog: Using Visual Studio 2022 14.33.31630 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.03.04-01.57.39:799][958]CompilerResultsLog: [Adaptive Build] Excluded from QLProj unity file: AgentController.cpp
+[2023.03.04-01.57.39:799][958]CompilerResultsLog: Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+[2023.03.04-01.57.39:799][958]CompilerResultsLog:   Executing up to 8 processes, one per physical core
+[2023.03.04-01.57.39:799][958]CompilerResultsLog:   Requested 1.5 GB free memory per action, 5.99 GB available: limiting max parallel actions to 3
+[2023.03.04-01.57.39:799][958]CompilerResultsLog: Building 5 actions with 3 processes...
+[2023.03.04-01.57.39:799][958]CompilerResultsLog: [1/5] Compile AgentController.gen.cpp
+[2023.03.04-01.57.39:799][958]CompilerResultsLog: [2/5] Compile AgentController.cpp
+[2023.03.04-01.57.39:799][958]CompilerResultsLog: [3/5] Link UnrealEditor-QLProj-4370.lib
+[2023.03.04-01.57.39:799][958]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-4370.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-4370.exp
+[2023.03.04-01.57.39:799][958]CompilerResultsLog: [4/5] Link UnrealEditor-QLProj-4370.dll
+[2023.03.04-01.57.39:799][958]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-4370.suppressed.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-4370.suppressed.exp
+[2023.03.04-01.57.39:799][958]CompilerResultsLog: [5/5] WriteMetadata QLProjEditor.target
+[2023.03.04-01.57.39:799][958]CompilerResultsLog: Total time in Parallel executor: 11.12 seconds
+[2023.03.04-01.57.39:799][958]CompilerResultsLog: Total execution time: 16.53 seconds
+[2023.03.04-01.57.39:799][958]LogMainFrame: MainFrame: Module compiling took 16.752 seconds
+[2023.03.04-01.57.39:922][958]Display: HotReload took 16.9s.
+[2023.03.04-01.57.39:922][958]Display: Reload/Re-instancing Complete: 1 package changed, 5 classes unchanged
+[2023.03.04-01.57.45:399][286]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.04-01.57.45:406][286]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.04-01.57.45:406][286]PIE: New page: PIE session: ZaWorudo_Complex (Mar 3, 2023, 1:57:45 PM)
+[2023.03.04-01.57.45:427][286]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.04-01.57.45:606][286]LogPlayLevel: PIE: StaticDuplicateObject took: (0.178336s)
+[2023.03.04-01.57.45:606][286]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex to /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex (0.178457s)
+[2023.03.04-01.57.45:606][286]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.04-01.57.45:606][286]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.04-01.57.45:607][286]LogAIModule: Creating AISystem for world ZaWorudo_Complex
+[2023.03.04-01.57.45:607][286]LogPlayLevel: PIE: World Init took: (0.000824s)
+[2023.03.04-01.57.45:614][286]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.03.04-01.57.45:615][286]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.03.04-01.57.45:615][286]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.04-01.57.45:615][286]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.04-01.57.45:615][286]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.04-01.57.45:615][286]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.04-01.57.45:615][286]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.04-01.57.45:615][286]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.04-01.57.45:615][286]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.04-01.57.45:615][286]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.04-01.57.45:615][286]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.04-01.57.45:616][286]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.04-01.57.45:616][286]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.04-01.57.45:618][286]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.04-01.57.45:779][286]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2023.03.04-01.57.45:779][286]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.04-01.57.45:779][286]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.04-01.57.45:779][286]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.04-01.57.45:779][286]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2023.03.04-01.57.45:780][286]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2023.03.04-01.57.45:782][286]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2023.03.04-01.57.45:782][286]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2023.03.04-01.57.45:782][286]LogInit: FAudioDevice initialized.
+[2023.03.04-01.57.45:782][286]LogAudio: Display: Audio Device (ID: 6) registered with world 'ZaWorudo_Complex'.
+[2023.03.04-01.57.45:797][286]LogLoad: Game class is 'GameModeBase'
+[2023.03.04-01.57.45:806][286]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex up for play (max tick rate 60) at 2023.03.03-19.57.45
+[2023.03.04-01.57.45:807][286]LogWorld: Bringing up level for play took: 0.009498
+[2023.03.04-01.57.45:809][286]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2023.03.04-01.57.45:811][286]PIE: Server logged in
+[2023.03.04-01.57.45:812][286]PIE: Play in editor total start time 0.406 seconds.
+[2023.03.04-01.57.47:796][392]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.04-01.57.47:796][392]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.04-01.57.47:797][392]LogWorld: UWorld::CleanupWorld for ZaWorudo_Complex, bSessionEnded=true, bCleanupResources=true
+[2023.03.04-01.57.47:798][392]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-01.57.47:811][392]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.04-01.57.47:814][392]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-01.57.47:820][392]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.04-01.57.47:823][392]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.03.04-01.57.47:825][392]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.03.04-01.57.47:832][392]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.04-01.57.47:837][392]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.03.04-01.57.47:885][395]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2023.03.04-01.58.22:867][558]Candidate modules for hot reload:
+[2023.03.04-01.58.22:867][558]  QLProj
+[2023.03.04-01.58.22:872][558]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=QLProj,5328 QLProjEditor Win64 Development -Project="C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject" "C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject"  -IgnoreJunk]
+[2023.03.04-01.58.22:875][558]Warning: Starting HotReload took  0.1s.
+[2023.03.04-01.58.27:562][822]CompilerResultsLog: New page: Compilation - Mar 3, 2023, 1:58:27 PM
+[2023.03.04-01.58.27:562][822]CompilerResultsLog: Log file: C:\Users\seanp\AppData\Local\UnrealBuildTool\Log.txt
+[2023.03.04-01.58.27:562][822]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\seanp\Documents\Github\UE5-Q-Learning).
+[2023.03.04-01.58.27:562][822]CompilerResultsLog: Building QLProjEditor...
+[2023.03.04-01.58.27:562][822]CompilerResultsLog: Using Visual Studio 2022 14.33.31630 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.03.04-01.58.27:562][822]CompilerResultsLog: [Adaptive Build] Excluded from QLProj unity file: AgentController.cpp
+[2023.03.04-01.58.27:562][822]CompilerResultsLog: Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+[2023.03.04-01.58.27:562][822]CompilerResultsLog:   Executing up to 8 processes, one per physical core
+[2023.03.04-01.58.27:562][822]CompilerResultsLog:   Requested 1.5 GB free memory per action, 5.84 GB available: limiting max parallel actions to 3
+[2023.03.04-01.58.27:562][822]CompilerResultsLog: Building 4 actions with 3 processes...
+[2023.03.04-01.58.27:562][822]CompilerResultsLog: [1/4] Compile AgentController.cpp
+[2023.03.04-01.58.27:562][822]CompilerResultsLog: [2/4] Link UnrealEditor-QLProj-5328.lib
+[2023.03.04-01.58.27:562][822]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-5328.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-5328.exp
+[2023.03.04-01.58.27:562][822]CompilerResultsLog: [3/4] Link UnrealEditor-QLProj-5328.dll
+[2023.03.04-01.58.27:562][822]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-5328.suppressed.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-5328.suppressed.exp
+[2023.03.04-01.58.27:562][822]CompilerResultsLog: [4/4] WriteMetadata QLProjEditor.target
+[2023.03.04-01.58.27:562][822]CompilerResultsLog: Total time in Parallel executor: 3.54 seconds
+[2023.03.04-01.58.27:562][822]CompilerResultsLog: Total execution time: 4.54 seconds
+[2023.03.04-01.58.27:562][822]LogMainFrame: MainFrame: Module compiling took 4.741 seconds
+[2023.03.04-01.58.27:688][822]Display: HotReload took  4.9s.
+[2023.03.04-01.58.27:688][822]Display: Reload/Re-instancing Complete: 1 package changed, 5 classes unchanged
+[2023.03.04-01.58.29:456][928]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.04-01.58.29:462][928]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.04-01.58.29:462][928]PIE: New page: PIE session: ZaWorudo_Complex (Mar 3, 2023, 1:58:29 PM)
+[2023.03.04-01.58.29:462][928]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.04-01.58.29:608][928]LogPlayLevel: PIE: StaticDuplicateObject took: (0.146203s)
+[2023.03.04-01.58.29:608][928]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex to /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex (0.146289s)
+[2023.03.04-01.58.29:608][928]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.04-01.58.29:608][928]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.04-01.58.29:609][928]LogAIModule: Creating AISystem for world ZaWorudo_Complex
+[2023.03.04-01.58.29:609][928]LogPlayLevel: PIE: World Init took: (0.000856s)
+[2023.03.04-01.58.29:618][928]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.03.04-01.58.29:618][928]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.03.04-01.58.29:619][928]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.04-01.58.29:619][928]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.04-01.58.29:619][928]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.04-01.58.29:619][928]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.04-01.58.29:619][928]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.04-01.58.29:619][928]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.04-01.58.29:619][928]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.04-01.58.29:619][928]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.04-01.58.29:619][928]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.04-01.58.29:619][928]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.04-01.58.29:619][928]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.04-01.58.29:621][928]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.04-01.58.29:784][928]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2023.03.04-01.58.29:784][928]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.04-01.58.29:784][928]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.04-01.58.29:784][928]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.04-01.58.29:785][928]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2023.03.04-01.58.29:785][928]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2023.03.04-01.58.29:787][928]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2023.03.04-01.58.29:787][928]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2023.03.04-01.58.29:787][928]LogInit: FAudioDevice initialized.
+[2023.03.04-01.58.29:787][928]LogAudio: Display: Audio Device (ID: 7) registered with world 'ZaWorudo_Complex'.
+[2023.03.04-01.58.29:802][928]LogLoad: Game class is 'GameModeBase'
+[2023.03.04-01.58.29:811][928]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex up for play (max tick rate 60) at 2023.03.03-19.58.29
+[2023.03.04-01.58.29:812][928]LogWorld: Bringing up level for play took: 0.009573
+[2023.03.04-01.58.29:814][928]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2023.03.04-01.58.29:816][928]PIE: Server logged in
+[2023.03.04-01.58.29:817][928]PIE: Play in editor total start time 0.355 seconds.
+[2023.03.04-01.58.47:647][981]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.04-01.58.47:647][981]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.04-01.58.47:648][981]LogWorld: UWorld::CleanupWorld for ZaWorudo_Complex, bSessionEnded=true, bCleanupResources=true
+[2023.03.04-01.58.47:649][981]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-01.58.47:661][981]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.04-01.58.47:664][981]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-01.58.47:670][981]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.04-01.58.47:673][981]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.03.04-01.58.47:675][981]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.03.04-01.58.47:688][981]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.03.04-01.58.47:719][983]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2023.03.04-01.59.23:576][215]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.04-01.59.23:582][215]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.04-01.59.23:582][215]PIE: New page: PIE session: ZaWorudo_Complex (Mar 3, 2023, 1:59:23 PM)
+[2023.03.04-01.59.23:582][215]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.04-01.59.23:738][215]LogPlayLevel: PIE: StaticDuplicateObject took: (0.155845s)
+[2023.03.04-01.59.23:738][215]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex to /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex (0.155954s)
+[2023.03.04-01.59.23:738][215]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.04-01.59.23:738][215]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.04-01.59.23:739][215]LogAIModule: Creating AISystem for world ZaWorudo_Complex
+[2023.03.04-01.59.23:740][215]LogPlayLevel: PIE: World Init took: (0.001521s)
+[2023.03.04-01.59.23:746][215]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.03.04-01.59.23:747][215]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2023.03.04-01.59.23:747][215]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.04-01.59.23:747][215]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.04-01.59.23:747][215]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.04-01.59.23:747][215]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.04-01.59.23:747][215]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.04-01.59.23:747][215]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.04-01.59.23:747][215]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.04-01.59.23:747][215]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.04-01.59.23:747][215]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.04-01.59.23:747][215]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.04-01.59.23:747][215]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.04-01.59.23:749][215]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.04-01.59.23:913][215]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2023.03.04-01.59.23:913][215]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.04-01.59.23:913][215]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.04-01.59.23:913][215]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.04-01.59.23:914][215]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2023.03.04-01.59.23:914][215]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2023.03.04-01.59.23:916][215]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2023.03.04-01.59.23:916][215]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2023.03.04-01.59.23:916][215]LogInit: FAudioDevice initialized.
+[2023.03.04-01.59.23:916][215]LogAudio: Display: Audio Device (ID: 8) registered with world 'ZaWorudo_Complex'.
+[2023.03.04-01.59.23:931][215]LogLoad: Game class is 'GameModeBase'
+[2023.03.04-01.59.23:940][215]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex up for play (max tick rate 60) at 2023.03.03-19.59.23
+[2023.03.04-01.59.23:941][215]LogWorld: Bringing up level for play took: 0.009985
+[2023.03.04-01.59.23:943][215]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2023.03.04-01.59.23:945][215]PIE: Server logged in
+[2023.03.04-01.59.23:946][215]PIE: Play in editor total start time 0.363 seconds.
+[2023.03.04-01.59.25:568][297]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.04-01.59.25:568][297]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.04-01.59.25:568][297]LogWorld: UWorld::CleanupWorld for ZaWorudo_Complex, bSessionEnded=true, bCleanupResources=true
+[2023.03.04-01.59.25:569][297]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-01.59.25:583][297]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.04-01.59.25:586][297]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-01.59.25:594][297]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.04-01.59.25:594][297]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.03.04-01.59.25:596][297]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.03.04-01.59.25:602][297]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.04-01.59.25:609][297]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.03.04-01.59.25:640][299]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2023.03.04-01.59.38:947][411]Candidate modules for hot reload:
+[2023.03.04-01.59.38:947][411]  QLProj
+[2023.03.04-01.59.38:952][411]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=QLProj,3603 QLProjEditor Win64 Development -Project="C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject" "C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject"  -IgnoreJunk]
+[2023.03.04-01.59.38:955][411]Warning: Starting HotReload took  0.1s.
+[2023.03.04-01.59.46:310][810]CompilerResultsLog: New page: Compilation - Mar 3, 2023, 1:59:46 PM
+[2023.03.04-01.59.46:311][810]CompilerResultsLog: Log file: C:\Users\seanp\AppData\Local\UnrealBuildTool\Log.txt
+[2023.03.04-01.59.46:311][810]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\seanp\Documents\Github\UE5-Q-Learning).
+[2023.03.04-01.59.46:311][810]CompilerResultsLog: Invalidating makefile for QLProjEditor (working set of source files changed)
+[2023.03.04-01.59.46:311][810]CompilerResultsLog: Parsing headers for QLProjEditor
+[2023.03.04-01.59.46:311][810]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\QLProj.uproject" "C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\QLProjEditor\Development\QLProjEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\seanp\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2023.03.04-01.59.46:311][810]CompilerResultsLog: Reflection code generated for QLProjEditor in 1.7549183 seconds
+[2023.03.04-01.59.46:311][810]CompilerResultsLog: Building QLProjEditor...
+[2023.03.04-01.59.46:311][810]CompilerResultsLog: Using Visual Studio 2022 14.33.31630 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.03.04-01.59.46:311][810]CompilerResultsLog: [Adaptive Build] Excluded from QLProj unity file: AgentController.cpp
+[2023.03.04-01.59.46:311][810]CompilerResultsLog: Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+[2023.03.04-01.59.46:311][810]CompilerResultsLog:   Executing up to 8 processes, one per physical core
+[2023.03.04-01.59.46:311][810]CompilerResultsLog:   Requested 1.5 GB free memory per action, 5.84 GB available: limiting max parallel actions to 3
+[2023.03.04-01.59.46:311][810]CompilerResultsLog: Building 5 actions with 3 processes...
+[2023.03.04-01.59.46:311][810]CompilerResultsLog: [1/5] Compile AgentController.gen.cpp
+[2023.03.04-01.59.46:311][810]CompilerResultsLog: [2/5] Compile AgentController.cpp
+[2023.03.04-01.59.46:311][810]CompilerResultsLog: [3/5] Link UnrealEditor-QLProj-3603.lib
+[2023.03.04-01.59.46:311][810]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-3603.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-3603.exp
+[2023.03.04-01.59.46:311][810]CompilerResultsLog: [4/5] Link UnrealEditor-QLProj-3603.dll
+[2023.03.04-01.59.46:311][810]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-3603.suppressed.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-3603.suppressed.exp
+[2023.03.04-01.59.46:311][810]CompilerResultsLog: [5/5] WriteMetadata QLProjEditor.target
+[2023.03.04-01.59.46:311][810]CompilerResultsLog: Total time in Parallel executor: 3.09 seconds
+[2023.03.04-01.59.46:311][810]CompilerResultsLog: Total execution time: 7.21 seconds
+[2023.03.04-01.59.46:311][810]LogMainFrame: MainFrame: Module compiling took 7.403 seconds
+[2023.03.04-01.59.46:432][810]Display: HotReload took  7.5s.
+[2023.03.04-01.59.46:432][810]Display: Reload/Re-instancing Complete: 1 package changed, 5 classes unchanged
+[2023.03.04-01.59.48:049][907]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.04-01.59.48:056][907]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.04-01.59.48:056][907]PIE: New page: PIE session: ZaWorudo_Complex (Mar 3, 2023, 1:59:48 PM)
+[2023.03.04-01.59.48:056][907]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.04-01.59.48:197][907]LogPlayLevel: PIE: StaticDuplicateObject took: (0.140506s)
+[2023.03.04-01.59.48:197][907]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex to /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex (0.140587s)
+[2023.03.04-01.59.48:197][907]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.04-01.59.48:197][907]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.04-01.59.48:198][907]LogAIModule: Creating AISystem for world ZaWorudo_Complex
+[2023.03.04-01.59.48:198][907]LogPlayLevel: PIE: World Init took: (0.000869s)
+[2023.03.04-01.59.48:207][907]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2023.03.04-01.59.48:208][907]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2023.03.04-01.59.48:208][907]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.04-01.59.48:208][907]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.04-01.59.48:208][907]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.04-01.59.48:208][907]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.04-01.59.48:208][907]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.04-01.59.48:208][907]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.04-01.59.48:208][907]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.04-01.59.48:208][907]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.04-01.59.48:209][907]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.04-01.59.48:209][907]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.04-01.59.48:209][907]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.04-01.59.48:211][907]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.04-01.59.48:367][907]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2023.03.04-01.59.48:367][907]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.04-01.59.48:367][907]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.04-01.59.48:367][907]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.04-01.59.48:368][907]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2023.03.04-01.59.48:368][907]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2023.03.04-01.59.48:369][907]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2023.03.04-01.59.48:369][907]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2023.03.04-01.59.48:369][907]LogInit: FAudioDevice initialized.
+[2023.03.04-01.59.48:369][907]LogAudio: Display: Audio Device (ID: 9) registered with world 'ZaWorudo_Complex'.
+[2023.03.04-01.59.48:388][907]LogLoad: Game class is 'GameModeBase'
+[2023.03.04-01.59.48:397][907]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex up for play (max tick rate 60) at 2023.03.03-19.59.48
+[2023.03.04-01.59.48:398][907]LogWorld: Bringing up level for play took: 0.009921
+[2023.03.04-01.59.48:400][907]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2023.03.04-01.59.48:402][907]PIE: Server logged in
+[2023.03.04-01.59.48:403][907]PIE: Play in editor total start time 0.347 seconds.
+[2023.03.04-01.59.51:999][107]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.04-01.59.51:999][107]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.04-01.59.52:000][107]LogWorld: UWorld::CleanupWorld for ZaWorudo_Complex, bSessionEnded=true, bCleanupResources=true
+[2023.03.04-01.59.52:001][107]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-01.59.52:016][107]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.04-01.59.52:019][107]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-01.59.52:026][107]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.04-01.59.52:028][107]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.03.04-01.59.52:030][107]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.03.04-01.59.52:037][107]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.04-01.59.52:043][107]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.03.04-01.59.52:074][109]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2023.03.04-02.00.05:092][359]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.04-02.00.05:098][359]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.04-02.00.05:099][359]PIE: New page: PIE session: ZaWorudo_Complex (Mar 3, 2023, 2:00:05 PM)
+[2023.03.04-02.00.05:099][359]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.04-02.00.05:245][359]LogPlayLevel: PIE: StaticDuplicateObject took: (0.146631s)
+[2023.03.04-02.00.05:245][359]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex to /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex (0.146714s)
+[2023.03.04-02.00.05:245][359]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.04-02.00.05:245][359]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.04-02.00.05:246][359]LogAIModule: Creating AISystem for world ZaWorudo_Complex
+[2023.03.04-02.00.05:246][359]LogPlayLevel: PIE: World Init took: (0.000986s)
+[2023.03.04-02.00.05:252][359]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2023.03.04-02.00.05:253][359]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2023.03.04-02.00.05:253][359]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.04-02.00.05:253][359]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.04-02.00.05:253][359]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.04-02.00.05:253][359]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.04-02.00.05:253][359]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.04-02.00.05:253][359]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.04-02.00.05:253][359]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.04-02.00.05:253][359]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.04-02.00.05:254][359]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.04-02.00.05:254][359]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.04-02.00.05:254][359]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.04-02.00.05:256][359]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.04-02.00.05:420][359]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2023.03.04-02.00.05:421][359]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.04-02.00.05:421][359]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.04-02.00.05:421][359]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.04-02.00.05:421][359]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2023.03.04-02.00.05:421][359]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2023.03.04-02.00.05:423][359]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2023.03.04-02.00.05:423][359]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2023.03.04-02.00.05:423][359]LogInit: FAudioDevice initialized.
+[2023.03.04-02.00.05:423][359]LogAudio: Display: Audio Device (ID: 10) registered with world 'ZaWorudo_Complex'.
+[2023.03.04-02.00.05:441][359]LogLoad: Game class is 'GameModeBase'
+[2023.03.04-02.00.05:450][359]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex up for play (max tick rate 60) at 2023.03.03-20.00.05
+[2023.03.04-02.00.05:450][359]LogWorld: Bringing up level for play took: 0.009676
+[2023.03.04-02.00.05:452][359]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2023.03.04-02.00.05:454][359]PIE: Server logged in
+[2023.03.04-02.00.05:455][359]PIE: Play in editor total start time 0.357 seconds.
+[2023.03.04-02.00.06:986][435]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.04-02.00.06:986][435]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.04-02.00.06:986][435]LogWorld: UWorld::CleanupWorld for ZaWorudo_Complex, bSessionEnded=true, bCleanupResources=true
+[2023.03.04-02.00.06:987][435]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-02.00.07:004][435]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.04-02.00.07:007][435]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-02.00.07:014][435]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.04-02.00.07:016][435]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.03.04-02.00.07:018][435]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.03.04-02.00.07:024][435]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.04-02.00.07:030][435]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2023.03.04-02.00.07:063][437]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2023.03.04-02.00.09:731][593]Candidate modules for hot reload:
+[2023.03.04-02.00.09:731][593]  QLProj
+[2023.03.04-02.00.09:737][593]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=QLProj,9614 QLProjEditor Win64 Development -Project="C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject" "C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject"  -IgnoreJunk]
+[2023.03.04-02.00.09:740][593]Warning: Starting HotReload took  0.1s.
+[2023.03.04-02.00.17:213][  1]CompilerResultsLog: New page: Compilation - Mar 3, 2023, 2:00:17 PM
+[2023.03.04-02.00.17:213][  1]CompilerResultsLog: Log file: C:\Users\seanp\AppData\Local\UnrealBuildTool\Log.txt
+[2023.03.04-02.00.17:213][  1]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\seanp\Documents\Github\UE5-Q-Learning).
+[2023.03.04-02.00.17:213][  1]CompilerResultsLog: Invalidating makefile for QLProjEditor (working set of source files changed)
+[2023.03.04-02.00.17:213][  1]CompilerResultsLog: Parsing headers for QLProjEditor
+[2023.03.04-02.00.17:213][  1]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\QLProj.uproject" "C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\QLProjEditor\Development\QLProjEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\seanp\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2023.03.04-02.00.17:213][  1]CompilerResultsLog: Reflection code generated for QLProjEditor in 1.7636148 seconds
+[2023.03.04-02.00.17:213][  1]CompilerResultsLog: Building QLProjEditor...
+[2023.03.04-02.00.17:213][  1]CompilerResultsLog: Using Visual Studio 2022 14.33.31630 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.03.04-02.00.17:213][  1]CompilerResultsLog: [Adaptive Build] Excluded from QLProj unity file: AgentController.cpp
+[2023.03.04-02.00.17:213][  1]CompilerResultsLog: Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+[2023.03.04-02.00.17:213][  1]CompilerResultsLog:   Executing up to 8 processes, one per physical core
+[2023.03.04-02.00.17:213][  1]CompilerResultsLog:   Requested 1.5 GB free memory per action, 5.68 GB available: limiting max parallel actions to 3
+[2023.03.04-02.00.17:213][  1]CompilerResultsLog: Building 5 actions with 3 processes...
+[2023.03.04-02.00.17:213][  1]CompilerResultsLog: [1/5] Compile AgentController.gen.cpp
+[2023.03.04-02.00.17:213][  1]CompilerResultsLog: [2/5] Compile AgentController.cpp
+[2023.03.04-02.00.17:213][  1]CompilerResultsLog: [3/5] Link UnrealEditor-QLProj-9614.lib
+[2023.03.04-02.00.17:213][  1]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-9614.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-9614.exp
+[2023.03.04-02.00.17:213][  1]CompilerResultsLog: [4/5] Link UnrealEditor-QLProj-9614.dll
+[2023.03.04-02.00.17:213][  1]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-9614.suppressed.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-9614.suppressed.exp
+[2023.03.04-02.00.17:213][  1]CompilerResultsLog: [5/5] WriteMetadata QLProjEditor.target
+[2023.03.04-02.00.17:213][  1]CompilerResultsLog: Total time in Parallel executor: 3.18 seconds
+[2023.03.04-02.00.17:213][  1]CompilerResultsLog: Total execution time: 7.32 seconds
+[2023.03.04-02.00.17:213][  1]LogMainFrame: MainFrame: Module compiling took 7.528 seconds
+[2023.03.04-02.00.17:330][  1]Display: HotReload took  7.7s.
+[2023.03.04-02.00.17:330][  1]Display: Reload/Re-instancing Complete: 1 package changed, 5 classes unchanged
+[2023.03.04-02.00.59:074][210]Candidate modules for hot reload:
+[2023.03.04-02.00.59:074][210]  QLProj
+[2023.03.04-02.00.59:080][210]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=QLProj,6858 QLProjEditor Win64 Development -Project="C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject" "C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject"  -IgnoreJunk]
+[2023.03.04-02.00.59:084][210]Warning: Starting HotReload took  0.1s.
+[2023.03.04-02.01.06:261][603]CompilerResultsLog: New page: Compilation - Mar 3, 2023, 2:01:06 PM
+[2023.03.04-02.01.06:261][603]CompilerResultsLog: Log file: C:\Users\seanp\AppData\Local\UnrealBuildTool\Log.txt
+[2023.03.04-02.01.06:261][603]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\seanp\Documents\Github\UE5-Q-Learning).
+[2023.03.04-02.01.06:261][603]CompilerResultsLog: Invalidating makefile for QLProjEditor (working set of source files changed)
+[2023.03.04-02.01.06:261][603]CompilerResultsLog: Parsing headers for QLProjEditor
+[2023.03.04-02.01.06:261][603]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\QLProj.uproject" "C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\QLProjEditor\Development\QLProjEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\seanp\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2023.03.04-02.01.06:261][603]CompilerResultsLog: Reflection code generated for QLProjEditor in 1.6738193 seconds
+[2023.03.04-02.01.06:261][603]CompilerResultsLog: Building QLProjEditor...
+[2023.03.04-02.01.06:261][603]CompilerResultsLog: Using Visual Studio 2022 14.33.31630 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.03.04-02.01.06:261][603]CompilerResultsLog: [Adaptive Build] Excluded from QLProj unity file: AgentController.cpp
+[2023.03.04-02.01.06:261][603]CompilerResultsLog: Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+[2023.03.04-02.01.06:261][603]CompilerResultsLog:   Executing up to 8 processes, one per physical core
+[2023.03.04-02.01.06:261][603]CompilerResultsLog:   Requested 1.5 GB free memory per action, 5.68 GB available: limiting max parallel actions to 3
+[2023.03.04-02.01.06:261][603]CompilerResultsLog: Building 5 actions with 3 processes...
+[2023.03.04-02.01.06:262][603]CompilerResultsLog: [1/5] Compile AgentController.gen.cpp
+[2023.03.04-02.01.06:262][603]CompilerResultsLog: [2/5] Compile AgentController.cpp
+[2023.03.04-02.01.06:262][603]CompilerResultsLog: [3/5] Link UnrealEditor-QLProj-6858.lib
+[2023.03.04-02.01.06:262][603]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-6858.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-6858.exp
+[2023.03.04-02.01.06:262][603]CompilerResultsLog: [4/5] Link UnrealEditor-QLProj-6858.dll
+[2023.03.04-02.01.06:262][603]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-6858.suppressed.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-6858.suppressed.exp
+[2023.03.04-02.01.06:262][603]CompilerResultsLog: [5/5] WriteMetadata QLProjEditor.target
+[2023.03.04-02.01.06:262][603]CompilerResultsLog: Total time in Parallel executor: 3.07 seconds
+[2023.03.04-02.01.06:262][603]CompilerResultsLog: Total execution time: 7.05 seconds
+[2023.03.04-02.01.06:262][603]LogMainFrame: MainFrame: Module compiling took 7.229 seconds
+[2023.03.04-02.01.06:373][603]Display: HotReload took  7.3s.
+[2023.03.04-02.01.06:373][603]Display: Reload/Re-instancing Complete: 1 package changed, 5 classes unchanged
+[2023.03.04-02.01.07:793][688]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.04-02.01.07:799][688]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.04-02.01.07:799][688]PIE: New page: PIE session: ZaWorudo_Complex (Mar 3, 2023, 2:01:07 PM)
+[2023.03.04-02.01.07:799][688]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.04-02.01.07:939][688]LogPlayLevel: PIE: StaticDuplicateObject took: (0.139427s)
+[2023.03.04-02.01.07:939][688]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex to /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex (0.139529s)
+[2023.03.04-02.01.07:940][688]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.04-02.01.07:940][688]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.04-02.01.07:940][688]LogAIModule: Creating AISystem for world ZaWorudo_Complex
+[2023.03.04-02.01.07:940][688]LogPlayLevel: PIE: World Init took: (0.000916s)
+[2023.03.04-02.01.07:948][688]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.03.04-02.01.07:949][688]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2023.03.04-02.01.07:949][688]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.04-02.01.07:949][688]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.04-02.01.07:949][688]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.04-02.01.07:949][688]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.04-02.01.07:949][688]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.04-02.01.07:949][688]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.04-02.01.07:949][688]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.04-02.01.07:949][688]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.04-02.01.07:950][688]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.04-02.01.07:950][688]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.04-02.01.07:950][688]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.04-02.01.07:952][688]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.04-02.01.08:110][688]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2023.03.04-02.01.08:110][688]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.04-02.01.08:110][688]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.04-02.01.08:110][688]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.04-02.01.08:110][688]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2023.03.04-02.01.08:111][688]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2023.03.04-02.01.08:113][688]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2023.03.04-02.01.08:113][688]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2023.03.04-02.01.08:113][688]LogInit: FAudioDevice initialized.
+[2023.03.04-02.01.08:113][688]LogAudio: Display: Audio Device (ID: 11) registered with world 'ZaWorudo_Complex'.
+[2023.03.04-02.01.08:127][688]LogLoad: Game class is 'GameModeBase'
+[2023.03.04-02.01.08:136][688]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex up for play (max tick rate 60) at 2023.03.03-20.01.08
+[2023.03.04-02.01.08:136][688]LogWorld: Bringing up level for play took: 0.009440
+[2023.03.04-02.01.08:139][688]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2023.03.04-02.01.08:140][688]PIE: Server logged in
+[2023.03.04-02.01.08:141][688]PIE: Play in editor total start time 0.342 seconds.
+[2023.03.04-02.01.24:180][635]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.04-02.01.24:180][635]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.04-02.01.24:181][635]LogWorld: UWorld::CleanupWorld for ZaWorudo_Complex, bSessionEnded=true, bCleanupResources=true
+[2023.03.04-02.01.24:182][635]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-02.01.24:197][635]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.04-02.01.24:201][635]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-02.01.24:210][635]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.04-02.01.24:210][635]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.03.04-02.01.24:211][635]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.03.04-02.01.24:220][635]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.04-02.01.24:225][635]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.03.04-02.01.24:256][637]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2023.03.04-02.01.40:385][759]Candidate modules for hot reload:
+[2023.03.04-02.01.40:385][759]  QLProj
+[2023.03.04-02.01.40:391][759]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=QLProj,8335 QLProjEditor Win64 Development -Project="C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject" "C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject"  -IgnoreJunk]
+[2023.03.04-02.01.40:394][759]Warning: Starting HotReload took  0.1s.
+[2023.03.04-02.01.47:859][159]CompilerResultsLog: New page: Compilation - Mar 3, 2023, 2:01:47 PM
+[2023.03.04-02.01.47:859][159]CompilerResultsLog: Log file: C:\Users\seanp\AppData\Local\UnrealBuildTool\Log.txt
+[2023.03.04-02.01.47:859][159]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\seanp\Documents\Github\UE5-Q-Learning).
+[2023.03.04-02.01.47:859][159]CompilerResultsLog: Invalidating makefile for QLProjEditor (working set of source files changed)
+[2023.03.04-02.01.47:859][159]CompilerResultsLog: Parsing headers for QLProjEditor
+[2023.03.04-02.01.47:859][159]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\QLProj.uproject" "C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\QLProjEditor\Development\QLProjEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\seanp\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2023.03.04-02.01.47:859][159]CompilerResultsLog: Reflection code generated for QLProjEditor in 1.864699 seconds
+[2023.03.04-02.01.47:859][159]CompilerResultsLog: Building QLProjEditor...
+[2023.03.04-02.01.47:859][159]CompilerResultsLog: Using Visual Studio 2022 14.33.31630 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.03.04-02.01.47:859][159]CompilerResultsLog: [Adaptive Build] Excluded from QLProj unity file: AgentController.cpp
+[2023.03.04-02.01.47:859][159]CompilerResultsLog: Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+[2023.03.04-02.01.47:859][159]CompilerResultsLog:   Executing up to 8 processes, one per physical core
+[2023.03.04-02.01.47:859][159]CompilerResultsLog:   Requested 1.5 GB free memory per action, 5.68 GB available: limiting max parallel actions to 3
+[2023.03.04-02.01.47:859][159]CompilerResultsLog: Building 5 actions with 3 processes...
+[2023.03.04-02.01.47:859][159]CompilerResultsLog: [1/5] Compile AgentController.gen.cpp
+[2023.03.04-02.01.47:859][159]CompilerResultsLog: [2/5] Compile AgentController.cpp
+[2023.03.04-02.01.47:859][159]CompilerResultsLog: [3/5] Link UnrealEditor-QLProj-8335.lib
+[2023.03.04-02.01.47:859][159]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-8335.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-8335.exp
+[2023.03.04-02.01.47:859][159]CompilerResultsLog: [4/5] Link UnrealEditor-QLProj-8335.dll
+[2023.03.04-02.01.47:859][159]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-8335.suppressed.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-8335.suppressed.exp
+[2023.03.04-02.01.47:859][159]CompilerResultsLog: [5/5] WriteMetadata QLProjEditor.target
+[2023.03.04-02.01.47:860][159]CompilerResultsLog: Total time in Parallel executor: 3.07 seconds
+[2023.03.04-02.01.47:860][159]CompilerResultsLog: Total execution time: 7.33 seconds
+[2023.03.04-02.01.47:860][159]LogMainFrame: MainFrame: Module compiling took 7.514 seconds
+[2023.03.04-02.01.47:976][159]Display: HotReload took  7.6s.
+[2023.03.04-02.01.47:976][159]Display: Reload/Re-instancing Complete: 1 package changed, 5 classes unchanged
+[2023.03.04-02.01.49:509][251]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.04-02.01.49:515][251]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.04-02.01.49:515][251]PIE: New page: PIE session: ZaWorudo_Complex (Mar 3, 2023, 2:01:49 PM)
+[2023.03.04-02.01.49:515][251]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.04-02.01.49:659][251]LogPlayLevel: PIE: StaticDuplicateObject took: (0.142661s)
+[2023.03.04-02.01.49:659][251]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex to /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex (0.142740s)
+[2023.03.04-02.01.49:659][251]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.04-02.01.49:659][251]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.04-02.01.49:659][251]LogAIModule: Creating AISystem for world ZaWorudo_Complex
+[2023.03.04-02.01.49:659][251]LogPlayLevel: PIE: World Init took: (0.000903s)
+[2023.03.04-02.01.49:667][251]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.03.04-02.01.49:668][251]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2023.03.04-02.01.49:668][251]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.04-02.01.49:668][251]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.04-02.01.49:668][251]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.04-02.01.49:668][251]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.04-02.01.49:668][251]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.04-02.01.49:668][251]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.04-02.01.49:668][251]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.04-02.01.49:668][251]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.04-02.01.49:670][251]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.04-02.01.49:670][251]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.04-02.01.49:670][251]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.04-02.01.49:672][251]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.04-02.01.49:830][251]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2023.03.04-02.01.49:830][251]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.04-02.01.49:830][251]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.04-02.01.49:830][251]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.04-02.01.49:831][251]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2023.03.04-02.01.49:831][251]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2023.03.04-02.01.49:832][251]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2023.03.04-02.01.49:832][251]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2023.03.04-02.01.49:832][251]LogInit: FAudioDevice initialized.
+[2023.03.04-02.01.49:832][251]LogAudio: Display: Audio Device (ID: 12) registered with world 'ZaWorudo_Complex'.
+[2023.03.04-02.01.49:850][251]LogLoad: Game class is 'GameModeBase'
+[2023.03.04-02.01.49:859][251]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex up for play (max tick rate 60) at 2023.03.03-20.01.49
+[2023.03.04-02.01.49:859][251]LogWorld: Bringing up level for play took: 0.009496
+[2023.03.04-02.01.49:861][251]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2023.03.04-02.01.49:864][251]PIE: Server logged in
+[2023.03.04-02.01.49:864][251]PIE: Play in editor total start time 0.349 seconds.
+[2023.03.04-02.05.06:719][ 45]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.04-02.05.06:719][ 45]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.04-02.05.06:719][ 45]LogWorld: UWorld::CleanupWorld for ZaWorudo_Complex, bSessionEnded=true, bCleanupResources=true
+[2023.03.04-02.05.06:720][ 45]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-02.05.06:731][ 45]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.04-02.05.06:735][ 45]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-02.05.06:741][ 45]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.04-02.05.06:741][ 45]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.03.04-02.05.06:743][ 45]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.03.04-02.05.06:751][ 45]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.04-02.05.06:759][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2023.03.04-02.05.06:791][ 47]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2023.03.04-02.05.17:090][169]Candidate modules for hot reload:
+[2023.03.04-02.05.17:090][169]  QLProj
+[2023.03.04-02.05.17:096][169]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=QLProj,4109 QLProjEditor Win64 Development -Project="C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject" "C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject"  -IgnoreJunk]
+[2023.03.04-02.05.17:099][169]Warning: Starting HotReload took  0.1s.
+[2023.03.04-02.05.25:258][604]CompilerResultsLog: New page: Compilation - Mar 3, 2023, 2:05:25 PM
+[2023.03.04-02.05.25:259][604]CompilerResultsLog: Log file: C:\Users\seanp\AppData\Local\UnrealBuildTool\Log.txt
+[2023.03.04-02.05.25:259][604]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\seanp\Documents\Github\UE5-Q-Learning).
+[2023.03.04-02.05.25:259][604]CompilerResultsLog: Invalidating makefile for QLProjEditor (working set of source files changed)
+[2023.03.04-02.05.25:259][604]CompilerResultsLog: Parsing headers for QLProjEditor
+[2023.03.04-02.05.25:259][604]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\QLProj.uproject" "C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\QLProjEditor\Development\QLProjEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\seanp\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2023.03.04-02.05.25:259][604]CompilerResultsLog: Reflection code generated for QLProjEditor in 2.0785483 seconds
+[2023.03.04-02.05.25:259][604]CompilerResultsLog: Building QLProjEditor...
+[2023.03.04-02.05.25:259][604]CompilerResultsLog: Using Visual Studio 2022 14.33.31630 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.03.04-02.05.25:259][604]CompilerResultsLog: [Adaptive Build] Excluded from QLProj unity file: AgentController.cpp
+[2023.03.04-02.05.25:259][604]CompilerResultsLog: Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+[2023.03.04-02.05.25:259][604]CompilerResultsLog:   Executing up to 8 processes, one per physical core
+[2023.03.04-02.05.25:259][604]CompilerResultsLog:   Requested 1.5 GB free memory per action, 5.84 GB available: limiting max parallel actions to 3
+[2023.03.04-02.05.25:259][604]CompilerResultsLog: Building 5 actions with 3 processes...
+[2023.03.04-02.05.25:259][604]CompilerResultsLog: [1/5] Compile AgentController.gen.cpp
+[2023.03.04-02.05.25:259][604]CompilerResultsLog: [2/5] Compile AgentController.cpp
+[2023.03.04-02.05.25:259][604]CompilerResultsLog: [3/5] Link UnrealEditor-QLProj-4109.lib
+[2023.03.04-02.05.25:259][604]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-4109.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-4109.exp
+[2023.03.04-02.05.25:259][604]CompilerResultsLog: [4/5] Link UnrealEditor-QLProj-4109.dll
+[2023.03.04-02.05.25:259][604]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-4109.suppressed.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-4109.suppressed.exp
+[2023.03.04-02.05.25:259][604]CompilerResultsLog: [5/5] WriteMetadata QLProjEditor.target
+[2023.03.04-02.05.25:259][604]CompilerResultsLog: Total time in Parallel executor: 3.28 seconds
+[2023.03.04-02.05.25:259][604]CompilerResultsLog: Total execution time: 8.02 seconds
+[2023.03.04-02.05.25:259][604]LogMainFrame: MainFrame: Module compiling took 8.212 seconds
+[2023.03.04-02.05.25:382][604]Display: HotReload took  8.3s.
+[2023.03.04-02.05.25:382][604]Display: Reload/Re-instancing Complete: 1 package changed, 5 classes unchanged
+[2023.03.04-02.05.28:899][808]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.04-02.05.28:906][808]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.04-02.05.28:906][808]PIE: New page: PIE session: ZaWorudo_Complex (Mar 3, 2023, 2:05:28 PM)
+[2023.03.04-02.05.28:906][808]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.04-02.05.29:066][808]LogPlayLevel: PIE: StaticDuplicateObject took: (0.160062s)
+[2023.03.04-02.05.29:066][808]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex to /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex (0.160143s)
+[2023.03.04-02.05.29:066][808]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.04-02.05.29:066][808]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.04-02.05.29:067][808]LogAIModule: Creating AISystem for world ZaWorudo_Complex
+[2023.03.04-02.05.29:067][808]LogPlayLevel: PIE: World Init took: (0.000886s)
+[2023.03.04-02.05.29:076][808]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2023.03.04-02.05.29:077][808]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2023.03.04-02.05.29:077][808]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.04-02.05.29:077][808]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.04-02.05.29:077][808]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.04-02.05.29:077][808]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.04-02.05.29:077][808]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.04-02.05.29:077][808]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.04-02.05.29:077][808]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.04-02.05.29:077][808]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.04-02.05.29:077][808]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.04-02.05.29:077][808]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.04-02.05.29:077][808]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.04-02.05.29:080][808]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.04-02.05.29:252][808]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2023.03.04-02.05.29:252][808]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.04-02.05.29:252][808]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.04-02.05.29:252][808]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.04-02.05.29:253][808]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2023.03.04-02.05.29:253][808]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2023.03.04-02.05.29:255][808]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2023.03.04-02.05.29:255][808]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2023.03.04-02.05.29:255][808]LogInit: FAudioDevice initialized.
+[2023.03.04-02.05.29:255][808]LogAudio: Display: Audio Device (ID: 13) registered with world 'ZaWorudo_Complex'.
+[2023.03.04-02.05.29:273][808]LogLoad: Game class is 'GameModeBase'
+[2023.03.04-02.05.29:283][808]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex up for play (max tick rate 60) at 2023.03.03-20.05.29
+[2023.03.04-02.05.29:284][808]LogWorld: Bringing up level for play took: 0.010456
+[2023.03.04-02.05.29:287][808]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2023.03.04-02.05.29:289][808]PIE: Server logged in
+[2023.03.04-02.05.29:290][808]PIE: Play in editor total start time 0.384 seconds.
+[2023.03.04-02.05.37:493][273]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.04-02.05.37:493][273]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.04-02.05.37:493][273]LogWorld: UWorld::CleanupWorld for ZaWorudo_Complex, bSessionEnded=true, bCleanupResources=true
+[2023.03.04-02.05.37:494][273]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-02.05.37:511][273]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.04-02.05.37:514][273]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-02.05.37:520][273]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.04-02.05.37:523][273]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.03.04-02.05.37:525][273]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.03.04-02.05.37:538][273]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.03.04-02.05.37:572][274]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2023.03.04-02.05.50:966][484]Candidate modules for hot reload:
+[2023.03.04-02.05.50:966][484]  QLProj
+[2023.03.04-02.05.50:972][484]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=QLProj,4459 QLProjEditor Win64 Development -Project="C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject" "C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject"  -IgnoreJunk]
+[2023.03.04-02.05.50:976][484]Warning: Starting HotReload took  0.1s.
+[2023.03.04-02.05.56:098][771]CompilerResultsLog: New page: Compilation - Mar 3, 2023, 2:05:56 PM
+[2023.03.04-02.05.56:098][771]CompilerResultsLog: Log file: C:\Users\seanp\AppData\Local\UnrealBuildTool\Log.txt
+[2023.03.04-02.05.56:098][771]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\seanp\Documents\Github\UE5-Q-Learning).
+[2023.03.04-02.05.56:098][771]CompilerResultsLog: Building QLProjEditor...
+[2023.03.04-02.05.56:098][771]CompilerResultsLog: Using Visual Studio 2022 14.33.31630 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.03.04-02.05.56:098][771]CompilerResultsLog: [Adaptive Build] Excluded from QLProj unity file: AgentController.cpp
+[2023.03.04-02.05.56:098][771]CompilerResultsLog: Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+[2023.03.04-02.05.56:098][771]CompilerResultsLog:   Executing up to 8 processes, one per physical core
+[2023.03.04-02.05.56:098][771]CompilerResultsLog:   Requested 1.5 GB free memory per action, 5.53 GB available: limiting max parallel actions to 3
+[2023.03.04-02.05.56:098][771]CompilerResultsLog: Building 4 actions with 3 processes...
+[2023.03.04-02.05.56:098][771]CompilerResultsLog: [1/4] Compile AgentController.cpp
+[2023.03.04-02.05.56:098][771]CompilerResultsLog: [2/4] Link UnrealEditor-QLProj-4459.lib
+[2023.03.04-02.05.56:098][771]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-4459.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-4459.exp
+[2023.03.04-02.05.56:098][771]CompilerResultsLog: [3/4] Link UnrealEditor-QLProj-4459.dll
+[2023.03.04-02.05.56:098][771]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-4459.suppressed.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-4459.suppressed.exp
+[2023.03.04-02.05.56:098][771]CompilerResultsLog: [4/4] WriteMetadata QLProjEditor.target
+[2023.03.04-02.05.56:098][771]CompilerResultsLog: Total time in Parallel executor: 3.76 seconds
+[2023.03.04-02.05.56:098][771]CompilerResultsLog: Total execution time: 4.97 seconds
+[2023.03.04-02.05.56:098][771]LogMainFrame: MainFrame: Module compiling took 5.174 seconds
+[2023.03.04-02.05.56:229][771]Display: HotReload took  5.3s.
+[2023.03.04-02.05.56:229][771]Display: Reload/Re-instancing Complete: 1 package changed, 5 classes unchanged
+[2023.03.04-02.05.57:529][849]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.04-02.05.57:536][849]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.04-02.05.57:536][849]PIE: New page: PIE session: ZaWorudo_Complex (Mar 3, 2023, 2:05:57 PM)
+[2023.03.04-02.05.57:536][849]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.04-02.05.57:709][849]LogPlayLevel: PIE: StaticDuplicateObject took: (0.172906s)
+[2023.03.04-02.05.57:709][849]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex to /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex (0.172990s)
+[2023.03.04-02.05.57:709][849]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.04-02.05.57:709][849]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.04-02.05.57:710][849]LogAIModule: Creating AISystem for world ZaWorudo_Complex
+[2023.03.04-02.05.57:710][849]LogPlayLevel: PIE: World Init took: (0.001044s)
+[2023.03.04-02.05.57:718][849]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.03.04-02.05.57:719][849]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2023.03.04-02.05.57:719][849]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.04-02.05.57:719][849]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.04-02.05.57:719][849]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.04-02.05.57:719][849]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.04-02.05.57:719][849]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.04-02.05.57:719][849]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.04-02.05.57:719][849]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.04-02.05.57:719][849]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.04-02.05.57:719][849]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.04-02.05.57:719][849]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.04-02.05.57:719][849]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.04-02.05.57:722][849]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.04-02.05.57:896][849]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2023.03.04-02.05.57:896][849]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.04-02.05.57:896][849]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.04-02.05.57:896][849]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.04-02.05.57:897][849]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2023.03.04-02.05.57:897][849]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2023.03.04-02.05.57:899][849]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2023.03.04-02.05.57:899][849]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2023.03.04-02.05.57:899][849]LogInit: FAudioDevice initialized.
+[2023.03.04-02.05.57:899][849]LogAudio: Display: Audio Device (ID: 14) registered with world 'ZaWorudo_Complex'.
+[2023.03.04-02.05.57:916][849]LogLoad: Game class is 'GameModeBase'
+[2023.03.04-02.05.57:927][849]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex up for play (max tick rate 60) at 2023.03.03-20.05.57
+[2023.03.04-02.05.57:927][849]LogWorld: Bringing up level for play took: 0.011028
+[2023.03.04-02.05.57:930][849]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2023.03.04-02.05.57:932][849]PIE: Server logged in
+[2023.03.04-02.05.57:933][849]PIE: Play in editor total start time 0.398 seconds.
+[2023.03.04-02.06.06:612][355]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.04-02.06.06:612][355]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.04-02.06.06:614][355]LogWorld: UWorld::CleanupWorld for ZaWorudo_Complex, bSessionEnded=true, bCleanupResources=true
+[2023.03.04-02.06.06:614][355]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-02.06.06:632][355]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.04-02.06.06:636][355]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-02.06.06:645][355]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.04-02.06.06:645][355]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.03.04-02.06.06:647][355]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.03.04-02.06.06:655][355]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.04-02.06.06:659][355]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2023.03.04-02.06.06:694][357]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2023.03.04-02.06.15:670][457]Candidate modules for hot reload:
+[2023.03.04-02.06.15:670][457]  QLProj
+[2023.03.04-02.06.15:676][457]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=QLProj,1339 QLProjEditor Win64 Development -Project="C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject" "C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject"  -IgnoreJunk]
+[2023.03.04-02.06.15:680][457]Warning: Starting HotReload took  0.1s.
+[2023.03.04-02.06.20:949][750]CompilerResultsLog: New page: Compilation - Mar 3, 2023, 2:06:20 PM
+[2023.03.04-02.06.20:949][750]CompilerResultsLog: Log file: C:\Users\seanp\AppData\Local\UnrealBuildTool\Log.txt
+[2023.03.04-02.06.20:949][750]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\seanp\Documents\Github\UE5-Q-Learning).
+[2023.03.04-02.06.20:949][750]CompilerResultsLog: Building QLProjEditor...
+[2023.03.04-02.06.20:949][750]CompilerResultsLog: Using Visual Studio 2022 14.33.31630 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.03.04-02.06.20:949][750]CompilerResultsLog: [Adaptive Build] Excluded from QLProj unity file: AgentController.cpp
+[2023.03.04-02.06.20:949][750]CompilerResultsLog: Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+[2023.03.04-02.06.20:949][750]CompilerResultsLog:   Executing up to 8 processes, one per physical core
+[2023.03.04-02.06.20:949][750]CompilerResultsLog:   Requested 1.5 GB free memory per action, 5.68 GB available: limiting max parallel actions to 3
+[2023.03.04-02.06.20:949][750]CompilerResultsLog: Building 4 actions with 3 processes...
+[2023.03.04-02.06.20:949][750]CompilerResultsLog: [1/4] Compile AgentController.cpp
+[2023.03.04-02.06.20:949][750]CompilerResultsLog: [2/4] Link UnrealEditor-QLProj-1339.lib
+[2023.03.04-02.06.20:949][750]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-1339.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-1339.exp
+[2023.03.04-02.06.20:949][750]CompilerResultsLog: [3/4] Link UnrealEditor-QLProj-1339.dll
+[2023.03.04-02.06.20:949][750]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-1339.suppressed.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-1339.suppressed.exp
+[2023.03.04-02.06.20:949][750]CompilerResultsLog: [4/4] WriteMetadata QLProjEditor.target
+[2023.03.04-02.06.20:949][750]CompilerResultsLog: Total time in Parallel executor: 3.81 seconds
+[2023.03.04-02.06.20:949][750]CompilerResultsLog: Total execution time: 5.09 seconds
+[2023.03.04-02.06.20:949][750]LogMainFrame: MainFrame: Module compiling took 5.323 seconds
+[2023.03.04-02.06.21:074][750]Display: HotReload took  5.5s.
+[2023.03.04-02.06.21:074][750]Display: Reload/Re-instancing Complete: 1 package changed, 5 classes unchanged
+[2023.03.04-02.06.22:257][821]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.04-02.06.22:264][821]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.04-02.06.22:264][821]PIE: New page: PIE session: ZaWorudo_Complex (Mar 3, 2023, 2:06:22 PM)
+[2023.03.04-02.06.22:264][821]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.04-02.06.22:435][821]LogPlayLevel: PIE: StaticDuplicateObject took: (0.170555s)
+[2023.03.04-02.06.22:435][821]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex to /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex (0.170671s)
+[2023.03.04-02.06.22:435][821]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.04-02.06.22:435][821]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.04-02.06.22:436][821]LogAIModule: Creating AISystem for world ZaWorudo_Complex
+[2023.03.04-02.06.22:436][821]LogPlayLevel: PIE: World Init took: (0.000930s)
+[2023.03.04-02.06.22:445][821]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.03.04-02.06.22:446][821]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2023.03.04-02.06.22:446][821]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.04-02.06.22:446][821]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.04-02.06.22:446][821]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.04-02.06.22:446][821]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.04-02.06.22:446][821]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.04-02.06.22:446][821]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.04-02.06.22:446][821]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.04-02.06.22:446][821]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.04-02.06.22:446][821]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.04-02.06.22:447][821]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.04-02.06.22:447][821]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.04-02.06.22:449][821]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.04-02.06.22:636][821]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2023.03.04-02.06.22:636][821]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.04-02.06.22:637][821]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.04-02.06.22:637][821]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.04-02.06.22:637][821]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2023.03.04-02.06.22:637][821]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2023.03.04-02.06.22:639][821]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2023.03.04-02.06.22:639][821]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2023.03.04-02.06.22:639][821]LogInit: FAudioDevice initialized.
+[2023.03.04-02.06.22:639][821]LogAudio: Display: Audio Device (ID: 15) registered with world 'ZaWorudo_Complex'.
+[2023.03.04-02.06.22:654][821]LogLoad: Game class is 'GameModeBase'
+[2023.03.04-02.06.22:664][821]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex up for play (max tick rate 60) at 2023.03.03-20.06.22
+[2023.03.04-02.06.22:665][821]LogWorld: Bringing up level for play took: 0.011558
+[2023.03.04-02.06.22:668][821]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2023.03.04-02.06.22:670][821]PIE: Server logged in
+[2023.03.04-02.06.22:671][821]PIE: Play in editor total start time 0.407 seconds.
+[2023.03.04-02.10.03:551][ 56]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.04-02.10.03:551][ 56]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.04-02.10.03:551][ 56]LogWorld: UWorld::CleanupWorld for ZaWorudo_Complex, bSessionEnded=true, bCleanupResources=true
+[2023.03.04-02.10.03:552][ 56]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-02.10.03:567][ 56]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.04-02.10.03:570][ 56]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-02.10.03:578][ 56]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.04-02.10.03:579][ 56]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.03.04-02.10.03:582][ 56]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.03.04-02.10.03:595][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.03.04-02.10.03:627][ 58]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2023.03.04-02.11.17:074][339]Candidate modules for hot reload:
+[2023.03.04-02.11.17:074][339]  QLProj
+[2023.03.04-02.11.17:080][339]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=QLProj,4079 QLProjEditor Win64 Development -Project="C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject" "C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject"  -IgnoreJunk]
+[2023.03.04-02.11.17:084][339]Warning: Starting HotReload took  0.1s.
+[2023.03.04-02.11.32:491][213]CompilerResultsLog: New page: Compilation - Mar 3, 2023, 2:11:32 PM
+[2023.03.04-02.11.32:491][213]CompilerResultsLog: Log file: C:\Users\seanp\AppData\Local\UnrealBuildTool\Log.txt
+[2023.03.04-02.11.32:491][213]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\seanp\Documents\Github\UE5-Q-Learning).
+[2023.03.04-02.11.32:491][213]CompilerResultsLog: Invalidating makefile for QLProjEditor (working set of source files changed)
+[2023.03.04-02.11.32:491][213]CompilerResultsLog: Parsing headers for QLProjEditor
+[2023.03.04-02.11.32:491][213]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\QLProj.uproject" "C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\QLProjEditor\Development\QLProjEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\seanp\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2023.03.04-02.11.32:491][213]CompilerResultsLog: Reflection code generated for QLProjEditor in 2.2213875 seconds
+[2023.03.04-02.11.32:491][213]CompilerResultsLog: Building QLProjEditor...
+[2023.03.04-02.11.32:491][213]CompilerResultsLog: Using Visual Studio 2022 14.33.31630 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.03.04-02.11.32:491][213]CompilerResultsLog: [Adaptive Build] Excluded from QLProj unity file: AgentController.cpp
+[2023.03.04-02.11.32:491][213]CompilerResultsLog: Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+[2023.03.04-02.11.32:491][213]CompilerResultsLog:   Executing up to 8 processes, one per physical core
+[2023.03.04-02.11.32:491][213]CompilerResultsLog:   Requested 1.5 GB free memory per action, 6.45 GB available: limiting max parallel actions to 4
+[2023.03.04-02.11.32:491][213]CompilerResultsLog: Building 5 actions with 4 processes...
+[2023.03.04-02.11.32:492][213]CompilerResultsLog: [1/5] Compile AgentController.gen.cpp
+[2023.03.04-02.11.32:492][213]CompilerResultsLog: [2/5] Compile AgentController.cpp
+[2023.03.04-02.11.32:492][213]CompilerResultsLog: [3/5] Link UnrealEditor-QLProj-4079.lib
+[2023.03.04-02.11.32:492][213]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-4079.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-4079.exp
+[2023.03.04-02.11.32:492][213]CompilerResultsLog: [4/5] Link UnrealEditor-QLProj-4079.dll
+[2023.03.04-02.11.32:492][213]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-4079.suppressed.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-4079.suppressed.exp
+[2023.03.04-02.11.32:492][213]CompilerResultsLog: [5/5] WriteMetadata QLProjEditor.target
+[2023.03.04-02.11.32:492][213]CompilerResultsLog: Total time in Parallel executor: 10.34 seconds
+[2023.03.04-02.11.32:492][213]CompilerResultsLog: Total execution time: 15.26 seconds
+[2023.03.04-02.11.32:492][213]LogMainFrame: MainFrame: Module compiling took 15.460 seconds
+[2023.03.04-02.11.32:617][213]Display: HotReload took 15.6s.
+[2023.03.04-02.11.32:617][213]Display: Reload/Re-instancing Complete: 1 package changed, 5 classes unchanged
+[2023.03.04-02.11.38:251][551]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.04-02.11.38:257][551]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.04-02.11.38:257][551]PIE: New page: PIE session: ZaWorudo_Complex (Mar 3, 2023, 2:11:38 PM)
+[2023.03.04-02.11.38:257][551]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.04-02.11.38:409][551]LogPlayLevel: PIE: StaticDuplicateObject took: (0.151717s)
+[2023.03.04-02.11.38:409][551]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex to /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex (0.151807s)
+[2023.03.04-02.11.38:409][551]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.04-02.11.38:409][551]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.04-02.11.38:410][551]LogAIModule: Creating AISystem for world ZaWorudo_Complex
+[2023.03.04-02.11.38:410][551]LogPlayLevel: PIE: World Init took: (0.001337s)
+[2023.03.04-02.11.38:419][551]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.03.04-02.11.38:420][551]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2023.03.04-02.11.38:420][551]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.04-02.11.38:420][551]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.04-02.11.38:420][551]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.04-02.11.38:420][551]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.04-02.11.38:420][551]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.04-02.11.38:420][551]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.04-02.11.38:420][551]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.04-02.11.38:420][551]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.04-02.11.38:421][551]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.04-02.11.38:421][551]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.04-02.11.38:421][551]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.04-02.11.38:424][551]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.04-02.11.38:595][551]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2023.03.04-02.11.38:595][551]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.04-02.11.38:595][551]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.04-02.11.38:595][551]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.04-02.11.38:596][551]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2023.03.04-02.11.38:596][551]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2023.03.04-02.11.38:598][551]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2023.03.04-02.11.38:598][551]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2023.03.04-02.11.38:598][551]LogInit: FAudioDevice initialized.
+[2023.03.04-02.11.38:598][551]LogAudio: Display: Audio Device (ID: 16) registered with world 'ZaWorudo_Complex'.
+[2023.03.04-02.11.38:616][551]LogLoad: Game class is 'GameModeBase'
+[2023.03.04-02.11.38:625][551]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex up for play (max tick rate 60) at 2023.03.03-20.11.38
+[2023.03.04-02.11.38:626][551]LogWorld: Bringing up level for play took: 0.009794
+[2023.03.04-02.11.38:628][551]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2023.03.04-02.11.38:630][551]PIE: Server logged in
+[2023.03.04-02.11.38:631][551]PIE: Play in editor total start time 0.374 seconds.
+[2023.03.04-02.11.54:025][455]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.04-02.11.54:026][455]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.04-02.11.54:026][455]LogWorld: UWorld::CleanupWorld for ZaWorudo_Complex, bSessionEnded=true, bCleanupResources=true
+[2023.03.04-02.11.54:027][455]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-02.11.54:045][455]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.04-02.11.54:048][455]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-02.11.54:055][455]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.04-02.11.54:055][455]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.03.04-02.11.54:057][455]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.03.04-02.11.54:064][455]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.04-02.11.54:071][455]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.03.04-02.11.54:111][456]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2023.03.04-02.12.27:609][646]Candidate modules for hot reload:
+[2023.03.04-02.12.27:609][646]  QLProj
+[2023.03.04-02.12.27:614][646]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=QLProj,6525 QLProjEditor Win64 Development -Project="C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject" "C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject"  -IgnoreJunk]
+[2023.03.04-02.12.27:618][646]Warning: Starting HotReload took  0.1s.
+[2023.03.04-02.12.35:653][ 86]CompilerResultsLog: New page: Compilation - Mar 3, 2023, 2:12:35 PM
+[2023.03.04-02.12.35:653][ 86]CompilerResultsLog: Log file: C:\Users\seanp\AppData\Local\UnrealBuildTool\Log.txt
+[2023.03.04-02.12.35:653][ 86]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\seanp\Documents\Github\UE5-Q-Learning).
+[2023.03.04-02.12.35:653][ 86]CompilerResultsLog: Invalidating makefile for QLProjEditor (working set of source files changed)
+[2023.03.04-02.12.35:653][ 86]CompilerResultsLog: Parsing headers for QLProjEditor
+[2023.03.04-02.12.35:653][ 86]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\QLProj.uproject" "C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\QLProjEditor\Development\QLProjEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\seanp\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2023.03.04-02.12.35:653][ 86]CompilerResultsLog: Reflection code generated for QLProjEditor in 1.8498126 seconds
+[2023.03.04-02.12.35:653][ 86]CompilerResultsLog: Building QLProjEditor...
+[2023.03.04-02.12.35:653][ 86]CompilerResultsLog: Using Visual Studio 2022 14.33.31630 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.03.04-02.12.35:653][ 86]CompilerResultsLog: [Adaptive Build] Excluded from QLProj unity file: AgentController.cpp
+[2023.03.04-02.12.35:653][ 86]CompilerResultsLog: Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+[2023.03.04-02.12.35:653][ 86]CompilerResultsLog:   Executing up to 8 processes, one per physical core
+[2023.03.04-02.12.35:653][ 86]CompilerResultsLog:   Requested 1.5 GB free memory per action, 6.45 GB available: limiting max parallel actions to 4
+[2023.03.04-02.12.35:653][ 86]CompilerResultsLog: Building 5 actions with 4 processes...
+[2023.03.04-02.12.35:653][ 86]CompilerResultsLog: [1/5] Compile AgentController.gen.cpp
+[2023.03.04-02.12.35:653][ 86]CompilerResultsLog: [2/5] Compile AgentController.cpp
+[2023.03.04-02.12.35:653][ 86]CompilerResultsLog: [3/5] Link UnrealEditor-QLProj-6525.lib
+[2023.03.04-02.12.35:653][ 86]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-6525.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-6525.exp
+[2023.03.04-02.12.35:653][ 86]CompilerResultsLog: [4/5] Link UnrealEditor-QLProj-6525.dll
+[2023.03.04-02.12.35:653][ 86]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-6525.suppressed.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-6525.suppressed.exp
+[2023.03.04-02.12.35:653][ 86]CompilerResultsLog: [5/5] WriteMetadata QLProjEditor.target
+[2023.03.04-02.12.35:653][ 86]CompilerResultsLog: Total time in Parallel executor: 3.63 seconds
+[2023.03.04-02.12.35:653][ 86]CompilerResultsLog: Total execution time: 7.89 seconds
+[2023.03.04-02.12.35:653][ 86]LogMainFrame: MainFrame: Module compiling took 8.084 seconds
+[2023.03.04-02.12.35:786][ 86]Display: HotReload took  8.2s.
+[2023.03.04-02.12.35:786][ 86]Display: Reload/Re-instancing Complete: 1 package changed, 5 classes unchanged
+[2023.03.04-02.12.37:120][166]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.04-02.12.37:126][166]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.04-02.12.37:127][166]PIE: New page: PIE session: ZaWorudo_Complex (Mar 3, 2023, 2:12:37 PM)
+[2023.03.04-02.12.37:127][166]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.04-02.12.37:277][166]LogPlayLevel: PIE: StaticDuplicateObject took: (0.150516s)
+[2023.03.04-02.12.37:277][166]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex to /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex (0.150598s)
+[2023.03.04-02.12.37:277][166]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.04-02.12.37:277][166]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.04-02.12.37:278][166]LogAIModule: Creating AISystem for world ZaWorudo_Complex
+[2023.03.04-02.12.37:278][166]LogPlayLevel: PIE: World Init took: (0.001153s)
+[2023.03.04-02.12.37:287][166]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.03.04-02.12.37:288][166]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2023.03.04-02.12.37:288][166]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.04-02.12.37:288][166]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.04-02.12.37:288][166]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.04-02.12.37:288][166]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.04-02.12.37:288][166]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.04-02.12.37:288][166]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.04-02.12.37:288][166]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.04-02.12.37:288][166]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.04-02.12.37:289][166]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.04-02.12.37:289][166]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.04-02.12.37:289][166]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.04-02.12.37:291][166]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.04-02.12.37:453][166]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2023.03.04-02.12.37:453][166]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.04-02.12.37:453][166]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.04-02.12.37:453][166]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.04-02.12.37:453][166]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2023.03.04-02.12.37:453][166]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2023.03.04-02.12.37:456][166]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2023.03.04-02.12.37:456][166]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2023.03.04-02.12.37:456][166]LogInit: FAudioDevice initialized.
+[2023.03.04-02.12.37:456][166]LogAudio: Display: Audio Device (ID: 17) registered with world 'ZaWorudo_Complex'.
+[2023.03.04-02.12.37:470][166]LogLoad: Game class is 'GameModeBase'
+[2023.03.04-02.12.37:479][166]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex up for play (max tick rate 60) at 2023.03.03-20.12.37
+[2023.03.04-02.12.37:479][166]LogWorld: Bringing up level for play took: 0.009591
+[2023.03.04-02.12.37:482][166]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2023.03.04-02.12.37:484][166]PIE: Server logged in
+[2023.03.04-02.12.37:485][166]PIE: Play in editor total start time 0.358 seconds.
+[2023.03.04-02.12.51:731][  5]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.04-02.12.51:731][  5]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.04-02.12.51:732][  5]LogWorld: UWorld::CleanupWorld for ZaWorudo_Complex, bSessionEnded=true, bCleanupResources=true
+[2023.03.04-02.12.51:733][  5]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-02.12.51:752][  5]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.04-02.12.51:755][  5]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-02.12.51:763][  5]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.04-02.12.51:764][  5]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.03.04-02.12.51:766][  5]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.03.04-02.12.51:778][  5]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.03.04-02.12.51:810][  7]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2023.03.04-02.12.59:222][235]MapCheck: New page: Map Check
+[2023.03.04-02.12.59:275][235]LogSlate: Took 0.000906 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.03.04-02.12.59:276][235]Cmd: MAP REBUILD ALLVISIBLE
+[2023.03.04-02.12.59:304][235]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2023.03.04-02.13.01:035][235]LogWorld: UWorld::CleanupWorld for ZaWorudo_Complex, bSessionEnded=true, bCleanupResources=false
+[2023.03.04-02.13.02:662][235]LightingResults: New page: Lighting Build - Mar 3, 2023, 2:13:02 PM
+[2023.03.04-02.13.02:802][235]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2023.03.04-02.13.02:931][235]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2023.03.04-02.13.02:947][235]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2023.03.04-02.13.04:090][235]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2023.03.04-02.13.04:090][235]LogSwarmInterface: [TryOpenConnection] Local Process ID is 105204
+[2023.03.04-02.13.07:263][235]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2023.03.04-02.13.07:263][235]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2023.03.04-02.13.07:263][235]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2023.03.04-02.13.07:263][235]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2023.03.04-02.13.07:263][235]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2023.03.04-02.13.07:704][235]LogEditorBuildUtils: Build time 0:08
+[2023.03.04-02.13.07:782][236]LogShaderCompilers: Display: ================================================
+[2023.03.04-02.13.07:782][236]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.04-02.13.07:782][236]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2023.03.04-02.13.07:782][236]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2023.03.04-02.13.07:782][236]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2023.03.04-02.13.07:782][236]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.03.04-02.13.07:782][236]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.03.04-02.13.07:782][236]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.03.04-02.13.07:782][236]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.03.04-02.13.07:782][236]LogShaderCompilers: Display: ================================================
+[2023.03.04-02.13.08:025][238]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.03.04-02.13.10:146][304]LogNavigationDataBuild: Navigation data generation finished in /Game/Levels/ZaWorudo_Complex.
+[2023.03.04-02.13.21:813][873]Job is a success!
+[2023.03.04-02.13.22:185][874]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.108s
+[2023.03.04-02.13.22:185][874]LogVolumetricLightmapImport:      Indirection Texture 32x32x16 = 0.1Mb
+[2023.03.04-02.13.22:185][874]LogVolumetricLightmapImport:      BrickData (all levels) 5.0Mb
+[2023.03.04-02.13.22:185][874]LogVolumetricLightmapImport:      Bricks at depth
+[2023.03.04-02.13.22:185][874]LogVolumetricLightmapImport:          0: 0.5% covering 100.0% of volume
+[2023.03.04-02.13.22:185][874]LogVolumetricLightmapImport:          1: 4.2% covering 13.7% of volume
+[2023.03.04-02.13.22:185][874]LogVolumetricLightmapImport:          2: 95.3% covering 4.9% of volume
+[2023.03.04-02.13.22:185][874]LogVolumetricLightmapImport:      Bricks in each level
+[2023.03.04-02.13.22:186][874]LogVolumetricLightmapImport:          ZaWorudo_Complex 			 837 bricks 	 100.0% (Persistent Level)
+[2023.03.04-02.13.22:705][874]LogTexture: Display: Building textures: /Game/Levels/ZaWorudo_Complex_BuiltData.ZaWorudo_Complex_BuiltData:SkyOcclusion0_1 (TFO_AutoDXT, 1024X512 X1X1) (Required Memory Estimate: 13.33334 MB), EncodeSpeed: Fast
+[2023.03.04-02.13.22:719][874]LogTexture: Display: Building textures: /Game/Levels/ZaWorudo_Complex_BuiltData.ZaWorudo_Complex_BuiltData:HQ_Lightmap0_1 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2023.03.04-02.13.22:734][874]LogTexture: Display: Building textures: /Game/Levels/ZaWorudo_Complex_BuiltData.ZaWorudo_Complex_BuiltData:LQ_Lightmap_0_1 (TFO_DXT1, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2023.03.04-02.13.22:747][874]LogTexture: Display: Building textures: /Game/Levels/ZaWorudo_Complex_BuiltData.ZaWorudo_Complex_BuiltData:SkyOcclusion0_2 (TFO_AutoDXT, 1024X512 X1X1) (Required Memory Estimate: 13.33334 MB), EncodeSpeed: Fast
+[2023.03.04-02.13.22:758][874]LogTexture: Display: Building textures: /Game/Levels/ZaWorudo_Complex_BuiltData.ZaWorudo_Complex_BuiltData:HQ_Lightmap0_2 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2023.03.04-02.13.22:790][874]LogTexture: Display: Building textures: /Game/Levels/ZaWorudo_Complex_BuiltData.ZaWorudo_Complex_BuiltData:LQ_Lightmap_0_2 (TFO_DXT1, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2023.03.04-02.13.22:812][874]LogTexture: Display: Building textures: /Game/Levels/ZaWorudo_Complex_BuiltData.ZaWorudo_Complex_BuiltData:SkyOcclusion0_3 (TFO_AutoDXT, 1024X512 X1X1) (Required Memory Estimate: 13.33334 MB), EncodeSpeed: Fast
+[2023.03.04-02.13.22:823][874]LogTexture: Display: Building textures: /Game/Levels/ZaWorudo_Complex_BuiltData.ZaWorudo_Complex_BuiltData:HQ_Lightmap0_3 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2023.03.04-02.13.22:842][874]LogTexture: Display: Building textures: /Game/Levels/ZaWorudo_Complex_BuiltData.ZaWorudo_Complex_BuiltData:LQ_Lightmap_0_3 (TFO_DXT1, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2023.03.04-02.13.22:858][874]LogTexture: Display: Building textures: /Game/Levels/ZaWorudo_Complex_BuiltData.ZaWorudo_Complex_BuiltData:SkyOcclusion0_4 (TFO_AutoDXT, 64X32 X1X1) (Required Memory Estimate: 0.05209 MB), EncodeSpeed: Fast
+[2023.03.04-02.13.22:859][874]LogTexture: Display: Building textures: /Game/Levels/ZaWorudo_Complex_BuiltData.ZaWorudo_Complex_BuiltData:HQ_Lightmap0_4 (TFO_AutoDXT, 64X64 X1X1) (Required Memory Estimate: 0.10416 MB), EncodeSpeed: Fast
+[2023.03.04-02.13.22:860][874]LogTexture: Display: Building textures: /Game/Levels/ZaWorudo_Complex_BuiltData.ZaWorudo_Complex_BuiltData:LQ_Lightmap_0_4 (TFO_DXT1, 64X64 X1X1) (Required Memory Estimate: 0.10416 MB), EncodeSpeed: Fast
+[2023.03.04-02.13.23:057][874]LogTexture: Display: Building textures: /Game/Levels/ZaWorudo_Complex_BuiltData.ZaWorudo_Complex_BuiltData:ShadowMapTexture2D_0 (G8, 1024X1024 X1X1) (Required Memory Estimate: 6.666665 MB), EncodeSpeed: Fast
+[2023.03.04-02.13.23:079][874]LogTexture: Display: Building textures: /Game/Levels/ZaWorudo_Complex_BuiltData.ZaWorudo_Complex_BuiltData:ShadowMapTexture2D_1 (G8, 512X512 X1X1) (Required Memory Estimate: 1.666665 MB), EncodeSpeed: Fast
+[2023.03.04-02.13.23:271][874]Lightmass on LAPTOP-304JBCSU: 13.7 sec total, 129 ms importing, 26 ms setup, 2.55 sec photons, 11.0 sec processing, 0 us extra exporting [710/710 mappings]. Threads: 2:46 min total, 26.6 sec processing.
+[2023.03.04-02.13.23:282][874]LogStaticLightingSystem: ZaWorudo_Complex_BuiltData storing lightmap data for 324 meshes in 4 LightmapResourceClusters (81.0 Meshes per cluster).
+[2023.03.04-02.13.23:330][874]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.03.04-02.13.24:945][874]LogStaticLightingSystem: Illumination: 22.1 sec (255 ms encoding lightmaps, 224 ms encoding shadowmaps)
+[2023.03.04-02.13.24:945][874]LogStaticLightingSystem: Lightmap texture memory:  8.3 MB (0.0 MB streaming, 8.2 MB non-streaming), 8 textures
+[2023.03.04-02.13.24:945][874]LogStaticLightingSystem: Shadowmap texture memory: 1.8 MB (0.0 MB streaming, 1.8 MB non-streaming), 3 textures
+[2023.03.04-02.13.28:302][874]DumpUnbuiltLightIteractions
+[2023.03.04-02.13.28:302][874]Lights with unbuilt interactions: 0
+[2023.03.04-02.13.28:302][874]
+[2023.03.04-02.13.28:302][874]Primitives with unbuilt interactions: 0
+[2023.03.04-02.13.28:470][875]Cmd: MAP CHECK NOTIFYRESULTS
+[2023.03.04-02.13.28:470][875]MapCheck: New page: ZaWorudo_Complex - Mar 3, 2023, 2:13:28 PM
+[2023.03.04-02.13.28:473][875]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 3.334ms to complete.
+[2023.03.04-02.18.58:320][620]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.04-02.18.58:328][620]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.04-02.18.58:328][620]PIE: New page: PIE session: ZaWorudo_Complex (Mar 3, 2023, 2:18:58 PM)
+[2023.03.04-02.18.58:334][620]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.04-02.18.58:574][620]LogPlayLevel: PIE: StaticDuplicateObject took: (0.240730s)
+[2023.03.04-02.18.58:574][620]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex to /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex (0.240848s)
+[2023.03.04-02.18.58:574][620]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.04-02.18.58:574][620]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.04-02.18.58:575][620]LogAIModule: Creating AISystem for world ZaWorudo_Complex
+[2023.03.04-02.18.58:575][620]LogPlayLevel: PIE: World Init took: (0.001042s)
+[2023.03.04-02.18.58:585][620]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.03.04-02.18.58:586][620]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2023.03.04-02.18.58:586][620]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.04-02.18.58:586][620]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.04-02.18.58:586][620]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.04-02.18.58:586][620]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.04-02.18.58:586][620]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.04-02.18.58:586][620]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.04-02.18.58:586][620]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.04-02.18.58:586][620]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.04-02.18.58:587][620]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.04-02.18.58:587][620]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.04-02.18.58:587][620]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.04-02.18.58:589][620]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.04-02.18.58:773][620]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2023.03.04-02.18.58:773][620]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.04-02.18.58:773][620]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.04-02.18.58:773][620]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.04-02.18.58:774][620]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2023.03.04-02.18.58:774][620]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2023.03.04-02.18.58:777][620]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2023.03.04-02.18.58:777][620]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2023.03.04-02.18.58:777][620]LogInit: FAudioDevice initialized.
+[2023.03.04-02.18.58:777][620]LogAudio: Display: Audio Device (ID: 18) registered with world 'ZaWorudo_Complex'.
+[2023.03.04-02.18.58:793][620]LogLoad: Game class is 'GameModeBase'
+[2023.03.04-02.18.58:805][620]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex up for play (max tick rate 60) at 2023.03.03-20.18.58
+[2023.03.04-02.18.58:806][620]LogWorld: Bringing up level for play took: 0.013018
+[2023.03.04-02.18.58:809][620]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2023.03.04-02.18.58:811][620]PIE: Server logged in
+[2023.03.04-02.18.58:812][620]PIE: Play in editor total start time 0.484 seconds.
+[2023.03.04-02.20.22:131][508]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.04-02.20.22:132][508]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.04-02.20.22:132][508]LogWorld: UWorld::CleanupWorld for ZaWorudo_Complex, bSessionEnded=true, bCleanupResources=true
+[2023.03.04-02.20.22:133][508]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-02.20.22:149][508]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.04-02.20.22:153][508]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-02.20.22:159][508]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.04-02.20.22:161][508]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.03.04-02.20.22:164][508]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.03.04-02.20.22:171][508]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.04-02.20.22:176][508]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.03.04-02.20.22:209][510]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2023.03.04-02.21.26:542][768]Candidate modules for hot reload:
+[2023.03.04-02.21.26:542][768]  QLProj
+[2023.03.04-02.21.26:548][768]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=QLProj,5867 QLProjEditor Win64 Development -Project="C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject" "C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject"  -IgnoreJunk]
+[2023.03.04-02.21.26:551][768]Warning: Starting HotReload took  0.1s.
+[2023.03.04-02.21.31:197][885]CompilerResultsLog: New page: Compilation - Mar 3, 2023, 2:21:31 PM
+[2023.03.04-02.21.31:197][885]CompilerResultsLog: Log file: C:\Users\seanp\AppData\Local\UnrealBuildTool\Log.txt
+[2023.03.04-02.21.31:197][885]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\seanp\Documents\Github\UE5-Q-Learning).
+[2023.03.04-02.21.31:197][885]CompilerResultsLog: Building QLProjEditor...
+[2023.03.04-02.21.31:197][885]CompilerResultsLog: Using Visual Studio 2022 14.33.31630 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.03.04-02.21.31:197][885]CompilerResultsLog: [Adaptive Build] Excluded from QLProj unity file: AgentController.cpp
+[2023.03.04-02.21.31:197][885]CompilerResultsLog: Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+[2023.03.04-02.21.31:197][885]CompilerResultsLog:   Executing up to 8 processes, one per physical core
+[2023.03.04-02.21.31:197][885]CompilerResultsLog:   Requested 1.5 GB free memory per action, 5.84 GB available: limiting max parallel actions to 3
+[2023.03.04-02.21.31:197][885]CompilerResultsLog: Building 4 actions with 3 processes...
+[2023.03.04-02.21.31:197][885]CompilerResultsLog: [1/4] Compile AgentController.cpp
+[2023.03.04-02.21.31:197][885]CompilerResultsLog: [2/4] Link UnrealEditor-QLProj-5867.lib
+[2023.03.04-02.21.31:197][885]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-5867.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-5867.exp
+[2023.03.04-02.21.31:197][885]CompilerResultsLog: [3/4] Link UnrealEditor-QLProj-5867.dll
+[2023.03.04-02.21.31:197][885]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-5867.suppressed.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-5867.suppressed.exp
+[2023.03.04-02.21.31:197][885]CompilerResultsLog: [4/4] WriteMetadata QLProjEditor.target
+[2023.03.04-02.21.31:197][885]CompilerResultsLog: Total time in Parallel executor: 3.21 seconds
+[2023.03.04-02.21.31:197][885]CompilerResultsLog: Total execution time: 4.48 seconds
+[2023.03.04-02.21.31:197][885]LogMainFrame: MainFrame: Module compiling took 4.700 seconds
+[2023.03.04-02.21.31:344][885]Display: HotReload took  4.9s.
+[2023.03.04-02.21.31:344][885]Display: Reload/Re-instancing Complete: 1 package changed, 5 classes unchanged
+[2023.03.04-02.21.32:929][979]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.04-02.21.32:936][979]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.04-02.21.32:936][979]PIE: New page: PIE session: ZaWorudo_Complex (Mar 3, 2023, 2:21:32 PM)
+[2023.03.04-02.21.32:936][979]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.04-02.21.33:153][979]LogPlayLevel: PIE: StaticDuplicateObject took: (0.217236s)
+[2023.03.04-02.21.33:153][979]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex to /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex (0.217365s)
+[2023.03.04-02.21.33:154][979]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.04-02.21.33:154][979]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.04-02.21.33:154][979]LogAIModule: Creating AISystem for world ZaWorudo_Complex
+[2023.03.04-02.21.33:155][979]LogPlayLevel: PIE: World Init took: (0.001378s)
+[2023.03.04-02.21.33:165][979]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.03.04-02.21.33:166][979]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2023.03.04-02.21.33:166][979]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.04-02.21.33:166][979]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.04-02.21.33:166][979]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.04-02.21.33:166][979]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.04-02.21.33:166][979]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.04-02.21.33:166][979]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.04-02.21.33:166][979]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.04-02.21.33:166][979]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.04-02.21.33:167][979]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.04-02.21.33:167][979]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.04-02.21.33:167][979]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.04-02.21.33:168][979]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.04-02.21.33:338][979]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2023.03.04-02.21.33:338][979]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.04-02.21.33:338][979]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.04-02.21.33:338][979]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.04-02.21.33:339][979]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2023.03.04-02.21.33:339][979]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2023.03.04-02.21.33:341][979]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2023.03.04-02.21.33:341][979]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2023.03.04-02.21.33:341][979]LogInit: FAudioDevice initialized.
+[2023.03.04-02.21.33:341][979]LogAudio: Display: Audio Device (ID: 19) registered with world 'ZaWorudo_Complex'.
+[2023.03.04-02.21.33:361][979]LogLoad: Game class is 'GameModeBase'
+[2023.03.04-02.21.33:371][979]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex up for play (max tick rate 60) at 2023.03.03-20.21.33
+[2023.03.04-02.21.33:371][979]LogWorld: Bringing up level for play took: 0.010553
+[2023.03.04-02.21.33:374][979]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2023.03.04-02.21.33:376][979]PIE: Server logged in
+[2023.03.04-02.21.33:377][979]PIE: Play in editor total start time 0.441 seconds.
+[2023.03.04-02.23.23:966][601]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.04-02.23.23:966][601]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.04-02.23.23:967][601]LogWorld: UWorld::CleanupWorld for ZaWorudo_Complex, bSessionEnded=true, bCleanupResources=true
+[2023.03.04-02.23.23:968][601]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-02.23.23:983][601]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.04-02.23.23:986][601]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-02.23.23:996][601]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.04-02.23.23:996][601]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.03.04-02.23.23:998][601]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.03.04-02.23.24:008][601]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.04-02.23.24:014][601]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.03.04-02.23.24:053][602]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2023.03.04-02.23.31:773][766]Candidate modules for hot reload:
+[2023.03.04-02.23.31:773][766]  QLProj
+[2023.03.04-02.23.31:779][766]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=QLProj,9701 QLProjEditor Win64 Development -Project="C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject" "C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject"  -IgnoreJunk]
+[2023.03.04-02.23.31:783][766]Warning: Starting HotReload took  0.1s.
+[2023.03.04-02.23.37:014][ 61]CompilerResultsLog: New page: Compilation - Mar 3, 2023, 2:23:37 PM
+[2023.03.04-02.23.37:014][ 61]CompilerResultsLog: Log file: C:\Users\seanp\AppData\Local\UnrealBuildTool\Log.txt
+[2023.03.04-02.23.37:014][ 61]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\seanp\Documents\Github\UE5-Q-Learning).
+[2023.03.04-02.23.37:014][ 61]CompilerResultsLog: Building QLProjEditor...
+[2023.03.04-02.23.37:014][ 61]CompilerResultsLog: Using Visual Studio 2022 14.33.31630 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.03.04-02.23.37:014][ 61]CompilerResultsLog: [Adaptive Build] Excluded from QLProj unity file: AgentController.cpp
+[2023.03.04-02.23.37:014][ 61]CompilerResultsLog: Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+[2023.03.04-02.23.37:014][ 61]CompilerResultsLog:   Executing up to 8 processes, one per physical core
+[2023.03.04-02.23.37:014][ 61]CompilerResultsLog:   Requested 1.5 GB free memory per action, 6.15 GB available: limiting max parallel actions to 4
+[2023.03.04-02.23.37:014][ 61]CompilerResultsLog: Building 4 actions with 4 processes...
+[2023.03.04-02.23.37:014][ 61]CompilerResultsLog: [1/4] Compile AgentController.cpp
+[2023.03.04-02.23.37:014][ 61]CompilerResultsLog: [2/4] Link UnrealEditor-QLProj-9701.lib
+[2023.03.04-02.23.37:014][ 61]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-9701.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-9701.exp
+[2023.03.04-02.23.37:014][ 61]CompilerResultsLog: [3/4] Link UnrealEditor-QLProj-9701.dll
+[2023.03.04-02.23.37:014][ 61]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-9701.suppressed.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-9701.suppressed.exp
+[2023.03.04-02.23.37:014][ 61]CompilerResultsLog: [4/4] WriteMetadata QLProjEditor.target
+[2023.03.04-02.23.37:014][ 61]CompilerResultsLog: Total time in Parallel executor: 3.86 seconds
+[2023.03.04-02.23.37:014][ 61]CompilerResultsLog: Total execution time: 5.07 seconds
+[2023.03.04-02.23.37:014][ 61]LogMainFrame: MainFrame: Module compiling took 5.287 seconds
+[2023.03.04-02.23.37:147][ 61]Display: HotReload took  5.4s.
+[2023.03.04-02.23.37:147][ 61]Display: Reload/Re-instancing Complete: 1 package changed, 5 classes unchanged
+[2023.03.04-02.23.38:365][134]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.04-02.23.38:372][134]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.04-02.23.38:372][134]PIE: New page: PIE session: ZaWorudo_Complex (Mar 3, 2023, 2:23:38 PM)
+[2023.03.04-02.23.38:372][134]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.04-02.23.38:605][134]LogPlayLevel: PIE: StaticDuplicateObject took: (0.233522s)
+[2023.03.04-02.23.38:605][134]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex to /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex (0.233637s)
+[2023.03.04-02.23.38:605][134]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.04-02.23.38:605][134]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.04-02.23.38:606][134]LogAIModule: Creating AISystem for world ZaWorudo_Complex
+[2023.03.04-02.23.38:607][134]LogPlayLevel: PIE: World Init took: (0.001404s)
+[2023.03.04-02.23.38:615][134]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.03.04-02.23.38:616][134]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2023.03.04-02.23.38:616][134]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.04-02.23.38:617][134]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.04-02.23.38:617][134]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.04-02.23.38:617][134]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.04-02.23.38:617][134]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.04-02.23.38:617][134]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.04-02.23.38:617][134]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.04-02.23.38:617][134]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.04-02.23.38:617][134]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.04-02.23.38:617][134]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.04-02.23.38:617][134]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.04-02.23.38:619][134]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.04-02.23.38:815][134]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2023.03.04-02.23.38:815][134]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.04-02.23.38:815][134]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.04-02.23.38:815][134]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.04-02.23.38:816][134]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2023.03.04-02.23.38:816][134]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2023.03.04-02.23.38:818][134]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2023.03.04-02.23.38:818][134]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2023.03.04-02.23.38:818][134]LogInit: FAudioDevice initialized.
+[2023.03.04-02.23.38:818][134]LogAudio: Display: Audio Device (ID: 20) registered with world 'ZaWorudo_Complex'.
+[2023.03.04-02.23.38:839][134]LogLoad: Game class is 'GameModeBase'
+[2023.03.04-02.23.38:850][134]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ZaWorudo_Complex.ZaWorudo_Complex up for play (max tick rate 60) at 2023.03.03-20.23.38
+[2023.03.04-02.23.38:851][134]LogWorld: Bringing up level for play took: 0.011563
+[2023.03.04-02.23.38:854][134]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2023.03.04-02.23.38:856][134]PIE: Server logged in
+[2023.03.04-02.23.38:857][134]PIE: Play in editor total start time 0.486 seconds.
+[2023.03.04-02.45.30:078][791]LogDerivedDataCache: C:/Users/seanp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:14.544 and deleted 0 file(s) with total size 0 MiB.
+[2023.03.04-03.00.42:222][ 93]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.04-03.00.42:223][ 93]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_ZaWorudo_Complex
+[2023.03.04-03.00.42:223][ 93]LogWorld: UWorld::CleanupWorld for ZaWorudo_Complex, bSessionEnded=true, bCleanupResources=true
+[2023.03.04-03.00.42:224][ 93]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-03.00.42:239][ 93]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.04-03.00.42:242][ 93]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-03.00.42:252][ 93]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.04-03.00.42:252][ 93]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.03.04-03.00.42:255][ 93]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.03.04-03.00.42:265][ 93]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.04-03.00.42:272][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.03.04-03.00.42:312][ 94]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2023.03.04-03.00.45:400][264]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.03.04-03.00.45:543][264]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2023.03.04-03.00.45:574][264]LogPackageLocalizationCache: Processed 30 localized package path(s) for 1 prioritized culture(s) in 0.026704 seconds
+[2023.03.04-03.00.45:914][264]LogSavePackage: Moving output files for package: /Game/Levels/ZaWorudo_Complex
+[2023.03.04-03.00.45:915][264]LogSavePackage: Moving '../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/Saved/ZaWorudo_Complex7D20270940D1ED3EDB62C08E4F0D42A5.tmp' to '../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/Content/Levels/ZaWorudo_Complex.umap'
+[2023.03.04-03.00.45:944][264]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Levels/ZaWorudo_Complex_BuiltData
+[2023.03.04-03.00.46:311][264]LogSavePackage: Moving output files for package: /Game/Levels/ZaWorudo_Complex_BuiltData
+[2023.03.04-03.00.46:311][264]LogSavePackage: Moving '../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/Saved/ZaWorudo_Complex_BuiltData82EB75E54169FC6AC58C64AE8DFB9659.tmp' to '../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/Content/Levels/ZaWorudo_Complex_BuiltData.uasset'
+[2023.03.04-03.00.46:313][264]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Levels/ZaWorudo_Complex_BuiltData
+[2023.03.04-03.00.46:313][264]LogFileHelpers: Saving map 'ZaWorudo_Complex' took 0.785
+[2023.03.04-03.00.46:695][264]LogSavePackage: Moving output files for package: /Game/Levels/ZaWorudo_Complex_BuiltData
+[2023.03.04-03.00.46:696][264]LogSavePackage: Moving '../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/Saved/ZaWorudo_Complex_BuiltData17795BF643EA559EA22C05A427BA2A71.tmp' to '../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/Content/Levels/ZaWorudo_Complex_BuiltData.uasset'
+[2023.03.04-03.00.46:712][264]AssetCheck: New page: Asset Save: multiple assets
+[2023.03.04-03.00.46:713][264]LogContentValidation: Display: Validating World /Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex
+[2023.03.04-03.00.46:713][264]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/ZaWorudo_Complex_BuiltData.ZaWorudo_Complex_BuiltData

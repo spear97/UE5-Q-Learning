@@ -16,7 +16,8 @@ class QLPROJ_API AAgentController : public AAIController
 {
 	GENERATED_BODY()
 
-	#define DisplayNum(x) if(GEngine){GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, FString::Printf(TEXT("%i"), x));}
+	#define DisplayNum(x) if(GEngine){GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Green, FString::Printf(TEXT("%i"), x));}
+	#define DisplayRow() if(GEngine){GEngine->AddOnScreenDebugMessage(-1, delay, FColor::White, FString::Printf(TEXT("State: %i |%f %f %f %f %f %f %f %f|"), s, Q[s][0], Q[s][1], Q[s][2], Q[s][3], Q[s][4], Q[s][5], Q[s][6], Q[s][7]));}
 	
 public:
 	AAgentController();
