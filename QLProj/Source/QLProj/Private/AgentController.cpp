@@ -140,8 +140,23 @@ void AAgentController::Q_Learning()
 		break;
 	}
 
-	//How far is the Agent from the Goal
-	//float distanceToGoal;
+	//Check if Target Exists
+	//Target is Needed for Reinforcement Learning to Operate
+	if (Target)
+	{
+		float currDist = FVector::Dist(Target->GetActorLocation(), this->GetPawn()->GetActorLocation());
+
+		if (currDist < prevDist)
+		{
+			r = 1;
+		}
+		else
+		{
+			r = -1;
+		}
+
+		Q[s][a] = CalculatePolicy();
+	}
 }
 
 //Get the Score for the Correspond Action and State

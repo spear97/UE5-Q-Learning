@@ -81,6 +81,12 @@ protected:
 	//Move the Agent Forward-Left -> 7
 	void FwdLt();
 
+public:
+
+	/**************Variables that will get set in Blueprint**************/
+	UPROPERTY(BlueprintReadWrite)
+	AActor* Target;
+
 protected:
 	/**************The Initial Variables for the Q-Learning**************/
 
@@ -135,4 +141,7 @@ protected:
 
 	//How far the Agent can move for any given direction
 	float move_dist = 250.f;
+
+	//How Far was Agent from Target on Previous Action
+	float prevDist = INFINITY;
 };

@@ -21,4 +21,8 @@ protected:
 
 	// Called every frame
 	virtual void Tick(float delta) override;
+
+	/**************Variables that will get set in Blueprint**************/
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	AActor* Target;
 };
