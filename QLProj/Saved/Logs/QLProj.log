@@ -2168,3 +2168,1521 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.03.04-03.00.46:712][264]AssetCheck: New page: Asset Save: multiple assets
 [2023.03.04-03.00.46:713][264]LogContentValidation: Display: Validating World /Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex
 [2023.03.04-03.00.46:713][264]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/ZaWorudo_Complex_BuiltData.ZaWorudo_Complex_BuiltData
+[2023.03.04-03.41.06:454][804]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2023.03.04-03.41.06:709][804]LogUObjectGlobals: Warning: Failed to find object 'Class None.Physics'
+[2023.03.04-03.41.14:103][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2023.03.04-03.42.08:200][789]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.03.04-03.43.10:844][494]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.03.04-03.43.17:868][882]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.03.04-03.43.32:944][779]Cmd: DELETE
+[2023.03.04-03.43.32:944][779]Cmd: ACTOR DELETE
+[2023.03.04-03.43.33:028][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:030][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:031][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:031][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:032][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:032][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:033][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:034][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:034][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:035][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:036][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:037][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:038][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:039][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:039][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:040][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:040][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:041][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:042][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:042][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:043][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:044][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:044][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:045][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:045][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:046][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:046][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:047][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:047][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:048][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:049][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:049][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:050][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:051][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:052][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:052][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:053][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:053][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:054][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:055][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:055][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:056][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:056][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:057][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:057][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:058][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:059][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:059][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:060][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:060][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:061][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:061][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:062][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:063][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:063][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:064][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:064][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:065][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:065][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:066][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:066][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:067][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:068][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:068][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:069][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:070][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:070][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:071][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:071][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:072][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:073][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:073][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:074][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:074][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:075][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:076][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:076][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:077][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:077][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:078][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:078][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:079][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:080][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:080][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:081][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:081][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:082][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:082][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:083][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:083][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:084][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:084][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:085][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:086][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:086][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:087][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:087][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:088][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:088][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:089][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:089][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:090][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:090][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:091][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:092][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:092][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:093][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:093][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:094][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:094][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:095][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:095][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:096][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:096][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:097][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:098][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:099][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:099][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:100][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:100][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:101][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:101][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:102][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:103][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:103][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:104][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:104][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:105][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:105][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:106][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:106][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:107][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:107][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:108][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:108][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:109][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:109][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:110][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:110][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:111][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:111][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:112][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:112][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:113][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:113][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:114][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:114][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:115][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:115][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:116][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:116][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:117][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:118][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:118][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:119][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:119][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:120][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:120][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:121][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:121][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:122][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:122][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:123][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:123][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:124][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:124][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:125][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:125][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:126][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:126][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:127][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:127][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:128][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:128][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:129][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:129][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:130][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:130][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:131][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:131][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:132][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:132][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:133][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:133][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:134][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:134][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:135][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:135][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:136][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:136][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:137][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:137][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:138][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:138][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:139][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:139][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:140][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:141][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:141][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:141][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:142][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:142][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:143][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:143][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:144][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:144][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:145][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:145][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:146][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:146][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:147][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:147][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:148][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:148][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:149][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:150][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:150][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:151][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:151][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:152][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:152][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:153][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:153][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:153][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:154][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:154][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:155][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:156][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:156][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:157][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:157][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:157][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:158][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:158][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:159][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:159][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:160][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:160][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:161][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:162][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:162][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:163][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:163][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:164][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:164][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:165][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:165][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:166][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:166][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:167][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:167][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:168][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:168][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:169][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:169][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:170][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:170][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:171][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:171][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:172][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:172][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:173][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:173][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:174][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:174][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:175][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:175][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:176][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:176][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:176][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:177][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:177][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:178][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:178][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:179][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:179][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:179][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:180][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:180][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:181][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:181][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:182][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:182][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:183][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:183][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:184][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:184][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:185][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:185][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:185][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:186][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:186][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:187][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:187][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:188][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:188][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:188][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:189][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:189][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:190][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:190][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:191][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:191][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:191][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:192][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:192][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:193][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:193][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:194][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:194][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:194][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:195][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:195][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:196][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:196][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:197][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:197][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:198][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:198][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:198][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:199][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:199][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:200][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:200][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:200][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:201][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:201][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:202][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:202][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:203][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:203][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:203][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:204][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:204][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:205][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:205][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:206][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:206][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:207][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:207][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:207][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:208][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:208][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:209][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:209][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:209][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:210][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:210][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:211][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:211][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:211][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:212][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:212][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:213][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:213][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:214][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:214][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:214][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:215][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:215][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:216][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:216][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:216][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:217][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:217][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:218][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:218][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:218][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:219][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:219][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:220][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:220][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:220][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:221][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:221][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:222][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:222][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:222][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:223][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:223][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:224][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:224][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:224][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:225][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:225][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:226][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:226][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:226][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:227][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:227][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:227][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:228][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:228][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:229][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:229][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:230][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:230][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:230][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:231][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:231][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:231][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:232][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:232][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:233][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:233][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:233][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:234][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:235][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:235][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:235][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:236][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:236][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:236][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:237][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:237][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:238][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:238][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:238][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:239][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:239][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:239][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:240][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:240][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:240][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:241][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:241][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:242][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:242][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:242][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:243][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:243][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:243][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:244][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:244][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:245][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:245][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:245][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:246][779]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.43.33:252][779]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2023.03.04-03.43.33:254][779]LogEditorActor: Deleted 438 Actors (0.294 secs)
+[2023.03.04-03.43.34:594][849]LogActor: Warning: MyGoal_C /Engine/Transient.World_1:PersistentLevel.MyGoal_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.03.04-03.43.42:258][291]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/MyWayPoint.MyWayPoint_C
+[2023.03.04-03.43.42:258][291]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/MyWayPoint.MyWayPoint_C
+[2023.03.04-03.43.42:260][291]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/MyWayPoint.MyWayPoint as actor: MyWayPoint_C /Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.MyWayPoint_C_0
+[2023.03.04-03.43.42:261][291]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/MyWayPoint.MyWayPoint as actor: MyWayPoint_C /Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.MyWayPoint_C_0
+[2023.03.04-03.43.43:779][381]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/MyWayPoint.MyWayPoint_C
+[2023.03.04-03.43.43:779][381]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/MyWayPoint.MyWayPoint_C
+[2023.03.04-03.43.43:796][381]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/MyWayPoint.MyWayPoint as actor: MyWayPoint_C /Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.MyWayPoint_C_1
+[2023.03.04-03.43.43:796][381]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/MyWayPoint.MyWayPoint as actor: MyWayPoint_C /Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex:PersistentLevel.MyWayPoint_C_1
+[2023.03.04-03.43.47:431][595]Cmd: DUPLICATE
+[2023.03.04-03.43.47:431][595]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.43.54:667][  9]LogSlate: Took 0.002486 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.03.04-03.44.08:608][831]Cmd: DUPLICATE
+[2023.03.04-03.44.08:608][831]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.44.13:290][107]Cmd: DUPLICATE
+[2023.03.04-03.44.13:290][107]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.44.16:928][321]Cmd: DUPLICATE
+[2023.03.04-03.44.16:928][321]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.44.29:450][ 62]Cmd: DUPLICATE
+[2023.03.04-03.44.29:450][ 62]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.44.35:763][436]Cmd: DUPLICATE
+[2023.03.04-03.44.35:763][436]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.44.39:357][647]Cmd: DUPLICATE
+[2023.03.04-03.44.39:358][647]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.44.42:109][807]Cmd: DUPLICATE
+[2023.03.04-03.44.42:109][807]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.44.46:374][ 57]Cmd: DUPLICATE
+[2023.03.04-03.44.46:374][ 57]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.44.49:091][216]Cmd: DUPLICATE
+[2023.03.04-03.44.49:091][216]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.44.52:447][411]Cmd: DUPLICATE
+[2023.03.04-03.44.52:447][411]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.44.55:227][573]Cmd: DUPLICATE
+[2023.03.04-03.44.55:227][573]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.44.58:069][738]Cmd: DUPLICATE
+[2023.03.04-03.44.58:069][738]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.45.01:919][964]Cmd: DUPLICATE
+[2023.03.04-03.45.01:919][964]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.45.09:213][395]Cmd: DUPLICATE
+[2023.03.04-03.45.09:213][395]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.45.12:383][580]Cmd: DUPLICATE
+[2023.03.04-03.45.12:383][580]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.45.15:828][782]Cmd: DUPLICATE
+[2023.03.04-03.45.15:828][782]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.45.18:730][951]Cmd: DUPLICATE
+[2023.03.04-03.45.18:731][951]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.45.21:153][ 91]Cmd: DUPLICATE
+[2023.03.04-03.45.21:153][ 91]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.45.24:317][276]Cmd: DUPLICATE
+[2023.03.04-03.45.24:317][276]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.45.24:980][313]LogDerivedDataCache: C:/Users/seanp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:09.431 and deleted 0 file(s) with total size 0 MiB.
+[2023.03.04-03.45.26:707][415]Cmd: DUPLICATE
+[2023.03.04-03.45.26:707][415]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.45.29:818][597]Cmd: DUPLICATE
+[2023.03.04-03.45.29:818][597]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.45.33:600][819]Cmd: DUPLICATE
+[2023.03.04-03.45.33:600][819]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.45.35:468][927]Cmd: DUPLICATE
+[2023.03.04-03.45.35:468][927]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.45.38:910][129]Cmd: DUPLICATE
+[2023.03.04-03.45.38:910][129]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.45.45:779][537]Cmd: DUPLICATE
+[2023.03.04-03.45.45:779][537]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.45.49:117][733]Cmd: DUPLICATE
+[2023.03.04-03.45.49:117][733]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.45.51:298][860]Cmd: DUPLICATE
+[2023.03.04-03.45.51:298][860]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.45.54:099][ 24]Cmd: DUPLICATE
+[2023.03.04-03.45.54:099][ 24]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.45.57:347][214]Cmd: DUPLICATE
+[2023.03.04-03.45.57:347][214]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.46.00:423][394]Cmd: DUPLICATE
+[2023.03.04-03.46.00:423][394]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.46.03:174][555]Cmd: DUPLICATE
+[2023.03.04-03.46.03:174][555]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.46.12:969][138]Cmd: DUPLICATE
+[2023.03.04-03.46.12:969][138]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.46.15:361][277]Cmd: DUPLICATE
+[2023.03.04-03.46.15:361][277]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.46.18:361][452]Cmd: DUPLICATE
+[2023.03.04-03.46.18:361][452]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.46.21:418][632]Cmd: DUPLICATE
+[2023.03.04-03.46.21:418][632]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.46.24:325][801]Cmd: DUPLICATE
+[2023.03.04-03.46.24:325][801]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.46.26:830][947]Cmd: DUPLICATE
+[2023.03.04-03.46.26:830][947]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.46.29:195][ 84]Cmd: DUPLICATE
+[2023.03.04-03.46.29:195][ 84]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.46.31:185][199]Cmd: DUPLICATE
+[2023.03.04-03.46.31:185][199]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.46.41:666][819]Cmd: DUPLICATE
+[2023.03.04-03.46.41:666][819]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.46.58:211][803]Cmd: DUPLICATE
+[2023.03.04-03.46.58:211][803]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.47.08:105][387]Cmd: DUPLICATE
+[2023.03.04-03.47.08:105][387]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.47.13:927][731]Cmd: DUPLICATE
+[2023.03.04-03.47.13:927][731]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.47.23:614][306]Cmd: DUPLICATE
+[2023.03.04-03.47.23:614][306]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.47.33:775][911]Cmd: DUPLICATE
+[2023.03.04-03.47.33:775][911]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.47.39:351][240]Cmd: DUPLICATE
+[2023.03.04-03.47.39:351][240]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.47.47:647][731]Cmd: DUPLICATE
+[2023.03.04-03.47.47:647][731]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.47.53:312][ 65]Cmd: DUPLICATE
+[2023.03.04-03.47.53:312][ 65]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.47.59:320][420]Cmd: DUPLICATE
+[2023.03.04-03.47.59:320][420]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.48.06:150][824]Cmd: DUPLICATE
+[2023.03.04-03.48.06:150][824]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.48.15:967][405]Cmd: DUPLICATE
+[2023.03.04-03.48.15:968][405]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.48.21:243][716]Cmd: DUPLICATE
+[2023.03.04-03.48.21:243][716]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.48.26:866][ 48]Cmd: DUPLICATE
+[2023.03.04-03.48.26:866][ 48]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.48.32:047][354]Cmd: DUPLICATE
+[2023.03.04-03.48.32:048][354]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.49.14:596][860]Cmd: DUPLICATE
+[2023.03.04-03.49.14:596][860]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.49.18:928][108]Cmd: TRANSACTION UNDO
+[2023.03.04-03.49.18:929][108]LogEditorTransaction: Undo Duplicate Elements
+[2023.03.04-03.49.20:584][110]Cmd: TRANSACTION UNDO
+[2023.03.04-03.49.20:584][110]LogEditorTransaction: Undo Clicking on Elements
+[2023.03.04-03.49.20:603][110]Cmd: TRANSACTION UNDO
+[2023.03.04-03.49.20:603][110]LogEditorTransaction: Undo Clicking on Elements
+[2023.03.04-03.49.26:359][448]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2023.03.04-03.49.27:560][448]LogSlate: Window 'Save Content' being destroyed
+[2023.03.04-03.49.27:569][448]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/ZaWorudo_Complex.ZaWorudo_Complex
+[2023.03.04-03.49.27:571][448]Cmd: MAP LOAD FILE="../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/Content/Levels/ZaWorudo_Complex.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.03.04-03.49.27:571][448]LightingResults: New page: Lighting Build
+[2023.03.04-03.49.27:571][448]LoadErrors: New page: Loading map: ZaWorudo_Complex.umap
+[2023.03.04-03.49.27:581][448]LogWorld: Warning: UWorld::CleanupWorld called twice or called without InitWorld called first.
+[2023.03.04-03.49.27:581][448]LogWorld: UWorld::CleanupWorld for ZaWorudo_Complex, bSessionEnded=true, bCleanupResources=true
+[2023.03.04-03.49.27:584][448]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-03.49.27:584][448]MapCheck: New page: Map Check
+[2023.03.04-03.49.27:584][448]LightingResults: New page: Lighting Build
+[2023.03.04-03.49.27:592][448]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.04-03.49.27:610][448]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.03.04-03.49.27:853][448]LogAudio: Display: Audio Device (ID: 1) registered with world 'ZaWorudo_Complex'.
+[2023.03.04-03.49.27:853][448]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.04-03.49.27:854][448]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.04-03.49.27:854][448]LogAIModule: Creating AISystem for world ZaWorudo_Complex
+[2023.03.04-03.49.27:888][448]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.03.04-03.49.27:914][448]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.03.04-03.49.27:921][448]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.03.04-03.49.27:921][448]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.184ms to complete.
+[2023.03.04-03.49.27:921][448]LogFileHelpers: Loading map 'ZaWorudo_Complex' took 0.351
+[2023.03.04-03.49.42:452][294]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2023.03.04-03.49.42:585][294]LogBlueprint: Warning: [AssetLog] C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Content\Levels\ZaWorudo_Simplistic.umap: [Compiler] Node  Unknown  is not referencing a valid level actor
+[2023.03.04-03.49.42:585][294]LogBlueprint: Warning: [AssetLog] C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Content\Levels\ZaWorudo_Simplistic.umap: [Compiler] Node  Unknown  is not referencing a valid level actor
+[2023.03.04-03.49.42:671][294]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/ZaWorudo_Simplistic.ZaWorudo_Simplistic
+[2023.03.04-03.49.42:672][294]Cmd: MAP LOAD FILE="../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/Content/Levels/ZaWorudo_Simplistic.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.03.04-03.49.42:672][294]LightingResults: New page: Lighting Build
+[2023.03.04-03.49.42:672][294]LoadErrors: New page: Loading map: ZaWorudo_Simplistic.umap
+[2023.03.04-03.49.42:678][294]LogWorld: UWorld::CleanupWorld for ZaWorudo_Complex, bSessionEnded=true, bCleanupResources=true
+[2023.03.04-03.49.42:678][294]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-03.49.42:679][294]MapCheck: New page: Map Check
+[2023.03.04-03.49.42:679][294]LightingResults: New page: Lighting Build
+[2023.03.04-03.49.42:687][294]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.04-03.49.42:694][294]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2023.03.04-03.49.42:700][294]LogWorld: UWorld::CleanupWorld for ZaWorudo_Simplistic, bSessionEnded=true, bCleanupResources=true
+[2023.03.04-03.49.42:700][294]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-03.49.42:711][294]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.03.04-03.49.42:718][294]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.03.04-03.49.42:722][294]LogBlueprint: Warning: [AssetLog] C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Content\Levels\ZaWorudo_Simplistic.umap: [Compiler] Node  Unknown  is not referencing a valid level actor
+[2023.03.04-03.49.42:722][294]LogBlueprint: Warning: [AssetLog] C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Content\Levels\ZaWorudo_Simplistic.umap: [Compiler] Node  Unknown  is not referencing a valid level actor
+[2023.03.04-03.49.42:748][294]LogAudio: Display: Audio Device (ID: 1) registered with world 'ZaWorudo_Simplistic'.
+[2023.03.04-03.49.42:748][294]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.04-03.49.42:748][294]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.04-03.49.42:748][294]LogAIModule: Creating AISystem for world ZaWorudo_Simplistic
+[2023.03.04-03.49.42:755][294]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.03.04-03.49.42:765][294]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2023.03.04-03.49.42:773][294]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.03.04-03.49.42:773][294]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.125ms to complete.
+[2023.03.04-03.49.42:773][294]LogFileHelpers: Loading map 'ZaWorudo_Simplistic' took 0.101
+[2023.03.04-03.50.09:596][870]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/MyWayPoint.MyWayPoint_C
+[2023.03.04-03.50.09:596][870]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/MyWayPoint.MyWayPoint_C
+[2023.03.04-03.50.09:597][870]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/MyWayPoint.MyWayPoint as actor: MyWayPoint_C /Game/Levels/ZaWorudo_Simplistic.ZaWorudo_Simplistic:PersistentLevel.MyWayPoint_C_0
+[2023.03.04-03.50.09:597][870]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/MyWayPoint.MyWayPoint as actor: MyWayPoint_C /Game/Levels/ZaWorudo_Simplistic.ZaWorudo_Simplistic:PersistentLevel.MyWayPoint_C_0
+[2023.03.04-03.50.13:022][ 75]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/MyWayPoint.MyWayPoint_C
+[2023.03.04-03.50.13:022][ 75]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/MyWayPoint.MyWayPoint_C
+[2023.03.04-03.50.13:033][ 75]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/MyWayPoint.MyWayPoint as actor: MyWayPoint_C /Game/Levels/ZaWorudo_Simplistic.ZaWorudo_Simplistic:PersistentLevel.MyWayPoint_C_1
+[2023.03.04-03.50.13:034][ 75]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/MyWayPoint.MyWayPoint as actor: MyWayPoint_C /Game/Levels/ZaWorudo_Simplistic.ZaWorudo_Simplistic:PersistentLevel.MyWayPoint_C_1
+[2023.03.04-03.50.19:790][475]Cmd: DUPLICATE
+[2023.03.04-03.50.19:791][475]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.50.26:202][849]Cmd: DUPLICATE
+[2023.03.04-03.50.26:202][849]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.50.31:141][137]Cmd: DUPLICATE
+[2023.03.04-03.50.31:142][137]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.50.37:012][485]Cmd: DUPLICATE
+[2023.03.04-03.50.37:012][485]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.50.40:280][670]Cmd: DUPLICATE
+[2023.03.04-03.50.40:280][670]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.51.11:000][508]Cmd: TRANSACTION UNDO
+[2023.03.04-03.51.11:000][508]LogEditorTransaction: Undo Move Elements
+[2023.03.04-03.51.11:647][531]Cmd: DUPLICATE
+[2023.03.04-03.51.11:647][531]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.51.15:546][761]Cmd: DUPLICATE
+[2023.03.04-03.51.15:546][761]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.51.18:804][946]Cmd: DUPLICATE
+[2023.03.04-03.51.18:804][946]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.51.21:236][ 89]Cmd: DUPLICATE
+[2023.03.04-03.51.21:236][ 89]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.51.24:509][276]Cmd: DUPLICATE
+[2023.03.04-03.51.24:509][276]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.51.40:988][244]Cmd: DUPLICATE
+[2023.03.04-03.51.40:988][244]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.51.45:024][476]Cmd: DUPLICATE
+[2023.03.04-03.51.45:024][476]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.51.48:501][677]Cmd: DUPLICATE
+[2023.03.04-03.51.48:501][677]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.51.51:321][837]Cmd: DUPLICATE
+[2023.03.04-03.51.51:321][837]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.51.53:704][977]Cmd: DUPLICATE
+[2023.03.04-03.51.53:704][977]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.51.57:021][171]Cmd: DUPLICATE
+[2023.03.04-03.51.57:021][171]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.51.59:869][339]Cmd: DUPLICATE
+[2023.03.04-03.51.59:869][339]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.52.02:047][466]Cmd: SELECT NONE
+[2023.03.04-03.52.06:597][722]Cmd: DELETE
+[2023.03.04-03.52.06:597][722]Cmd: ACTOR DELETE
+[2023.03.04-03.52.06:611][722]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.52.06:618][722]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.03.04-03.52.06:620][722]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2023.03.04-03.52.12:376][ 60]Cmd: SELECT NONE
+[2023.03.04-03.52.20:465][533]Cmd: DUPLICATE
+[2023.03.04-03.52.20:465][533]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.52.23:259][694]Cmd: DUPLICATE
+[2023.03.04-03.52.23:259][694]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.52.29:264][ 41]Cmd: DUPLICATE
+[2023.03.04-03.52.29:264][ 41]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.52.32:654][241]Cmd: DUPLICATE
+[2023.03.04-03.52.32:654][241]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.52.36:424][458]Cmd: DUPLICATE
+[2023.03.04-03.52.36:424][458]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.52.46:635][ 59]Cmd: DUPLICATE
+[2023.03.04-03.52.46:635][ 59]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.52.50:072][262]Cmd: DUPLICATE
+[2023.03.04-03.52.50:072][262]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.52.55:301][569]Cmd: DUPLICATE
+[2023.03.04-03.52.55:301][569]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.52.58:279][735]Cmd: DUPLICATE
+[2023.03.04-03.52.58:279][735]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.53.00:828][878]Cmd: DUPLICATE
+[2023.03.04-03.53.00:828][878]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.53.05:137][131]Cmd: DUPLICATE
+[2023.03.04-03.53.05:137][131]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.53.08:012][300]Cmd: DUPLICATE
+[2023.03.04-03.53.08:012][300]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.53.12:086][539]Cmd: DUPLICATE
+[2023.03.04-03.53.12:086][539]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.53.15:238][725]Cmd: DUPLICATE
+[2023.03.04-03.53.15:238][725]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.53.20:320][ 26]Cmd: DUPLICATE
+[2023.03.04-03.53.20:320][ 26]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.53.27:537][443]Cmd: DUPLICATE
+[2023.03.04-03.53.27:537][443]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.53.29:863][579]Cmd: DUPLICATE
+[2023.03.04-03.53.29:863][579]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.53.32:244][715]Cmd: DUPLICATE
+[2023.03.04-03.53.32:244][715]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.53.34:116][820]Cmd: DUPLICATE
+[2023.03.04-03.53.34:116][820]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.53.37:390][ 12]Cmd: DUPLICATE
+[2023.03.04-03.53.37:390][ 12]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.53.43:817][381]Cmd: DUPLICATE
+[2023.03.04-03.53.43:817][381]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.53.54:499][ 10]Cmd: SELECT NONE
+[2023.03.04-03.54.07:705][771]Cmd: TRANSACTION UNDO
+[2023.03.04-03.54.07:705][771]LogEditorTransaction: Undo Clicking on Elements
+[2023.03.04-03.54.08:009][778]Cmd: TRANSACTION UNDO
+[2023.03.04-03.54.08:009][778]LogEditorTransaction: Undo Select Brush Surface
+[2023.03.04-03.54.08:300][783]Cmd: TRANSACTION UNDO
+[2023.03.04-03.54.08:300][783]LogEditorTransaction: Undo Clicking on Elements
+[2023.03.04-03.54.12:557][ 32]Cmd: DUPLICATE
+[2023.03.04-03.54.12:557][ 32]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.54.17:881][339]Cmd: DUPLICATE
+[2023.03.04-03.54.17:881][339]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.54.26:532][839]Cmd: DUPLICATE
+[2023.03.04-03.54.26:532][839]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.54.46:039][958]Cmd: DUPLICATE
+[2023.03.04-03.54.46:039][958]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.54.51:538][276]Cmd: DUPLICATE
+[2023.03.04-03.54.51:538][276]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.54.55:325][499]Cmd: DUPLICATE
+[2023.03.04-03.54.55:325][499]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.55.15:209][655]Cmd: TRANSACTION UNDO
+[2023.03.04-03.55.15:209][655]LogEditorTransaction: Undo Move Elements
+[2023.03.04-03.55.15:896][677]Cmd: DUPLICATE
+[2023.03.04-03.55.15:896][677]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.55.20:120][919]Cmd: DUPLICATE
+[2023.03.04-03.55.20:120][919]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.55.21:911][ 23]Cmd: DUPLICATE
+[2023.03.04-03.55.21:912][ 23]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.55.27:356][341]Cmd: DUPLICATE
+[2023.03.04-03.55.27:356][341]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.55.30:369][513]Cmd: DUPLICATE
+[2023.03.04-03.55.30:370][513]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.55.32:827][651]Cmd: DUPLICATE
+[2023.03.04-03.55.32:827][651]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.55.35:355][798]Cmd: TRANSACTION UNDO
+[2023.03.04-03.55.35:355][798]LogEditorTransaction: Undo Duplicate Elements
+[2023.03.04-03.55.38:209][938]Cmd: DUPLICATE
+[2023.03.04-03.55.38:209][938]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.55.40:912][ 91]Cmd: DUPLICATE
+[2023.03.04-03.55.40:912][ 91]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.55.42:492][180]Cmd: DUPLICATE
+[2023.03.04-03.55.42:492][180]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.55.44:111][273]Cmd: DUPLICATE
+[2023.03.04-03.55.44:111][273]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.55.46:851][425]Cmd: DUPLICATE
+[2023.03.04-03.55.46:851][425]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.55.48:583][521]Cmd: DUPLICATE
+[2023.03.04-03.55.48:583][521]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.55.50:156][612]Cmd: SELECT NONE
+[2023.03.04-03.55.59:218][132]Cmd: DUPLICATE
+[2023.03.04-03.55.59:218][132]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.56.02:999][345]Cmd: DUPLICATE
+[2023.03.04-03.56.02:999][345]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.56.06:478][549]Cmd: DUPLICATE
+[2023.03.04-03.56.06:478][549]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.56.09:706][739]Cmd: DUPLICATE
+[2023.03.04-03.56.09:706][739]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.56.13:886][984]Cmd: DUPLICATE
+[2023.03.04-03.56.13:887][984]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.56.15:867][ 99]Cmd: SELECT NONE
+[2023.03.04-03.56.33:442][122]Cmd: DUPLICATE
+[2023.03.04-03.56.33:442][122]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.56.36:348][287]Cmd: DUPLICATE
+[2023.03.04-03.56.36:348][287]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.56.38:575][416]Cmd: DUPLICATE
+[2023.03.04-03.56.38:575][416]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.56.41:303][570]Cmd: DUPLICATE
+[2023.03.04-03.56.41:303][570]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.56.42:906][662]Cmd: DUPLICATE
+[2023.03.04-03.56.42:906][662]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.56.45:778][831]Cmd: DUPLICATE
+[2023.03.04-03.56.45:778][831]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.56.49:627][ 49]Cmd: DUPLICATE
+[2023.03.04-03.56.49:627][ 49]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.56.51:936][184]Cmd: DUPLICATE
+[2023.03.04-03.56.51:936][184]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.56.55:125][365]Cmd: DUPLICATE
+[2023.03.04-03.56.55:125][365]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.56.56:853][465]Cmd: DUPLICATE
+[2023.03.04-03.56.56:853][465]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.56.59:910][640]Cmd: DUPLICATE
+[2023.03.04-03.56.59:910][640]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.57.02:250][776]Cmd: DUPLICATE
+[2023.03.04-03.57.02:250][776]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.57.05:092][938]Cmd: SELECT NONE
+[2023.03.04-03.57.15:871][552]Cmd: DUPLICATE
+[2023.03.04-03.57.15:871][552]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.57.27:953][264]Cmd: SELECT NONE
+[2023.03.04-03.57.36:581][768]Cmd: DUPLICATE
+[2023.03.04-03.57.36:581][768]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.57.39:892][953]Cmd: DUPLICATE
+[2023.03.04-03.57.39:892][953]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.57.42:378][ 98]Cmd: DUPLICATE
+[2023.03.04-03.57.42:378][ 98]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.57.45:480][280]Cmd: DUPLICATE
+[2023.03.04-03.57.45:480][280]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.57.49:210][494]Cmd: DUPLICATE
+[2023.03.04-03.57.49:210][494]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.58.07:384][566]Cmd: DELETE
+[2023.03.04-03.58.07:384][566]Cmd: ACTOR DELETE
+[2023.03.04-03.58.07:393][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:393][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:394][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:394][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:395][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:395][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:396][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:396][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:397][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:397][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:397][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:398][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:398][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:399][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:399][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:399][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:400][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:400][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:401][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:401][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:402][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:402][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:403][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:403][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:403][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:404][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:404][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:405][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:405][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:406][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:406][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:406][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:407][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:407][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:408][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:408][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:409][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:409][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:410][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:410][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:410][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:411][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:411][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:412][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:412][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:413][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:413][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:413][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:414][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:414][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:415][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:415][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:416][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:416][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:417][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:417][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:417][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:418][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:418][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:419][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:419][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:420][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:420][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:420][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:421][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:421][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:422][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:422][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:423][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:423][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:423][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:424][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:424][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:425][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:425][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:426][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:426][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:427][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:427][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:427][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:428][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:428][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:429][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:429][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:430][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:430][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:430][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:431][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:431][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:432][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:432][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:433][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:433][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:433][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:434][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:434][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:435][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:435][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:436][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:436][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:436][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:437][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:437][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:438][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:438][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:439][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:439][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:439][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:440][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:440][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:441][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:441][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:442][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:443][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:443][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:444][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:444][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:444][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:445][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:445][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:445][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:446][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:446][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:447][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:447][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:447][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:448][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:448][566]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-03.58.07:457][566]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2023.03.04-03.58.07:462][566]LogEditorActor: Deleted 128 Actors (0.077 secs)
+[2023.03.04-03.58.12:419][859]LogSlate: Took 0.009453 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.03.04-03.58.31:499][939]Cmd: DUPLICATE
+[2023.03.04-03.58.31:499][939]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.58.34:980][136]Cmd: DUPLICATE
+[2023.03.04-03.58.34:980][136]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.58.38:622][345]Cmd: DUPLICATE
+[2023.03.04-03.58.38:622][345]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.58.40:834][473]Cmd: DUPLICATE
+[2023.03.04-03.58.40:834][473]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.58.44:106][665]Cmd: DUPLICATE
+[2023.03.04-03.58.44:106][665]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.58.59:401][534]Cmd: DUPLICATE
+[2023.03.04-03.58.59:401][534]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.59.02:500][709]Cmd: DUPLICATE
+[2023.03.04-03.59.02:500][709]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.59.04:580][830]Cmd: DUPLICATE
+[2023.03.04-03.59.04:580][830]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.59.07:400][987]Cmd: DUPLICATE
+[2023.03.04-03.59.07:400][987]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.59.09:821][127]Cmd: DUPLICATE
+[2023.03.04-03.59.09:821][127]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.59.18:052][605]Cmd: DUPLICATE
+[2023.03.04-03.59.18:053][605]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.59.19:899][707]Cmd: DUPLICATE
+[2023.03.04-03.59.19:899][707]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.59.23:970][944]Cmd: DUPLICATE
+[2023.03.04-03.59.23:970][944]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.59.26:385][ 85]Cmd: DUPLICATE
+[2023.03.04-03.59.26:385][ 85]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.59.29:993][288]Cmd: DUPLICATE
+[2023.03.04-03.59.29:993][288]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.59.31:942][401]Cmd: DUPLICATE
+[2023.03.04-03.59.31:942][401]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.59.34:534][552]Cmd: DUPLICATE
+[2023.03.04-03.59.34:534][552]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.59.36:781][683]Cmd: DUPLICATE
+[2023.03.04-03.59.36:781][683]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.59.38:541][784]Cmd: DUPLICATE
+[2023.03.04-03.59.38:541][784]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.59.41:173][937]Cmd: DUPLICATE
+[2023.03.04-03.59.41:173][937]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.59.44:642][134]Cmd: DUPLICATE
+[2023.03.04-03.59.44:642][134]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.59.47:651][309]Cmd: DUPLICATE
+[2023.03.04-03.59.47:651][309]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.59.50:560][479]Cmd: DUPLICATE
+[2023.03.04-03.59.50:560][479]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.59.54:420][697]Cmd: DUPLICATE
+[2023.03.04-03.59.54:420][697]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.59.56:195][799]Cmd: DUPLICATE
+[2023.03.04-03.59.56:196][799]Cmd: ACTOR DUPLICATE
+[2023.03.04-03.59.59:810][  4]Cmd: DUPLICATE
+[2023.03.04-03.59.59:810][  4]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.00.02:409][156]Cmd: TRANSACTION UNDO
+[2023.03.04-04.00.02:409][156]LogEditorTransaction: Undo Move Elements
+[2023.03.04-04.00.05:795][341]Cmd: TRANSACTION UNDO
+[2023.03.04-04.00.05:795][341]LogEditorTransaction: Undo Move Elements
+[2023.03.04-04.00.06:188][352]Cmd: TRANSACTION UNDO
+[2023.03.04-04.00.06:188][352]LogEditorTransaction: Undo Duplicate Elements
+[2023.03.04-04.00.23:489][348]Cmd: DUPLICATE
+[2023.03.04-04.00.23:489][348]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.00.28:045][609]Cmd: DUPLICATE
+[2023.03.04-04.00.28:045][609]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.00.28:786][651]Cmd: TRANSACTION UNDO
+[2023.03.04-04.00.28:787][651]LogEditorTransaction: Undo Duplicate Elements
+[2023.03.04-04.00.29:346][661]Cmd: TRANSACTION UNDO
+[2023.03.04-04.00.29:347][661]LogEditorTransaction: Undo Duplicate Elements
+[2023.03.04-04.00.30:129][697]Cmd: TRANSACTION UNDO
+[2023.03.04-04.00.30:129][697]LogEditorTransaction: Undo Move Elements
+[2023.03.04-04.00.30:612][726]Cmd: TRANSACTION UNDO
+[2023.03.04-04.00.30:612][726]LogEditorTransaction: Undo Clicking on Elements
+[2023.03.04-04.00.35:956][ 32]Cmd: DELETE
+[2023.03.04-04.00.35:956][ 32]Cmd: ACTOR DELETE
+[2023.03.04-04.00.35:961][ 32]LogEditorActor: Deleted Actor: MyWayPoint_C
+[2023.03.04-04.00.35:981][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.03.04-04.00.35:983][ 32]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2023.03.04-04.00.39:353][220]Cmd: DUPLICATE
+[2023.03.04-04.00.39:353][220]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.00.42:508][393]Cmd: DUPLICATE
+[2023.03.04-04.00.42:508][393]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.00.47:438][680]Cmd: DUPLICATE
+[2023.03.04-04.00.47:438][680]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.00.51:144][887]Cmd: DUPLICATE
+[2023.03.04-04.00.51:145][887]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.00.53:316][ 11]Cmd: DUPLICATE
+[2023.03.04-04.00.53:316][ 11]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.00.56:293][185]Cmd: DUPLICATE
+[2023.03.04-04.00.56:293][185]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.01.01:537][479]Cmd: DUPLICATE
+[2023.03.04-04.01.01:537][479]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.01.03:729][606]Cmd: DUPLICATE
+[2023.03.04-04.01.03:729][606]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.01.13:371][170]Cmd: DUPLICATE
+[2023.03.04-04.01.13:371][170]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.01.18:280][458]Cmd: SELECT NONE
+[2023.03.04-04.01.20:499][590]Cmd: TRANSACTION UNDO
+[2023.03.04-04.01.20:499][590]LogEditorTransaction: Undo Select None
+[2023.03.04-04.01.20:890][597]Cmd: TRANSACTION UNDO
+[2023.03.04-04.01.20:890][597]LogEditorTransaction: Undo Move Elements
+[2023.03.04-04.01.21:277][612]Cmd: TRANSACTION UNDO
+[2023.03.04-04.01.21:277][612]LogEditorTransaction: Undo Duplicate Elements
+[2023.03.04-04.01.33:530][324]Cmd: DUPLICATE
+[2023.03.04-04.01.33:530][324]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.01.37:581][554]Cmd: DUPLICATE
+[2023.03.04-04.01.37:582][554]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.01.40:679][736]Cmd: DUPLICATE
+[2023.03.04-04.01.40:679][736]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.01.49:275][224]Cmd: DUPLICATE
+[2023.03.04-04.01.49:276][224]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.01.52:306][401]Cmd: DUPLICATE
+[2023.03.04-04.01.52:306][401]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.02.00:562][884]Cmd: DUPLICATE
+[2023.03.04-04.02.00:562][884]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.02.04:954][143]Cmd: DUPLICATE
+[2023.03.04-04.02.04:954][143]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.02.07:447][288]Cmd: DUPLICATE
+[2023.03.04-04.02.07:447][288]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.02.10:217][450]Cmd: DUPLICATE
+[2023.03.04-04.02.10:217][450]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.02.12:404][577]Cmd: DUPLICATE
+[2023.03.04-04.02.12:404][577]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.02.24:107][247]Cmd: DUPLICATE
+[2023.03.04-04.02.24:107][247]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.02.28:117][475]Cmd: DUPLICATE
+[2023.03.04-04.02.28:117][475]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.02.30:118][591]Cmd: DUPLICATE
+[2023.03.04-04.02.30:118][591]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.02.32:063][703]Cmd: DUPLICATE
+[2023.03.04-04.02.32:063][703]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.02.40:101][167]Cmd: DUPLICATE
+[2023.03.04-04.02.40:102][167]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.02.42:480][305]Cmd: DUPLICATE
+[2023.03.04-04.02.42:480][305]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.02.44:026][393]Cmd: SELECT NONE
+[2023.03.04-04.03.17:303][369]Cmd: TRANSACTION UNDO
+[2023.03.04-04.03.17:303][369]LogEditorTransaction: Undo Move Elements
+[2023.03.04-04.03.17:983][387]Cmd: DUPLICATE
+[2023.03.04-04.03.17:983][387]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.03.20:234][518]Cmd: DUPLICATE
+[2023.03.04-04.03.20:234][518]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.03.23:092][685]Cmd: DUPLICATE
+[2023.03.04-04.03.23:092][685]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.03.26:464][877]Cmd: DUPLICATE
+[2023.03.04-04.03.26:464][877]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.03.28:328][984]Cmd: DUPLICATE
+[2023.03.04-04.03.28:328][984]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.03.30:857][126]Cmd: DUPLICATE
+[2023.03.04-04.03.30:857][126]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.03.35:244][377]Cmd: DUPLICATE
+[2023.03.04-04.03.35:244][377]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.03.40:653][682]Cmd: DUPLICATE
+[2023.03.04-04.03.40:653][682]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.03.42:558][792]Cmd: DUPLICATE
+[2023.03.04-04.03.42:558][792]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.03.44:208][887]Cmd: DUPLICATE
+[2023.03.04-04.03.44:208][887]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.03.47:554][ 83]Cmd: TRANSACTION UNDO
+[2023.03.04-04.03.47:554][ 83]LogEditorTransaction: Undo Move Elements
+[2023.03.04-04.03.51:630][299]Cmd: TRANSACTION UNDO
+[2023.03.04-04.03.51:630][299]LogEditorTransaction: Undo Move Elements
+[2023.03.04-04.03.52:044][311]Cmd: TRANSACTION UNDO
+[2023.03.04-04.03.52:045][311]LogEditorTransaction: Undo Duplicate Elements
+[2023.03.04-04.04.05:612][ 81]Cmd: DUPLICATE
+[2023.03.04-04.04.05:612][ 81]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.04.10:279][351]Cmd: DUPLICATE
+[2023.03.04-04.04.10:279][351]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.04.12:967][508]Cmd: DUPLICATE
+[2023.03.04-04.04.12:967][508]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.04.20:122][916]Cmd: DUPLICATE
+[2023.03.04-04.04.20:122][916]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.04.24:811][190]Cmd: DUPLICATE
+[2023.03.04-04.04.24:812][190]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.04.28:188][383]Cmd: DUPLICATE
+[2023.03.04-04.04.28:188][383]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.04.30:449][509]Cmd: DUPLICATE
+[2023.03.04-04.04.30:449][509]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.04.34:236][730]Cmd: DUPLICATE
+[2023.03.04-04.04.34:236][730]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.04.37:013][891]Cmd: DUPLICATE
+[2023.03.04-04.04.37:013][891]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.04.40:171][ 76]Cmd: DUPLICATE
+[2023.03.04-04.04.40:171][ 76]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.04.42:827][230]Cmd: DUPLICATE
+[2023.03.04-04.04.42:827][230]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.04.45:634][388]Cmd: DUPLICATE
+[2023.03.04-04.04.45:634][388]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.04.55:914][989]Cmd: TRANSACTION UNDO
+[2023.03.04-04.04.55:915][989]LogEditorTransaction: Undo Move Elements
+[2023.03.04-04.04.57:224][ 47]Cmd: DUPLICATE
+[2023.03.04-04.04.57:224][ 47]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.04.59:084][155]Cmd: DUPLICATE
+[2023.03.04-04.04.59:084][155]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.05.00:793][253]Cmd: DUPLICATE
+[2023.03.04-04.05.00:793][253]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.05.03:740][420]Cmd: DUPLICATE
+[2023.03.04-04.05.03:740][420]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.05.06:312][565]Cmd: DUPLICATE
+[2023.03.04-04.05.06:312][565]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.05.12:361][905]Cmd: TRANSACTION UNDO
+[2023.03.04-04.05.12:361][905]LogEditorTransaction: Undo Move Elements
+[2023.03.04-04.05.13:303][944]Cmd: DUPLICATE
+[2023.03.04-04.05.13:303][944]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.05.16:258][116]Cmd: DUPLICATE
+[2023.03.04-04.05.16:258][116]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.05.18:083][221]Cmd: DUPLICATE
+[2023.03.04-04.05.18:083][221]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.05.20:978][382]Cmd: DUPLICATE
+[2023.03.04-04.05.20:978][382]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.05.23:780][538]Cmd: DUPLICATE
+[2023.03.04-04.05.23:781][538]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.05.27:771][765]Cmd: DUPLICATE
+[2023.03.04-04.05.27:771][765]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.05.32:422][ 29]Cmd: DUPLICATE
+[2023.03.04-04.05.32:422][ 29]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.05.34:049][122]Cmd: DUPLICATE
+[2023.03.04-04.05.34:049][122]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.05.37:605][331]Cmd: DUPLICATE
+[2023.03.04-04.05.37:605][331]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.05.41:192][534]Cmd: DUPLICATE
+[2023.03.04-04.05.41:192][534]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.05.42:968][637]Cmd: DUPLICATE
+[2023.03.04-04.05.42:968][637]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.05.46:921][862]Cmd: DUPLICATE
+[2023.03.04-04.05.46:921][862]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.05.51:100][ 92]Cmd: DUPLICATE
+[2023.03.04-04.05.51:101][ 92]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.05.52:867][193]Cmd: DUPLICATE
+[2023.03.04-04.05.52:867][193]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.05.59:653][594]Cmd: DUPLICATE
+[2023.03.04-04.05.59:653][594]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.06.01:360][692]Cmd: SELECT NONE
+[2023.03.04-04.06.22:315][915]Cmd: TRANSACTION UNDO
+[2023.03.04-04.06.22:315][915]LogEditorTransaction: Undo Move Elements
+[2023.03.04-04.06.22:928][935]Cmd: DUPLICATE
+[2023.03.04-04.06.22:928][935]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.06.26:920][156]Cmd: DUPLICATE
+[2023.03.04-04.06.26:920][156]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.06.28:294][234]Cmd: DUPLICATE
+[2023.03.04-04.06.28:294][234]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.06.30:237][346]Cmd: DUPLICATE
+[2023.03.04-04.06.30:237][346]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.06.32:092][453]Cmd: DUPLICATE
+[2023.03.04-04.06.32:092][453]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.06.33:886][556]Cmd: DUPLICATE
+[2023.03.04-04.06.33:886][556]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.06.35:528][651]Cmd: DUPLICATE
+[2023.03.04-04.06.35:528][651]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.06.38:717][833]Cmd: DUPLICATE
+[2023.03.04-04.06.38:717][833]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.06.40:624][936]Cmd: DUPLICATE
+[2023.03.04-04.06.40:624][936]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.06.43:384][ 92]Cmd: DUPLICATE
+[2023.03.04-04.06.43:384][ 92]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.06.48:434][381]Cmd: DUPLICATE
+[2023.03.04-04.06.48:434][381]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.06.52:846][636]Cmd: DUPLICATE
+[2023.03.04-04.06.52:846][636]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.06.58:585][964]Cmd: DUPLICATE
+[2023.03.04-04.06.58:585][964]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.07.04:343][292]Cmd: DUPLICATE
+[2023.03.04-04.07.04:343][292]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.07.06:802][434]Cmd: SELECT NONE
+[2023.03.04-04.07.15:420][927]LogWindows: LaunchURL https://docs.unrealengine.com/5.0/en//BuildingWorlds/LevelEditor/index.html?utm_source=editor&utm_medium=docs&utm_campaign=help_menu
+[2023.03.04-04.07.15:573][936]Cmd: SELECT NONE
+[2023.03.04-04.07.17:513][ 41]Cmd: DUPLICATE
+[2023.03.04-04.07.17:513][ 41]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.07.20:610][222]Cmd: TRANSACTION UNDO
+[2023.03.04-04.07.20:610][222]LogEditorTransaction: Undo Move Elements
+[2023.03.04-04.07.25:556][500]Cmd: DUPLICATE
+[2023.03.04-04.07.25:556][500]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.07.29:694][744]Cmd: DUPLICATE
+[2023.03.04-04.07.29:694][744]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.07.32:463][898]Cmd: TRANSACTION UNDO
+[2023.03.04-04.07.32:463][898]LogEditorTransaction: Undo Select Brush Surface
+[2023.03.04-04.07.32:915][903]Cmd: TRANSACTION UNDO
+[2023.03.04-04.07.32:915][903]LogEditorTransaction: Undo Duplicate Elements
+[2023.03.04-04.07.33:512][925]Cmd: TRANSACTION UNDO
+[2023.03.04-04.07.33:512][925]LogEditorTransaction: Undo Move Elements
+[2023.03.04-04.07.33:911][949]Cmd: TRANSACTION UNDO
+[2023.03.04-04.07.33:911][949]LogEditorTransaction: Undo Duplicate Elements
+[2023.03.04-04.07.34:419][970]Cmd: TRANSACTION UNDO
+[2023.03.04-04.07.34:419][970]LogEditorTransaction: Undo Move Elements
+[2023.03.04-04.07.35:336][ 25]Cmd: TRANSACTION UNDO
+[2023.03.04-04.07.35:336][ 25]LogEditorTransaction: Undo Duplicate Elements
+[2023.03.04-04.07.36:842][105]Cmd: DUPLICATE
+[2023.03.04-04.07.36:842][105]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.07.41:097][354]Cmd: DUPLICATE
+[2023.03.04-04.07.41:097][354]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.07.45:477][608]Cmd: DUPLICATE
+[2023.03.04-04.07.45:477][608]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.07.49:147][814]Cmd: DUPLICATE
+[2023.03.04-04.07.49:147][814]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.07.52:355][991]Cmd: DUPLICATE
+[2023.03.04-04.07.52:355][991]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.07.57:892][319]Cmd: DUPLICATE
+[2023.03.04-04.07.57:892][319]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.08.01:692][531]Cmd: DUPLICATE
+[2023.03.04-04.08.01:692][531]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.08.05:917][777]Cmd: DUPLICATE
+[2023.03.04-04.08.05:917][777]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.08.09:081][951]Cmd: DUPLICATE
+[2023.03.04-04.08.09:081][951]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.08.13:506][197]Cmd: DUPLICATE
+[2023.03.04-04.08.13:506][197]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.08.15:010][282]Cmd: DUPLICATE
+[2023.03.04-04.08.15:010][282]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.08.17:009][397]Cmd: DUPLICATE
+[2023.03.04-04.08.17:009][397]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.08.19:490][541]Cmd: DUPLICATE
+[2023.03.04-04.08.19:490][541]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.08.28:214][ 34]Cmd: DUPLICATE
+[2023.03.04-04.08.28:214][ 34]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.08.34:275][390]Cmd: DUPLICATE
+[2023.03.04-04.08.34:275][390]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.08.36:363][511]Cmd: SELECT NONE
+[2023.03.04-04.08.46:966][134]Cmd: DUPLICATE
+[2023.03.04-04.08.46:966][134]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.08.49:816][292]Cmd: DUPLICATE
+[2023.03.04-04.08.49:816][292]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.08.52:994][479]Cmd: DUPLICATE
+[2023.03.04-04.08.52:994][479]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.08.56:139][652]Cmd: DUPLICATE
+[2023.03.04-04.08.56:139][652]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.08.58:698][800]Cmd: DUPLICATE
+[2023.03.04-04.08.58:698][800]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.09.00:643][912]Cmd: DUPLICATE
+[2023.03.04-04.09.00:643][912]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.09.02:614][ 26]Cmd: DUPLICATE
+[2023.03.04-04.09.02:614][ 26]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.09.04:741][150]Cmd: DUPLICATE
+[2023.03.04-04.09.04:741][150]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.09.09:096][399]Cmd: DUPLICATE
+[2023.03.04-04.09.09:096][399]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.09.12:422][593]Cmd: DUPLICATE
+[2023.03.04-04.09.12:422][593]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.09.16:278][808]Cmd: DUPLICATE
+[2023.03.04-04.09.16:278][808]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.09.18:670][948]Cmd: DUPLICATE
+[2023.03.04-04.09.18:670][948]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.09.20:755][ 69]Cmd: DUPLICATE
+[2023.03.04-04.09.20:755][ 69]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.09.24:756][297]Cmd: DUPLICATE
+[2023.03.04-04.09.24:756][297]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.09.26:925][423]Cmd: DUPLICATE
+[2023.03.04-04.09.26:925][423]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.09.30:112][609]Cmd: DUPLICATE
+[2023.03.04-04.09.30:112][609]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.09.32:797][761]Cmd: DUPLICATE
+[2023.03.04-04.09.32:797][761]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.09.34:481][853]Cmd: DUPLICATE
+[2023.03.04-04.09.34:481][853]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.09.35:756][925]Cmd: DUPLICATE
+[2023.03.04-04.09.35:756][925]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.09.37:607][ 31]Cmd: DUPLICATE
+[2023.03.04-04.09.37:607][ 31]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.09.40:471][192]Cmd: DUPLICATE
+[2023.03.04-04.09.40:471][192]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.09.41:945][273]Cmd: DUPLICATE
+[2023.03.04-04.09.41:945][273]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.09.43:868][385]Cmd: DUPLICATE
+[2023.03.04-04.09.43:868][385]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.09.45:627][486]Cmd: DUPLICATE
+[2023.03.04-04.09.45:627][486]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.09.47:250][580]Cmd: DUPLICATE
+[2023.03.04-04.09.47:250][580]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.09.49:260][696]Cmd: SELECT NONE
+[2023.03.04-04.09.53:290][924]Cmd: DUPLICATE
+[2023.03.04-04.09.53:290][924]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.09.56:919][124]Cmd: DUPLICATE
+[2023.03.04-04.09.56:919][124]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.10.00:083][300]Cmd: DUPLICATE
+[2023.03.04-04.10.00:083][300]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.10.02:329][427]Cmd: DUPLICATE
+[2023.03.04-04.10.02:329][427]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.10.03:539][495]Cmd: DUPLICATE
+[2023.03.04-04.10.03:539][495]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.10.05:499][608]Cmd: DUPLICATE
+[2023.03.04-04.10.05:499][608]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.10.07:408][718]Cmd: DUPLICATE
+[2023.03.04-04.10.07:408][718]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.10.08:497][776]Cmd: DUPLICATE
+[2023.03.04-04.10.08:497][776]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.10.10:025][858]Cmd: DUPLICATE
+[2023.03.04-04.10.10:025][858]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.10.12:186][983]Cmd: DUPLICATE
+[2023.03.04-04.10.12:186][983]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.10.14:193][ 99]Cmd: DUPLICATE
+[2023.03.04-04.10.14:194][ 99]Cmd: ACTOR DUPLICATE
+[2023.03.04-04.10.15:769][189]Cmd: SELECT NONE
+[2023.03.04-04.10.27:220][874]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.03.04-04.10.27:336][874]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.03.04-04.10.27:405][874]LogSavePackage: Moving output files for package: /Game/Levels/ZaWorudo_Simplistic
+[2023.03.04-04.10.27:406][874]LogSavePackage: Moving '../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/Saved/ZaWorudo_Simplistic62945DB543C4DCD9BDB60680AF7A3454.tmp' to '../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/Content/Levels/ZaWorudo_Simplistic.umap'
+[2023.03.04-04.10.27:418][874]LogFileHelpers: Saving map 'ZaWorudo_Simplistic' took 0.090
+[2023.03.04-04.10.27:432][874]AssetCheck: New page: Asset Save: ZaWorudo_Simplistic
+[2023.03.04-04.10.27:432][874]LogContentValidation: Display: Validating World /Game/Levels/ZaWorudo_Simplistic.ZaWorudo_Simplistic
+[2023.03.04-04.10.30:092][ 20]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/MyAgent.MyAgent_C
+[2023.03.04-04.10.30:092][ 20]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/MyAgent.MyAgent_C
+[2023.03.04-04.10.30:100][ 20]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/MyAgent.MyAgent as actor: MyAgent_C /Game/Levels/ZaWorudo_Simplistic.ZaWorudo_Simplistic:PersistentLevel.MyAgent_C_0
+[2023.03.04-04.10.30:104][ 20]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/MyAgent.MyAgent as actor: MyAgent_C /Game/Levels/ZaWorudo_Simplistic.ZaWorudo_Simplistic:PersistentLevel.MyAgent_C_0
+[2023.03.04-04.10.35:146][321]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/MyAgent.MyAgent_C
+[2023.03.04-04.10.35:146][321]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/MyAgent.MyAgent_C
+[2023.03.04-04.10.35:166][321]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/MyAgent.MyAgent as actor: MyAgent_C /Game/Levels/ZaWorudo_Simplistic.ZaWorudo_Simplistic:PersistentLevel.MyAgent_C_1
+[2023.03.04-04.10.35:170][321]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/MyAgent.MyAgent as actor: MyAgent_C /Game/Levels/ZaWorudo_Simplistic.ZaWorudo_Simplistic:PersistentLevel.MyAgent_C_1
+[2023.03.04-04.10.46:419][953]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/MyGoal.MyGoal_C
+[2023.03.04-04.10.46:419][953]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/MyGoal.MyGoal_C
+[2023.03.04-04.10.46:419][953]LogActor: Warning: MyGoal_C /Game/Levels/ZaWorudo_Simplistic.ZaWorudo_Simplistic:PersistentLevel.MyGoal_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.03.04-04.10.46:420][953]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/MyGoal.MyGoal as actor: MyGoal_C /Game/Levels/ZaWorudo_Simplistic.ZaWorudo_Simplistic:PersistentLevel.MyGoal_C_0
+[2023.03.04-04.10.46:420][953]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/MyGoal.MyGoal as actor: MyGoal_C /Game/Levels/ZaWorudo_Simplistic.ZaWorudo_Simplistic:PersistentLevel.MyGoal_C_0
+[2023.03.04-04.10.47:751][ 32]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/MyGoal.MyGoal_C
+[2023.03.04-04.10.47:751][ 32]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/MyGoal.MyGoal_C
+[2023.03.04-04.10.47:754][ 32]LogActor: Warning: MyGoal_C /Game/Levels/ZaWorudo_Simplistic.ZaWorudo_Simplistic:PersistentLevel.MyGoal_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.03.04-04.10.47:755][ 32]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/MyGoal.MyGoal as actor: MyGoal_C /Game/Levels/ZaWorudo_Simplistic.ZaWorudo_Simplistic:PersistentLevel.MyGoal_C_1
+[2023.03.04-04.10.47:755][ 32]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/MyGoal.MyGoal as actor: MyGoal_C /Game/Levels/ZaWorudo_Simplistic.ZaWorudo_Simplistic:PersistentLevel.MyGoal_C_1
+[2023.03.04-04.10.47:802][ 33]LogNavigationDataBuild: Navigation data generation finished in /Game/Levels/ZaWorudo_Simplistic.
+[2023.03.04-04.10.50:633][196]LogNavigationDataBuild: Navigation data generation finished in /Game/Levels/ZaWorudo_Simplistic.
+[2023.03.04-04.10.52:156][258]LogNavigationDataBuild: Navigation data generation finished in /Game/Levels/ZaWorudo_Simplistic.
+[2023.03.04-04.11.11:886][405]Cmd: SELECT NONE
+[2023.03.04-04.11.16:104][650]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.03.04-04.11.16:203][650]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2023.03.04-04.11.16:268][650]LogSavePackage: Moving output files for package: /Game/Levels/ZaWorudo_Simplistic
+[2023.03.04-04.11.16:269][650]LogSavePackage: Moving '../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/Saved/ZaWorudo_Simplistic7CA4A0B04B42755D90D1E69CA2A598D2.tmp' to '../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/Content/Levels/ZaWorudo_Simplistic.umap'
+[2023.03.04-04.11.16:279][650]LogFileHelpers: Saving map 'ZaWorudo_Simplistic' took 0.084
+[2023.03.04-04.11.16:292][650]AssetCheck: New page: Asset Save: ZaWorudo_Simplistic
+[2023.03.04-04.11.16:292][650]LogContentValidation: Display: Validating World /Game/Levels/ZaWorudo_Simplistic.ZaWorudo_Simplistic
+[2023.03.04-04.11.19:986][863]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.03.04-04.11.21:374][941]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.03.04-04.11.21:933][974]LogSceneOutliner: Outliner Column Item Label does not have a localizable name, please specify one to FSceneOutlinerColumnInfo
+[2023.03.04-04.11.21:934][974]LogSceneOutliner: Outliner Column Type does not have a localizable name, please specify one to FSceneOutlinerColumnInfo
+[2023.03.04-04.11.24:153][101]Cmd: SELECT NONE
+[2023.03.04-04.11.27:195][274]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.04-04.11.27:201][274]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.04-04.11.27:201][274]PIE: New page: PIE session: ZaWorudo_Simplistic (Mar 3, 2023, 4:11:27 PM)
+[2023.03.04-04.11.27:202][274]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ZaWorudo_Simplistic
+[2023.03.04-04.11.27:250][274]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048245s)
+[2023.03.04-04.11.27:250][274]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ZaWorudo_Simplistic.ZaWorudo_Simplistic to /Game/Levels/UEDPIE_0_ZaWorudo_Simplistic.ZaWorudo_Simplistic (0.048347s)
+[2023.03.04-04.11.27:250][274]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.04-04.11.27:250][274]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.04-04.11.27:250][274]LogAIModule: Creating AISystem for world ZaWorudo_Simplistic
+[2023.03.04-04.11.27:251][274]LogPlayLevel: PIE: World Init took: (0.000895s)
+[2023.03.04-04.11.27:258][274]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.03.04-04.11.27:260][274]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2023.03.04-04.11.27:261][274]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.04-04.11.27:261][274]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.04-04.11.27:261][274]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.04-04.11.27:261][274]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.04-04.11.27:261][274]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.04-04.11.27:261][274]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.04-04.11.27:261][274]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.04-04.11.27:261][274]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.04-04.11.27:261][274]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.04-04.11.27:261][274]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.04-04.11.27:261][274]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.04-04.11.27:264][274]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.04-04.11.27:442][274]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2023.03.04-04.11.27:443][274]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.04-04.11.27:443][274]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.04-04.11.27:443][274]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.04-04.11.27:444][274]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2023.03.04-04.11.27:444][274]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2023.03.04-04.11.27:446][274]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2023.03.04-04.11.27:446][274]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2023.03.04-04.11.27:446][274]LogInit: FAudioDevice initialized.
+[2023.03.04-04.11.27:446][274]LogAudio: Display: Audio Device (ID: 21) registered with world 'ZaWorudo_Simplistic'.
+[2023.03.04-04.11.27:467][274]LogLoad: Game class is 'GameModeBase'
+[2023.03.04-04.11.27:474][274]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ZaWorudo_Simplistic.ZaWorudo_Simplistic up for play (max tick rate 60) at 2023.03.03-22.11.27
+[2023.03.04-04.11.27:477][274]LogWorld: Bringing up level for play took: 0.010598
+[2023.03.04-04.11.27:480][274]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2023.03.04-04.11.27:485][274]LogScript: Warning: Accessed None trying to read property None_ExecuteUbergraph_ZaWorudo_Simplistic_RefProperty
+	ZaWorudo_Simplistic_C /Game/Levels/UEDPIE_0_ZaWorudo_Simplistic.ZaWorudo_Simplistic:PersistentLevel.ZaWorudo_Simplistic_C_1
+	Function /Game/Levels/ZaWorudo_Simplistic.ZaWorudo_Simplistic_C:ExecuteUbergraph_ZaWorudo_Simplistic:009A
+[2023.03.04-04.11.27:486][274]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property None_ExecuteUbergraph_ZaWorudo_Simplistic_RefProperty". Node:  Play Graph:  EventGraph Function:  Execute Ubergraph Za Worudo Simplistic Blueprint:  ZaWorudo_Simplistic
+[2023.03.04-04.11.27:486][274]LogScript: Warning: Accessed None
+	ZaWorudo_Simplistic_C /Game/Levels/UEDPIE_0_ZaWorudo_Simplistic.ZaWorudo_Simplistic:PersistentLevel.ZaWorudo_Simplistic_C_1
+	Function /Game/Levels/ZaWorudo_Simplistic.ZaWorudo_Simplistic_C:ExecuteUbergraph_ZaWorudo_Simplistic:00AF
+[2023.03.04-04.11.27:486][274]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Play Graph:  EventGraph Function:  Execute Ubergraph Za Worudo Simplistic Blueprint:  ZaWorudo_Simplistic
+[2023.03.04-04.11.27:490][274]PIE: Server logged in
+[2023.03.04-04.11.27:491][274]PIE: Play in editor total start time 0.29 seconds.
+[2023.03.04-04.11.27:507][275]LogScript: Warning: Accessed None trying to read property None_ExecuteUbergraph_ZaWorudo_Simplistic_RefProperty
+	ZaWorudo_Simplistic_C /Game/Levels/UEDPIE_0_ZaWorudo_Simplistic.ZaWorudo_Simplistic:PersistentLevel.ZaWorudo_Simplistic_C_1
+	Function /Game/Levels/ZaWorudo_Simplistic.ZaWorudo_Simplistic_C:ExecuteUbergraph_ZaWorudo_Simplistic:0056
+[2023.03.04-04.11.27:507][275]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property None_ExecuteUbergraph_ZaWorudo_Simplistic_RefProperty". Node:  Play Graph:  EventGraph Function:  Execute Ubergraph Za Worudo Simplistic Blueprint:  ZaWorudo_Simplistic
+[2023.03.04-04.11.27:507][275]LogScript: Warning: Accessed None
+	ZaWorudo_Simplistic_C /Game/Levels/UEDPIE_0_ZaWorudo_Simplistic.ZaWorudo_Simplistic:PersistentLevel.ZaWorudo_Simplistic_C_1
+	Function /Game/Levels/ZaWorudo_Simplistic.ZaWorudo_Simplistic_C:ExecuteUbergraph_ZaWorudo_Simplistic:006B
+[2023.03.04-04.11.27:507][275]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Play Graph:  EventGraph Function:  Execute Ubergraph Za Worudo Simplistic Blueprint:  ZaWorudo_Simplistic
+[2023.03.04-04.11.29:041][358]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.04-04.11.29:041][358]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_ZaWorudo_Simplistic
+[2023.03.04-04.11.29:042][358]LogWorld: UWorld::CleanupWorld for ZaWorudo_Simplistic, bSessionEnded=true, bCleanupResources=true
+[2023.03.04-04.11.29:042][358]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-04.11.29:056][358]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.04-04.11.29:059][358]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-04.11.29:066][358]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.04-04.11.29:066][358]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.03.04-04.11.29:068][358]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.03.04-04.11.29:076][358]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.04-04.11.29:081][358]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.03.04-04.11.29:151][359]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2023.03.04-04.11.40:079][  2]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Levels/ZaWorudo_Simplistic.ZaWorudo_Simplistic:PersistentLevel.ZaWorudo_Simplistic
+[2023.03.04-04.11.40:081][  2]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.04-04.11.41:492][  2]LogBlueprint: Warning: Unknown type of hyperlinked object (ZaWorudo_Simplistic), cannot focus it
+[2023.03.04-04.11.41:492][  2]LogBlueprint: Warning: Unknown type of hyperlinked object (ZaWorudo_Simplistic), cannot focus it
+[2023.03.04-04.11.43:432][104]LogSlate: Window 'ZaWorudo_Simplistic' being destroyed
+[2023.03.04-04.11.46:763][301]BlueprintLog: New page: Compile ZaWorudo_Simplistic
+[2023.03.04-04.11.46:836][301]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.03.04-04.11.56:782][893]Cmd: DELETE
+[2023.03.04-04.11.56:783][893]Cmd: ACTOR DELETE
+[2023.03.04-04.11.56:792][893]LogEditorActor: Deleted Actor: PlayerStart
+[2023.03.04-04.11.56:819][893]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.03.04-04.11.56:820][893]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2023.03.04-04.11.59:926][ 76]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.04-04.11.59:933][ 76]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.04-04.11.59:933][ 76]PIE: New page: PIE session: ZaWorudo_Simplistic (Mar 3, 2023, 4:11:59 PM)
+[2023.03.04-04.11.59:933][ 76]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ZaWorudo_Simplistic
+[2023.03.04-04.11.59:979][ 76]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045686s)
+[2023.03.04-04.11.59:979][ 76]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ZaWorudo_Simplistic.ZaWorudo_Simplistic to /Game/Levels/UEDPIE_0_ZaWorudo_Simplistic.ZaWorudo_Simplistic (0.045778s)
+[2023.03.04-04.11.59:979][ 76]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.04-04.11.59:979][ 76]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.04-04.11.59:979][ 76]LogAIModule: Creating AISystem for world ZaWorudo_Simplistic
+[2023.03.04-04.11.59:980][ 76]LogPlayLevel: PIE: World Init took: (0.000866s)
+[2023.03.04-04.12.00:007][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2023.03.04-04.12.00:009][ 76]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2023.03.04-04.12.00:009][ 76]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.04-04.12.00:009][ 76]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.04-04.12.00:009][ 76]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.04-04.12.00:009][ 76]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.04-04.12.00:009][ 76]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.04-04.12.00:009][ 76]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.04-04.12.00:009][ 76]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.04-04.12.00:009][ 76]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.04-04.12.00:009][ 76]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.04-04.12.00:009][ 76]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.04-04.12.00:009][ 76]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.04-04.12.00:011][ 76]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.04-04.12.00:181][ 76]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2023.03.04-04.12.00:182][ 76]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.04-04.12.00:182][ 76]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.04-04.12.00:182][ 76]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.04-04.12.00:183][ 76]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2023.03.04-04.12.00:183][ 76]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2023.03.04-04.12.00:185][ 76]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2023.03.04-04.12.00:185][ 76]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2023.03.04-04.12.00:185][ 76]LogInit: FAudioDevice initialized.
+[2023.03.04-04.12.00:185][ 76]LogAudio: Display: Audio Device (ID: 22) registered with world 'ZaWorudo_Simplistic'.
+[2023.03.04-04.12.00:203][ 76]LogLoad: Game class is 'GameModeBase'
+[2023.03.04-04.12.00:210][ 76]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ZaWorudo_Simplistic.ZaWorudo_Simplistic up for play (max tick rate 60) at 2023.03.03-22.12.00
+[2023.03.04-04.12.00:210][ 76]LogWorld: Bringing up level for play took: 0.007225
+[2023.03.04-04.12.00:213][ 76]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2023.03.04-04.12.00:215][ 76]PIE: Server logged in
+[2023.03.04-04.12.00:216][ 76]PIE: Play in editor total start time 0.283 seconds.
+[2023.03.04-04.12.36:071][204]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.04-04.12.36:071][204]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_ZaWorudo_Simplistic
+[2023.03.04-04.12.36:071][204]LogWorld: UWorld::CleanupWorld for ZaWorudo_Simplistic, bSessionEnded=true, bCleanupResources=true
+[2023.03.04-04.12.36:072][204]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-04.12.36:088][204]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.04-04.12.36:093][204]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.04-04.12.36:117][204]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.04-04.12.36:118][204]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.03.04-04.12.36:119][204]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.03.04-04.12.36:127][204]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.04-04.12.36:133][204]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.03.04-04.12.36:160][205]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2023.03.04-04.12.38:512][343]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.03.04-04.12.38:635][343]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.03.04-04.12.38:699][343]LogSavePackage: Moving output files for package: /Game/Levels/ZaWorudo_Simplistic
+[2023.03.04-04.12.38:700][343]LogSavePackage: Moving '../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/Saved/ZaWorudo_SimplisticCC62712E4316FBFE4575F0AA5B758E8E.tmp' to '../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/Content/Levels/ZaWorudo_Simplistic.umap'
+[2023.03.04-04.12.38:710][343]LogFileHelpers: Saving map 'ZaWorudo_Simplistic' took 0.101
+[2023.03.04-04.12.38:724][343]AssetCheck: New page: Asset Save: ZaWorudo_Simplistic
+[2023.03.04-04.12.38:724][343]LogContentValidation: Display: Validating World /Game/Levels/ZaWorudo_Simplistic.ZaWorudo_Simplistic
