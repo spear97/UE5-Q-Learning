@@ -4,108 +4,65 @@
   Creating makefile for QLProjEditor (no existing makefile)
   Parsing headers for QLProjEditor
     Running UnrealHeaderTool "C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\QLProj.uproject" "C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\QLProjEditor\Development\QLProjEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\seanp\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for QLProjEditor in 2.3263891 seconds
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-0002.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-0005.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-0020.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-0021.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-0024.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-0026.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-0130.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-0288.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-0808.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-0880.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-0982.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-1121.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-1149.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-1217.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-1354.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-1417.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-1524.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-1598.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-1604.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-1785.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-1805.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-2036.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-2327.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-2489.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-2602.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-2738.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-2837.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-2888.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-3084.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-3101.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-3174.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-3197.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-3333.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-3496.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-3515.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-4251.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-4618.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-4697.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-4741.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-4836.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-5195.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-5214.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-5384.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-5607.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-5822.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-5829.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-5878.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-5888.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-5924.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-6006.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-6498.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-6688.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-6838.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-7110.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-7152.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-7186.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-7311.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-7569.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-7685.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-7808.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-8020.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-8067.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-8116.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-8246.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-8325.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-8486.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-8736.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-8822.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-8836.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-9259.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-9398.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-9417.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-9483.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-9536.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-9585.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-9615.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-9813.pdb
-  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-9864.pdb
+  Reflection code generated for QLProjEditor in 2.7327186 seconds
+  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-0062.pdb
+  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-0233.pdb
+  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-0294.pdb
+  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-0304.pdb
+  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-0644.pdb
+  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-0652.pdb
+  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-0710.pdb
+  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-1246.pdb
+  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-1410.pdb
+  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-1956.pdb
+  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-2681.pdb
+  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-2953.pdb
+  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-3589.pdb
+  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-3842.pdb
+  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-3906.pdb
+  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-3989.pdb
+  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-4406.pdb
+  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-4678.pdb
+  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-4737.pdb
+  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-5273.pdb
+  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-6162.pdb
+  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-6236.pdb
+  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-6261.pdb
+  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-7475.pdb
+  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-7720.pdb
+  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-7744.pdb
+  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-7890.pdb
+  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-8017.pdb
+  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-8140.pdb
+  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-8372.pdb
+  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-8600.pdb
+  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-9077.pdb
+  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-9247.pdb
+  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-9406.pdb
+  Deleted hot-reload file: C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Binaries\Win64\UnrealEditor-QLProj-9560.pdb
   Building QLProjEditor...
   Using Visual Studio 2022 14.33.31630 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
     Executing up to 8 processes, one per physical core
-    Requested 1.5 GB free memory per action, 5.99 GB available: limiting max parallel actions to 3
-  Building 16 actions with 3 processes...
+    Requested 1.5 GB free memory per action, 6.91 GB available: limiting max parallel actions to 4
+  Building 16 actions with 4 processes...
   [1/16] Compile SharedPCH.Engine.ShadowErrors.cpp
-  [2/16] Compile QLProj.cpp
-  [3/16] Compile WayPoint.gen.cpp
-  [4/16] Compile QLProjGameModeBase.cpp
-  [5/16] Compile WayPoint.cpp
-  [6/16] Compile Agent.cpp
-  [7/16] Compile AgentController.gen.cpp
-  [8/16] Compile QLProj.init.gen.cpp
-  [9/16] Compile Agent.gen.cpp
-  [10/16] Compile QLProjGameModeBase.gen.cpp
-  [11/16] Compile AgentController.cpp
-  [12/16] Compile Goal.cpp
-  [13/16] Compile Goal.gen.cpp
+  [2/16] Compile QLProj.init.gen.cpp
+  [3/16] Compile QLProj.cpp
+  [4/16] Compile WayPoint.cpp
+  [5/16] Compile WayPoint.gen.cpp
+  [6/16] Compile AgentController.cpp
+  [7/16] Compile QLProjGameModeBase.gen.cpp
+  [8/16] Compile AgentController.gen.cpp
+  [9/16] Compile Agent.cpp
+  [10/16] Compile QLProjGameModeBase.cpp
+  [11/16] Compile Agent.gen.cpp
+  [12/16] Compile Goal.gen.cpp
+  [13/16] Compile Goal.cpp
   [14/16] Link UnrealEditor-QLProj.lib
      Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj.exp
   [15/16] Link UnrealEditor-QLProj.dll
      Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj.suppressed.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj.suppressed.exp
   [16/16] WriteMetadata QLProjEditor.target
-  Total time in Parallel executor: 53.72 seconds
-  Total execution time: 58.23 seconds
+  Total time in Parallel executor: 53.35 seconds
+  Total execution time: 62.67 seconds

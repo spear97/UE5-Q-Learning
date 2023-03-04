@@ -5,9 +5,7 @@
 #include "CoreMinimal.h"
 #include "AIController.h"
 #include "WayPoint.h"
-#include "Math/Vector.h"
 #include "Kismet/GameplayStatics.h"
-#include "TimerManager.h"
 #include "AgentController.generated.h"
 
 /**
@@ -18,11 +16,7 @@ class QLPROJ_API AAgentController : public AAIController
 {
 	GENERATED_BODY()
 
-	/*******Debugging Macros*******/
 	#define DisplayNum(x) if(GEngine){GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, FString::Printf(TEXT("%i"), x));}
-	#define DisplayAction(x) if(GEngine){GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, FString::Printf(TEXT("Action:%i\n"), x));}
-	#define DisplayState(x) if(GEngine){GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, FString::Printf(TEXT("State:%i"), x));}
-	#define DisplayFloat(x) if(GEngine){GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, FString::Printf(TEXT("%f"), x));}
 	
 public:
 	AAgentController();
@@ -36,22 +30,15 @@ protected:
 
 protected:
 
-	/*The Actions that the Possessed Agent will be allowed to take*/
-	void Fwd();   //0
-	void FwdRt(); //1
-	void FwdLt(); //2
-	void Rt();    //3
-	void Lt();    //4
-	void Bwd();   //5
-	void BwdRt(); //6
-	void BwdLt(); //7
+	/**************The Initial Function for the Q-Learning**************/
 
-
-	//Get All WayPoints that Exist in the Environment and Set StateSize
-	void GetWayPoints();
-
-	//Generate the QMatrix that will be used for Q-Learning
+	//Generate the Matrix that will be used for Q-Learning
 	void GenerateMatrix();
+
+	//Output the Matrix to the Screen, Used for Debugging Purposes
+	void PrintMatrix();
+
+	/*****************Q-Learning Reinforcement Functions**************/
 
 	//Get the Current State that the Agent is in
 	int GetState();
@@ -59,32 +46,93 @@ protected:
 	//Get the Best Action for Current State
 	int GetAction();
 
-	//
+	//Run Reinforcement Learning Model
 	void Q_Learning();
 
+	//Get the Score for the Correspond Action and State
+	float CalculatePolicy();
+
+	//Get the Maximum Score for the Given State
+	float GetMaxQ();
+
+	/************The Action Functions that the Agent Can take************/
+
+	//Move the Agent Forward -> 0
+	void Fwd();
+
+	//Move the Agent Forward-Right -> 1
+	void FwdRt();
+
+	//Move the Agent Right -> 2
+	void Rt();
+
+	//Move the Agent Backward-Right -> 3
+	void BwdRt();
+
+	//Move the Agent Backward -> 4
+	void Bwd();
+
+	//Move the Agent Backward-Left -> 5
+	void BwdLt();
+
+	//Move the Agent left -> 6 
+	void Lt();
+
+	//Move the Agent Forward-Left -> 7
+	void FwdLt();
+
 protected:
+	/**************The Initial Variables for the Q-Learning**************/
+
+	//The Number of States for the Matrix
+	int s_size;
+
+	//The Number of Actions for the Matrix
+	int a_size;
+
+	//The Current State that the Agent is currently in 
+	int s;
+
+	//The Current Action that the Agent is Performing for the Given State
+	int a;
+
+	//The Reward for the Action that was given 
+	int r;
+
+	//The Learning Discount for the Policy
+	float alpha = 0.95f;
+
+	//The Discount Factor for the Policy
+	float gamma = 0.95f;
+
 	//All WayPoints that exist in the Environment
-	UPROPERTY(BlueprintReadonly)
 	TArray<AActor*> WayPoints;
+
+	//The Matrix for Q-Learning to Operate
+	TArray<TArray<float>> Q;
+
+	//The Reward Matrix that will initially Populate the Q Matrix
+	TArray<TArray<float>> R = {
+		{-1.f, -1.f, -1.f, -1.f,  0.f,  -1.f,  0.f,  -1.f},
+		{-1.f, -1.f, -1.f,  0.f, -1.f, 100.f, -1.f, 100.f},
+		{-1.f, -1.f, -1.f,  0.f, -1.f,  -1.f, -1.f,  -1.f},
+		{-1.f,  0.f,  0.f, -1.f,  0.f,  -1.f,  0.f,  -1.f},
+		{ 0.f, -1.f, -1.f,  0.f, -1.f, 100.f, -1.f, 100.f},
+		{-1.f,  0.f, -1.f, -1.f,  0.f, 100.f,  0.f, 100.f},
+		{-1.f, -1.f, -1.f, -1.f,  0.f,  -1.f,  0.f,  -1.f},
+		{-1.f, -1.f, -1.f,  0.f, -1.f, 100.f, -1.f, 100.f}
+	};
+
+	/**************Operational Variables**************/
 
 	//Timer Handler that will Aid in Running the Q_Learning Algorithm
 	FTimerHandle Timer;
 
-	//The Actions that the Agent can take
-	int ActionSize = 8;
-
-	//The StateSize for the States that the Player Can be in
-	int StateSize;
-
-	//The Current State that the Agent is in
-	int s;
-
-	//The Current Action that the Agent is in
-	int a;
-
-	//The Q-Matrix that will contain Scores for the Actions that the Agent has taken for it's Current State
-	TArray<TArray<float>> Q;
-
-private:
+	//The time duration that the time will run for
 	float delay = 0.5f;
+
+	/***************Action Variables***************/
+
+	//How far the Agent can move for any given direction
+	float move_dist = 250.f;
 };
