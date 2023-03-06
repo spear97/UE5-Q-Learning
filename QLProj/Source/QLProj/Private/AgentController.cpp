@@ -37,7 +37,7 @@ void AAgentController::GenerateMatrix()
 {
 	//Get All WayPoints in the Environment
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AWayPoint::StaticClass(), WayPoints);
-	
+
 	//Set State Size as WayPoints
 	s_size = WayPoints.Num();
 
@@ -62,11 +62,11 @@ void AAgentController::GenerateMatrix()
 //Output the Matrix to the Screen, Used for Debugging Purposes
 void AAgentController::PrintMatrix()
 {
-	if(GEngine) {GEngine->AddOnScreenDebugMessage(-1, 30.0f, FColor::White, FString::Printf(TEXT("-------------------------")));}
+	if (GEngine) { GEngine->AddOnScreenDebugMessage(-1, 30.0f, FColor::White, FString::Printf(TEXT("-------------------------"))); }
 
-	for (int i = s_size-1; i >=0; i--)
+	for (int i = s_size - 1; i >= 0; i--)
 	{
-		if(GEngine) {GEngine->AddOnScreenDebugMessage(-1, 30.0f, FColor::White, FString::Printf(TEXT("|%f %f %f %f %f %f %f %f|"), Q[i][0], Q[i][1], Q[i][2], Q[i][3], Q[i][4], Q[i][5], Q[i][6], Q[i][7])); }
+		if (GEngine) { GEngine->AddOnScreenDebugMessage(-1, 30.0f, FColor::White, FString::Printf(TEXT("|%f %f %f %f %f %f %f %f|"), Q[i][0], Q[i][1], Q[i][2], Q[i][3], Q[i][4], Q[i][5], Q[i][6], Q[i][7])); }
 	}
 
 	if (GEngine) { GEngine->AddOnScreenDebugMessage(-1, 30.0f, FColor::White, FString::Printf(TEXT("-------------------------"))); }
@@ -158,8 +158,6 @@ void AAgentController::Q_Learning()
 		}
 
 		Q[s][a] = CalculatePolicy();
-
-		DisplayRow();
 	}
 }
 
@@ -240,4 +238,11 @@ void AAgentController::Lt()
 void AAgentController::FwdLt()
 {
 	MoveToLocation(GetPawn()->GetActorLocation() + ((GetPawn()->GetActorForwardVector() * 250.f) + (-GetPawn()->GetActorRightVector() * 250.f)));
+}
+
+/**************Blueprint Functions****************/
+
+TArray<float> AAgentController::GetQAtIndex(int i)
+{
+	return Q[i];
 }

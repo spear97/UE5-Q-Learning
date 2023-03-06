@@ -5,6 +5,8 @@
 #include "CoreMinimal.h"
 #include "AIController.h"
 #include "WayPoint.h"
+#include <fstream>
+#include "Misc/Paths.h"
 #include "Kismet/GameplayStatics.h"
 #include "AgentController.generated.h"
 
@@ -21,6 +23,48 @@ class QLPROJ_API AAgentController : public AAIController
 	
 public:
 	AAgentController();
+
+	/**************Blueprint Functions****************/
+
+	//Get one of the Lists of the Q-Matrix
+	UFUNCTION(BlueprintCallable)
+	TArray<float> GetQAtIndex(int i);
+
+	/**************The Initial Variables for the Q-Learning**************/
+
+	//The Number of States for the Matrix
+	UPROPERTY(BlueprintReadOnly)
+	int s_size;
+
+	//The Number of Actions for the Matrix
+	UPROPERTY(BlueprintReadOnly)
+	int a_size;
+
+	//The Current State that the Agent is currently in
+	UPROPERTY(BlueprintReadOnly)
+	int s;
+
+	//The Current Action that the Agent is Performing for the Given State
+	UPROPERTY(BlueprintReadOnly)
+	int a;
+
+	//The Reward for the Action that was given 
+	UPROPERTY(BlueprintReadOnly)
+	int r;
+
+	//The Learning Discount for the Policy
+	UPROPERTY(BlueprintReadOnly)
+	float alpha = 0.95f;
+
+	//The Discount Factor for the Policy
+	UPROPERTY(BlueprintReadOnly)
+	float gamma = 0.95f;
+
+	/***************Action Variables***************/
+
+	UPROPERTY(BlueprintReadOnly)
+	//How Far was Agent from Target on Previous Action
+	float prevDist = INFINITY;
 
 protected:
 	// Called when the game starts or when spawned
@@ -82,6 +126,11 @@ protected:
 	//Move the Agent Forward-Left -> 7
 	void FwdLt();
 
+	/************************File I/O*************************************/
+
+	//Save Progress that the AI has made in the Simulation
+	void SaveQToFile();
+
 public:
 
 	/**************Variables that will get set in Blueprint**************/
@@ -90,27 +139,6 @@ public:
 
 protected:
 	/**************The Initial Variables for the Q-Learning**************/
-
-	//The Number of States for the Matrix
-	int s_size;
-
-	//The Number of Actions for the Matrix
-	int a_size;
-
-	//The Current State that the Agent is currently in 
-	int s;
-
-	//The Current Action that the Agent is Performing for the Given State
-	int a;
-
-	//The Reward for the Action that was given 
-	int r;
-
-	//The Learning Discount for the Policy
-	float alpha = 0.95f;
-
-	//The Discount Factor for the Policy
-	float gamma = 0.95f;
 
 	//All WayPoints that exist in the Environment
 	TArray<AActor*> WayPoints;
@@ -142,7 +170,4 @@ protected:
 
 	//How far the Agent can move for any given direction
 	float move_dist = 250.f;
-
-	//How Far was Agent from Target on Previous Action
-	float prevDist = INFINITY;
 };
