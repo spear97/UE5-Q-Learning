@@ -8,7 +8,6 @@
 #include "WayPoint.h"
 #include "Kismet/GameplayStatics.h"
 #include "Components/StaticMeshComponent.h"
-#include <random>
 #include "Goal.generated.h"
 
 UCLASS()

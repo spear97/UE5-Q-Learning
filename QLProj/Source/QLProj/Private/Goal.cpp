@@ -23,7 +23,7 @@ void AGoal::SpawnAtRandomLocation()
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AWayPoint::StaticClass(), WayPoints);
 
 	//Get a random Waypoint index in WayPoints
-	int i = (std::rand() % ((WayPoints.Num()-1) + 1));
+	int i = (FMath::Rand() % ((WayPoints.Num() - 1) + 1));
 
 	//Extract the Location Data from the Selected WayPoint
 	FVector loc = WayPoints[i]->GetActorLocation();

@@ -2252,3 +2252,118 @@ Script Stack (0 frames):
 [2023.03.06-02.08.01:860][874]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
 [2023.03.06-02.08.01:900][875]LogPlayLevel: Display: Destroying online subsystem :Context_25
 [2023.03.06-02.08.05:427][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.03.06-02.26.05:194][108]Candidate modules for hot reload:
+[2023.03.06-02.26.05:194][108]  QLProj
+[2023.03.06-02.26.05:203][108]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=QLProj,0337 QLProjEditor Win64 Development -Project="C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject" "C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject"  -IgnoreJunk]
+[2023.03.06-02.26.05:207][108]Warning: Starting HotReload took  0.1s.
+[2023.03.06-02.26.25:144][478]CompilerResultsLog: New page: Compilation - Mar 5, 2023, 2:26:25 PM
+[2023.03.06-02.26.25:144][478]CompilerResultsLog: Log file: C:\Users\seanp\AppData\Local\UnrealBuildTool\Log.txt
+[2023.03.06-02.26.25:144][478]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\seanp\Documents\Github\UE5-Q-Learning).
+[2023.03.06-02.26.25:144][478]CompilerResultsLog: Invalidating makefile for QLProjEditor (working set of source files changed)
+[2023.03.06-02.26.25:144][478]CompilerResultsLog: Parsing headers for QLProjEditor
+[2023.03.06-02.26.25:144][478]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\QLProj.uproject" "C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\QLProjEditor\Development\QLProjEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\seanp\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2023.03.06-02.26.25:144][478]CompilerResultsLog: Reflection code generated for QLProjEditor in 2.6815432 seconds
+[2023.03.06-02.26.25:144][478]CompilerResultsLog: Building QLProjEditor...
+[2023.03.06-02.26.25:145][478]CompilerResultsLog: Using Visual Studio 2022 14.33.31630 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.03.06-02.26.25:145][478]CompilerResultsLog: [Adaptive Build] Excluded from QLProj unity file: Goal.cpp
+[2023.03.06-02.26.25:145][478]CompilerResultsLog: Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+[2023.03.06-02.26.25:145][478]CompilerResultsLog:   Executing up to 8 processes, one per physical core
+[2023.03.06-02.26.25:145][478]CompilerResultsLog:   Requested 1.5 GB free memory per action, 4.76 GB available: limiting max parallel actions to 3
+[2023.03.06-02.26.25:145][478]CompilerResultsLog: Building 5 actions with 3 processes...
+[2023.03.06-02.26.25:145][478]CompilerResultsLog: [1/5] Compile Goal.gen.cpp
+[2023.03.06-02.26.25:145][478]CompilerResultsLog: [2/5] Compile Goal.cpp
+[2023.03.06-02.26.25:145][478]CompilerResultsLog: [3/5] Link UnrealEditor-QLProj-0337.lib
+[2023.03.06-02.26.25:145][478]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-0337.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-0337.exp
+[2023.03.06-02.26.25:145][478]CompilerResultsLog: [4/5] Link UnrealEditor-QLProj-0337.dll
+[2023.03.06-02.26.25:145][478]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-0337.suppressed.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-0337.suppressed.exp
+[2023.03.06-02.26.25:145][478]CompilerResultsLog: [5/5] WriteMetadata QLProjEditor.target
+[2023.03.06-02.26.25:145][478]CompilerResultsLog: Total time in Parallel executor: 14.30 seconds
+[2023.03.06-02.26.25:145][478]CompilerResultsLog: Total execution time: 19.77 seconds
+[2023.03.06-02.26.25:145][478]LogMainFrame: MainFrame: Module compiling took 19.987 seconds
+[2023.03.06-02.26.25:319][478]Display: HotReload took 20.2s.
+[2023.03.06-02.26.25:319][478]Display: Reload/Re-instancing Complete: 1 package changed, 5 classes unchanged, 1 function remapped
+[2023.03.06-02.36.35:515][491]Candidate modules for hot reload:
+[2023.03.06-02.36.35:515][491]  QLProj
+[2023.03.06-02.36.35:521][491]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=QLProj,4328 QLProjEditor Win64 Development -Project="C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject" "C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject"  -IgnoreJunk]
+[2023.03.06-02.36.35:525][491]Warning: Starting HotReload took  0.1s.
+[2023.03.06-02.36.46:740][209]CompilerResultsLog: New page: Compilation - Mar 5, 2023, 2:36:46 PM
+[2023.03.06-02.36.46:740][209]CompilerResultsLog: Log file: C:\Users\seanp\AppData\Local\UnrealBuildTool\Log.txt
+[2023.03.06-02.36.46:740][209]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\seanp\Documents\Github\UE5-Q-Learning).
+[2023.03.06-02.36.46:740][209]CompilerResultsLog: Invalidating makefile for QLProjEditor (working set of source files changed)
+[2023.03.06-02.36.46:740][209]CompilerResultsLog: Parsing headers for QLProjEditor
+[2023.03.06-02.36.46:740][209]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\QLProj.uproject" "C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\QLProjEditor\Development\QLProjEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\seanp\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2023.03.06-02.36.46:740][209]CompilerResultsLog: Reflection code generated for QLProjEditor in 1.8020533 seconds
+[2023.03.06-02.36.46:740][209]CompilerResultsLog: Building QLProjEditor...
+[2023.03.06-02.36.46:740][209]CompilerResultsLog: Using Visual Studio 2022 14.33.31630 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.03.06-02.36.46:740][209]CompilerResultsLog: Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+[2023.03.06-02.36.46:740][209]CompilerResultsLog:   Executing up to 8 processes, one per physical core
+[2023.03.06-02.36.46:740][209]CompilerResultsLog:   Requested 1.5 GB free memory per action, 4.46 GB available: limiting max parallel actions to 2
+[2023.03.06-02.36.46:740][209]CompilerResultsLog: Building 5 actions with 2 processes...
+[2023.03.06-02.36.46:740][209]CompilerResultsLog: [1/5] Compile Goal.gen.cpp
+[2023.03.06-02.36.46:740][209]CompilerResultsLog: [2/5] Compile Goal.cpp
+[2023.03.06-02.36.46:740][209]CompilerResultsLog: [3/5] Link UnrealEditor-QLProj-4328.lib
+[2023.03.06-02.36.46:740][209]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-4328.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-4328.exp
+[2023.03.06-02.36.46:740][209]CompilerResultsLog: [4/5] Link UnrealEditor-QLProj-4328.dll
+[2023.03.06-02.36.46:740][209]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-4328.suppressed.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-4328.suppressed.exp
+[2023.03.06-02.36.46:740][209]CompilerResultsLog: [5/5] WriteMetadata QLProjEditor.target
+[2023.03.06-02.36.46:740][209]CompilerResultsLog: Total time in Parallel executor: 6.64 seconds
+[2023.03.06-02.36.46:740][209]CompilerResultsLog: Total execution time: 11.07 seconds
+[2023.03.06-02.36.46:740][209]LogMainFrame: MainFrame: Module compiling took 11.266 seconds
+[2023.03.06-02.36.46:954][209]Display: HotReload took 11.5s.
+[2023.03.06-02.36.46:954][209]Display: Reload/Re-instancing Complete: 1 package changed, 5 classes unchanged, 1 function remapped
+[2023.03.06-02.37.21:209][982]Candidate modules for hot reload:
+[2023.03.06-02.37.21:209][982]  QLProj
+[2023.03.06-02.37.21:216][982]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=QLProj,2958 QLProjEditor Win64 Development -Project="C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject" "C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject"  -IgnoreJunk]
+[2023.03.06-02.37.21:220][982]Warning: Starting HotReload took  0.1s.
+[2023.03.06-02.37.29:751][543]CompilerResultsLog: New page: Compilation - Mar 5, 2023, 2:37:29 PM
+[2023.03.06-02.37.29:751][543]CompilerResultsLog: Log file: C:\Users\seanp\AppData\Local\UnrealBuildTool\Log.txt
+[2023.03.06-02.37.29:751][543]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\seanp\Documents\Github\UE5-Q-Learning).
+[2023.03.06-02.37.29:751][543]CompilerResultsLog: Invalidating makefile for QLProjEditor (working set of source files changed)
+[2023.03.06-02.37.29:751][543]CompilerResultsLog: Building QLProjEditor...
+[2023.03.06-02.37.29:751][543]CompilerResultsLog: Using Visual Studio 2022 14.33.31630 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.03.06-02.37.29:751][543]CompilerResultsLog: [Adaptive Build] Excluded from QLProj unity file: Goal.cpp
+[2023.03.06-02.37.29:751][543]CompilerResultsLog: Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+[2023.03.06-02.37.29:751][543]CompilerResultsLog:   Executing up to 8 processes, one per physical core
+[2023.03.06-02.37.29:751][543]CompilerResultsLog:   Requested 1.5 GB free memory per action, 4.3 GB available: limiting max parallel actions to 2
+[2023.03.06-02.37.29:751][543]CompilerResultsLog: Building 4 actions with 2 processes...
+[2023.03.06-02.37.29:751][543]CompilerResultsLog: [1/4] Compile Goal.cpp
+[2023.03.06-02.37.29:751][543]CompilerResultsLog: [2/4] Link UnrealEditor-QLProj-2958.lib
+[2023.03.06-02.37.29:751][543]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-2958.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-2958.exp
+[2023.03.06-02.37.29:751][543]CompilerResultsLog: [3/4] Link UnrealEditor-QLProj-2958.dll
+[2023.03.06-02.37.29:751][543]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-2958.suppressed.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-2958.suppressed.exp
+[2023.03.06-02.37.29:751][543]CompilerResultsLog: [4/4] WriteMetadata QLProjEditor.target
+[2023.03.06-02.37.29:751][543]CompilerResultsLog: Total time in Parallel executor: 5.92 seconds
+[2023.03.06-02.37.29:751][543]CompilerResultsLog: Total execution time: 8.39 seconds
+[2023.03.06-02.37.29:751][543]LogMainFrame: MainFrame: Module compiling took 8.583 seconds
+[2023.03.06-02.37.30:004][543]Display: HotReload took  8.8s.
+[2023.03.06-02.37.30:004][543]Display: Reload/Re-instancing Complete: 1 package changed, 5 classes unchanged, 1 function remapped
+[2023.03.06-02.37.40:175][744]Candidate modules for hot reload:
+[2023.03.06-02.37.40:175][744]  QLProj
+[2023.03.06-02.37.40:182][744]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=QLProj,1824 QLProjEditor Win64 Development -Project="C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject" "C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLProj/QLProj.uproject"  -IgnoreJunk]
+[2023.03.06-02.37.40:185][744]Warning: Starting HotReload took  0.1s.
+[2023.03.06-02.37.50:669][400]CompilerResultsLog: New page: Compilation - Mar 5, 2023, 2:37:50 PM
+[2023.03.06-02.37.50:669][400]CompilerResultsLog: Log file: C:\Users\seanp\AppData\Local\UnrealBuildTool\Log.txt
+[2023.03.06-02.37.50:669][400]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\seanp\Documents\Github\UE5-Q-Learning).
+[2023.03.06-02.37.50:669][400]CompilerResultsLog: Invalidating makefile for QLProjEditor (working set of source files changed)
+[2023.03.06-02.37.50:669][400]CompilerResultsLog: Parsing headers for QLProjEditor
+[2023.03.06-02.37.50:669][400]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\QLProj.uproject" "C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\QLProjEditor\Development\QLProjEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\seanp\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2023.03.06-02.37.50:669][400]CompilerResultsLog: Reflection code generated for QLProjEditor in 1.7277551 seconds
+[2023.03.06-02.37.50:669][400]CompilerResultsLog: Building QLProjEditor...
+[2023.03.06-02.37.50:669][400]CompilerResultsLog: Using Visual Studio 2022 14.33.31630 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.03.06-02.37.50:669][400]CompilerResultsLog: [Adaptive Build] Excluded from QLProj unity file: Goal.cpp
+[2023.03.06-02.37.50:669][400]CompilerResultsLog: Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+[2023.03.06-02.37.50:669][400]CompilerResultsLog:   Executing up to 8 processes, one per physical core
+[2023.03.06-02.37.50:669][400]CompilerResultsLog:   Requested 1.5 GB free memory per action, 4.76 GB available: limiting max parallel actions to 3
+[2023.03.06-02.37.50:669][400]CompilerResultsLog: Building 5 actions with 3 processes...
+[2023.03.06-02.37.50:669][400]CompilerResultsLog: [1/5] Compile Goal.gen.cpp
+[2023.03.06-02.37.50:669][400]CompilerResultsLog: [2/5] Compile Goal.cpp
+[2023.03.06-02.37.50:669][400]CompilerResultsLog: [3/5] Link UnrealEditor-QLProj-1824.lib
+[2023.03.06-02.37.50:669][400]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-1824.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-1824.exp
+[2023.03.06-02.37.50:669][400]CompilerResultsLog: [4/5] Link UnrealEditor-QLProj-1824.dll
+[2023.03.06-02.37.50:669][400]CompilerResultsLog:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-1824.suppressed.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLProj\Intermediate\Build\Win64\UnrealEditor\Development\QLProj\UnrealEditor-QLProj-1824.suppressed.exp
+[2023.03.06-02.37.50:669][400]CompilerResultsLog: [5/5] WriteMetadata QLProjEditor.target
+[2023.03.06-02.37.50:669][400]CompilerResultsLog: Total time in Parallel executor: 6.17 seconds
+[2023.03.06-02.37.50:669][400]CompilerResultsLog: Total execution time: 10.34 seconds
+[2023.03.06-02.37.50:669][400]LogMainFrame: MainFrame: Module compiling took 10.531 seconds
+[2023.03.06-02.37.50:922][400]Display: HotReload took 10.8s.
+[2023.03.06-02.37.50:922][400]Display: Reload/Re-instancing Complete: 1 package changed, 5 classes unchanged, 1 function remapped
