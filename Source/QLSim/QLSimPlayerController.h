@@ -5,14 +5,8 @@
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
 #include "GameFramework/PlayerController.h"
+#include "Math/Vector.h"
 #include "QLSimPlayerController.generated.h"
-
-/** Forward declaration to improve compiling times */
-class UNiagaraSystem;
-class UInputMappingContext;
-class UInputAction;
-
-DECLARE_LOG_CATEGORY_EXTERN(LogTemplateCharacter, Log, All);
 
 UCLASS()
 class AQLSimPlayerController : public APlayerController
@@ -20,49 +14,53 @@ class AQLSimPlayerController : public APlayerController
 	GENERATED_BODY()
 
 public:
-	AQLSimPlayerController();
 
-	/** Time Threshold to know if it was a short press */
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
-	float ShortPressThreshold;
+	///////////////////////////////PUBLIC FUNCTIONS////////////////////////////////////////////////////////
 
-	/** FX Class that we will spawn when clicking */
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
-	UNiagaraSystem* FXCursor;
+	AQLSimPlayerController(); // Constuctor
 
-	/** MappingContext */
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category=Input, meta=(AllowPrivateAccess = "true"))
-	UInputMappingContext* DefaultMappingContext;
-	
-	/** Jump Input Action */
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category=Input, meta=(AllowPrivateAccess = "true"))
-	UInputAction* SetDestinationClickAction;
+	float CalculateScore(); // Calculate the Policy for Q-Learning
+	int GetState(); // Get the Current State of the AI
+	int GetAction(); // Get the Bets Action of the AI
 
-	/** Jump Input Action */
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category=Input, meta=(AllowPrivateAccess = "true"))
-	UInputAction* SetDestinationTouchAction;
 
 protected:
-	/** True if the controlled character should navigate to the mouse cursor. */
-	uint32 bMoveToMouseCursor : 1;
 
-	virtual void SetupInputComponent() override;
-	
-	// To add mapping context
-	virtual void BeginPlay();
-
-	/** Input handlers for SetDestination action. */
-	void OnInputStarted();
-	void OnSetDestinationTriggered();
-	void OnSetDestinationReleased();
-	void OnTouchTriggered();
-	void OnTouchReleased();
+	///////////////////////////////PROTECTED FUNCTIONS////////////////////////////////////////////////////////	
+	virtual void BeginPlay(); // What needs to occur when Spawned into the Simulation
+	virtual void OnDestroy(bool bNeforce, bool bShouldModifyLevel); // What needst to occur when Deleted from Simulation
+	virtual void EndPlay(EEndPlayReason::Type EndPlayReason); // What needs to occur when Simulation Ends the Simulation
 
 private:
-	FVector CachedDestination;
 
-	bool bIsTouch; // Is it a touch device
-	float FollowTime; // For how long it has been pressed
+	///////////////////////////////PRIVATE FUNCTIONS////////////////////////////////////////////////////////
+	FString GetFilePath(FString FileName); // Get the path location where file is located
+	bool FilePathExists(FString FileName); // See if the Path for the File Path exists
+	TArray<TArray<float>> ReadLinesFromFile(FString FileName, bool& bOutSuccess, FString& OutInfoMessage); // Read contents of the File
+	void WriteLinesToFile(FString FileName, const TArray<TArray<float>>& Data, bool& bOutSuccess, FString& OutInfoMessage); // Write contetns for the File
+
+	float GetHeurestic(FVector A, FVector B); // Calculate the Heuristic Between two locations using Distance Formula
+	float GetMaxQ(); // Get the Highest Score for the Current State the AI is currently in
+	TArray<TArray<float>> PopulateQ();
+	void CreateDataFile(FString FileName, FString Content);
+
+	///////////////////////////////PRIVATE VARIABLES////////////////////////////////////////////////////////
+	TArray<TArray<float>> Q; // Storage for calculated Scores for Controlled Agent
+	const float GAMMA = 0.95f; // DISCOUNT FACTOR for the Policy
+	const float ALPHA = 0.95f; // LEARNING DISCOUNT for the Policy
+	int ACTION; // The current action that the AI is expected to take
+	int STATE; // The current state that the Agent is currently in
+	float REWARD; // The Current Reward for the Given ACTION and STATE
+	TArray<AActor*> Nodes; // Nodes in the Environment will indicate which STATE the AI is in in the Environment
+	TArray<TArray<float>> T = // Template for populating Q if Source File doe not exist
+	{
+		{-1.f, -1.f, -1.f,    0.f},
+		{-1.f, -1.f,  0.f,  100.f},
+		{-1.f,  0.f, -1.f,   -1.f},
+		{-1.f,  0.f,  0.f,   -1.f},
+		{ 0.f, -1.f, -1.f,  100.f},
+		{-1.f,  0.f,  0.f,  100.f}
+	};
 };
 
 

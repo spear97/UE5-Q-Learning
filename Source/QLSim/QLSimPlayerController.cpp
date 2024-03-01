@@ -12,114 +12,234 @@
 #include "EnhancedInputSubsystems.h"
 #include "Engine/LocalPlayer.h"
 
-DEFINE_LOG_CATEGORY(LogTemplateCharacter);
+///////////////////////////////CONSTRUCTOR//////////////////////////////////////////////
 
 AQLSimPlayerController::AQLSimPlayerController()
 {
-	bShowMouseCursor = true;
-	DefaultMouseCursor = EMouseCursor::Default;
-	CachedDestination = FVector::ZeroVector;
-	FollowTime = 0.f;
+	/*TODO: Implement Functionality for Behavioral Data from .txt file*/
 }
+
+///////////////////////////////GAME EVENT//////////////////////////////////////////////
 
 void AQLSimPlayerController::BeginPlay()
 {
-	// Call the base class  
 	Super::BeginPlay();
-
-	//Add Input Mapping Context
-	if (UEnhancedInputLocalPlayerSubsystem* Subsystem = ULocalPlayer::GetSubsystem<UEnhancedInputLocalPlayerSubsystem>(GetLocalPlayer()))
-	{
-		Subsystem->AddMappingContext(DefaultMappingContext, 0);
-	}
 }
 
-void AQLSimPlayerController::SetupInputComponent()
+void AQLSimPlayerController::EndPlay(EEndPlayReason::Type EndPlayReason)
 {
-	// set up gameplay key bindings
-	Super::SetupInputComponent();
-
-	// Set up action bindings
-	if (UEnhancedInputComponent* EnhancedInputComponent = Cast<UEnhancedInputComponent>(InputComponent))
-	{
-		// Setup mouse input events
-		EnhancedInputComponent->BindAction(SetDestinationClickAction, ETriggerEvent::Started, this, &AQLSimPlayerController::OnInputStarted);
-		EnhancedInputComponent->BindAction(SetDestinationClickAction, ETriggerEvent::Triggered, this, &AQLSimPlayerController::OnSetDestinationTriggered);
-		EnhancedInputComponent->BindAction(SetDestinationClickAction, ETriggerEvent::Completed, this, &AQLSimPlayerController::OnSetDestinationReleased);
-		EnhancedInputComponent->BindAction(SetDestinationClickAction, ETriggerEvent::Canceled, this, &AQLSimPlayerController::OnSetDestinationReleased);
-
-		// Setup touch input events
-		EnhancedInputComponent->BindAction(SetDestinationTouchAction, ETriggerEvent::Started, this, &AQLSimPlayerController::OnInputStarted);
-		EnhancedInputComponent->BindAction(SetDestinationTouchAction, ETriggerEvent::Triggered, this, &AQLSimPlayerController::OnTouchTriggered);
-		EnhancedInputComponent->BindAction(SetDestinationTouchAction, ETriggerEvent::Completed, this, &AQLSimPlayerController::OnTouchReleased);
-		EnhancedInputComponent->BindAction(SetDestinationTouchAction, ETriggerEvent::Canceled, this, &AQLSimPlayerController::OnTouchReleased);
-	}
-	else
-	{
-		UE_LOG(LogTemplateCharacter, Error, TEXT("'%s' Failed to find an Enhanced Input Component! This template is built to use the Enhanced Input system. If you intend to use the legacy system, then you will need to update this C++ file."), *GetNameSafe(this));
-	}
+	Super::EndPlay(EndPlayReason);
 }
 
-void AQLSimPlayerController::OnInputStarted()
+void AQLSimPlayerController::OnDestroy(bool bNetforce, bool bShouldModifyLevel)
 {
-	StopMovement();
+	Super::Destroy(bNetforce, bShouldModifyLevel);
 }
 
-// Triggered every frame when the input is held down
-void AQLSimPlayerController::OnSetDestinationTriggered()
-{
-	// We flag that the input is being pressed
-	FollowTime += GetWorld()->GetDeltaSeconds();
-	
-	// We look for the location in the world where the player has pressed the input
-	FHitResult Hit;
-	bool bHitSuccessful = false;
-	if (bIsTouch)
-	{
-		bHitSuccessful = GetHitResultUnderFinger(ETouchIndex::Touch1, ECollisionChannel::ECC_Visibility, true, Hit);
-	}
-	else
-	{
-		bHitSuccessful = GetHitResultUnderCursor(ECollisionChannel::ECC_Visibility, true, Hit);
-	}
+/////////////////////////////// FILE I/O /////////////////////////////////////////////
 
-	// If we hit a surface, cache the location
-	if (bHitSuccessful)
-	{
-		CachedDestination = Hit.Location;
-	}
-	
-	// Move towards mouse pointer or touch
-	APawn* ControlledPawn = GetPawn();
-	if (ControlledPawn != nullptr)
-	{
-		FVector WorldDirection = (CachedDestination - ControlledPawn->GetActorLocation()).GetSafeNormal();
-		ControlledPawn->AddMovementInput(WorldDirection, 1.0, false);
-	}
+FString AQLSimPlayerController::GetFilePath(FString FileName)
+{
+	return FPaths::ProjectDir() + FileName + TEXT(".txt");
 }
 
-void AQLSimPlayerController::OnSetDestinationReleased()
+bool AQLSimPlayerController::FilePathExists(FString FileName)
 {
-	// If it was a short press
-	if (FollowTime <= ShortPressThreshold)
+	return FPlatformFileManager::Get().GetPlatformFile().FileExists(*GetFilePath(FileName));
+}
+
+TArray<TArray<float>> AQLSimPlayerController::PopulateQ()
+{
+	int index;
+	TArray<TArray<float>> newQ;
+
+	for (int i = 0; i < Nodes.Num(); i++)
 	{
-		// We move there and spawn some particles
-		UAIBlueprintHelperLibrary::SimpleMoveToLocation(this, CachedDestination);
-		UNiagaraFunctionLibrary::SpawnSystemAtLocation(this, FXCursor, CachedDestination, FRotator::ZeroRotator, FVector(1.f, 1.f, 1.f), true, true, ENCPoolMethod::None, true);
+		index = i % 6;
+		TArray<float> row = TArray<float>();
+
+		for (int j = 0; j < 4; j++)
+		{
+			row.Add(T[index][j]);
+		}
+
+		newQ.Add(row);
 	}
 
-	FollowTime = 0.f;
+	return newQ;
 }
 
-// Triggered every frame when the input is held down
-void AQLSimPlayerController::OnTouchTriggered()
+void AQLSimPlayerController::CreateDataFile(FString FileName, FString Content)
 {
-	bIsTouch = true;
-	OnSetDestinationTriggered();
+
 }
 
-void AQLSimPlayerController::OnTouchReleased()
+TArray<TArray<float>> AQLSimPlayerController::ReadLinesFromFile(FString FileName, bool& bOutSuccess, FString& OutInfoMessage)
 {
-	bIsTouch = false;
-	OnSetDestinationReleased();
+	// Try to read the string into the file
+	if (!FilePathExists(FileName))
+	{
+		// Reading failed, set output variables with error message
+		bOutSuccess = false;
+		OutInfoMessage = FString::Printf(TEXT("READ Lines From File Failed - File doesn't exist - '%s'"), *GetFilePath(FileName));
+		return TArray<TArray<float>>();
+	}
+
+	// Set where file contents will be stored
+	FString Content = "";
+
+	// Try to Load File to Content
+	if (!FFileHelper::LoadFileToString(Content, *GetFilePath(FileName)))
+	{
+		bOutSuccess = false;
+		OutInfoMessage = FString::Printf(TEXT("READ Lines From File Failed - Unable to read file - '%s'"), *GetFilePath(FileName));
+		return TArray<TArray<float>>();
+	}
+
+	// Collection of Lines from the loaded Content
+	TArray<FString> Lines;
+
+	// Parse Content into Lines
+	Content.ParseIntoArrayLines(Lines);
+
+	// Where Parse Data will be stored
+	TArray<TArray<float>> ParsedData;
+
+	// Iterate through Lines
+	for (const FString& Line : Lines)
+	{
+		// This array will hold the split tokens of the current line
+		TArray<FString> Tokens;
+
+		// Parse Line into Tokens
+		Line.ParseIntoArray(Tokens, TEXT(","), true);
+
+		// Array to store the float values of the current line
+		TArray<float> LineValues;
+
+		// Iterate through tokens
+		for (const FString& Token : Tokens)
+		{
+			// Convert token to float
+			float Value = FCString::Atof(*Token);
+
+			// Add float value to LineValues array
+			LineValues.Add(Value);
+		}
+
+		// Add the array of float values for this line to the ParsedData
+		ParsedData.Add(LineValues);
+	}
+
+	// Set success flag and return the parsed data
+	bOutSuccess = true;
+	return ParsedData;
+}
+
+void AQLSimPlayerController::WriteLinesToFile(FString FileName, const TArray<TArray<float>>& Data, bool& bOutSuccess, FString& OutInfoMessage)
+{
+	// Try to read the string into the file
+	if (!FilePathExists(FileName))
+	{
+		// Reading failed, set output variables with error message
+		bOutSuccess = false;
+		OutInfoMessage = FString::Printf(TEXT("READ Lines From File Failed - File doesn't exist - '%s'"), *GetFilePath(FileName));
+	}
+
+	// Create a string to hold the formatted data
+	FString Content = "";
+
+	// Iterate through Each Element in Data
+	for (const TArray<float>& LineValues : Data)
+	{
+		// Iterate through each sub-element in the current Element
+		for (float Value : LineValues)
+		{
+			// Append Current sub-element to content
+			Content += FString::Printf(TEXT("%.1f, "), Value);
+		}
+		// Add newline after each line
+		Content += "\n";
+	}
+
+	// Try to write the string into the file
+	if (!FFileHelper::SaveStringToFile(Content, *GetFilePath(FileName)))
+	{
+		// Writing failed, set output variables with error message
+		bOutSuccess = false;
+		OutInfoMessage = FString::Printf(TEXT("Write Float Array to File Failed - Unable to write to file. Check if the file is read-only or the path is valid - '%s'"), *GetFilePath(FileName));
+		return;
+	}
+
+	// Writing successful, set success flag
+	bOutSuccess = true;
+	OutInfoMessage = FString::Printf(TEXT("Successfully wrote to file: '%s'"), *GetFilePath(FileName));
+}
+
+///////////////////////////////////////////// Q-LEARNING FUNCTIONALITY/////////////////////////////////////////////
+
+float AQLSimPlayerController::CalculateScore()
+{
+	return Q[STATE][ACTION] + ALPHA * (REWARD + GAMMA * GetMaxQ() - Q[STATE][ACTION]);
+}
+
+float AQLSimPlayerController::GetHeurestic(FVector A, FVector B)
+{
+	// Calculate differences in x, y, and z coordinates
+	float DiffX = B.X - A.X;
+	float DiffY = B.Y - A.Y;
+	float DiffZ = B.Z - A.Z;
+
+	// Square the differences
+	float DiffXSquared = DiffX * DiffX;
+	float DiffYSquared = DiffY * DiffY;
+	float DiffZSquared = DiffZ * DiffZ;
+
+	// Sum of squared differences
+	float Sum = DiffXSquared + DiffYSquared + DiffZSquared;
+
+	// Square root of the sum gives the distance
+	float Distance = FMath::Sqrt(Sum);
+
+	return Distance;
+}
+
+float AQLSimPlayerController::GetMaxQ()
+{
+	// The Current Row of Scores that is being analyzed
+	TArray<float> Scores = Q[STATE];
+
+	// The Maximum Q value in the list of Scores
+	float MaxQ = -INFINITY;
+
+	// Iterate through all Score
+	for (float Score : Scores)
+	{
+		// Check if Score is greater than MaxQ, if so then update it
+		MaxQ = Score > MaxQ ? Score : MaxQ;
+	}
+
+	return MaxQ;
+}
+
+int AQLSimPlayerController::GetAction()
+{
+	float bestScore = -INFINITY;
+	int bestIndex = -1;
+
+	for (int i = 0; i < Q[STATE].Num(); i++)
+	{
+		if (Q[STATE][i] > bestScore)
+		{
+			bestScore = Q[STATE][i];
+			bestIndex = i;
+		}
+	}
+
+	return bestIndex;
+}
+
+int AQLSimPlayerController::GetState()
+{
+	return 0;
 }
