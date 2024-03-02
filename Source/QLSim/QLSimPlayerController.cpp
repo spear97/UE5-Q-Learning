@@ -38,208 +38,122 @@ void AQLSimPlayerController::OnDestroy(bool bNetforce, bool bShouldModifyLevel)
 
 /////////////////////////////// FILE I/O /////////////////////////////////////////////
 
-FString AQLSimPlayerController::GetFilePath(FString FileName)
+/**
+ * Get the file path based on the project directory and the provided file name.
+ * @return The file path as FString.
+ */
+FString AQLSimPlayerController::GetFilePath()
 {
 	return FPaths::ProjectDir() + FileName + TEXT(".txt");
 }
 
-bool AQLSimPlayerController::FilePathExists(FString FileName)
+/**
+ * Check if the file path specified by GetFilePath() exists.
+ * @return true if the file exists, false otherwise.
+ */
+bool AQLSimPlayerController::FilePathExists()
 {
-	return FPlatformFileManager::Get().GetPlatformFile().FileExists(*GetFilePath(FileName));
+	return FPlatformFileManager::Get().GetPlatformFile().FileExists(*GetFilePath());
 }
 
-TArray<TArray<float>> AQLSimPlayerController::PopulateQ()
+/**
+ * Read lines from a file and populate the Q array with float values.
+ * If the file does not exist, populate Q with values from T array.
+ */
+void AQLSimPlayerController::ReadLinesFromFile()
 {
-	int index;
-	TArray<TArray<float>> newQ;
+    // If the file does not exist, populate Q using Nodes and T arrays
+    if (!FilePathExists())
+    {
+        for (int i = 0; i < Nodes.Num(); i++)
+        {
+            // Calculate the index based on the size of T
+            int index = i % T.Num();
 
-	for (int i = 0; i < Nodes.Num(); i++)
-	{
-		index = i % 6;
-		TArray<float> row = TArray<float>();
+            // Create a new entry for Q
+            TArray<float> QEntry;
 
-		for (int j = 0; j < 4; j++)
-		{
-			row.Add(T[index][j]);
-		}
+            // Add values from T to QEntry
+            for (int j = 0; j < 4; j++)
+            {
+                QEntry.Add(T[index][j]);
+            }
 
-		newQ.Add(row);
-	}
+            // Add QEntry to Q
+            Q.Add(QEntry);
+        }
 
-	return newQ;
+        return; // Exit the function if file does not exist
+    }
+
+    // If the file exists, read its content
+    FString FileContent;
+    TArray<FString> Content;
+
+    // Load the file content into FileContent
+    FFileHelper::LoadFileToString(FileContent, *GetFilePath());
+
+    // Split the file content into lines
+    FileContent.ParseIntoArrayLines(Content, false);
+
+    // Iterate through each line in the file
+    for (const FString& Line : Content)
+    {
+        // Split the line into individual values based on commas
+        TArray<FString> LineValues;
+        Line.ParseIntoArray(LineValues, TEXT(","), true);
+
+        // Array to store parsed float values from the line
+        TArray<float> FloatValues;
+
+        // Convert each substring to a float and add to FloatValues
+        for (const FString& Value : LineValues)
+        {
+            float FloatValue = FCString::Atof(*Value); // Convert FString to float
+            FloatValues.Add(FloatValue); // Add the float value to FloatValues
+        }
+
+        // Add the array of float values to Q
+        Q.Add(FloatValues);
+    }
 }
 
-void AQLSimPlayerController::CreateDataFile(FString FileName, FString Content)
+/**
+ * Write the contents of a 2D array of floats to a text file.
+ * Each row of the array will be written as a line in the file,
+ * with values separated by commas.
+ * @param Data The 2D array of floats to write to the file.
+ */
+void AQLSimPlayerController::WriteLinesToFile(const TArray<TArray<float>>& Data)
 {
+    // Array to hold lines of content to write to the file
+    TArray<FString> Content;
 
-}
+    // Iterate through each row of the Data array
+    for (int row = 0; row < Data.Num(); row++)
+    {
+        FString RowString = "";
 
-TArray<TArray<float>> AQLSimPlayerController::ReadLinesFromFile(FString FileName, bool& bOutSuccess, FString& OutInfoMessage)
-{
-	// Try to read the string into the file
-	if (!FilePathExists(FileName))
-	{
-		// Reading failed, set output variables with error message
-		bOutSuccess = false;
-		OutInfoMessage = FString::Printf(TEXT("READ Lines From File Failed - File doesn't exist - '%s'"), *GetFilePath(FileName));
-		return TArray<TArray<float>>();
-	}
+        // Iterate through each column of the current row
+        for (int col = 0; col < Data[row].Num(); col++)
+        {
+            // Convert the float value to FString and add to the RowString
+            RowString += FString::SanitizeFloat(Data[row][col]);
 
-	// Set where file contents will be stored
-	FString Content = "";
+            // If it's not the last column, add a comma to separate values
+            if (col < Data[row].Num() - 1)
+            {
+                RowString += ",";
+            }
+        }
 
-	// Try to Load File to Content
-	if (!FFileHelper::LoadFileToString(Content, *GetFilePath(FileName)))
-	{
-		bOutSuccess = false;
-		OutInfoMessage = FString::Printf(TEXT("READ Lines From File Failed - Unable to read file - '%s'"), *GetFilePath(FileName));
-		return TArray<TArray<float>>();
-	}
+        // Add the completed RowString to the Content array
+        Content.Add(RowString);
+    }
 
-	// Collection of Lines from the loaded Content
-	TArray<FString> Lines;
+    // Join all rows with newline character to form the final string
+    FString LinesString = FString::Join(Content, TEXT("\n"));
 
-	// Parse Content into Lines
-	Content.ParseIntoArrayLines(Lines);
-
-	// Where Parse Data will be stored
-	TArray<TArray<float>> ParsedData;
-
-	// Iterate through Lines
-	for (const FString& Line : Lines)
-	{
-		// This array will hold the split tokens of the current line
-		TArray<FString> Tokens;
-
-		// Parse Line into Tokens
-		Line.ParseIntoArray(Tokens, TEXT(","), true);
-
-		// Array to store the float values of the current line
-		TArray<float> LineValues;
-
-		// Iterate through tokens
-		for (const FString& Token : Tokens)
-		{
-			// Convert token to float
-			float Value = FCString::Atof(*Token);
-
-			// Add float value to LineValues array
-			LineValues.Add(Value);
-		}
-
-		// Add the array of float values for this line to the ParsedData
-		ParsedData.Add(LineValues);
-	}
-
-	// Set success flag and return the parsed data
-	bOutSuccess = true;
-	return ParsedData;
-}
-
-void AQLSimPlayerController::WriteLinesToFile(FString FileName, const TArray<TArray<float>>& Data, bool& bOutSuccess, FString& OutInfoMessage)
-{
-	// Try to read the string into the file
-	if (!FilePathExists(FileName))
-	{
-		// Reading failed, set output variables with error message
-		bOutSuccess = false;
-		OutInfoMessage = FString::Printf(TEXT("READ Lines From File Failed - File doesn't exist - '%s'"), *GetFilePath(FileName));
-	}
-
-	// Create a string to hold the formatted data
-	FString Content = "";
-
-	// Iterate through Each Element in Data
-	for (const TArray<float>& LineValues : Data)
-	{
-		// Iterate through each sub-element in the current Element
-		for (float Value : LineValues)
-		{
-			// Append Current sub-element to content
-			Content += FString::Printf(TEXT("%.1f, "), Value);
-		}
-		// Add newline after each line
-		Content += "\n";
-	}
-
-	// Try to write the string into the file
-	if (!FFileHelper::SaveStringToFile(Content, *GetFilePath(FileName)))
-	{
-		// Writing failed, set output variables with error message
-		bOutSuccess = false;
-		OutInfoMessage = FString::Printf(TEXT("Write Float Array to File Failed - Unable to write to file. Check if the file is read-only or the path is valid - '%s'"), *GetFilePath(FileName));
-		return;
-	}
-
-	// Writing successful, set success flag
-	bOutSuccess = true;
-	OutInfoMessage = FString::Printf(TEXT("Successfully wrote to file: '%s'"), *GetFilePath(FileName));
-}
-
-///////////////////////////////////////////// Q-LEARNING FUNCTIONALITY/////////////////////////////////////////////
-
-float AQLSimPlayerController::CalculateScore()
-{
-	return Q[STATE][ACTION] + ALPHA * (REWARD + GAMMA * GetMaxQ() - Q[STATE][ACTION]);
-}
-
-float AQLSimPlayerController::GetHeurestic(FVector A, FVector B)
-{
-	// Calculate differences in x, y, and z coordinates
-	float DiffX = B.X - A.X;
-	float DiffY = B.Y - A.Y;
-	float DiffZ = B.Z - A.Z;
-
-	// Square the differences
-	float DiffXSquared = DiffX * DiffX;
-	float DiffYSquared = DiffY * DiffY;
-	float DiffZSquared = DiffZ * DiffZ;
-
-	// Sum of squared differences
-	float Sum = DiffXSquared + DiffYSquared + DiffZSquared;
-
-	// Square root of the sum gives the distance
-	float Distance = FMath::Sqrt(Sum);
-
-	return Distance;
-}
-
-float AQLSimPlayerController::GetMaxQ()
-{
-	// The Current Row of Scores that is being analyzed
-	TArray<float> Scores = Q[STATE];
-
-	// The Maximum Q value in the list of Scores
-	float MaxQ = -INFINITY;
-
-	// Iterate through all Score
-	for (float Score : Scores)
-	{
-		// Check if Score is greater than MaxQ, if so then update it
-		MaxQ = Score > MaxQ ? Score : MaxQ;
-	}
-
-	return MaxQ;
-}
-
-int AQLSimPlayerController::GetAction()
-{
-	float bestScore = -INFINITY;
-	int bestIndex = -1;
-
-	for (int i = 0; i < Q[STATE].Num(); i++)
-	{
-		if (Q[STATE][i] > bestScore)
-		{
-			bestScore = Q[STATE][i];
-			bestIndex = i;
-		}
-	}
-
-	return bestIndex;
-}
-
-int AQLSimPlayerController::GetState()
-{
-	return 0;
+    // Save the string to the file
+    FFileHelper::SaveStringToFile(LinesString, *GetFilePath());
 }

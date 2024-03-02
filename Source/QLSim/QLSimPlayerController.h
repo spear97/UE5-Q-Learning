@@ -19,10 +19,14 @@ public:
 
 	AQLSimPlayerController(); // Constuctor
 
-	float CalculateScore(); // Calculate the Policy for Q-Learning
-	int GetState(); // Get the Current State of the AI
-	int GetAction(); // Get the Bets Action of the AI
+	//float CalculateScore(); // Calculate the Policy for Q-Learning
+	//int GetState(); // Get the Current State of the AI
+	//int GetAction(); // Get the Bets Action of the AI
 
+	/////////////////////////////PUBLIC VARIABLES///////////////////////////////////////////////////////////
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Machine Learning")
+	TArray<AActor*> Nodes; // Nodes in the Environment will indicate which STATE the AI is in in the Environment
 
 protected:
 
@@ -34,24 +38,14 @@ protected:
 private:
 
 	///////////////////////////////PRIVATE FUNCTIONS////////////////////////////////////////////////////////
-	FString GetFilePath(FString FileName); // Get the path location where file is located
-	bool FilePathExists(FString FileName); // See if the Path for the File Path exists
-	TArray<TArray<float>> ReadLinesFromFile(FString FileName, bool& bOutSuccess, FString& OutInfoMessage); // Read contents of the File
-	void WriteLinesToFile(FString FileName, const TArray<TArray<float>>& Data, bool& bOutSuccess, FString& OutInfoMessage); // Write contetns for the File
-
-	float GetHeurestic(FVector A, FVector B); // Calculate the Heuristic Between two locations using Distance Formula
-	float GetMaxQ(); // Get the Highest Score for the Current State the AI is currently in
-	TArray<TArray<float>> PopulateQ();
-	void CreateDataFile(FString FileName, FString Content);
+	FString GetFilePath(); // Get the path location where file is located
+	bool FilePathExists(); // See if the Path for the File Path exists
+	void ReadLinesFromFile(); // Read contents of the File
+	void WriteLinesToFile(const TArray<TArray<float>>& Data); // Write contetns for the File
 
 	///////////////////////////////PRIVATE VARIABLES////////////////////////////////////////////////////////
+	FString FileName = "Data";
 	TArray<TArray<float>> Q; // Storage for calculated Scores for Controlled Agent
-	const float GAMMA = 0.95f; // DISCOUNT FACTOR for the Policy
-	const float ALPHA = 0.95f; // LEARNING DISCOUNT for the Policy
-	int ACTION; // The current action that the AI is expected to take
-	int STATE; // The current state that the Agent is currently in
-	float REWARD; // The Current Reward for the Given ACTION and STATE
-	TArray<AActor*> Nodes; // Nodes in the Environment will indicate which STATE the AI is in in the Environment
 	TArray<TArray<float>> T = // Template for populating Q if Source File doe not exist
 	{
 		{-1.f, -1.f, -1.f,    0.f},
