@@ -57,32 +57,42 @@ bool AQLSimPlayerController::FilePathExists()
 }
 
 /**
+ * Generate data based on Nodes and T arrays.
+ * For each element in the Nodes array, a corresponding entry is created in the Q array
+ * using values from the T array.
+ */
+void AQLSimPlayerController::GenerateData()
+{
+    // Loop through each element in the Nodes array
+    for (int i = 0; i < Nodes.Num(); i++)
+    {
+        // Calculate the index based on the size of T
+        int index = i % T.Num();
+
+        // Create a new entry for Q
+        TArray<float> QEntry;
+
+        // Add values from T to QEntry
+        for (int j = 0; j < 4; j++)
+        {
+            QEntry.Add(T[index][j]);
+        }
+
+        // Add QEntry to Q
+        Q.Add(QEntry);
+    }
+}
+
+/**
  * Read lines from a file and populate the Q array with float values.
  * If the file does not exist, populate Q with values from T array.
  */
 void AQLSimPlayerController::ReadLinesFromFile()
 {
-    // If the file does not exist, populate Q using Nodes and T arrays
+    // If the file does not exist, populate Q using data from T
     if (!FilePathExists())
     {
-        for (int i = 0; i < Nodes.Num(); i++)
-        {
-            // Calculate the index based on the size of T
-            int index = i % T.Num();
-
-            // Create a new entry for Q
-            TArray<float> QEntry;
-
-            // Add values from T to QEntry
-            for (int j = 0; j < 4; j++)
-            {
-                QEntry.Add(T[index][j]);
-            }
-
-            // Add QEntry to Q
-            Q.Add(QEntry);
-        }
-
+        GenerateData();
         return; // Exit the function if file does not exist
     }
 
@@ -95,6 +105,13 @@ void AQLSimPlayerController::ReadLinesFromFile()
 
     // Split the file content into lines
     FileContent.ParseIntoArrayLines(Content, false);
+
+    // If no data is able to be found, then populate Q using T 
+    if (!(Content.Num() > 1))
+    {
+        GenerateData();
+        return; // Exit the function if no data content exists
+    }
 
     // Iterate through each line in the file
     for (const FString& Line : Content)

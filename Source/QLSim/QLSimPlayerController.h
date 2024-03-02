@@ -42,6 +42,7 @@ private:
 	bool FilePathExists(); // See if the Path for the File Path exists
 	void ReadLinesFromFile(); // Read contents of the File
 	void WriteLinesToFile(const TArray<TArray<float>>& Data); // Write contetns for the File
+	void GenerateData();
 
 	///////////////////////////////PRIVATE VARIABLES////////////////////////////////////////////////////////
 	FString FileName = "Data";
