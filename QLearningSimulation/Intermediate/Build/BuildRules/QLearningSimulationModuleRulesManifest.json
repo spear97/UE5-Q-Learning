@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\seanp\\Documents\\Github\\QLearningSimulation\\Source\\QLearningSimulation\\QLearningSimulation.Build.cs",
+		"C:\\Users\\seanp\\Documents\\Github\\QLearningSimulation\\Source\\QLearningSimulation.Target.cs",
+		"C:\\Users\\seanp\\Documents\\Github\\QLearningSimulation\\Source\\QLearningSimulationEditor.Target.cs"
+	],
+	"EngineVersion": "5.3.2"
+}

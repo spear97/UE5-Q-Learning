@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\QLearningSimulation.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\QLearningSimulation.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\QLearningSimulationEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\QLearningSimulation">
+      <UniqueIdentifier>{3732B342-B1B3-393E-834F-2DDCA62B2DFF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\QLearningSimulation\QLController.cpp">
+      <Filter>Source\QLearningSimulation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\QLearningSimulation\QLController.h">
+      <Filter>Source\QLearningSimulation</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\QLearningSimulation\QLearningSimulation.Build.cs">
+      <Filter>Source\QLearningSimulation</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\QLearningSimulation\QLearningSimulation.cpp">
+      <Filter>Source\QLearningSimulation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\QLearningSimulation\QLearningSimulation.h">
+      <Filter>Source\QLearningSimulation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\QLearningSimulation\QLearningSimulationCharacter.cpp">
+      <Filter>Source\QLearningSimulation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\QLearningSimulation\QLearningSimulationCharacter.h">
+      <Filter>Source\QLearningSimulation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\QLearningSimulation\QLearningSimulationGameMode.cpp">
+      <Filter>Source\QLearningSimulation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\QLearningSimulation\QLearningSimulationGameMode.h">
+      <Filter>Source\QLearningSimulation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\QLearningSimulation\QLearningSimulationPlayerController.cpp">
+      <Filter>Source\QLearningSimulation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\QLearningSimulation\QLearningSimulationPlayerController.h">
+      <Filter>Source\QLearningSimulation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\QLearningSimulation\Waypoint.cpp">
+      <Filter>Source\QLearningSimulation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\QLearningSimulation\Waypoint.h">
+      <Filter>Source\QLearningSimulation</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

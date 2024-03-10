@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "QLearningSimulation",
+			"Path": "..\\Source\\QLearningSimulation.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "QLearningSimulationEditor",
+			"Path": "..\\Source\\QLearningSimulationEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
