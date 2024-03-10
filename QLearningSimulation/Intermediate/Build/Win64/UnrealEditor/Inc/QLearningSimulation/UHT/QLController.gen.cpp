@@ -64,7 +64,13 @@ void EmptyLinkFunctionForGeneratedCodeQLController() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AQLController_CalculateFeedback_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Q-Learning" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "// Calculate the feedback (updating Q-values) based on the reward and Q-learning algorithm\n" },
+#endif
 		{ "ModuleRelativePath", "QLController.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Calculate the feedback (updating Q-values) based on the reward and Q-learning algorithm" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AQLController_CalculateFeedback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AQLController, nullptr, "CalculateFeedback", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AQLController_CalculateFeedback_Statics::Function_MetaDataParams), Z_Construct_UFunction_AQLController_CalculateFeedback_Statics::Function_MetaDataParams) };
@@ -87,7 +93,13 @@ void EmptyLinkFunctionForGeneratedCodeQLController() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AQLController_GetReward_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Q-Learning" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "// Get the reward based on the current state and action\n" },
+#endif
 		{ "ModuleRelativePath", "QLController.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Get the reward based on the current state and action" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AQLController_GetReward_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AQLController, nullptr, "GetReward", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AQLController_GetReward_Statics::Function_MetaDataParams), Z_Construct_UFunction_AQLController_GetReward_Statics::Function_MetaDataParams) };
@@ -111,11 +123,11 @@ void EmptyLinkFunctionForGeneratedCodeQLController() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AQLController_GetStateandAction_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Q-Learning" },
 #if !UE_BUILD_SHIPPING
-		{ "Comment", "//////////////////////////////PUBLIC FUNCTIONS//////////////////////////////\n" },
+		{ "Comment", "// Get the current state and action based on the Q-learning algorithm\n" },
 #endif
 		{ "ModuleRelativePath", "QLController.h" },
 #if !UE_BUILD_SHIPPING
-		{ "ToolTip", "PUBLIC FUNCTIONS" },
+		{ "ToolTip", "Get the current state and action based on the Q-learning algorithm" },
 #endif
 	};
 #endif
@@ -139,7 +151,13 @@ void EmptyLinkFunctionForGeneratedCodeQLController() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AQLController_PerformActon_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Q-Learning" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "// Perform an action based on the calculated action from the Q-learning algorithm\n" },
+#endif
 		{ "ModuleRelativePath", "QLController.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Perform an action based on the calculated action from the Q-learning algorithm" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AQLController_PerformActon_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AQLController, nullptr, "PerformActon", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AQLController_PerformActon_Statics::Function_MetaDataParams), Z_Construct_UFunction_AQLController_PerformActon_Statics::Function_MetaDataParams) };
@@ -178,10 +196,10 @@ void EmptyLinkFunctionForGeneratedCodeQLController() {}
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AQLController_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_AQLController_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AQLController_CalculateFeedback, "CalculateFeedback" }, // 153373524
-		{ &Z_Construct_UFunction_AQLController_GetReward, "GetReward" }, // 2229536484
-		{ &Z_Construct_UFunction_AQLController_GetStateandAction, "GetStateandAction" }, // 3604792674
-		{ &Z_Construct_UFunction_AQLController_PerformActon, "PerformActon" }, // 1156375543
+		{ &Z_Construct_UFunction_AQLController_CalculateFeedback, "CalculateFeedback" }, // 2139055204
+		{ &Z_Construct_UFunction_AQLController_GetReward, "GetReward" }, // 2013355246
+		{ &Z_Construct_UFunction_AQLController_GetStateandAction, "GetStateandAction" }, // 4000547787
+		{ &Z_Construct_UFunction_AQLController_PerformActon, "PerformActon" }, // 3444815900
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AQLController_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
@@ -198,11 +216,11 @@ void EmptyLinkFunctionForGeneratedCodeQLController() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AQLController_Statics::NewProp_Goal_MetaData[] = {
 		{ "Category", "Q-Learning" },
 #if !UE_BUILD_SHIPPING
-		{ "Comment", "//////////////////////////////PUBLIC VARIALES//////////////////////////////\n" },
+		{ "Comment", "// Goal actor for the Q-learning algorithm\n" },
 #endif
 		{ "ModuleRelativePath", "QLController.h" },
 #if !UE_BUILD_SHIPPING
-		{ "ToolTip", "PUBLIC VARIALES" },
+		{ "ToolTip", "Goal actor for the Q-learning algorithm" },
 #endif
 	};
 #endif
@@ -248,9 +266,9 @@ void EmptyLinkFunctionForGeneratedCodeQLController() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_seanp_Documents_Github_UE5_Q_Learning_QLearningSimulation_Source_QLearningSimulation_QLController_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AQLController, AQLController::StaticClass, TEXT("AQLController"), &Z_Registration_Info_UClass_AQLController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AQLController), 3676934275U) },
+		{ Z_Construct_UClass_AQLController, AQLController::StaticClass, TEXT("AQLController"), &Z_Registration_Info_UClass_AQLController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AQLController), 338830060U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_seanp_Documents_Github_UE5_Q_Learning_QLearningSimulation_Source_QLearningSimulation_QLController_h_160476363(TEXT("/Script/QLearningSimulation"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_seanp_Documents_Github_UE5_Q_Learning_QLearningSimulation_Source_QLearningSimulation_QLController_h_2978731357(TEXT("/Script/QLearningSimulation"),
 		Z_CompiledInDeferFile_FID_Users_seanp_Documents_Github_UE5_Q_Learning_QLearningSimulation_Source_QLearningSimulation_QLController_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_seanp_Documents_Github_UE5_Q_Learning_QLearningSimulation_Source_QLearningSimulation_QLController_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

@@ -9,96 +9,138 @@ AQLController::AQLController() {/*****CONSTRUCTOR****/}
 
 void AQLController::BeginPlay()
 {
+    // Call the parent class's BeginPlay implementation
     Super::BeginPlay();
-    GetWaypoints();
-    ReadData();
+
+    GetWaypoints(); // Get all Waypoints that exist in the Level
+    ReadData(); // Read Data that is needed for the simulation
 }
 
 void AQLController::EndPlay(const EEndPlayReason::Type EndPlayReason)
 {
+    // Call the parent class's EndPlay implementation
     Super::EndPlay(EndPlayReason);
-    WriteLinesToFile(Q);
+
+    WriteLinesToFile(Q); // Write Data that will be used for next Simulation
 }
 
 ///////////////////////Q-LEARNING/////////////////////////
 
+// Calculate heuristic value between two points A and B
 float AQLController::Heuristic(const FVector A, const FVector B)
 {
-    return FMath::Sqrt(FMath::Square(B.X - A.X) + FMath::Square(B.Y - A.Y) + FMath::Square(B.Z - A.Z));
+    // Using squared distance as heuristic
+    // Squared distance is often used in pathfinding algorithms for efficiency
+    return FVector::DistSquared(A, B);
 }
 
 void AQLController::GetAction()
 {
-    TArray<float> DataRow = Q[STATE];
+    // Get the row corresponding to the current state from the Q-table
+    TArray<float> Row = Q[STATE];
 
-    int BestIndex = -1;
-    float BestScore = -INFINITY;
-
-    for (int i = 0; i < DataRow.Num(); i++)
+    // If the row is empty, set the action to 0 and return
+    if (Row.Num() == 0)
     {
-        if (DataRow[i] > BestScore)
+        ACTION = 0;
+        return;
+    }
+
+    // Initialize variables to track the highest index and value
+    int HighestIndex = 0;
+    float HighestValue = Row[HighestIndex]; // Assume the first element is the highest initially
+
+    // Iterate through the array starting from the second element
+    for (int i = 1; i < Row.Num(); ++i)
+    {
+        // If the current value is higher than the highest value so far
+        if (Row[i] > HighestValue)
         {
-            BestScore = DataRow[i];
-            BestIndex = i;
+            HighestIndex = i; // Update the highest index
+            HighestValue = Row[HighestIndex]; // Update the highest value
         }
     }
 
-    ACTION = BestIndex;
+    // Set the action to the index with the highest value in the Q-table row
+    ACTION = HighestIndex;
 }
 
 void AQLController::GetState()
 {
-    float closestDist = INFINITY;
-    int bestIndex = -1;
+    // If there are no waypoints, set the state to 0 and return
+    if (Waypoints.Num() == 0)
+    {
+        STATE = 0;
+        return;
+    }
 
+    // Initialize variables to track the closest index and distance
+    int closestIndex = -1;
+    float ClosestDistanceSquared = MAX_FLT;
+
+    // Iterate through all waypoints to find the closest one
     for (int i = 0; i < Waypoints.Num(); i++)
     {
-        float h = Heuristic(GetPawn()->GetActorLocation(), Goal->GetActorLocation());
+        // Calculate the squared distance between the AI and the current waypoint
+        float DistanceSquared = FVector::DistSquared(GetPawn()->GetActorLocation(), Waypoints[i]->GetActorLocation());
 
-        if (h < closestDist)
+        // If the current waypoint is closer than the previous closest waypoint
+        if (DistanceSquared < ClosestDistanceSquared)
         {
-            bestIndex = i;
-            closestDist = h;
+            closestIndex = i; // Update the closest index
+            ClosestDistanceSquared = DistanceSquared; // Update the closest distance
         }
     }
 
-    STATE = bestIndex;
+    // Set the state to the index of the closest waypoint
+    STATE = closestIndex;
 }
 
 void AQLController::GetStateandAction()
 {
+    // Get the current state
     GetState();
+
+    // Get the action based on the current state
     GetAction();
 }
 
 void AQLController::PerformActon()
 {
+    // Perform an action based on the current value of ACTION
     switch (ACTION)
     {
     case 0:
-        MoveUp();
+        MoveUp(); // Move Up at Index of 0
         break;
     case 1:
-        MoveDown();
+        MoveDown(); // Move Down at Index of 1
         break;
     case 2:
-        MoveLeft();
+        MoveLeft(); // Move Left at Index of 2
         break;
     case 3:
-        MoveRight();
+        MoveRight(); // Move Right at Index of 3
         break;
     }
 }
 
 void AQLController::GetReward()
 {
+    // Calculate the heuristic value between the AI and the goal
     float h = Heuristic(GetPawn()->GetActorLocation(), Goal->GetActorLocation());
+
+    // Determine the reward based on the change in heuristic value
+    // If the new heuristic value is less than the previous distance, give a reward of 1, otherwise -5
     REWARD = h < prevDist ? 1.f : -5.f;
+
+    // Update the previous distance with the new heuristic value
     prevDist = h;
 }
 
 void AQLController::CalculateFeedback()
 {
+    // Update the Q-value for the current state-action pair using Bellman's equation for Q-learning:
     Q[STATE][ACTION] = Q[STATE][ACTION] + ALPHA * (REWARD + GAMMA*Max() - Q[STATE][ACTION]);
 }
 
@@ -106,12 +148,14 @@ void AQLController::CalculateFeedback()
 
 void AQLController::GetWaypoints()
 {
-	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AWaypoint::StaticClass(), Waypoints);
+    // Get all actors of class AWaypoint in the current world
+    // and store them in the Waypoints array.
+    UGameplayStatics::GetAllActorsOfClass(GetWorld(), AWaypoint::StaticClass(), Waypoints);
 }
 
 void AQLController::GenerateData()
 {
-    // Loop through each element in the Nodes array
+    // Loop through each element in the Waypoints array
     for (int i = 0; i < Waypoints.Num(); i++)
     {
         // Calculate the index based on the size of T
@@ -131,17 +175,23 @@ void AQLController::GenerateData()
     }
 }
 
+// Calculate the maximum Q-value for the current state
 float AQLController::Max()
 {
+    // Get the row of Q-values corresponding to the current state
     TArray<float> DataRow = Q[STATE];
 
-    float bestScore = -INFINITY;
+    // Initialize the best score to negative infinity
+    float bestScore = -MAX_FLT;
 
+    // Iterate through the row to find the maximum Q-value
     for (int i = 0; i < DataRow.Num(); i++)
     {
+        // If the current Q-value is greater than the best score so far, update best score
         bestScore = DataRow[i] > bestScore ? DataRow[i] : bestScore;
     }
 
+    // Return the maximum Q-value found
     return bestScore;
 }
 
@@ -149,12 +199,19 @@ float AQLController::Max()
 
 bool AQLController::FilePathExists()
 {
+    // Get the platform file manager and check if the file exists
+    // by using the FileExists() function with the file path.
     return FPlatformFileManager::Get().GetPlatformFile().FileExists(*GetFilePath());
 }
 
+// Get the file path for saving or loading data
 FString AQLController::GetFilePath()
 {
-	return FPaths::ProjectDir() + FileName + TEXT(".txt");
+    // Construct the file path by combining the project directory, file name, and extension
+    FString FilePath = FPaths::ProjectDir() + FileName + TEXT(".txt");
+
+    // Return the constructed file path
+    return FilePath;
 }
 
 void AQLController::ReadData()
@@ -241,34 +298,66 @@ void AQLController::WriteLinesToFile(const TArray<TArray<float>>& Data)
 
 ///////////////////////////ACTION FUNCTIONS///////////////////////////////////////
 
+// Move the controlled pawn forward
 void AQLController::MoveUp()
 {
+    // Get the current location of the pawn
     FVector currLoc = GetPawn()->GetActorLocation();
-    FVector moveDir = GetPawn()->GetActorForwardVector() * 250.f;
+
+    // Calculate the movement direction by multiplying the forward vector with moveDelta
+    FVector moveDir = GetPawn()->GetActorForwardVector() * moveDelta;
+
+    // Calculate the destination position by adding the movement direction to the current location
     FVector dest = currLoc + moveDir;
+
+    // Move the pawn to the calculated destination
     MoveToLocation(dest);
 }
 
+// Move the controlled pawn backward
 void AQLController::MoveDown()
 {
+    // Get the current location of the pawn
     FVector currLoc = GetPawn()->GetActorLocation();
-    FVector moveDir = GetPawn()->GetActorForwardVector() * -250.f;
+
+    // Calculate the movement direction by multiplying the negative forward vector with moveDelta
+    FVector moveDir = GetPawn()->GetActorForwardVector() * -moveDelta;
+
+    // Calculate the destination position by adding the movement direction to the current location
     FVector dest = currLoc + moveDir;
+
+    // Move the pawn to the calculated destination
     MoveToLocation(dest);
 }
 
+// Move the controlled pawn left
 void AQLController::MoveLeft()
 {
+    // Get the current location of the pawn
     FVector currLoc = GetPawn()->GetActorLocation();
-    FVector moveDir = GetPawn()->GetActorRightVector() * -250.f;
+
+    // Calculate the movement direction by multiplying the negative right vector with moveDelta
+    FVector moveDir = GetPawn()->GetActorRightVector() * -moveDelta;
+
+    // Calculate the destination position by adding the movement direction to the current location
     FVector dest = currLoc + moveDir;
+
+    // Move the pawn to the calculated destination
     MoveToLocation(dest);
 }
 
+// Move the controlled pawn right
 void AQLController::MoveRight()
 {
+    // Get the current location of the pawn
     FVector currLoc = GetPawn()->GetActorLocation();
-    FVector moveDir = GetPawn()->GetActorRightVector() * 250.f;
+
+    // Calculate the movement direction by multiplying the right vector with moveDelta
+    FVector moveDir = GetPawn()->GetActorRightVector() * moveDelta;
+
+    // Calculate the destination position by adding the movement direction to the current location
     FVector dest = currLoc + moveDir;
+
+    // Move the pawn to the calculated destination
     MoveToLocation(dest);
 }
