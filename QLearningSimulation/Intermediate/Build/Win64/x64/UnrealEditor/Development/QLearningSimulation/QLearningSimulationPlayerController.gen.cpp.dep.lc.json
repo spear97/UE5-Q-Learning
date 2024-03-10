@@ -1,13 +1,13 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\seanp\\documents\\github\\qlearningsimulation\\intermediate\\build\\win64\\unrealeditor\\inc\\qlearningsimulation\\uht\\qlearningsimulationplayercontroller.gen.cpp",
+        "Source": "c:\\users\\seanp\\documents\\github\\ue5-q-learning\\qlearningsimulation\\intermediate\\build\\win64\\unrealeditor\\inc\\qlearningsimulation\\uht\\qlearningsimulationplayercontroller.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\seanp\\documents\\github\\qlearningsimulation\\intermediate\\build\\win64\\x64\\qlearningsimulationeditor\\development\\unrealed\\sharedpch.unrealed.cpp20.h.pch",
+        "PCH": "c:\\users\\seanp\\documents\\github\\ue5-q-learning\\qlearningsimulation\\intermediate\\build\\win64\\x64\\qlearningsimulationeditor\\development\\unrealed\\sharedpch.unrealed.cpp20.h.pch",
         "Includes": [
-            "c:\\users\\seanp\\documents\\github\\qlearningsimulation\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\qlearningsimulation\\definitions.qlearningsimulation.h",
-            "c:\\users\\seanp\\documents\\github\\qlearningsimulation\\source\\qlearningsimulation\\qlearningsimulationplayercontroller.h",
-            "c:\\users\\seanp\\documents\\github\\qlearningsimulation\\intermediate\\build\\win64\\unrealeditor\\inc\\qlearningsimulation\\uht\\qlearningsimulationplayercontroller.generated.h"
+            "c:\\users\\seanp\\documents\\github\\ue5-q-learning\\qlearningsimulation\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\qlearningsimulation\\definitions.qlearningsimulation.h",
+            "c:\\users\\seanp\\documents\\github\\ue5-q-learning\\qlearningsimulation\\source\\qlearningsimulation\\qlearningsimulationplayercontroller.h",
+            "c:\\users\\seanp\\documents\\github\\ue5-q-learning\\qlearningsimulation\\intermediate\\build\\win64\\unrealeditor\\inc\\qlearningsimulation\\uht\\qlearningsimulationplayercontroller.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

@@ -3,3 +3,5 @@ QLearningSimulation/.vs/QLearningSimulation/v17/Browse.VC.db
 QLearningSimulation/.vs/QLearningSimulation/v17/Solution.VC.db
 *.ipch
 QLearningSimulation/Intermediate/Build/Win64/x64/QLearningSimulationEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.h.pch
+*.vsidx
+*.opendb

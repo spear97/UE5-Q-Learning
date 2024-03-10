@@ -14,7 +14,17 @@ AQLController::AQLController()
 
 void AQLController::BeginPlay()
 {
-	Super::BeginPlay();
+    Super::BeginPlay();
+    ReadData();
+    for (int i = 0; i < Q.Num(); i++)
+    {
+        GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("%d %d %d %d"), Q[i][0], Q[i][1], Q[i][2], Q[i][3]));
+    }
+}
+
+void AQLController::EndPlay(const EEndPlayReason::Type EndPlayReason)
+{
+    Super::EndPlay(EndPlayReason);
 }
 
 ///////////////////////Q-LEARNING/////////////////////////

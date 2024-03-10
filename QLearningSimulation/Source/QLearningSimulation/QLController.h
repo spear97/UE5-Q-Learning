@@ -44,7 +44,9 @@ protected:
 
 	//////////////////////////////PROTECTED FUNCTIONS//////////////////////////////
 
-	virtual void BeginPlay();
+	virtual void BeginPlay() override;
+
+	virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
 
 	/*******DATA FUNCTION*******/
 
@@ -94,7 +96,8 @@ protected:
 
 	FString FileName;
 
-	TArray<TArray<float>> T, Q;
+	TArray<TArray<float>> T;
+	TArray<TArray<float>> Q;
 
 	int STATE, ACTION, REWARD;
 

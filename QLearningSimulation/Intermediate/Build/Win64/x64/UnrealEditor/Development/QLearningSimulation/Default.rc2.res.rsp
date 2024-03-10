@@ -75,5 +75,5 @@
 /DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
 /DPROJECT_PRODUCT_NAME="Top Down Game Template"
 /DPROJECT_PRODUCT_IDENTIFIER=QLearningSimulation
-/fo "C:\Users\seanp\Documents\Github\QLearningSimulation\Intermediate\Build\Win64\x64\UnrealEditor\Development\QLearningSimulation\Default.rc2.res"
+/fo "C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLearningSimulation\Intermediate\Build\Win64\x64\UnrealEditor\Development\QLearningSimulation\Default.rc2.res"
 "..\Build\Windows\Resources\Default.rc2"

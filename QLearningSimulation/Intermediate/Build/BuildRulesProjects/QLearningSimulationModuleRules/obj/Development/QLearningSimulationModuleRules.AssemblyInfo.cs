@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QLearningSimulationModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e33143ca4ca81bc66f6947a089be4fbbd46cb8bf")]
 [assembly: System.Reflection.AssemblyProductAttribute("QLearningSimulationModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QLearningSimulationModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

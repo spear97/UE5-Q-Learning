@@ -1,12 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\seanp\\documents\\github\\qlearningsimulation\\source\\qlearningsimulation\\qlcontroller.cpp",
+        "Source": "c:\\users\\seanp\\documents\\github\\ue5-q-learning\\qlearningsimulation\\source\\qlearningsimulation\\qlcontroller.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\seanp\\documents\\github\\qlearningsimulation\\intermediate\\build\\win64\\x64\\qlearningsimulationeditor\\development\\unrealed\\sharedpch.unrealed.cpp20.h.pch",
+        "PCH": "c:\\users\\seanp\\documents\\github\\ue5-q-learning\\qlearningsimulation\\intermediate\\build\\win64\\x64\\qlearningsimulationeditor\\development\\unrealed\\sharedpch.unrealed.cpp20.h.pch",
         "Includes": [
-            "c:\\users\\seanp\\documents\\github\\qlearningsimulation\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\qlearningsimulation\\definitions.qlearningsimulation.h",
-            "c:\\users\\seanp\\documents\\github\\qlearningsimulation\\source\\qlearningsimulation\\qlcontroller.h",
+            "c:\\users\\seanp\\documents\\github\\ue5-q-learning\\qlearningsimulation\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\qlearningsimulation\\definitions.qlearningsimulation.h",
+            "c:\\users\\seanp\\documents\\github\\ue5-q-learning\\qlearningsimulation\\source\\qlearningsimulation\\qlcontroller.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\aimodule\\classes\\aicontroller.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\aimodule\\classes\\aitypes.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\navigationsystem\\public\\navigationsystemtypes.h",
@@ -29,11 +29,11 @@
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystaticstypes.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystaticstypes.generated.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystatics.generated.h",
-            "c:\\users\\seanp\\documents\\github\\qlearningsimulation\\source\\qlearningsimulation\\waypoint.h",
+            "c:\\users\\seanp\\documents\\github\\ue5-q-learning\\qlearningsimulation\\source\\qlearningsimulation\\waypoint.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\engine\\targetpoint.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\targetpoint.generated.h",
-            "c:\\users\\seanp\\documents\\github\\qlearningsimulation\\intermediate\\build\\win64\\unrealeditor\\inc\\qlearningsimulation\\uht\\waypoint.generated.h",
-            "c:\\users\\seanp\\documents\\github\\qlearningsimulation\\intermediate\\build\\win64\\unrealeditor\\inc\\qlearningsimulation\\uht\\qlcontroller.generated.h"
+            "c:\\users\\seanp\\documents\\github\\ue5-q-learning\\qlearningsimulation\\intermediate\\build\\win64\\unrealeditor\\inc\\qlearningsimulation\\uht\\waypoint.generated.h",
+            "c:\\users\\seanp\\documents\\github\\ue5-q-learning\\qlearningsimulation\\intermediate\\build\\win64\\unrealeditor\\inc\\qlearningsimulation\\uht\\qlcontroller.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

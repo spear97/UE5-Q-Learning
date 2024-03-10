@@ -1,0 +1,204 @@
+[+] Containers:
+ |- [+] Container: /Game/TopDown/Maps/TopDownMap
+ |   |- [+] ActorDescs:
+ |   |   |- Guid:07810DB5476552C6ECC207B8FBE94500 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_A4AE111137DC5CFB00_1546167071 Label:SM_SkySphere SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-1633290.000 Y=-1638400.000 Z=-1638400.000), Max=(X=1643510.000 Y=1638400.000 Z=1638400.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:E13570EE436BA15E35C622BAA5B21164
+ |   |   |- Guid:0BE2FDEE4F836E0AE8B1158D3A290AD2 BaseClass:/Game/TopDown/Blueprints/Agent/Agent.Agent_C NativeClass:/Script/Engine.Character Name:Agent_C_UAID_BCE92F7FD37382E001_2068382584 Label:Agent SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=6159.519 Y=666.000 Z=-0.967), Max=(X=6227.519 Y=734.000 Z=177.514) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:0EE0E5D1466B2603910C569929142127 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_39 Label:SM_Cube5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5880.000 Y=100.000 Z=0.000), Max=(X=5980.000 Y=3400.000 Z=400.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Playground FolderGuid:8746DDAD42A18A3736DBE9BBB77675E5
+ |   |   |- Guid:0FEEBBF6441BF72937DE3AAA3858C9C6 BaseClass: NativeClass:/Script/Engine.CameraActor Name:CameraActor_UAID_BCE92F7FD37384E001_1282719938 Label:CameraActor SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=6720.000 Y=1710.000 Z=1590.000), Max=(X=6720.000 Y=1710.000 Z=1590.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:12044FA84D7BF45F6DC568A5B19B2788 BaseClass:/Game/TopDown/Blueprints/MyWaypoint.MyWaypoint_C NativeClass:/Script/QLearningSimulation.Waypoint Name:MyWaypoint_C_UAID_BCE92F7FD37309E101_1375433348 Label:Waypoint2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=6682.686 Y=700.000 Z=0.000), Max=(X=6682.686 Y=700.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Waypoints FolderGuid:E4BC8C494A6CBDA5FBAB469A2521AB6D
+ |   |   |- Guid:124EE53143C875A1C4F174B08C31D407 BaseClass: NativeClass:/Script/Engine.SkyAtmosphere Name:SkyAtmosphere_1 Label:SkyAtmosphere SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=5110.000 Y=0.000 Z=1020.000), Max=(X=5110.000 Y=0.000 Z=1020.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:E13570EE436BA15E35C622BAA5B21164
+ |   |   |- Guid:169F128441CA7A59FD558AB0AD9E5C85 BaseClass:/Game/TopDown/Blueprints/MyWaypoint.MyWaypoint_C NativeClass:/Script/QLearningSimulation.Waypoint Name:MyWaypoint_C_UAID_BCE92F7FD37309E101_1621274354 Label:Waypoint8 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=6682.686 Y=1700.000 Z=0.000), Max=(X=6682.686 Y=1700.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Waypoints FolderGuid:E4BC8C494A6CBDA5FBAB469A2521AB6D
+ |   |   |- Guid:1A013F6D454DDAB5AD8E77B766ED9FAD BaseClass: NativeClass:/Script/Engine.ExponentialHeightFog Name:ExponentialHeightFog_1 Label:ExponentialHeightFog SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-490.000 Y=-50.000 Z=-6850.000), Max=(X=-490.000 Y=-50.000 Z=-6850.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:E13570EE436BA15E35C622BAA5B21164
+ |   |   |- Guid:20BCA97640857441FE4D28B054684C07 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_40 Label:SM_Cube6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=7380.000 Y=100.000 Z=0.000), Max=(X=7480.000 Y=3400.000 Z=400.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Playground FolderGuid:8746DDAD42A18A3736DBE9BBB77675E5
+ |   |   |- Guid:3217ABB84FCD3498B88026A31A74F53A BaseClass:/Game/TopDown/Blueprints/MyWaypoint.MyWaypoint_C NativeClass:/Script/QLearningSimulation.Waypoint Name:MyWaypoint_C_UAID_BCE92F7FD37309E101_1608009350 Label:Waypoint4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=6182.686 Y=1200.000 Z=-0.000), Max=(X=6182.686 Y=1200.000 Z=-0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Waypoints FolderGuid:E4BC8C494A6CBDA5FBAB469A2521AB6D
+ |   |   |- Guid:37FE721E483E7F1B70073289E8391498 BaseClass:/Game/TopDown/Blueprints/MyWaypoint.MyWaypoint_C NativeClass:/Script/QLearningSimulation.Waypoint Name:MyWaypoint_C_UAID_BCE92F7FD37309E101_1656762359 Label:Waypoint13 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=6182.686 Y=2700.000 Z=-0.000), Max=(X=6182.686 Y=2700.000 Z=-0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Waypoints FolderGuid:E4BC8C494A6CBDA5FBAB469A2521AB6D
+ |   |   |- Guid:3AA00CC7473B3AB860032482C86F1357 BaseClass: NativeClass:/Script/Engine.SkyLight Name:SkyLight_1 Label:SkyLight SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=5110.000 Y=0.000 Z=690.000), Max=(X=5110.000 Y=0.000 Z=690.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:E13570EE436BA15E35C622BAA5B21164
+ |   |   |- Guid:3ED5663C4E3134A567405E881C670AE3 BaseClass:/Game/TopDown/Blueprints/MyWaypoint.MyWaypoint_C NativeClass:/Script/QLearningSimulation.Waypoint Name:MyWaypoint_C_UAID_BCE92F7FD37309E101_1621272353 Label:Waypoint7 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=6182.686 Y=1700.000 Z=-0.000), Max=(X=6182.686 Y=1700.000 Z=-0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Waypoints FolderGuid:E4BC8C494A6CBDA5FBAB469A2521AB6D
+ |   |   |- Guid:490C4D804539A08148BF1CB31892676D BaseClass:/Game/TopDown/Blueprints/MyWaypoint.MyWaypoint_C NativeClass:/Script/QLearningSimulation.Waypoint Name:MyWaypoint_C_UAID_BCE92F7FD37385E001_1726902117 Label:Waypoint SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=6182.686 Y=700.000 Z=-0.000), Max=(X=6182.686 Y=700.000 Z=-0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Waypoints FolderGuid:E4BC8C494A6CBDA5FBAB469A2521AB6D
+ |   |   |- Guid:505B4ED943FA99164AF46CAED7EC7B12 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_34 Label:SM_Cube SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5110.000 Y=0.000 Z=-50.000), Max=(X=8110.000 Y=3500.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Playground FolderGuid:8746DDAD42A18A3736DBE9BBB77675E5
+ |   |   |- Guid:611F9AE9414A01B3C2C5B79A81AC976D BaseClass:/Game/TopDown/Blueprints/MyWaypoint.MyWaypoint_C NativeClass:/Script/QLearningSimulation.Waypoint Name:MyWaypoint_C_UAID_BCE92F7FD37309E101_1621275355 Label:Waypoint9 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=7182.686 Y=1700.000 Z=0.000), Max=(X=7182.686 Y=1700.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Waypoints FolderGuid:E4BC8C494A6CBDA5FBAB469A2521AB6D
+ |   |   |- Guid:6B6C581F4BAAFBEDA173169DB7B151EF BaseClass:/Game/TopDown/Blueprints/MyWaypoint.MyWaypoint_C NativeClass:/Script/QLearningSimulation.Waypoint Name:MyWaypoint_C_UAID_BCE92F7FD37309E101_1656763360 Label:Waypoint14 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=6682.686 Y=2700.000 Z=0.000), Max=(X=6682.686 Y=2700.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Waypoints FolderGuid:E4BC8C494A6CBDA5FBAB469A2521AB6D
+ |   |   |- Guid:6CFE69CB41732F0CDEB04A85666FA67E BaseClass: NativeClass:/Script/Engine.WorldDataLayers Name:WorldDataLayers Label:WorldDataLayers-1 SpatiallyLoaded:0 Bounds:Invalid RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:1
+ |   |   |- Guid:7B3891C44F0DF1EE28D56BBC6C63BA77 BaseClass:/Game/TopDown/Blueprints/MyWaypoint.MyWaypoint_C NativeClass:/Script/QLearningSimulation.Waypoint Name:MyWaypoint_C_UAID_BCE92F7FD37309E101_1640644356 Label:Waypoint10 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=6182.686 Y=2200.000 Z=-0.000), Max=(X=6182.686 Y=2200.000 Z=-0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Waypoints FolderGuid:E4BC8C494A6CBDA5FBAB469A2521AB6D
+ |   |   |- Guid:963169944433A544D75FF79A1B9FC159 BaseClass: NativeClass:/Script/NavigationSystem.NavMeshBoundsVolume Name:NavMeshBoundsVolume_1 Label:NavMeshBoundsVolume SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=5010.000 Y=-100.000 Z=-110.000), Max=(X=8210.000 Y=3600.000 Z=390.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Navigation FolderGuid:5FBB7B1041A3902AEFBB4E87AA1D500F
+ |   |   |- Guid:A45756D6495C3CBE8AA73EAD039CE983 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_35 Label:SM_Cube2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5110.000 Y=380.000 Z=0.000), Max=(X=8110.000 Y=480.000 Z=400.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Playground FolderGuid:8746DDAD42A18A3736DBE9BBB77675E5
+ |   |   |- Guid:B77E37934C60AB607DFF5ABD759825DF BaseClass:/Game/TopDown/Blueprints/MyWaypoint.MyWaypoint_C NativeClass:/Script/QLearningSimulation.Waypoint Name:MyWaypoint_C_UAID_BCE92F7FD37309E101_1656765361 Label:Waypoint15 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=7182.686 Y=2700.000 Z=0.000), Max=(X=7182.686 Y=2700.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Waypoints FolderGuid:E4BC8C494A6CBDA5FBAB469A2521AB6D
+ |   |   |- Guid:BA686A0B4252C4A7C68C329E0725509E BaseClass:/Game/TopDown/Blueprints/MyWaypoint.MyWaypoint_C NativeClass:/Script/QLearningSimulation.Waypoint Name:MyWaypoint_C_UAID_BCE92F7FD37309E101_1477559349 Label:Waypoint3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=7182.686 Y=700.000 Z=0.000), Max=(X=7182.686 Y=700.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Waypoints FolderGuid:E4BC8C494A6CBDA5FBAB469A2521AB6D
+ |   |   |- Guid:BC9F05DA4F26FE20B8ADBEAC803D9E07 BaseClass: NativeClass:/Script/Engine.PostProcessVolume Name:PostProcessVolume_1 Label:PostProcessVolume SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=5110.000 Y=0.000 Z=400.000), Max=(X=5310.000 Y=200.000 Z=600.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:E13570EE436BA15E35C622BAA5B21164
+ |   |   |- Guid:BDB773464EB997420075E7A4ED5F9703 BaseClass:/Game/TopDown/Blueprints/MyWaypoint.MyWaypoint_C NativeClass:/Script/QLearningSimulation.Waypoint Name:MyWaypoint_C_UAID_BCE92F7FD37309E101_1608012351 Label:Waypoint5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=6682.686 Y=1200.000 Z=0.000), Max=(X=6682.686 Y=1200.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Waypoints FolderGuid:E4BC8C494A6CBDA5FBAB469A2521AB6D
+ |   |   |- Guid:BE00E31940D529A23FF72BA376B4A670 BaseClass:/Game/TopDown/Blueprints/MyWaypoint.MyWaypoint_C NativeClass:/Script/QLearningSimulation.Waypoint Name:MyWaypoint_C_UAID_BCE92F7FD37309E101_1640646357 Label:Waypoint11 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=6682.686 Y=2200.000 Z=0.000), Max=(X=6682.686 Y=2200.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Waypoints FolderGuid:E4BC8C494A6CBDA5FBAB469A2521AB6D
+ |   |   |- Guid:C1F343BF47546FC406FC86B4815E25C6 BaseClass: NativeClass:/Script/Engine.DirectionalLight Name:DirectionalLight_1 Label:DirectionalLight SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-4398046511104.000 Y=-4398046511104.000 Z=-4398046511104.000), Max=(X=4398046511104.000 Y=4398046511104.000 Z=4398046511104.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:E13570EE436BA15E35C622BAA5B21164
+ |   |   |- Guid:C7A725DC41ADEDD8F95794B444B432F1 BaseClass:/Game/TopDown/Blueprints/MyWaypoint.MyWaypoint_C NativeClass:/Script/QLearningSimulation.Waypoint Name:MyWaypoint_C_UAID_BCE92F7FD37309E101_1608013352 Label:Waypoint6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=7182.686 Y=1200.000 Z=0.000), Max=(X=7182.686 Y=1200.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Waypoints FolderGuid:E4BC8C494A6CBDA5FBAB469A2521AB6D
+ |   |   |- Guid:E92B029A43F3DD683C1B2481BF7B68DE BaseClass: NativeClass:/Script/Engine.VolumetricCloud Name:VolumetricCloud_1 Label:VolumetricCloud SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=5110.000 Y=0.000 Z=820.000), Max=(X=5110.000 Y=0.000 Z=820.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:E13570EE436BA15E35C622BAA5B21164
+ |   |   |- Guid:EB85FDAD45D21514B60B7B8AA34C3278 BaseClass:/Game/TopDown/Blueprints/MyWaypoint.MyWaypoint_C NativeClass:/Script/QLearningSimulation.Waypoint Name:MyWaypoint_C_UAID_BCE92F7FD37309E101_1640648358 Label:Waypoint12 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=7182.686 Y=2200.000 Z=0.000), Max=(X=7182.686 Y=2200.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Waypoints FolderGuid:E4BC8C494A6CBDA5FBAB469A2521AB6D
+ |   |   |- Guid:FE4F9F4044D3F2F9C3F6629B135091C3 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_36 Label:SM_Cube3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5110.000 Y=2960.000 Z=0.000), Max=(X=8110.000 Y=3060.000 Z=400.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Playground FolderGuid:8746DDAD42A18A3736DBE9BBB77675E5
+ |   |- [+] Clusters:
+ |   |   |- [+] [  0]
+ |   |   |   |- Guid:07810DB5476552C6ECC207B8FBE94500 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_A4AE111137DC5CFB00_1546167071 Label:SM_SkySphere SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-1633290.000 Y=-1638400.000 Z=-1638400.000), Max=(X=1643510.000 Y=1638400.000 Z=1638400.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:E13570EE436BA15E35C622BAA5B21164
+ |   |   |- [+] [  1]
+ |   |   |   |- Guid:0BE2FDEE4F836E0AE8B1158D3A290AD2 BaseClass:/Game/TopDown/Blueprints/Agent/Agent.Agent_C NativeClass:/Script/Engine.Character Name:Agent_C_UAID_BCE92F7FD37382E001_2068382584 Label:Agent SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=6159.519 Y=666.000 Z=-0.967), Max=(X=6227.519 Y=734.000 Z=177.514) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  2]
+ |   |   |   |- Guid:0EE0E5D1466B2603910C569929142127 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_39 Label:SM_Cube5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5880.000 Y=100.000 Z=0.000), Max=(X=5980.000 Y=3400.000 Z=400.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Playground FolderGuid:8746DDAD42A18A3736DBE9BBB77675E5
+ |   |   |- [+] [  3]
+ |   |   |   |- Guid:0FEEBBF6441BF72937DE3AAA3858C9C6 BaseClass: NativeClass:/Script/Engine.CameraActor Name:CameraActor_UAID_BCE92F7FD37384E001_1282719938 Label:CameraActor SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=6720.000 Y=1710.000 Z=1590.000), Max=(X=6720.000 Y=1710.000 Z=1590.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  4]
+ |   |   |   |- Guid:12044FA84D7BF45F6DC568A5B19B2788 BaseClass:/Game/TopDown/Blueprints/MyWaypoint.MyWaypoint_C NativeClass:/Script/QLearningSimulation.Waypoint Name:MyWaypoint_C_UAID_BCE92F7FD37309E101_1375433348 Label:Waypoint2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=6682.686 Y=700.000 Z=0.000), Max=(X=6682.686 Y=700.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Waypoints FolderGuid:E4BC8C494A6CBDA5FBAB469A2521AB6D
+ |   |   |- [+] [  5]
+ |   |   |   |- Guid:124EE53143C875A1C4F174B08C31D407 BaseClass: NativeClass:/Script/Engine.SkyAtmosphere Name:SkyAtmosphere_1 Label:SkyAtmosphere SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=5110.000 Y=0.000 Z=1020.000), Max=(X=5110.000 Y=0.000 Z=1020.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:E13570EE436BA15E35C622BAA5B21164
+ |   |   |- [+] [  6]
+ |   |   |   |- Guid:169F128441CA7A59FD558AB0AD9E5C85 BaseClass:/Game/TopDown/Blueprints/MyWaypoint.MyWaypoint_C NativeClass:/Script/QLearningSimulation.Waypoint Name:MyWaypoint_C_UAID_BCE92F7FD37309E101_1621274354 Label:Waypoint8 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=6682.686 Y=1700.000 Z=0.000), Max=(X=6682.686 Y=1700.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Waypoints FolderGuid:E4BC8C494A6CBDA5FBAB469A2521AB6D
+ |   |   |- [+] [  7]
+ |   |   |   |- Guid:1A013F6D454DDAB5AD8E77B766ED9FAD BaseClass: NativeClass:/Script/Engine.ExponentialHeightFog Name:ExponentialHeightFog_1 Label:ExponentialHeightFog SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-490.000 Y=-50.000 Z=-6850.000), Max=(X=-490.000 Y=-50.000 Z=-6850.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:E13570EE436BA15E35C622BAA5B21164
+ |   |   |- [+] [  8]
+ |   |   |   |- Guid:20BCA97640857441FE4D28B054684C07 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_40 Label:SM_Cube6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=7380.000 Y=100.000 Z=0.000), Max=(X=7480.000 Y=3400.000 Z=400.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Playground FolderGuid:8746DDAD42A18A3736DBE9BBB77675E5
+ |   |   |- [+] [  9]
+ |   |   |   |- Guid:3217ABB84FCD3498B88026A31A74F53A BaseClass:/Game/TopDown/Blueprints/MyWaypoint.MyWaypoint_C NativeClass:/Script/QLearningSimulation.Waypoint Name:MyWaypoint_C_UAID_BCE92F7FD37309E101_1608009350 Label:Waypoint4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=6182.686 Y=1200.000 Z=-0.000), Max=(X=6182.686 Y=1200.000 Z=-0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Waypoints FolderGuid:E4BC8C494A6CBDA5FBAB469A2521AB6D
+ |   |   |- [+] [ 10]
+ |   |   |   |- Guid:37FE721E483E7F1B70073289E8391498 BaseClass:/Game/TopDown/Blueprints/MyWaypoint.MyWaypoint_C NativeClass:/Script/QLearningSimulation.Waypoint Name:MyWaypoint_C_UAID_BCE92F7FD37309E101_1656762359 Label:Waypoint13 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=6182.686 Y=2700.000 Z=-0.000), Max=(X=6182.686 Y=2700.000 Z=-0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Waypoints FolderGuid:E4BC8C494A6CBDA5FBAB469A2521AB6D
+ |   |   |- [+] [ 11]
+ |   |   |   |- Guid:3AA00CC7473B3AB860032482C86F1357 BaseClass: NativeClass:/Script/Engine.SkyLight Name:SkyLight_1 Label:SkyLight SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=5110.000 Y=0.000 Z=690.000), Max=(X=5110.000 Y=0.000 Z=690.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:E13570EE436BA15E35C622BAA5B21164
+ |   |   |- [+] [ 12]
+ |   |   |   |- Guid:3ED5663C4E3134A567405E881C670AE3 BaseClass:/Game/TopDown/Blueprints/MyWaypoint.MyWaypoint_C NativeClass:/Script/QLearningSimulation.Waypoint Name:MyWaypoint_C_UAID_BCE92F7FD37309E101_1621272353 Label:Waypoint7 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=6182.686 Y=1700.000 Z=-0.000), Max=(X=6182.686 Y=1700.000 Z=-0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Waypoints FolderGuid:E4BC8C494A6CBDA5FBAB469A2521AB6D
+ |   |   |- [+] [ 13]
+ |   |   |   |- Guid:490C4D804539A08148BF1CB31892676D BaseClass:/Game/TopDown/Blueprints/MyWaypoint.MyWaypoint_C NativeClass:/Script/QLearningSimulation.Waypoint Name:MyWaypoint_C_UAID_BCE92F7FD37385E001_1726902117 Label:Waypoint SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=6182.686 Y=700.000 Z=-0.000), Max=(X=6182.686 Y=700.000 Z=-0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Waypoints FolderGuid:E4BC8C494A6CBDA5FBAB469A2521AB6D
+ |   |   |- [+] [ 14]
+ |   |   |   |- Guid:505B4ED943FA99164AF46CAED7EC7B12 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_34 Label:SM_Cube SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5110.000 Y=0.000 Z=-50.000), Max=(X=8110.000 Y=3500.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Playground FolderGuid:8746DDAD42A18A3736DBE9BBB77675E5
+ |   |   |- [+] [ 15]
+ |   |   |   |- Guid:611F9AE9414A01B3C2C5B79A81AC976D BaseClass:/Game/TopDown/Blueprints/MyWaypoint.MyWaypoint_C NativeClass:/Script/QLearningSimulation.Waypoint Name:MyWaypoint_C_UAID_BCE92F7FD37309E101_1621275355 Label:Waypoint9 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=7182.686 Y=1700.000 Z=0.000), Max=(X=7182.686 Y=1700.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Waypoints FolderGuid:E4BC8C494A6CBDA5FBAB469A2521AB6D
+ |   |   |- [+] [ 16]
+ |   |   |   |- Guid:6B6C581F4BAAFBEDA173169DB7B151EF BaseClass:/Game/TopDown/Blueprints/MyWaypoint.MyWaypoint_C NativeClass:/Script/QLearningSimulation.Waypoint Name:MyWaypoint_C_UAID_BCE92F7FD37309E101_1656763360 Label:Waypoint14 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=6682.686 Y=2700.000 Z=0.000), Max=(X=6682.686 Y=2700.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Waypoints FolderGuid:E4BC8C494A6CBDA5FBAB469A2521AB6D
+ |   |   |- [+] [ 17]
+ |   |   |   |- Guid:6CFE69CB41732F0CDEB04A85666FA67E BaseClass: NativeClass:/Script/Engine.WorldDataLayers Name:WorldDataLayers Label:WorldDataLayers-1 SpatiallyLoaded:0 Bounds:Invalid RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:1
+ |   |   |- [+] [ 18]
+ |   |   |   |- Guid:7B3891C44F0DF1EE28D56BBC6C63BA77 BaseClass:/Game/TopDown/Blueprints/MyWaypoint.MyWaypoint_C NativeClass:/Script/QLearningSimulation.Waypoint Name:MyWaypoint_C_UAID_BCE92F7FD37309E101_1640644356 Label:Waypoint10 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=6182.686 Y=2200.000 Z=-0.000), Max=(X=6182.686 Y=2200.000 Z=-0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Waypoints FolderGuid:E4BC8C494A6CBDA5FBAB469A2521AB6D
+ |   |   |- [+] [ 19]
+ |   |   |   |- Guid:963169944433A544D75FF79A1B9FC159 BaseClass: NativeClass:/Script/NavigationSystem.NavMeshBoundsVolume Name:NavMeshBoundsVolume_1 Label:NavMeshBoundsVolume SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=5010.000 Y=-100.000 Z=-110.000), Max=(X=8210.000 Y=3600.000 Z=390.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Navigation FolderGuid:5FBB7B1041A3902AEFBB4E87AA1D500F
+ |   |   |- [+] [ 20]
+ |   |   |   |- Guid:A45756D6495C3CBE8AA73EAD039CE983 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_35 Label:SM_Cube2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5110.000 Y=380.000 Z=0.000), Max=(X=8110.000 Y=480.000 Z=400.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Playground FolderGuid:8746DDAD42A18A3736DBE9BBB77675E5
+ |   |   |- [+] [ 21]
+ |   |   |   |- Guid:B77E37934C60AB607DFF5ABD759825DF BaseClass:/Game/TopDown/Blueprints/MyWaypoint.MyWaypoint_C NativeClass:/Script/QLearningSimulation.Waypoint Name:MyWaypoint_C_UAID_BCE92F7FD37309E101_1656765361 Label:Waypoint15 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=7182.686 Y=2700.000 Z=0.000), Max=(X=7182.686 Y=2700.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Waypoints FolderGuid:E4BC8C494A6CBDA5FBAB469A2521AB6D
+ |   |   |- [+] [ 22]
+ |   |   |   |- Guid:BA686A0B4252C4A7C68C329E0725509E BaseClass:/Game/TopDown/Blueprints/MyWaypoint.MyWaypoint_C NativeClass:/Script/QLearningSimulation.Waypoint Name:MyWaypoint_C_UAID_BCE92F7FD37309E101_1477559349 Label:Waypoint3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=7182.686 Y=700.000 Z=0.000), Max=(X=7182.686 Y=700.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Waypoints FolderGuid:E4BC8C494A6CBDA5FBAB469A2521AB6D
+ |   |   |- [+] [ 23]
+ |   |   |   |- Guid:BC9F05DA4F26FE20B8ADBEAC803D9E07 BaseClass: NativeClass:/Script/Engine.PostProcessVolume Name:PostProcessVolume_1 Label:PostProcessVolume SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=5110.000 Y=0.000 Z=400.000), Max=(X=5310.000 Y=200.000 Z=600.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:E13570EE436BA15E35C622BAA5B21164
+ |   |   |- [+] [ 24]
+ |   |   |   |- Guid:BDB773464EB997420075E7A4ED5F9703 BaseClass:/Game/TopDown/Blueprints/MyWaypoint.MyWaypoint_C NativeClass:/Script/QLearningSimulation.Waypoint Name:MyWaypoint_C_UAID_BCE92F7FD37309E101_1608012351 Label:Waypoint5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=6682.686 Y=1200.000 Z=0.000), Max=(X=6682.686 Y=1200.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Waypoints FolderGuid:E4BC8C494A6CBDA5FBAB469A2521AB6D
+ |   |   |- [+] [ 25]
+ |   |   |   |- Guid:BE00E31940D529A23FF72BA376B4A670 BaseClass:/Game/TopDown/Blueprints/MyWaypoint.MyWaypoint_C NativeClass:/Script/QLearningSimulation.Waypoint Name:MyWaypoint_C_UAID_BCE92F7FD37309E101_1640646357 Label:Waypoint11 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=6682.686 Y=2200.000 Z=0.000), Max=(X=6682.686 Y=2200.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Waypoints FolderGuid:E4BC8C494A6CBDA5FBAB469A2521AB6D
+ |   |   |- [+] [ 26]
+ |   |   |   |- Guid:C1F343BF47546FC406FC86B4815E25C6 BaseClass: NativeClass:/Script/Engine.DirectionalLight Name:DirectionalLight_1 Label:DirectionalLight SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-4398046511104.000 Y=-4398046511104.000 Z=-4398046511104.000), Max=(X=4398046511104.000 Y=4398046511104.000 Z=4398046511104.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:E13570EE436BA15E35C622BAA5B21164
+ |   |   |- [+] [ 27]
+ |   |   |   |- Guid:C7A725DC41ADEDD8F95794B444B432F1 BaseClass:/Game/TopDown/Blueprints/MyWaypoint.MyWaypoint_C NativeClass:/Script/QLearningSimulation.Waypoint Name:MyWaypoint_C_UAID_BCE92F7FD37309E101_1608013352 Label:Waypoint6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=7182.686 Y=1200.000 Z=0.000), Max=(X=7182.686 Y=1200.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Waypoints FolderGuid:E4BC8C494A6CBDA5FBAB469A2521AB6D
+ |   |   |- [+] [ 28]
+ |   |   |   |- Guid:E92B029A43F3DD683C1B2481BF7B68DE BaseClass: NativeClass:/Script/Engine.VolumetricCloud Name:VolumetricCloud_1 Label:VolumetricCloud SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=5110.000 Y=0.000 Z=820.000), Max=(X=5110.000 Y=0.000 Z=820.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:E13570EE436BA15E35C622BAA5B21164
+ |   |   |- [+] [ 29]
+ |   |   |   |- Guid:EB85FDAD45D21514B60B7B8AA34C3278 BaseClass:/Game/TopDown/Blueprints/MyWaypoint.MyWaypoint_C NativeClass:/Script/QLearningSimulation.Waypoint Name:MyWaypoint_C_UAID_BCE92F7FD37309E101_1640648358 Label:Waypoint12 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=7182.686 Y=2200.000 Z=0.000), Max=(X=7182.686 Y=2200.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Waypoints FolderGuid:E4BC8C494A6CBDA5FBAB469A2521AB6D
+ |   |   |- [+] [ 30]
+ |   |   |   |- Guid:FE4F9F4044D3F2F9C3F6629B135091C3 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_36 Label:SM_Cube3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5110.000 Y=2960.000 Z=0.000), Max=(X=8110.000 Y=3060.000 Z=400.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Playground FolderGuid:8746DDAD42A18A3736DBE9BBB77675E5
+ |- ContainerInstances:
+ |- [+] MainContainer:
+ |   |-        ID: 00000000000000000000000000000000
+ |   |-  ParentID: 00000000000000000000000000000000
+ |   |-    Bounds: IsValid=false, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000)
+ |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |   |- Container: /Game/TopDown/Maps/TopDownMap
+----------------------------------------------------------------------------------------------------------------
+TopDownMap - Persistent Level
+----------------------------------------------------------------------------------------------------------------
+[+] Content of TopDownMap Persistent Level
+ |- Always loaded Actor Count: 39 
+ |- Actor Path: /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.AbstractNavData-Default
+ |- Actor Package: /Game/TopDown/Maps/TopDownMap
+ |- Actor Path: /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.Agent_C_UAID_BCE92F7FD37382E001_2068382584
+ |- Actor Package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/2/U7/AWG2M5DTPIO8N3YDMLTSKK
+ |- Actor Path: /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.Brush_0
+ |- Actor Package: /Game/TopDown/Maps/TopDownMap
+ |- Actor Path: /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.CameraActor_UAID_BCE92F7FD37384E001_1282719938
+ |- Actor Package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/3/AX/HV2P7YF9YGK810N4X1M2EQ
+ |- Actor Path: /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.DefaultPhysicsVolume_0
+ |- Actor Package: /Game/TopDown/Maps/TopDownMap
+ |- Actor Path: /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.DirectionalLight_1
+ |- Actor Package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/A/LM/VRK8UAZR3J2TAKS74SHCUD
+ |- Actor Path: /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.ExponentialHeightFog_1
+ |- Actor Package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/6/BO/BYV4KSLUROOOL33DU1XUWQ
+ |- Actor Path: /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.GameplayDebuggerPlayerManager_0
+ |- Actor Package: /Game/TopDown/Maps/TopDownMap
+ |- Actor Path: /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.MyWaypoint_C_UAID_BCE92F7FD37309E101_1375433348
+ |- Actor Package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/6/K0/9FFTGK50FPCCEKN9PNMBBL
+ |- Actor Path: /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.MyWaypoint_C_UAID_BCE92F7FD37309E101_1477559349
+ |- Actor Package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/0/2Q/J5E3IU3JWUOP7OK0K04C1N
+ |- Actor Path: /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.MyWaypoint_C_UAID_BCE92F7FD37309E101_1608009350
+ |- Actor Package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/4/RP/XW3QCH6F4LX1K6Q0Q14HWX
+ |- Actor Path: /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.MyWaypoint_C_UAID_BCE92F7FD37309E101_1608012351
+ |- Actor Package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/7/8N/K46SBHYF8UMXM6ARB241W8
+ |- Actor Path: /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.MyWaypoint_C_UAID_BCE92F7FD37309E101_1608013352
+ |- Actor Package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/C/L6/CUBP635KU25B1BFDVIKLXQ
+ |- Actor Path: /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.MyWaypoint_C_UAID_BCE92F7FD37309E101_1621272353
+ |- Actor Package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/4/66/2YGCJKQDM65SGCKJD2UNUL
+ |- Actor Path: /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.MyWaypoint_C_UAID_BCE92F7FD37309E101_1621274354
+ |- Actor Package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/9/0K/1HH0GLG3UGF4PLXB46EXR3
+ |- Actor Path: /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.MyWaypoint_C_UAID_BCE92F7FD37309E101_1621275355
+ |- Actor Package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/1/WE/6XVGOKHGF7IKQ3QTBRAK5N
+ |- Actor Path: /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.MyWaypoint_C_UAID_BCE92F7FD37309E101_1640644356
+ |- Actor Package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/B/L0/RRGXN1DM6WB7V7O3KAD5BD
+ |- Actor Path: /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.MyWaypoint_C_UAID_BCE92F7FD37309E101_1640646357
+ |- Actor Package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/E/AW/DA2WTIRYOJVPGIISC1IOPI
+ |- Actor Path: /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.MyWaypoint_C_UAID_BCE92F7FD37309E101_1640648358
+ |- Actor Package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/D/DM/FH1X4305KWHNRDIJW9FAZP
+ |- Actor Path: /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.MyWaypoint_C_UAID_BCE92F7FD37309E101_1656762359
+ |- Actor Package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/8/3X/9YOK8IT00XFTU2YVXPF1WZ
+ |- Actor Path: /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.MyWaypoint_C_UAID_BCE92F7FD37309E101_1656763360
+ |- Actor Package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/0/E8/WMFHC71YO2F7GBFFPCL7YD
+ |- Actor Path: /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.MyWaypoint_C_UAID_BCE92F7FD37309E101_1656765361
+ |- Actor Package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/C/O2/UIIMPXS54MYRXYMRSJ6DZX
+ |- Actor Path: /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.MyWaypoint_C_UAID_BCE92F7FD37385E001_1726902117
+ |- Actor Package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/2/36/3BR6WH2YJ9M9YILHBDHGEK
+ |- Actor Path: /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.NavMeshBoundsVolume_1
+ |- Actor Package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/0/QS/8AKCSH4RXXQHHQMCR8GO6C
+ |- Actor Path: /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.PostProcessVolume_1
+ |- Actor Package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/6/VI/ESHAVRHFZFA2JDR9ZAQIOE
+ |- Actor Path: /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.RecastNavMesh-Default
+ |- Actor Package: /Game/TopDown/Maps/TopDownMap
+ |- Actor Path: /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.SkyAtmosphere_1
+ |- Actor Package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/5/YN/TCNGOWDVRBFBJ5YZR7VI7S
+ |- Actor Path: /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.SkyLight_1
+ |- Actor Package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/E/LR/47NTFRDFK6M7265A1UYTOW
+ |- Actor Path: /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.StaticMeshActor_34
+ |- Actor Package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/7/WV/FF6LPDZ0FKKLS0GFFG7RY1
+ |- Actor Path: /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.StaticMeshActor_35
+ |- Actor Package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/B/AX/QD7MAQAIBJ16OYN5ZXXIUV
+ |- Actor Path: /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.StaticMeshActor_36
+ |- Actor Package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/8/R7/0I68M8T0K5GQDUX5H3A9IO
+ |- Actor Path: /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.StaticMeshActor_39
+ |- Actor Package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/5/LH/V6N3G2I7QT53NAD6H1AD04
+ |- Actor Path: /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.StaticMeshActor_40
+ |- Actor Package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/B/PL/MYXGV0RBWT3ZBX00KVP1IE
+ |- Actor Path: /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.StaticMeshActor_UAID_A4AE111137DC5CFB00_1546167071
+ |- Actor Package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/4/OB/UE797FL8JPMDZ27UFM0IFO
+ |- Actor Path: /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.TopDownMap_C_11
+ |- Actor Package: /Game/TopDown/Maps/TopDownMap
+ |- Actor Path: /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.VolumetricCloud_1
+ |- Actor Package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/E/SW/R38LZ3VU1OWS6QBVEOT0MO
+ |- Actor Path: /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.WorldDataLayers
+ |- Actor Package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/A/RN/FHX05LPSBNMAJG3SW97PS7
+ |- Actor Path: /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.WorldInfo_0
+ |- Actor Package: /Game/TopDown/Maps/TopDownMap
+ |- Actor Path: /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.WorldPartitionMiniMap_0
+ |- Actor Package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/8/YS/FOXTUL6MPN05XEWRDRZ58J
+
+----------------------------------------------------------------------------------------------------------------
+TopDownMap - Runtime Spatial Hash - Streaming Grid - MainGrid
+----------------------------------------------------------------------------------------------------------------
+            Origin: X=0.000 Y=0.000 Z=0.000
+         Cell Size: 12800
+      World Bounds: IsValid=false, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000)
+     Loading Range: 25600.00
+Block Slow Loading: No
+ ClientOnlyVisible: No
+            Origin: X=0.000 Y=0.000 Z=0.000
+
+[+] Grid Levels: 1
+ |- Level  0: Cell Count    0 | Cell Size   12800 | Actor Count    0 (0.0%)
+
+[+] Content of Grid Level 0
+
