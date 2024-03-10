@@ -3,28 +3,21 @@
 
 #include "QLController.h"
 
-AQLController::AQLController()
-{
-	GetWaypoints();
-	SetFileName("Data");
-	InitT();
-}
+AQLController::AQLController() {/*****CONSTRUCTOR****/}
 
 /////////////////////////EVENT HANDLERS//////////////////////
 
 void AQLController::BeginPlay()
 {
     Super::BeginPlay();
+    GetWaypoints();
     ReadData();
-    for (int i = 0; i < Q.Num(); i++)
-    {
-        GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("%d %d %d %d"), Q[i][0], Q[i][1], Q[i][2], Q[i][3]));
-    }
 }
 
 void AQLController::EndPlay(const EEndPlayReason::Type EndPlayReason)
 {
     Super::EndPlay(EndPlayReason);
+    WriteLinesToFile(Q);
 }
 
 ///////////////////////Q-LEARNING/////////////////////////
@@ -111,19 +104,6 @@ void AQLController::CalculateFeedback()
 
 ///////////////////////DATA FUNCTIONS////////////////////
 
-void AQLController::InitT()
-{
-	T = 
-	{
-		{-1.f, -1.f, -1.f,    0.f},
-		{-1.f, -1.f,  0.f,  100.f},
-		{-1.f,  0.f, -1.f,   -1.f},
-		{-1.f,  0.f,  0.f,   -1.f},
-		{ 0.f, -1.f, -1.f,  100.f},
-		{-1.f,  0.f,  0.f,  100.f}
-	};
-}
-
 void AQLController::GetWaypoints()
 {
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AWaypoint::StaticClass(), Waypoints);
@@ -131,24 +111,24 @@ void AQLController::GetWaypoints()
 
 void AQLController::GenerateData()
 {
-	// Loop through each element in the Nodes array
-	for (int i = 0; i < Waypoints.Num(); i++)
-	{
-		// Calculate the index based on the size of T
-		int index = i % T.Num();
+    // Loop through each element in the Nodes array
+    for (int i = 0; i < Waypoints.Num(); i++)
+    {
+        // Calculate the index based on the size of T
+        int index = i % T.Num();
 
-		// Create a new entry for Q
-		TArray<float> QEntry;
+        // Create a new entry for Q
+        TArray<float> QEntry;
 
-		// Add values from T to QEntry
-		for (int j = 0; j < 4; j++)
-		{
-			QEntry.Add(T[index][j]);
-		}
+        // Add values from T to QEntry
+        for (int j = 0; j < 4; j++)
+        {
+            QEntry.Add(T[index][j]);
+        }
 
-		// Add QEntry to Q
-		Q.Add(QEntry);
-	}
+        // Add QEntry to Q
+        Q.Add(QEntry);
+    }
 }
 
 float AQLController::Max()
@@ -166,11 +146,6 @@ float AQLController::Max()
 }
 
 ////////////////////////////////////FILE I/O /////////////////////////////////////////////
-
-void AQLController::SetFileName(FString fileName)
-{
-    FileName = fileName;
-}
 
 bool AQLController::FilePathExists()
 {

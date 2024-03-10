@@ -50,8 +50,6 @@ protected:
 
 	/*******DATA FUNCTION*******/
 
-	void InitT();
-
 	void GetWaypoints();
 
 	void GenerateData();
@@ -63,8 +61,6 @@ protected:
 	void WriteLinesToFile(const TArray<TArray<float>>& Data);
 
 	/*******FILE FUNCTIONS*******/
-
-	void SetFileName(FString fileName);
 
 	bool FilePathExists();
 
@@ -94,10 +90,16 @@ protected:
 
 	TArray<AActor*> Waypoints;
 
-	FString FileName;
-
-	TArray<TArray<float>> T;
+	FString FileName = "Data";
 	TArray<TArray<float>> Q;
+	TArray<TArray<float>> T = {
+		{1.f,0.f,0.f,-1.f},
+		{100.f,-1.f,0.f,1.f},
+		{0.f,-1.f,1.f,-100.f},
+		{1.f,0.f,1.f,-100.f},
+		{-1.f,0.f,0.f,1.f},
+		{1.f,1.f,-1.f,-1.f}
+	};
 
 	int STATE, ACTION, REWARD;
 
