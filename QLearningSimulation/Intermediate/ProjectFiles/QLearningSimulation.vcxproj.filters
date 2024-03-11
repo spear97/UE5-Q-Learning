@@ -12,6 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <None Include="..\..\.vsconfig" />
+    <None Include="..\..\Data.txt" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -33,6 +34,12 @@
     <Filter Include="Source\QLearningSimulation">
       <UniqueIdentifier>{3732B342-B1B3-393E-834F-2DDCA62B2DFF}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\QLearningSimulation\Goal.cpp">
+      <Filter>Source\QLearningSimulation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\QLearningSimulation\Goal.h">
+      <Filter>Source\QLearningSimulation</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\QLearningSimulation\QLController.cpp">
       <Filter>Source\QLearningSimulation</Filter>
     </ClCompile>

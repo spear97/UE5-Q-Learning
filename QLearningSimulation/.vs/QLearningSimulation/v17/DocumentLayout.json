@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\seanp\\Documents\\Github\\UE5-Q-Learning\\QLearningSimulation\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{54FF7513-9309-3804-A9C2-877EE3A35EFB}|Intermediate\\ProjectFiles\\QLearningSimulation.vcxproj|C:\\Users\\seanp\\Documents\\Github\\UE5-Q-Learning\\QLearningSimulation\\Source\\QLearningSimulation\\Goal.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{54FF7513-9309-3804-A9C2-877EE3A35EFB}|Intermediate\\ProjectFiles\\QLearningSimulation.vcxproj|solutionrelative:Source\\QLearningSimulation\\Goal.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54FF7513-9309-3804-A9C2-877EE3A35EFB}|Intermediate\\ProjectFiles\\QLearningSimulation.vcxproj|C:\\Users\\seanp\\Documents\\Github\\UE5-Q-Learning\\QLearningSimulation\\Source\\QLearningSimulation\\Goal.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{54FF7513-9309-3804-A9C2-877EE3A35EFB}|Intermediate\\ProjectFiles\\QLearningSimulation.vcxproj|solutionrelative:Source\\QLearningSimulation\\Goal.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{54FF7513-9309-3804-A9C2-877EE3A35EFB}|Intermediate\\ProjectFiles\\QLearningSimulation.vcxproj|C:\\Users\\seanp\\Documents\\Github\\UE5-Q-Learning\\QLearningSimulation\\Source\\QLearningSimulation\\QLController.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{54FF7513-9309-3804-A9C2-877EE3A35EFB}|Intermediate\\ProjectFiles\\QLearningSimulation.vcxproj|solutionrelative:Source\\QLearningSimulation\\QLController.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -22,7 +30,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "QLController.cpp",
               "DocumentMoniker": "C:\\Users\\seanp\\Documents\\Github\\UE5-Q-Learning\\QLearningSimulation\\Source\\QLearningSimulation\\QLController.cpp",
               "RelativeDocumentMoniker": "Source\\QLearningSimulation\\QLController.cpp",
@@ -31,12 +39,37 @@
               "ViewState": "AQIAAIcAAAAAAAAAAAAAABMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-08T23:30:13.38Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Goal.cpp",
+              "DocumentMoniker": "C:\\Users\\seanp\\Documents\\Github\\UE5-Q-Learning\\QLearningSimulation\\Source\\QLearningSimulation\\Goal.cpp",
+              "RelativeDocumentMoniker": "Source\\QLearningSimulation\\Goal.cpp",
+              "ToolTip": "C:\\Users\\seanp\\Documents\\Github\\UE5-Q-Learning\\QLearningSimulation\\Source\\QLearningSimulation\\Goal.cpp",
+              "RelativeToolTip": "Source\\QLearningSimulation\\Goal.cpp",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAADEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-11T00:19:40.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Goal.h",
+              "DocumentMoniker": "C:\\Users\\seanp\\Documents\\Github\\UE5-Q-Learning\\QLearningSimulation\\Source\\QLearningSimulation\\Goal.h",
+              "RelativeDocumentMoniker": "Source\\QLearningSimulation\\Goal.h",
+              "ToolTip": "C:\\Users\\seanp\\Documents\\Github\\UE5-Q-Learning\\QLearningSimulation\\Source\\QLearningSimulation\\Goal.h",
+              "RelativeToolTip": "Source\\QLearningSimulation\\Goal.h",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-11T00:19:38.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "QLController.h",
               "DocumentMoniker": "C:\\Users\\seanp\\Documents\\Github\\UE5-Q-Learning\\QLearningSimulation\\Source\\QLearningSimulation\\QLController.h",
               "RelativeDocumentMoniker": "Source\\QLearningSimulation\\QLController.h",
@@ -44,8 +77,7 @@
               "RelativeToolTip": "Source\\QLearningSimulation\\QLController.h",
               "ViewState": "AQIAAFoAAAAAAAAAAAAAADYAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-08T23:30:11.862Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-08T23:30:11.862Z"
             }
           ]
         }

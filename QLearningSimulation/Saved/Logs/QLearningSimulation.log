@@ -2787,3 +2787,31 @@ LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
 [2024.03.11-00.05.42:918][158]LogFileHelpers: InternalPromptForCheckoutAndSave took 146 ms (total: 1.47 sec)
 [2024.03.11-00.05.42:920][158]AssetCheck: New page: Asset Save: Agent_BT
 [2024.03.11-00.05.42:920][158]LogContentValidation: Display: Validating /Script/AIModule.BehaviorTree /Game/TopDown/Blueprints/Agent/Agent_BT.Agent_BT
+[2024.03.11-00.19.40:343][773]Running C:/Program Files/Epic Games/UE_5.3/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLearningSimulation/QLearningSimulation.uproject" -game -rocket -progress
+[2024.03.11-00.19.40:590][773]Using bundled DotNet SDK version: 6.0.302
+[2024.03.11-00.19.40:590][773]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLearningSimulation/QLearningSimulation.uproject" -game -rocket -progress
+[2024.03.11-00.19.41:900][773]Log file: C:\Users\seanp\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2024.03.11-00.19.42:303][773]
+[2024.03.11-00.19.42:303][773]Some Platforms were skipped due to invalid SDK setup: IOS, Android, Linux, LinuxArm64.
+[2024.03.11-00.19.42:303][773]See the log file for detailed information
+[2024.03.11-00.19.42:303][773]
+[2024.03.11-00.19.42:303][773]
+[2024.03.11-00.19.42:303][773]Generating VisualStudio project files:
+[2024.03.11-00.19.42:403][773]Discovering modules, targets and source code for project...
+[2024.03.11-00.19.43:610][773]Binding IntelliSense data...
+[2024.03.11-00.19.48:542][773]Binding IntelliSense data... 100%
+[2024.03.11-00.19.48:542][773]Creating common properties file...
+[2024.03.11-00.19.48:542][773]Creating common properties file... 0%
+[2024.03.11-00.19.48:542][773]Writing project files...
+[2024.03.11-00.19.50:364][773]Writing project files... 100%
+[2024.03.11-00.19.50:364][773]
+[2024.03.11-00.19.50:364][773]Generating QueryTargets data for editor...
+[2024.03.11-00.19.50:574][773]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.03.11-00.19.50:853][773]LogSlate: Window 'Add C++ Class' being destroyed
+[2024.03.11-00.20.03:241][907]LogLiveCoding: Display:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLearningSimulation\Binaries\Win64\UnrealEditor-QLearningSimulation.patch_13.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLearningSimulation\Binaries\Win64\UnrealEditor-QLearningSimulation.patch_13.exp
+[2024.03.11-00.20.03:569][908]LogClass: UPackage /Script/QLearningSimulation Reload.
+[2024.03.11-00.20.03:570][908]LogClass: Could not find existing class Goal in package /Script/QLearningSimulation for reload, assuming new or modified class
+[2024.03.11-00.20.03:649][908]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2024.03.11-00.20.04:246][909]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new
+[2024.03.11-00.20.04:246][909]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2024.03.11-00.24.23:249][686]LogDerivedDataCache: C:/Users/seanp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.260 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1171 files in 1686 folders with total size 37 MiB.
