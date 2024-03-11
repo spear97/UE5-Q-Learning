@@ -2437,3 +2437,353 @@ LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
 [2024.03.10-23.06.54:588][541]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2024.03.10-23.06.54:592][541]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
 [2024.03.10-23.06.54:632][543]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2024.03.10-23.24.24:118][ 49]LogDerivedDataCache: C:/Users/seanp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.128 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1171 files in 1686 folders with total size 37 MiB.
+[2024.03.10-23.45.31:367][343]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-23.45.34:073][497]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TopDown/Blueprints/Agent/AgentController.AgentController
+[2024.03.10-23.45.34:079][497]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-23.45.34:080][497]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-23.45.34:151][497]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2024.03.10-23.45.35:800][497]LogSlate: Took 0.000595 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.03.10-23.45.42:159][779]LogSlate: Window 'AgentController' being destroyed
+[2024.03.10-23.45.49:347][191]LogContentBrowser: Deferred new asset file creation: Test1
+[2024.03.10-23.45.49:360][191]LogContentBrowser: Creating deferred item: Test1
+[2024.03.10-23.45.49:375][192]LogContentBrowser: Renaming the item being created (Deferred Item: Test1).
+[2024.03.10-23.45.57:231][662]LogContentBrowser: Attempting asset rename: Test1 -> GetStateAndAction
+[2024.03.10-23.45.57:254][662]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.03.10-23.45.57:265][662]LogContentBrowser: End creating deferred item Test1
+[2024.03.10-23.46.03:328][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.03.10-23.46.04:640][ 23]LogSlate: Window 'Delete Assets' being destroyed
+[2024.03.10-23.46.05:725][ 84]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TopDown/Blueprints/Agent/Tasks/GetStateAndAction.GetStateAndAction
+[2024.03.10-23.46.05:725][ 84]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-23.46.05:735][ 84]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-23.46.52:062][760]BlueprintLog: New page: Compile GetStateAndAction
+[2024.03.10-23.46.52:082][760]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2024.03.10-23.46.52:902][804]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.10-23.46.53:035][804]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/Agent/Tasks/GetStateAndAction
+[2024.03.10-23.46.53:035][804]LogSavePackage: Moving '../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLearningSimulation/Saved/GetStateAndAction32ADE4B2484E4359FC6D39A8B7CE7C7B.tmp' to '../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLearningSimulation/Content/TopDown/Blueprints/Agent/Tasks/GetStateAndAction.uasset'
+[2024.03.10-23.46.53:056][804]LogFileHelpers: InternalPromptForCheckoutAndSave took 153 ms (total: 302 ms)
+[2024.03.10-23.46.53:058][804]AssetCheck: New page: Asset Save: GetStateAndAction
+[2024.03.10-23.46.53:058][804]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TopDown/Blueprints/Agent/Tasks/GetStateAndAction.GetStateAndAction
+[2024.03.10-23.48.50:242][418]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.03.10-23.49.04:287][260]Display: Reload/Re-instancing Complete: No object changes detected
+[2024.03.10-23.49.04:287][260]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2024.03.10-23.49.34:778][725]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.03.10-23.49.48:122][392]LogLiveCoding: Display:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLearningSimulation\Binaries\Win64\UnrealEditor-QLearningSimulation.patch_11.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLearningSimulation\Binaries\Win64\UnrealEditor-QLearningSimulation.patch_11.exp
+[2024.03.10-23.49.48:666][393]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.03.10-23.49.49:296][394]Display: Reload/Re-instancing Complete: 1 package changed, 1 class unchanged, 4 functions remapped
+[2024.03.10-23.49.49:296][394]LogLiveCoding: Display: Live coding succeeded
+[2024.03.10-23.53.26:289][197]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.03.10-23.53.33:476][627]LogLiveCoding: Display:    Creating library C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLearningSimulation\Binaries\Win64\UnrealEditor-QLearningSimulation.patch_12.lib and object C:\Users\seanp\Documents\Github\UE5-Q-Learning\QLearningSimulation\Binaries\Win64\UnrealEditor-QLearningSimulation.patch_12.exp
+[2024.03.10-23.53.33:833][629]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2024.03.10-23.53.34:261][630]Display: Reload/Re-instancing Complete: 1 class unchanged, 4 functions remapped
+[2024.03.10-23.53.34:261][630]LogLiveCoding: Display: Live coding succeeded
+[2024.03.10-23.53.45:589][137]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.10-23.53.45:597][137]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.03.10-23.53.45:597][137]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2024.03.10-23.53.45:598][137]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 1 ms (total: 115 ms)
+[2024.03.10-23.53.45:599][137]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.10-23.53.45:599][137]PIE: New page: PIE session: TopDownMap (Mar 10, 2024, 1:53:45 PM)
+[2024.03.10-23.53.45:599][137]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2024.03.10-23.53.45:604][137]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005478s)
+[2024.03.10-23.53.45:604][137]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.005523s)
+[2024.03.10-23.53.45:700][137]LogUObjectHash: Compacting FUObjectHashTables data took   4.39ms
+[2024.03.10-23.53.45:703][137]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-23.53.45:703][137]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-23.53.45:704][137]LogAIModule: Creating AISystem for world TopDownMap
+[2024.03.10-23.53.45:704][137]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.03.10-23.53.45:705][137]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.03.10-23.53.45:705][137]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.03.10-23.53.45:705][137]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.03.10-23.53.45:706][137]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2024.03.10-23.53.45:706][137]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 81 ms)
+[2024.03.10-23.53.45:706][137]LogPlayLevel: PIE: World Init took: (0.003164s)
+[2024.03.10-23.53.45:706][137]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2024.03.10-23.53.45:706][137]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.10-23.53.45:706][137]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.10-23.53.45:706][137]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.10-23.53.45:706][137]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.10-23.53.45:706][137]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.10-23.53.45:706][137]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.10-23.53.45:706][137]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.10-23.53.45:706][137]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.10-23.53.45:706][137]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.10-23.53.45:706][137]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.10-23.53.45:706][137]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.10-23.53.45:709][137]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.10-23.53.45:927][137]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2024.03.10-23.53.45:927][137]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.10-23.53.45:927][137]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.10-23.53.45:927][137]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.10-23.53.45:928][137]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2024.03.10-23.53.45:928][137]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2024.03.10-23.53.45:930][137]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2024.03.10-23.53.45:930][137]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2024.03.10-23.53.45:930][137]LogInit: FAudioDevice initialized with ID 19.
+[2024.03.10-23.53.45:931][137]LogAudio: Display: Audio Device (ID: 19) registered with world 'TopDownMap'.
+[2024.03.10-23.53.45:931][137]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2024.03.10-23.53.45:933][137]LogLoad: Game class is 'SImulationMode_C'
+[2024.03.10-23.53.45:939][137]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 60) at 2024.03.10-18.53.45
+[2024.03.10-23.53.45:940][137]LogWorld: Bringing up level for play took: 0.006176
+[2024.03.10-23.53.45:942][137]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2024.03.10-23.53.45:944][137]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2024.03.10-23.53.45:945][137]LogLevel: Warning: DisableInput on a LevelScript actor can not be specified for only one PlayerController.  Disabling for all PlayerControllers.
+[2024.03.10-23.53.45:945][137]PIE: Server logged in
+[2024.03.10-23.53.45:946][137]PIE: Play in editor total start time 0.349 seconds.
+[2024.03.10-23.54.04:432][168]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.10-23.54.04:432][168]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2024.03.10-23.54.04:434][168]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-23.54.04:435][168]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-23.54.04:435][168]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2024.03.10-23.54.04:438][168]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.10-23.54.04:443][168]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-23.54.04:460][168]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.10-23.54.04:460][168]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2024.03.10-23.54.04:460][168]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.03.10-23.54.04:462][168]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.03.10-23.54.04:472][168]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2024.03.10-23.54.04:606][169]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2024.03.10-23.54.12:128][344]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.10-23.54.12:134][344]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.03.10-23.54.12:134][344]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2024.03.10-23.54.12:136][344]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 1 ms (total: 117 ms)
+[2024.03.10-23.54.12:136][344]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.10-23.54.12:136][344]PIE: New page: PIE session: TopDownMap (Mar 10, 2024, 1:54:12 PM)
+[2024.03.10-23.54.12:136][344]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2024.03.10-23.54.12:142][344]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005781s)
+[2024.03.10-23.54.12:142][344]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.006195s)
+[2024.03.10-23.54.12:158][344]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2024.03.10-23.54.12:161][344]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-23.54.12:161][344]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-23.54.12:161][344]LogAIModule: Creating AISystem for world TopDownMap
+[2024.03.10-23.54.12:162][344]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.03.10-23.54.12:162][344]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.03.10-23.54.12:162][344]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.03.10-23.54.12:162][344]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.03.10-23.54.12:164][344]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2024.03.10-23.54.12:164][344]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 83 ms)
+[2024.03.10-23.54.12:164][344]LogPlayLevel: PIE: World Init took: (0.002440s)
+[2024.03.10-23.54.12:164][344]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2024.03.10-23.54.12:164][344]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.10-23.54.12:164][344]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.10-23.54.12:164][344]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.10-23.54.12:164][344]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.10-23.54.12:164][344]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.10-23.54.12:164][344]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.10-23.54.12:164][344]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.10-23.54.12:164][344]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.10-23.54.12:164][344]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.10-23.54.12:164][344]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.10-23.54.12:164][344]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.10-23.54.12:167][344]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.10-23.54.12:376][344]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2024.03.10-23.54.12:376][344]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.10-23.54.12:377][344]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.10-23.54.12:377][344]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.10-23.54.12:377][344]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2024.03.10-23.54.12:377][344]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2024.03.10-23.54.12:380][344]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2024.03.10-23.54.12:380][344]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2024.03.10-23.54.12:380][344]LogInit: FAudioDevice initialized with ID 20.
+[2024.03.10-23.54.12:380][344]LogAudio: Display: Audio Device (ID: 20) registered with world 'TopDownMap'.
+[2024.03.10-23.54.12:380][344]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2024.03.10-23.54.12:383][344]LogLoad: Game class is 'SImulationMode_C'
+[2024.03.10-23.54.12:389][344]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 60) at 2024.03.10-18.54.12
+[2024.03.10-23.54.12:390][344]LogWorld: Bringing up level for play took: 0.006303
+[2024.03.10-23.54.12:393][344]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2024.03.10-23.54.12:394][344]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2024.03.10-23.54.12:395][344]LogLevel: Warning: DisableInput on a LevelScript actor can not be specified for only one PlayerController.  Disabling for all PlayerControllers.
+[2024.03.10-23.54.12:395][344]PIE: Server logged in
+[2024.03.10-23.54.12:396][344]PIE: Play in editor total start time 0.262 seconds.
+[2024.03.10-23.54.18:396][687]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/TopDown/Blueprints/Agent/Agent_BT.Agent_BT
+[2024.03.10-23.54.25:736][111]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.10-23.54.25:736][111]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2024.03.10-23.54.25:736][111]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-23.54.25:737][111]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-23.54.25:737][111]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2024.03.10-23.54.25:740][111]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.10-23.54.25:745][111]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-23.54.25:761][111]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.10-23.54.25:761][111]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2024.03.10-23.54.25:762][111]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.03.10-23.54.25:763][111]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.03.10-23.54.25:774][111]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2024.03.10-23.54.25:905][112]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2024.03.10-23.54.34:568][618]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.10-23.54.34:675][618]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/Agent/Agent_BT
+[2024.03.10-23.54.34:676][618]LogSavePackage: Moving '../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLearningSimulation/Saved/Agent_BT49B89D344B87271D20BB90A4B2CC4FD1.tmp' to '../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLearningSimulation/Content/TopDown/Blueprints/Agent/Agent_BT.uasset'
+[2024.03.10-23.54.34:687][618]LogFileHelpers: InternalPromptForCheckoutAndSave took 119 ms (total: 422 ms)
+[2024.03.10-23.54.34:694][618]AssetCheck: New page: Asset Save: Agent_BT
+[2024.03.10-23.54.34:694][618]LogContentValidation: Display: Validating /Script/AIModule.BehaviorTree /Game/TopDown/Blueprints/Agent/Agent_BT.Agent_BT
+[2024.03.10-23.54.39:647][850]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.10-23.54.39:653][850]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.03.10-23.54.39:653][850]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2024.03.10-23.54.39:655][850]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 1 ms (total: 119 ms)
+[2024.03.10-23.54.39:659][850]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.10-23.54.39:659][850]PIE: New page: PIE session: TopDownMap (Mar 10, 2024, 1:54:39 PM)
+[2024.03.10-23.54.39:659][850]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2024.03.10-23.54.39:664][850]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005259s)
+[2024.03.10-23.54.39:664][850]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.005296s)
+[2024.03.10-23.54.39:681][850]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.03.10-23.54.39:683][850]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-23.54.39:683][850]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-23.54.39:684][850]LogAIModule: Creating AISystem for world TopDownMap
+[2024.03.10-23.54.39:684][850]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.03.10-23.54.39:684][850]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.03.10-23.54.39:684][850]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.03.10-23.54.39:684][850]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.03.10-23.54.39:686][850]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2024.03.10-23.54.39:686][850]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 84 ms)
+[2024.03.10-23.54.39:686][850]LogPlayLevel: PIE: World Init took: (0.002674s)
+[2024.03.10-23.54.39:686][850]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2024.03.10-23.54.39:686][850]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.10-23.54.39:686][850]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.10-23.54.39:686][850]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.10-23.54.39:686][850]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.10-23.54.39:686][850]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.10-23.54.39:686][850]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.10-23.54.39:686][850]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.10-23.54.39:686][850]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.10-23.54.39:686][850]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.10-23.54.39:686][850]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.10-23.54.39:686][850]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.10-23.54.39:689][850]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.10-23.54.39:892][850]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2024.03.10-23.54.39:892][850]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.10-23.54.39:892][850]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.10-23.54.39:892][850]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.10-23.54.39:892][850]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2024.03.10-23.54.39:892][850]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2024.03.10-23.54.39:896][850]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2024.03.10-23.54.39:896][850]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2024.03.10-23.54.39:896][850]LogInit: FAudioDevice initialized with ID 21.
+[2024.03.10-23.54.39:896][850]LogAudio: Display: Audio Device (ID: 21) registered with world 'TopDownMap'.
+[2024.03.10-23.54.39:896][850]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2024.03.10-23.54.39:899][850]LogLoad: Game class is 'SImulationMode_C'
+[2024.03.10-23.54.39:905][850]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 60) at 2024.03.10-18.54.39
+[2024.03.10-23.54.39:906][850]LogWorld: Bringing up level for play took: 0.005974
+[2024.03.10-23.54.39:909][850]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2024.03.10-23.54.39:910][850]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2024.03.10-23.54.39:911][850]LogLevel: Warning: DisableInput on a LevelScript actor can not be specified for only one PlayerController.  Disabling for all PlayerControllers.
+[2024.03.10-23.54.39:911][850]PIE: Server logged in
+[2024.03.10-23.54.39:912][850]PIE: Play in editor total start time 0.258 seconds.
+[2024.03.10-23.55.52:434][ 55]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.10-23.55.52:435][ 55]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2024.03.10-23.55.52:436][ 55]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-23.55.52:436][ 55]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-23.55.52:436][ 55]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2024.03.10-23.55.52:440][ 55]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.10-23.55.52:445][ 55]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-23.55.52:462][ 55]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.10-23.55.52:462][ 55]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2024.03.10-23.55.52:462][ 55]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.03.10-23.55.52:464][ 55]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.03.10-23.55.52:473][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.03.10-23.55.52:609][ 56]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2024.03.10-23.59.36:419][843]LogContentBrowser: Deferred new asset file creation: GetStateAndAction1
+[2024.03.10-23.59.36:433][843]LogContentBrowser: Creating deferred item: GetStateAndAction1
+[2024.03.10-23.59.36:454][844]LogContentBrowser: Renaming the item being created (Deferred Item: GetStateAndAction1).
+[2024.03.10-23.59.40:551][ 89]LogContentBrowser: Attempting asset rename: GetStateAndAction1 -> PerformAction
+[2024.03.10-23.59.40:582][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.03.10-23.59.40:590][ 89]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/TopDown/Blueprints/Agent/Tasks/PerformAction.
+[2024.03.10-23.59.40:590][ 89]LogContentBrowser: End creating deferred item GetStateAndAction1
+[2024.03.10-23.59.42:460][198]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TopDown/Blueprints/Agent/Tasks/PerformAction.PerformAction
+[2024.03.10-23.59.42:461][198]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-23.59.42:461][198]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-23.59.57:446][ 62]BlueprintLog: New page: Compile PerformAction
+[2024.03.10-23.59.57:468][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2024.03.10-23.59.58:564][123]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.10-23.59.58:669][123]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/Agent/Tasks/PerformAction
+[2024.03.10-23.59.58:669][123]LogSavePackage: Moving '../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLearningSimulation/Saved/PerformAction1B8370584B569055CD4C298A311A84C1.tmp' to '../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLearningSimulation/Content/TopDown/Blueprints/Agent/Tasks/PerformAction.uasset'
+[2024.03.10-23.59.58:671][123]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDown/Blueprints/Agent/Tasks/PerformAction.
+[2024.03.10-23.59.58:683][123]LogFileHelpers: InternalPromptForCheckoutAndSave took 118 ms (total: 540 ms)
+[2024.03.10-23.59.58:685][123]AssetCheck: New page: Asset Save: PerformAction
+[2024.03.10-23.59.58:685][123]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TopDown/Blueprints/Agent/Tasks/PerformAction.PerformAction
+[2024.03.11-00.00.04:372][458]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.11-00.00.04:495][458]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/Agent/Tasks/PerformAction
+[2024.03.11-00.00.04:495][458]LogSavePackage: Moving '../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLearningSimulation/Saved/PerformActionB362A87F4305943A88409DABAA84EE6C.tmp' to '../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLearningSimulation/Content/TopDown/Blueprints/Agent/Tasks/PerformAction.uasset'
+[2024.03.11-00.00.04:505][458]LogFileHelpers: InternalPromptForCheckoutAndSave took 133 ms (total: 674 ms)
+[2024.03.11-00.00.04:507][458]AssetCheck: New page: Asset Save: PerformAction
+[2024.03.11-00.00.04:507][458]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TopDown/Blueprints/Agent/Tasks/PerformAction.PerformAction
+[2024.03.11-00.00.10:600][808]LogContentBrowser: Deferred new asset file creation: PerformAction1
+[2024.03.11-00.00.10:614][808]LogContentBrowser: Creating deferred item: PerformAction1
+[2024.03.11-00.00.10:629][809]LogContentBrowser: Renaming the item being created (Deferred Item: PerformAction1).
+[2024.03.11-00.00.13:928][  6]LogContentBrowser: Attempting asset rename: PerformAction1 -> GetReward
+[2024.03.11-00.00.13:947][  6]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.03.11-00.00.13:956][  6]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/TopDown/Blueprints/Agent/Tasks/GetReward.
+[2024.03.11-00.00.13:956][  6]LogContentBrowser: End creating deferred item PerformAction1
+[2024.03.11-00.00.16:523][158]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TopDown/Blueprints/Agent/Tasks/GetReward.GetReward
+[2024.03.11-00.00.16:523][158]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.11-00.00.16:523][158]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.11-00.00.30:911][983]BlueprintLog: New page: Compile GetReward
+[2024.03.11-00.00.30:930][983]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2024.03.11-00.00.31:813][ 32]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.11-00.00.31:945][ 32]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/Agent/Tasks/GetReward
+[2024.03.11-00.00.31:946][ 32]LogSavePackage: Moving '../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLearningSimulation/Saved/GetReward03F773C0470B8361814CA3AF188CE209.tmp' to '../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLearningSimulation/Content/TopDown/Blueprints/Agent/Tasks/GetReward.uasset'
+[2024.03.11-00.00.31:947][ 32]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDown/Blueprints/Agent/Tasks/GetReward.
+[2024.03.11-00.00.31:959][ 32]LogFileHelpers: InternalPromptForCheckoutAndSave took 146 ms (total: 820 ms)
+[2024.03.11-00.00.31:961][ 32]AssetCheck: New page: Asset Save: GetReward
+[2024.03.11-00.00.31:961][ 32]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TopDown/Blueprints/Agent/Tasks/GetReward.GetReward
+[2024.03.11-00.00.43:467][719]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.11-00.00.43:591][719]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/Agent/Tasks/GetReward
+[2024.03.11-00.00.43:592][719]LogSavePackage: Moving '../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLearningSimulation/Saved/GetRewardCC53195E4429DD65755BDFA83EF79074.tmp' to '../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLearningSimulation/Content/TopDown/Blueprints/Agent/Tasks/GetReward.uasset'
+[2024.03.11-00.00.43:602][719]LogFileHelpers: InternalPromptForCheckoutAndSave took 134 ms (total: 954 ms)
+[2024.03.11-00.00.43:603][719]AssetCheck: New page: Asset Save: GetReward
+[2024.03.11-00.00.43:603][719]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TopDown/Blueprints/Agent/Tasks/GetReward.GetReward
+[2024.03.11-00.01.05:744][  6]LogContentBrowser: Deferred new asset file creation: GetReward1
+[2024.03.11-00.01.05:761][  6]LogContentBrowser: Creating deferred item: GetReward1
+[2024.03.11-00.01.05:773][  7]LogContentBrowser: Renaming the item being created (Deferred Item: GetReward1).
+[2024.03.11-00.01.11:446][346]LogContentBrowser: Attempting asset rename: GetReward1 -> GetFeedback
+[2024.03.11-00.01.11:478][346]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2024.03.11-00.01.11:486][346]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/TopDown/Blueprints/Agent/Tasks/GetFeedback.
+[2024.03.11-00.01.11:487][346]LogContentBrowser: End creating deferred item GetReward1
+[2024.03.11-00.01.13:602][470]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TopDown/Blueprints/Agent/Tasks/GetFeedback.GetFeedback
+[2024.03.11-00.01.13:602][470]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.11-00.01.13:602][470]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.11-00.01.51:352][499]BlueprintLog: New page: Compile GetFeedback
+[2024.03.11-00.01.51:369][499]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2024.03.11-00.01.52:364][555]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.11-00.01.52:483][555]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/Agent/Tasks/GetFeedback
+[2024.03.11-00.01.52:483][555]LogSavePackage: Moving '../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLearningSimulation/Saved/GetFeedback3895EA9142948CD0CF602CBF145005E5.tmp' to '../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLearningSimulation/Content/TopDown/Blueprints/Agent/Tasks/GetFeedback.uasset'
+[2024.03.11-00.01.52:484][555]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDown/Blueprints/Agent/Tasks/GetFeedback.
+[2024.03.11-00.01.52:496][555]LogFileHelpers: InternalPromptForCheckoutAndSave took 132 ms (total: 1.08 sec)
+[2024.03.11-00.01.52:498][555]AssetCheck: New page: Asset Save: GetFeedback
+[2024.03.11-00.01.52:498][555]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TopDown/Blueprints/Agent/Tasks/GetFeedback.GetFeedback
+[2024.03.11-00.02.19:128][137]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.11-00.02.19:238][137]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/Agent/Agent_BT
+[2024.03.11-00.02.19:239][137]LogSavePackage: Moving '../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLearningSimulation/Saved/Agent_BT9E4E113449DC2D7FB2DF0285D9651E00.tmp' to '../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLearningSimulation/Content/TopDown/Blueprints/Agent/Agent_BT.uasset'
+[2024.03.11-00.02.19:249][137]LogFileHelpers: InternalPromptForCheckoutAndSave took 121 ms (total: 1.20 sec)
+[2024.03.11-00.02.19:250][137]AssetCheck: New page: Asset Save: Agent_BT
+[2024.03.11-00.02.19:250][137]LogContentValidation: Display: Validating /Script/AIModule.BehaviorTree /Game/TopDown/Blueprints/Agent/Agent_BT.Agent_BT
+[2024.03.11-00.03.05:320][852]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.11-00.03.05:426][852]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/Agent/Agent_BT
+[2024.03.11-00.03.05:427][852]LogSavePackage: Moving '../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLearningSimulation/Saved/Agent_BTD77539A343B0CBECA27154850815C0D4.tmp' to '../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLearningSimulation/Content/TopDown/Blueprints/Agent/Agent_BT.uasset'
+[2024.03.11-00.03.05:436][852]LogFileHelpers: InternalPromptForCheckoutAndSave took 116 ms (total: 1.32 sec)
+[2024.03.11-00.03.05:438][852]AssetCheck: New page: Asset Save: Agent_BT
+[2024.03.11-00.03.05:438][852]LogContentValidation: Display: Validating /Script/AIModule.BehaviorTree /Game/TopDown/Blueprints/Agent/Agent_BT.Agent_BT
+[2024.03.11-00.03.17:134][450]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.03.11-00.03.17:146][450]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.03.11-00.03.17:152][450]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.03.11-00.03.17:169][451]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.03.11-00.03.20:169][627]LogContentBrowser: Attempting asset rename: NewBlueprint -> Goal
+[2024.03.11-00.03.20:184][627]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/TopDown/Blueprints/Goal.
+[2024.03.11-00.03.20:185][627]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.03.11-00.03.21:549][706]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TopDown/Blueprints/Goal.Goal
+[2024.03.11-00.03.21:550][706]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.11-00.03.21:550][706]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.11-00.03.21:743][706]LogViewport: Scene viewport resized to 901x639, mode Windowed.
+[2024.03.11-00.03.43:902][996]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.03.11-00.03.45:297][996]LogSlate: Window 'Delete Assets' being destroyed
+[2024.03.11-00.03.45:370][996]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2024.03.11-00.03.45:370][996]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.11-00.03.45:403][996]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/TopDown/Blueprints/Goal.Goal
+	Asset Type: Blueprint
+[2024.03.11-00.03.45:722][996]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.03.11-00.03.45:739][996]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.03.11-00.03.45:754][996]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2024.03.11-00.05.42:772][158]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.11-00.05.42:907][158]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/Agent/Agent_BT
+[2024.03.11-00.05.42:908][158]LogSavePackage: Moving '../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLearningSimulation/Saved/Agent_BT4BA382D648FCAF2DDB7DD1846314EB03.tmp' to '../../../../../../Users/seanp/Documents/Github/UE5-Q-Learning/QLearningSimulation/Content/TopDown/Blueprints/Agent/Agent_BT.uasset'
+[2024.03.11-00.05.42:918][158]LogFileHelpers: InternalPromptForCheckoutAndSave took 146 ms (total: 1.47 sec)
+[2024.03.11-00.05.42:920][158]AssetCheck: New page: Asset Save: Agent_BT
+[2024.03.11-00.05.42:920][158]LogContentValidation: Display: Validating /Script/AIModule.BehaviorTree /Game/TopDown/Blueprints/Agent/Agent_BT.Agent_BT

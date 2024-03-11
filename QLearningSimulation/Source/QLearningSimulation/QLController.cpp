@@ -16,6 +16,13 @@ void AQLController::BeginPlay()
     ReadData(); // Read Data that is needed for the simulation
 }
 
+void AQLController::Tick(float deltaSeconds)
+{
+    Super::Tick(deltaSeconds);
+
+    GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Yellow, FString::Printf(TEXT("State: %i Action: %i"), STATE, ACTION));
+}
+
 void AQLController::EndPlay(const EEndPlayReason::Type EndPlayReason)
 {
     // Call the parent class's EndPlay implementation

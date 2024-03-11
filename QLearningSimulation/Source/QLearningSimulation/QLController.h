@@ -52,6 +52,8 @@ protected:
 	// What needs to occur when Simulation Begins?
 	virtual void BeginPlay() override;
 
+	virtual void Tick(float deltaSeconds) override;
+
 	// What needs to occur when Simulation Ends?
 	virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
 

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\seanp\\Documents\\Github\\UE5-Q-Learning\\QLearningSimulation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{54FF7513-9309-3804-A9C2-877EE3A35EFB}|Intermediate\\ProjectFiles\\QLearningSimulation.vcxproj|C:\\Users\\seanp\\Documents\\Github\\UE5-Q-Learning\\QLearningSimulation\\Source\\QLearningSimulation\\QLController.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{54FF7513-9309-3804-A9C2-877EE3A35EFB}|Intermediate\\ProjectFiles\\QLearningSimulation.vcxproj|solutionrelative:Source\\QLearningSimulation\\QLController.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{54FF7513-9309-3804-A9C2-877EE3A35EFB}|Intermediate\\ProjectFiles\\QLearningSimulation.vcxproj|C:\\Users\\seanp\\Documents\\Github\\UE5-Q-Learning\\QLearningSimulation\\Source\\QLearningSimulation\\QLController.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{54FF7513-9309-3804-A9C2-877EE3A35EFB}|Intermediate\\ProjectFiles\\QLearningSimulation.vcxproj|solutionrelative:Source\\QLearningSimulation\\QLController.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54FF7513-9309-3804-A9C2-877EE3A35EFB}|Intermediate\\ProjectFiles\\QLearningSimulation.vcxproj|C:\\Users\\seanp\\Documents\\Github\\UE5-Q-Learning\\QLearningSimulation\\Source\\QLearningSimulation\\QLController.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{54FF7513-9309-3804-A9C2-877EE3A35EFB}|Intermediate\\ProjectFiles\\QLearningSimulation.vcxproj|solutionrelative:Source\\QLearningSimulation\\QLController.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,17 +18,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "QLController.cpp",
               "DocumentMoniker": "C:\\Users\\seanp\\Documents\\Github\\UE5-Q-Learning\\QLearningSimulation\\Source\\QLearningSimulation\\QLController.cpp",
               "RelativeDocumentMoniker": "Source\\QLearningSimulation\\QLController.cpp",
               "ToolTip": "C:\\Users\\seanp\\Documents\\Github\\UE5-Q-Learning\\QLearningSimulation\\Source\\QLearningSimulation\\QLController.cpp",
               "RelativeToolTip": "Source\\QLearningSimulation\\QLController.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGoBAAABAAAA",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAAABMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-08T23:30:13.38Z",
               "IsPinned": true,
@@ -36,13 +36,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "QLController.h",
               "DocumentMoniker": "C:\\Users\\seanp\\Documents\\Github\\UE5-Q-Learning\\QLearningSimulation\\Source\\QLearningSimulation\\QLController.h",
               "RelativeDocumentMoniker": "Source\\QLearningSimulation\\QLController.h",
               "ToolTip": "C:\\Users\\seanp\\Documents\\Github\\UE5-Q-Learning\\QLearningSimulation\\Source\\QLearningSimulation\\QLController.h",
               "RelativeToolTip": "Source\\QLearningSimulation\\QLController.h",
-              "ViewState": "AQIAAI0AAAAAAAAAAAAAAEYAAAAwAAAA",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAADYAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-03-08T23:30:11.862Z",
               "EditorCaption": ""
