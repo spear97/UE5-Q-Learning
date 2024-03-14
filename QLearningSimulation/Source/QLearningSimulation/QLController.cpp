@@ -20,7 +20,7 @@ void AQLController::Tick(float deltaSeconds)
 {
     Super::Tick(deltaSeconds);
 
-    GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Yellow, FString::Printf(TEXT("State: %i Action: %i"), STATE, ACTION));
+    //GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Yellow, FString::Printf(TEXT("State: %i Action: %i"), STATE, ACTION));
 }
 
 void AQLController::EndPlay(const EEndPlayReason::Type EndPlayReason)
