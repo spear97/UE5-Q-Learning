@@ -5,7 +5,6 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLearningSimulation/Content/__ExternalActors__/TopDown/Maps/TopDownMap/2/36/3BR6WH2YJ9M9YILHBDHGEK.uasset",
 				"C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLearningSimulation/Content/__ExternalObjects__/TopDown/Maps/TopDownMap/1/8D/346KS8L6HJE1MB485B8GUV.uasset",
 				"C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLearningSimulation/Content/__ExternalActors__/TopDown/Maps/TopDownMap/2/U7/AWG2M5DTPIO8N3YDMLTSKK.uasset",
 				"C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLearningSimulation/Content/__ExternalActors__/TopDown/Maps/TopDownMap/E/UO/AVZC81YU3GQLMYCE5KUMVY.uasset",
@@ -31,6 +30,9 @@
 				"C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLearningSimulation/Content/TopDown/Blueprints/BP_TopDownCharacter.uasset",
 				"C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLearningSimulation/Content/TopDown/Blueprints/Agent/AgentController.uasset",
 				"C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLearningSimulation/Content/__ExternalActors__/TopDown/Maps/TopDownMap/8/PJ/12JWAY616U0RMR9RUO1MN6.uasset",
+				"C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLearningSimulation/Content/TopDown/Blueprints/Agent/Agent.uasset",
+				"C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLearningSimulation/Content/__ExternalActors__/TopDown/Maps/TopDownMap/6/9E/LVCEE14RHT9TBKSSQOJXTP.uasset",
+				"C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLearningSimulation/Content/__ExternalActors__/TopDown/Maps/TopDownMap/2/36/3BR6WH2YJ9M9YILHBDHGEK.uasset",
 				"C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLearningSimulation/Content/TopDown/Blueprints/MyGoal.uasset",
 				"C:/Users/seanp/Documents/Github/UE5-Q-Learning/QLearningSimulation/Content/__ExternalObjects__/TopDown/Maps/TopDownMap/2/OD/JN9AMFHJ3BLRX4UL09MSAN.uasset",
 				"C:/Users/seanp/Documents/Github/QLearningSimulation/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",

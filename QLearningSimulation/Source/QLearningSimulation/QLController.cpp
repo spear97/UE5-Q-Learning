@@ -19,8 +19,8 @@ void AQLController::BeginPlay()
 void AQLController::Tick(float deltaSeconds)
 {
     Super::Tick(deltaSeconds);
-
-    //GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Yellow, FString::Printf(TEXT("State: %i Action: %i"), STATE, ACTION));
+    TArray<float> Row = Q[STATE];
+    GEngine->AddOnScreenDebugMessage(-1, 0.001f, FColor::Yellow, FString::Printf(TEXT("|Up=%f, Down=%f, Left=%f, Right=%f|"), Row[0], Row[1], Row[2], Row[3]));
 }
 
 void AQLController::EndPlay(const EEndPlayReason::Type EndPlayReason)
@@ -138,8 +138,8 @@ void AQLController::GetReward()
     float h = Heuristic(GetPawn()->GetActorLocation(), Goal->GetActorLocation());
 
     // Determine the reward based on the change in heuristic value
-    // If the new heuristic value is less than the previous distance, give a reward of 1, otherwise -5
-    REWARD = h < prevDist ? 1.f : -5.f;
+    // If the new heuristic value is less than the previous distance, give a reward of 8, otherwise -16
+    REWARD = h < prevDist ? 1 : -10;
 
     // Update the previous distance with the new heuristic value
     prevDist = h;

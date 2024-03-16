@@ -123,12 +123,7 @@ protected:
 	// Template for Generating Data when 
 	// Data File can't be found
 	TArray<TArray<float>> T = {
-		{1.f, 0.f, 0.f, -1.f},
-		{100.f, -1.f, 0.f, 1.f},
-		{0.f, -1.f, 1.f, -100.f},
-		{1.f, 0.f, 1.f, -100.f},
-		{-1.f, 0.f, 0.f, 1.f},
-		{1.f, 1.f, -1.f, -1.f}
+		{1.f, 0.f, 0.f, 0.f},
 	};
 
 	// Variables for Q-learning algorithm
@@ -142,7 +137,7 @@ protected:
 	// ALPHA (Learning Rate) - How fast the Agent will learn from previous data
 	// moveDelta - Scaler for how far the Agent should move for a given direction
 	const float GAMMA = 0.95f;
-	const float ALPHA = 0.95f;
+	const float ALPHA = 0.1f;
 	const float moveDelta = 125.f;
 
 	// Variable to store the previous distance for reward calculation
